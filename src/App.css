@@ -1,10 +1,14 @@
-.app {
+
+.body {
   text-align: center;
   background-color: #eee;
   color: white;
   display: flex;
   flex-direction: column;
   height:1000px;
+}
+.app {
+  text-align: center;
 }
 
 
@@ -20,12 +24,12 @@
 }
 
 .logo {
-  width:35%;
+  width:30%;
   height: 100%;
 }
 
 .spacer {
-  width:20%;
+  width:25%;
   height: 100%;
 }
 
@@ -40,6 +44,7 @@
   padding-left:10px;
   position:absolute;
   font-size: 27px;
+  color:#444;
 }
 
 .nav-bar {
@@ -78,7 +83,7 @@ li.dropdown {
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-top:10px;
+  margin-top:15px;
 }
 
 .dropdown-content a {
@@ -90,22 +95,89 @@ li.dropdown {
   text-align: left;
   border-radius: 1px;
 }
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
-  .showcase {
-    position:relative;
-    width:100%;
-  }
+.showcase {
+  position:relative;
+  width:100%;
+  background-color:#111;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./img/racetrack.jpg');
+  background-size: cover;
+}
 
-  .showcase-image {
-    width:100%;
-    padding:20px;
-    margin-top:70px
-  }
+.showcase-image {
+  width:100%;
+  padding:2%;
+  margin-top:180;
+}  
+
+.showcase-main {
+  position: absolute;
+  top: 180px;
+  right:150px;
+  width:30%;
+}
+
+.about-us {
+  color:#111;
+  padding: 30px;
+  text-align: center;
+}
+.about-us h1 {
+  color:#444;
+  padding:40px;
+}
+
+.about-us h1:before,
+.about-us h1:after {
+ background-color: #eee;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 40%;
+}
+
+.about-us p {
+  margin:20px;
+  margin: 20px 6%;
+  font-size:25px;
+}
+  
+.why-electric-section {
+  position: relative;
+  background-image: url(".//img/suspension.jpeg"); 
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+
+  vertical-align: bottom;
+}
+
+.why-electric-textbox {
+  position:relative;
+  background-color:#bbb;
+  margin:00px 200px;
+  padding-top:70px;
+  padding-top:70px;
+  width:70%;
+  top:150px;
+  opacity:.95;
+}
+.why-electric-textbox h2 {
+  padding:30px;
+}
+.why-electric-textbox p {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right: 20px;
+  padding-left:20px;
+}
