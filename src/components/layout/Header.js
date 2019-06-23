@@ -1,16 +1,36 @@
 import React, {Component} from 'react';
 import './../../App.css';
+import { Link } from 'react-router-dom';
 
 class Header extends Component{
     render() {
         return (
-            <div className="headerStyle">
-                <img src={'./../../img/MFElogo.png'} alt="logo"></img>
+            <div className="header">
+                {/* <img src={'./../../img/MFElogo.png'} alt="logo"></img> */}
+
                 <ul className="listStyle">
-                    <li className="listItemStyle"><a href = "">Home</a></li>
-                    <li className="listItemStyle">About</li>
-                    <li className="listItemStyle">Events</li>
-                    <li className="listItemStyle">Sponsors</li>
+
+                    <li className="listItemStyle">
+                        <Link to="/">Home</Link>
+                    </li>
+
+                    <li className="dropdown">
+                        <a className="dropbtn" href="#">About</a>
+                        
+                        <div className="dropdown-content">
+                            <Link to="/design">Design</Link>
+                            <Link to="/team">Team</Link>
+                        </div>
+                    </li>
+
+                    <li className="listItemStyle">
+                        <Link to="/events">Events</Link>
+                    </li>
+
+                    <li className="listItemStyle">
+                        <Link to="/sponsors">Sponsors</Link>
+                    </li>
+
                 </ul>
             </div>
         );

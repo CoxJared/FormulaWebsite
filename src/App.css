@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #282c34;
+  background-color: grey;
   color: white;
   display: flex;
   flex-direction: column;
@@ -9,10 +9,10 @@
 }
 
 
-.headerStyle  {
+.header  {
   display: flex;
   position: fixed;
-  backgroundColor: #fff;
+  background-color: #fff;
   color: #000;
   /*opacity: .99;*/
   width: 100%;
@@ -30,14 +30,47 @@
   margin-right: 15px;
 }
 
-a {
+a, .dropdown-button {
   padding: 10px 15px;
-  border: 1px red solid;
+  border: 1px grey solid;
   border-radius: 30px;
+  text-decoration: none;
 }
 
-a:hover {
-  padding: 10px 15px;
-  border: 1px blue solid;
-  border-radius: 30px;
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  background-color: #FBFBFB;
+  border:1px #7C7878 solid;
+  color: #9A1414;
 }
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top:10px;
+}
+
+.dropdown-content a {
+  color: black;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 1px;
+  transition: all 2s ease;
+}
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
