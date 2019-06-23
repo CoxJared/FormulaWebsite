@@ -1,16 +1,20 @@
 import React, {Component} from 'react';
 import './../../App.css';
 import { Link } from 'react-router-dom';
+import logoImage from './../../img/MFElogo.png';
 
 class Header extends Component{
     render() {
         return (
             <div className="header">
-                {/* <img src={'./../../img/MFElogo.png'} alt="logo"></img> */}
+                <div className="logo">
+                    <img src={logoImage} className="logo-image" alt=""></img> 
+                    <h1 className="logo-text">MAC FORMULA ELECTRIC</h1>
+                </div>
+                <div className="spacer"></div>
+                <ul className="nav-bar">
 
-                <ul className="listStyle">
-
-                    <li className="listItemStyle">
+                    <li className="nav-bar-item">
                         <Link to="/">Home</Link>
                     </li>
 
@@ -23,11 +27,11 @@ class Header extends Component{
                         </div>
                     </li>
 
-                    <li className="listItemStyle">
+                    <li className="nav-bar-item">
                         <Link to="/events">Events</Link>
                     </li>
 
-                    <li className="listItemStyle">
+                    <li className="nav-bar-item">
                         <Link to="/sponsors">Sponsors</Link>
                     </li>
 
