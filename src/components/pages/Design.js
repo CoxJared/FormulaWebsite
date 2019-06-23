@@ -4,6 +4,10 @@ import DesignExplorer from './../layout/DesignExplorer';
 
 
 export class Design extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+
     render() {
         return (
             <div>
