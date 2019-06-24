@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './../layout/Header';
+import Header from '../layout/header/Header';
 
 export class Events extends Component {
     componentDidMount() {

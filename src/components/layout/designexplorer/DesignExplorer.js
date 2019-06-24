@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import carRender from './../../video/animation__converted_.mp4';
+import carRender from './../../../video/animation__converted_.mp4';
 
  class DesignExplorer extends Component {
     render() {

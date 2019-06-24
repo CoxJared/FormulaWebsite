@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './../layout/Header';
-import DesignExplorer from './../layout/DesignExplorer';
+import Header from '../layout/header/Header';
+import DesignExplorer from '../layout/designexplorer/DesignExplorer';
 
 
 export class Design extends Component {

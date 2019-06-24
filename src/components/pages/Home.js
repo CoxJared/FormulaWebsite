@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Header from './../layout/Header';
-import MainShowcase from '../layout/MainShowcase';
+import Header from '../layout/header/Header';
+import MainShowcase from '../layout/mainshowcase/MainShowcase';
 import AboutUs from '../layout/textblocks/AboutUs';
 import WhyElectric from '../layout/textblocks/WhyElectric';
 

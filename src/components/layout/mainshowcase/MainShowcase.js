@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import showcaseImage from './../../img/HomeCourt.jpg';
-import showcaseMain from './../../img/mcmaster-logo.png';
+import showcaseImage from './../../../img/HomeCourt.jpg';
+import showcaseMain from './../../../img/mcmaster-logo.png';
 import './MainShowcase.css';
 
 class MainShowcase extends Component {
