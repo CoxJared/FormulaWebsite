@@ -13,7 +13,7 @@ import carRender from './../../video/animation__converted_.mp4';
             </div>
 
             <div className="design-summary">
-                <h1>
+                <h1 className="general-header">
                     Innovate
                 </h1>
                     <p>

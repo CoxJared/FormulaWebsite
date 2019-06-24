@@ -1,0 +1,21 @@
+.showcase {
+    position:relative;
+    top:90px;
+    width:100%;
+    background-color:#111;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('./../../img/racetrack.jpg');
+    background-size: cover; 
+}
+  
+.showcase-image {
+    width:100%;
+    padding:2%;
+    margin-top:180; 
+}  
+  
+.showcase-main {
+    position: absolute;
+    top: 100px;
+    right:120px;
+    width:30%; 
+}

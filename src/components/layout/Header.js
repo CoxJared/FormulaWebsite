@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './../../App.css';
 import { Link } from 'react-router-dom';
 import logoImage from './../../img/MFElogo.png';
+import './Header.css';
 
 class Header extends Component{
     render() {

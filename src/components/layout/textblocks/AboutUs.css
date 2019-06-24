@@ -1,0 +1,28 @@
+.about-us {
+    color:#111;
+    padding: 30px;
+    padding-top:120px;
+    text-align: center; 
+}
+
+.about-us h1 {
+    color:#444;
+    padding:40px; 
+}
+
+.about-us h1:before,
+.about-us h1:after {
+    background-color: #eee;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%; 
+}
+
+.about-us p {
+    margin:20px;
+    margin: 20px 6%;
+    font-size:25px; 
+}
