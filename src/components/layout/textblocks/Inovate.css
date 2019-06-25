@@ -1,0 +1,25 @@
+.design-summary {
+    padding-top:150px;
+    color:#000;
+    align-content: center; 
+  }
+  
+  .design-summary h1:before,
+  .design-summary h1:after {
+    background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%; 
+  }
+  
+  .design-summary p {
+    padding-top:20px;
+    padding-bottom:100px;
+    margin-right:80%;
+    margin: 20px 10%;
+    font-size: 25px;
+    line-height: 1.5em; 
+  }

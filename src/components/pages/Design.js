@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './../layout/header/Header';
 import DesignExplorer from '../layout/designexplorer/DesignExplorer';
+import Inovate from '../layout/textblocks/Inovate';
 
 
 export class Design extends Component {
@@ -13,6 +14,7 @@ export class Design extends Component {
             <div>
                 <Header />
                 <DesignExplorer />
+                <Inovate />
             </div>
         )
     }
