@@ -1,0 +1,38 @@
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member-container {
+    padding:50px;
+    background-color: #eee;
+    width: 33%;
+    height: 400px;
+}
+
+.member-container:hover {
+    background-color:#ddd;
+    transition: all .5s ease;
+}
+
+.headshot {
+    object-fit: cover;
+    width:80%;
+    height:80%;
+    border-radius: 50%;
+    filter: grayscale(80%);
+}
+.headshot:hover {
+    border-radius: 5%;
+    width:85%;
+    filter: grayscale(0%);
+    transition: all .2s ease;
+}
+
+.name {
+    padding-top:10px;
+}
+
+.title {
+
+}

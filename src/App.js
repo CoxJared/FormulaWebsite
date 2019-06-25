@@ -7,6 +7,7 @@ import Events from './components/pages/Events';
 import Design from './components/pages/Design';
 import Sponsors from './components/pages/Sponsors';
 import Team from './components/pages/Team';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
               component={Events} />
           <Route path="/sponsors" 
               component={Sponsors} />
+          <Route path="/contact" 
+              component={Contact} />
       </div>
     </Router>
   );

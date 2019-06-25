@@ -7,15 +7,18 @@ class Header extends Component{
     render() {
         return (
             <div className="header">
+
                 <div className="logo">
                     <img src={logoImage} className="logo-image" alt=""></img> 
-                    <h1 className="logo-text">MAC FORMULA ELECTRIC</h1>
+                    <Link className="logo-text" to="/">MAC FORMULA ELECTRIC</Link>
                 </div>
-                <div className="spacer"></div>
+
+                <div className="spacer" />
+
                 <ul className="nav-bar">
 
                     <li className="nav-bar-item">
-                        <Link to="/">Home</Link>
+                        <Link to="/contact">Contact</Link>
                     </li>
 
                     <li className="dropdown">
@@ -28,12 +31,12 @@ class Header extends Component{
                     </li>
 
                     <li className="nav-bar-item">
-                        <Link to="/events">Events</Link>
+                        <Link to="/sponsors">Sponsors</Link>
                     </li>
 
                     <li className="nav-bar-item">
-                        <Link to="/sponsors">Sponsors</Link>
-                    </li>
+                        <Link to="/events">Events</Link>
+                    </li>                    
 
                 </ul>
             </div>

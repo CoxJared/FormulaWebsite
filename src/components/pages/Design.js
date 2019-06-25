@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../layout/header/Header';
+import Header from './../layout/header/Header';
 import DesignExplorer from '../layout/designexplorer/DesignExplorer';
 
 
