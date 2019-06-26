@@ -1,21 +1,26 @@
+.header-container {
+    text-align: center;
+}
 .header  {
     display: flex;
+    align-items: stretch;
     position: fixed;
     background-color: #fff;
     color: #000;
     /*opacity: .99;*/
     width: 100%;
+    max-width:1200px;
     height: 90px;
     z-index: 1; 
 }
 
 .logo {
-    width:30%;
+    flex-grow: 1;
     height: 100%; 
 }
 
 .spacer {
-    width:25%;
+    flex-grow: 1;
     height: 100%; 
 }
 
@@ -35,6 +40,7 @@
 }
 
 .nav-bar {
+    flex-grow: 1;
     list-style-type: none;
     margin: 30px 10px;
     padding: 10px; 

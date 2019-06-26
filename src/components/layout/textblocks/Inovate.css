@@ -4,7 +4,7 @@
     align-content: center; 
   }
   
-  .design-summary h1:before,
+  /* .design-summary h1:before,
   .design-summary h1:after {
     background-color: #ddd;
     content: "";
@@ -13,7 +13,7 @@
     position: relative;
     vertical-align: middle;
     width: 40%; 
-  }
+  } */
   
   .design-summary p {
     padding-top:20px;

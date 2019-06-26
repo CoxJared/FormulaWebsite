@@ -10,7 +10,7 @@
     padding:40px; 
 }
 
-.about-us h1:before,
+/* .about-us h1:before,
 .about-us h1:after {
     background-color: #eee;
     content: "";
@@ -19,7 +19,7 @@
     position: relative;
     vertical-align: middle;
     width: 40%; 
-}
+} */
 
 .about-us p {
     margin:20px;

@@ -11,7 +11,6 @@
 }
 
 .member-container:hover {
-    background-color:#ddd;
     transition: all .5s ease;
 }
 
@@ -24,8 +23,10 @@
 }
 .headshot:hover {
     border-radius: 5%;
-    width:85%;
+    width:95%;
     filter: grayscale(0%);
+    border:rgb(206, 84, 84) 20px solid;
+    border-radius: 30%;
     transition: all .2s ease;
 }
 
