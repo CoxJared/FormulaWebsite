@@ -28,7 +28,7 @@ export class TeamMembers extends Component {
             },
             {
                 id: 4,
-                name: 'Balire Pauli',
+                name: 'Blaire Pauli',
                 title: 'Mechanical captain'
             },
             {

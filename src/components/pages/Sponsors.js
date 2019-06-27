@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../layout/header/Header';
+import SponsorExplorer from '../layout/sponsorexplorer/SponsorExplorer';
 
 export class Sponsors extends Component {
     componentDidMount() {
@@ -10,6 +11,7 @@ export class Sponsors extends Component {
         return (
             <div>
                 <Header />
+                <SponsorExplorer />
             </div>
         )
     }

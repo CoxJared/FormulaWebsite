@@ -25,8 +25,8 @@
     border-radius: 5%;
     width:95%;
     filter: grayscale(0%);
-    border:rgb(206, 84, 84) 20px solid;
-    border-radius: 30%;
+    border:rgb(206, 84, 84) 5px solid;
+    border-radius: 40%;
     transition: all .2s ease;
 }
 
