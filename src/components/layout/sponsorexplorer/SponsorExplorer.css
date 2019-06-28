@@ -1,0 +1,23 @@
+.platinum {
+    padding-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    width: 33%;
+    padding:10px;
+}
+
+.logo {
+    object-fit: cover;
+    width:50%;
+    height: 80%;
+}
+
+.sponsor:hover {
+    transition: all .5s ease;
+    border: 5px #dac619 solid;
+    background-color: #faf1a0;
+    border-radius: 20px;
+}
