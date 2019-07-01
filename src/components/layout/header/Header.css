@@ -15,38 +15,43 @@
 }
 
 .logo {
-    flex-grow: 1;
+    flex: 3;
     height: 100%; 
+    padding-left:5%;
 }
 
 .spacer {
-    flex-grow: 1;
+    flex-grow: 2;
     height: 100%; 
 }
 
 .logo-image {
     height: 100%;
     padding-left: 0%; 
+    float: left;
 }
 
 .logo-text {
     display: inline-block;
+    float: left;
     padding-top: 32px;
     padding-left:10px;
-    position:absolute;
+    /* position:absolute; */
     font-size: 25px;
     color:#444; 
     text-decoration: none;
 }
 
 .nav-bar {
-    flex-grow: 1;
+    flex: 3;
+    display: flex;
     list-style-type: none;
     margin: 30px 10px;
     padding: 10px; 
 }
 
 .nav-bar-item {
+    flex: 1;
     float: right;
     margin-right: 2%; 
 }

@@ -14,7 +14,7 @@ class Header extends Component{
                         <Link className="logo-text" to="/">MAC FORMULA ELECTRIC</Link>
                     </div>
 
-                    <div className="spacer" />
+                    {/* <div className="spacer" /> */}
 
                     <ul className="nav-bar">
 
