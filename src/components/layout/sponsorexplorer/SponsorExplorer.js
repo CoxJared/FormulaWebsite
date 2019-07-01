@@ -1,43 +1,77 @@
 import React, { Component } from 'react';
 import './SponsorExplorer.css';
-import GmLogo from './../../../img/sponsor-logos/gm-logo.png';
-import BrusaLogo from './../../../img/sponsor-logos/brusa-logo.png';
-import DSpaceLogo from './../../../img/sponsor-logos/dspace_logo.jpg';
+import AdvancedcircuitsLogo from './../../../img/sponsor-logos/advancedcircuits-logo.png';
+import AirtechLogo from './../../../img/sponsor-logos/airtech-logo.png';
+import AltiumLogo from './../../../img/sponsor-logos/altium-logo.png';
+import AlpineLogo from './../../../img/sponsor-logos/alpine-logo.png';
+import AltairLogo from './../../../img/sponsor-logos/altair-logo.jpeg';
+import AmkLogo from './../../../img/sponsor-logos/amk-logo.svg';
 import AnsysLogo from './../../../img/sponsor-logos/ansys-logo.png';
-
+import ApexcompositesLogo from './../../../img/sponsor-logos/apex compositew.jpeg';
+import BarrdayLogo from './../../../img/sponsor-logos/barrday-logo.jpeg';
+import BenderLogo from './../../../img/sponsor-logos/bender-logo.jpg';
+import BrusaLogo from './../../../img/sponsor-logos/brusa-logo.png';
+import CartesianLogo from './../../../img/sponsor-logos/cartesian-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {
         platinum: [
             {
                 id: 1,
-                name: 'GM',
+                name: 'Advanced Circuits',
                 websiteLink: 'https://www.gm.ca/en/home.html',
-                img: GmLogo
+                img: AdvancedcircuitsLogo
             },
             {
                 id: 2,
-                name: 'Brusa',
-                websiteLink: 'https://www.brusa.biz/en.html',
-                img: BrusaLogo
+                name: 'Airtech',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AirtechLogo
             },
             {
                 id: 3,
-                name: 'DSpace',
-                websiteLink: 'https://duraspace.org/dspace/',
-                img: DSpaceLogo
+                name: 'Altium',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AltiumLogo
             },
             {
                 id: 4,
-                name: 'Ansys',
-                websiteLink: 'https://www.ansys.com/',
-                img: AnsysLogo
+                name: 'Alpine',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AlpineLogo
             },
             {
                 id: 5,
-                name: 'simscale',
-                websiteLink: 'https://www.simscale.com/'
+                name: 'Altair',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AltairLogo
             },
+            {
+                id: 6,
+                name: 'AMK',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AmkLogo
+            },
+            {
+                id: 7,
+                name: 'Ansys',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: AnsysLogo
+            },
+            {
+                id: 8,
+                name: 'Apex Composites',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: ApexcompositesLogo
+            },
+            {
+                id: 9,
+                name: 'Barrday',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: BarrdayLogo
+            },
+
+            
         ]
     }
 
