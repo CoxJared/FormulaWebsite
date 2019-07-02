@@ -1,23 +1,56 @@
-.platinum {
+* {
+    align-content: center;
+}
+
+.sponsor-contanainer {
+    padding:50px;
+}
+
+.gold, .silver, .bronze {
     padding-top:100px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.sponsor {
-    width: 33%;
+.gold .sponsor {
+    width: 250px;
+    height: 300px;
+    padding:10px;
+}
+.silver .sponsor {
+    width:220px;
+    height: 250px;
+    padding: 10px;
+}
+.bronze .sponsor {
+    width:200px;
+    height:220px;
     padding:10px;
 }
 
 .logo {
-    object-fit: cover;
-    width:50%;
-    height: 80%;
+     object-fit: contain; 
+    width:80%;
+    height: 70%;
 }
 
 .sponsor:hover {
     transition: all .5s ease;
-    border: 5px #dac619 solid;
-    background-color: #faf1a0;
+
     border-radius: 20px;
+}
+
+.gold .sponsor:hover {
+    border: 5px #dfce3d solid;
+    background-color: #f5f0c3;
+}
+
+.silver .sponsor:hover {
+    border: 5px #8a8a8a solid;
+    background-color: #e4e4e4;
+}
+
+.bronze .sponsor:hover {
+    border: 5px #bd8e73 solid;
+    background-color: #d6c5ba;
 }

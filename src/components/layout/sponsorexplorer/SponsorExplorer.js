@@ -12,6 +12,10 @@ import BarrdayLogo from './../../../img/sponsor-logos/barrday-logo.jpeg';
 import BenderLogo from './../../../img/sponsor-logos/bender-logo.jpg';
 import BrusaLogo from './../../../img/sponsor-logos/brusa-logo.png';
 import CartesianLogo from './../../../img/sponsor-logos/cartesian-logo.png';
+import ChemtrendLogo from './../../../img/sponsor-logos/chemtrend-logo.png'; 
+import DiabLogo from './../../../img/sponsor-logos/diab-logo.jpeg';
+import DspaceLogo from './../../../img/sponsor-logos/dspace_logo.jpg';
+import EasLogo from './../../../img/sponsor-logos/easo-logo.jpeg';
 
 export class SponsorExplorer extends Component {
     state = {
@@ -70,15 +74,31 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://www.gm.ca/en/home.html',
                 img: BarrdayLogo
             },
-
-            
+            {
+                id: 10,
+                name: 'Bender',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: BenderLogo
+            },
+            {
+                id: 11,
+                name: 'Brusa',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: BrusaLogo
+            },
+            {
+                id: 12,
+                name: 'Cartesian',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: CartesianLogo
+            },
         ]
     }
 
     render() {
-        return (
+        return (    
             <div className="sponsor-contanainer">
-                <div className="platinum">
+                <div className="gold">
                     <div className="sponsor">
                         <img className="logo" src={this.state.platinum[0].img} />
                         <h1>{this.state.platinum[0].name}</h1>
@@ -95,8 +115,126 @@ export class SponsorExplorer extends Component {
                     <img className="logo" src={this.state.platinum[3].img} />
                         <h1>{this.state.platinum[3].name}</h1>
                     </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[4].img} />
+                        <h1>{this.state.platinum[4].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[5].img} />
+                        <h1>{this.state.platinum[5].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[6].img} />
+                        <h1>{this.state.platinum[6].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[7].img} />
+                        <h1>{this.state.platinum[7].name}</h1>
+                    </div>
+
+                </div>
+                <div className="silver">
+                    <div className="sponsor">
+                        <img className="logo" src={this.state.platinum[0].img} />
+                        <h1>{this.state.platinum[0].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[1].img} />
+                        <h1>{this.state.platinum[1].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[2].img} />
+                        <h1>{this.state.platinum[2].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[3].img} />
+                        <h1>{this.state.platinum[3].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[4].img} />
+                        <h1>{this.state.platinum[4].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[5].img} />
+                        <h1>{this.state.platinum[5].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[6].img} />
+                        <h1>{this.state.platinum[6].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[7].img} />
+                        <h1>{this.state.platinum[7].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[8].img} />
+                        <h1>{this.state.platinum[8].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[9].img} />
+                        <h1>{this.state.platinum[9].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[10].img} />
+                        <h1>{this.state.platinum[10].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[11].img} />
+                        <h1>{this.state.platinum[11].name}</h1>
+                    </div>
+                </div>
+                <div className="bronze">
+                    <div className="sponsor">
+                        <img className="logo" src={this.state.platinum[0].img} />
+                        <h1>{this.state.platinum[0].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[1].img} />
+                        <h1>{this.state.platinum[1].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[2].img} />
+                        <h1>{this.state.platinum[2].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[3].img} />
+                        <h1>{this.state.platinum[3].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[4].img} />
+                        <h1>{this.state.platinum[4].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[5].img} />
+                        <h1>{this.state.platinum[5].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[6].img} />
+                        <h1>{this.state.platinum[6].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[7].img} />
+                        <h1>{this.state.platinum[7].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[8].img} />
+                        <h1>{this.state.platinum[8].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[9].img} />
+                        <h1>{this.state.platinum[9].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[10].img} />
+                        <h1>{this.state.platinum[10].name}</h1>
+                    </div>
+                    <div className="sponsor">
+                    <img className="logo" src={this.state.platinum[11].img} />
+                        <h1>{this.state.platinum[11].name}</h1>
+                    </div>
                 </div>
             </div>
+                
         )
     }
 }

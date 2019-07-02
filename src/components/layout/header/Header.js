@@ -18,18 +18,6 @@ class Header extends Component{
 
                     <ul className="nav-bar">
 
-                        <li className="nav-bar-item">
-                            <Link to="/contact">Contact</Link>
-                        </li>
-
-                        <li className="nav-bar-item">
-                            <Link to="/sponsors">Sponsors</Link>
-                        </li>
-
-                        <li className="nav-bar-item">
-                            <Link to="/events">Events</Link>
-                        </li>      
-        
                         <li className="nav-bar-item dropdown">
                             <a className="dropbtn" href="#">About</a>
                             
@@ -37,8 +25,16 @@ class Header extends Component{
                                 <Link to="/design">Design</Link>
                                 <Link to="/team">Team</Link>
                             </div>
-                        </li>              
-
+                        </li>  
+                        <li className="nav-bar-item">
+                            <Link to="/events">Events</Link>
+                        </li>  
+                        <li className="nav-bar-item">
+                            <Link to="/sponsors">Sponsors</Link>
+                        </li> 
+                        <li className="nav-bar-item">
+                            <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
