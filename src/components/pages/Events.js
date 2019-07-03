@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../layout/header/Header';
+import EventExplorer from '../layout/eventexplorer/EventExplorer';
 
 export class Events extends Component {
     componentDidMount() {
@@ -10,6 +11,7 @@ export class Events extends Component {
         return (
             <div>
                 <Header />
+                <EventExplorer />
             </div>
         )
     }

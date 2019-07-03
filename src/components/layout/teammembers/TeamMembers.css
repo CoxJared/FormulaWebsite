@@ -12,6 +12,7 @@
 
 .member-container:hover {
     transition: all .5s ease;
+    z-index: 1;
 }
 
 .headshot {
