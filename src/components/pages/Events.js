@@ -10,7 +10,7 @@ export class Events extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Header /> 
                 <EventExplorer />
             </div>
         )

@@ -1,0 +1,48 @@
+.event-container {
+    position: relative;
+    width: 70%;
+    max-width:900px;
+    height:200px;
+    display: flex;
+    margin-left: 15%;
+    border: 2px grey solid;
+}
+
+.event-container:hover {
+    width: 72%;
+    margin-left:14%;
+    transition: all .3s ease;
+}
+
+.date-box {
+    position: relative;
+    
+    color: #fff;
+    width:30%;
+    text-align: center;
+    vertical-align: middle;
+
+    background-image: url("./../../../img/events-backgrounds/sae-night-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: grayscale(90%);
+}
+.date-box:hover {
+    filter: grayscale(5%);
+    transition: all .5s ease;
+}
+
+.date-box h1 {
+    padding-top:50px;
+    font-size: 70px;
+}
+
+.info-box {
+    position: relative;
+    border: 2px grey solid;
+    width:70%;
+    padding-top:30px;
+}
+.info-box p {
+    padding:10px;
+}
