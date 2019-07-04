@@ -6,6 +6,10 @@ import SubteamExplorer from '../layout/subteamexplorer/SubteamExplorer';
 
 
 export class Design extends Component {
+    state = {
+        textBlock : <Inovate />
+    }
+
     componentDidMount() {
         window.scrollTo(0, 0)
       }
@@ -16,7 +20,7 @@ export class Design extends Component {
                 <Header />
                 <DesignExplorer />
                 <SubteamExplorer />
-                <Inovate />
+                {this.state.textBlock}
             </div>
         )
     }

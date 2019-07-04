@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './DesignExplorer.css';
 
 import carRender from './../../../video/animation__converted_.mp4';
 
@@ -9,7 +10,7 @@ import carRender from './../../../video/animation__converted_.mp4';
                 <video className="car-render-video" loop autoPlay>
                     <source src={carRender} type="video/mp4" />
                 </video>
-                
+
             </div>
         )
     }

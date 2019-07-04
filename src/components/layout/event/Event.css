@@ -6,11 +6,13 @@
     display: flex;
     margin-left: 15%;
     border: 2px grey solid;
+    filter: grayscale(90%);
 }
 
 .event-container:hover {
     width: 72%;
     margin-left:14%;
+    filter: grayscale(5%);
     transition: all .3s ease;
 }
 
@@ -25,16 +27,17 @@
     background-image: url("./../../../img/events-backgrounds/sae-night-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    filter: grayscale(90%);
+    
 }
 .date-box:hover {
-    filter: grayscale(5%);
+    
     transition: all .5s ease;
 }
 
 .date-box h1 {
     padding-top:50px;
     font-size: 70px;
+    color:#fff;
 }
 
 .info-box {
