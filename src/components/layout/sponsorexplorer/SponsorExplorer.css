@@ -3,17 +3,20 @@
 }
 
 .sponsor-contanainer {
+    position: relative;
     padding:50px;
 }
 
 .gold, .silver, .bronze {
-    padding-top:100px;
+    padding-bottom:50px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .gold .sponsor {
-    width: 250px;
+    width: 240px;
     height: 300px;
     padding:10px;
 }
@@ -34,9 +37,13 @@
     height: 70%;
 }
 
+.sponsor {
+    filter: grayscale(60%);
+}
+
 .sponsor:hover {
     transition: all .5s ease;
-
+    filter: grayscale(0%);
     border-radius: 20px;
 }
 
@@ -52,5 +59,30 @@
 
 .bronze .sponsor:hover {
     border: 5px #bd8e73 solid;
-    background-color: #d6c5ba;
+    background-color: #f0e1d8;
+}
+
+h1{
+    font-size: 30px;
+    color: #444;
+}
+
+.gold-heading , .silver-heading, .bronze-heading{
+    padding-top:90px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #222;
+}
+.gold-heading span, .silver-heading span, .bronze-heading span {
+    padding:5px;
+}
+
+.gold-heading span{
+    border-bottom: 4px #dfce3d solid;
+}
+.silver-heading span{
+    border-bottom: 4px #8a8a8a solid;
+}
+.bronze-heading span{
+    border-bottom: 4px #bd8e73 solid;
 }

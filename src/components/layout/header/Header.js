@@ -16,13 +16,12 @@ class Header extends Component{
 
                     {/* <div className="spacer" /> */}
 
-                    <ul className="nav-bar">
-
-                        <li className="nav-bar-item">
-                            <Link to="/team">Team</Link>
-                        </li> 
+                    <ul className="nav-bar">               
                         <li className="nav-bar-item">
                             <Link to="/design">Design</Link>
+                        </li> 
+                        <li className="nav-bar-item">
+                            <Link to="/team">Team</Link>
                         </li> 
                         <li className="nav-bar-item">
                             <Link to="/sponsors">Sponsors</Link>

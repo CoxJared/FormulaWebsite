@@ -98,6 +98,7 @@ export class SponsorExplorer extends Component {
     render() {
         return (    
             <div className="sponsor-contanainer">
+                <h1 className="gold-heading"><span>Gold Sponsorships</span></h1>
                 <div className="gold">
                     <div className="sponsor">
                         <img className="logo" src={this.state.platinum[0].img} />
@@ -133,6 +134,8 @@ export class SponsorExplorer extends Component {
                     </div>
 
                 </div>
+                
+                <h1 className="silver-heading"><span>Silver Sponsorships</span></h1>
                 <div className="silver">
                     <div className="sponsor">
                         <img className="logo" src={this.state.platinum[0].img} />
@@ -183,7 +186,8 @@ export class SponsorExplorer extends Component {
                         <h1>{this.state.platinum[11].name}</h1>
                     </div>
                 </div>
-                <div className="bronze">
+                <h1 className="bronze-heading"><span>Bronze Sponsorships</span></h1>
+                <div className="bronze">   
                     <div className="sponsor">
                         <img className="logo" src={this.state.platinum[0].img} />
                         <h1>{this.state.platinum[0].name}</h1>

@@ -117,14 +117,15 @@ li.dropdown {
     }
 
   }
+  @media(max-width: 1050px) {
+    .logo-text {
+        font-size:0px;
+    }
+  }
   @media(max-width: 1105px) {
     .logo-text {
         font-size:18px;
         padding-top: 37px;
     }
   }
-  @media(max-width: 1010px) {
-    .logo-text {
-        font-size:0px;
-    }
-  }
+  
