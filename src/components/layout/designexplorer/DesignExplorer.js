@@ -9,6 +9,7 @@ import carRender from './../../../video/animation__converted_.mp4';
                 <video className="car-render-video" loop autoPlay>
                     <source src={carRender} type="video/mp4" />
                 </video>
+                
             </div>
         )
     }
