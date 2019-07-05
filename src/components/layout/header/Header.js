@@ -15,8 +15,9 @@ class Header extends Component{
                     </div>
 
                     {/* <div className="spacer" /> */}
-                    <label for="toggle">≡</label>
-                    <input type="checkbox" className="toggle" />
+                    <input type="checkbox" className="toggle"></input>
+                    <div className="hamburger"><div>
+                    </div></div>
                     <ul className="nav-bar">               
                         <li className="nav-bar-item">
                             <Link to="/design">Design</Link>
