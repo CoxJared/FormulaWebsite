@@ -7,9 +7,7 @@
     position: fixed;
     background-color: #fff;
     color: #000;
-    /*opacity: .99;*/
     width: 100%;
-    /* max-width:1200px; */
     height: 90px;
     z-index: 5; 
 }
@@ -110,23 +108,12 @@ li.dropdown {
     position: absolute;
     right:35px;
     width:50px;
-    height:50px;
+    height:70px;
     cursor: pointer;
     opacity: 0;  
     z-index: 5;
 }
 
-/* @media only screen and(max-width: 1105px) {
-    .logo-text {
-        font-size:18px;
-        padding-top: 37px;
-    }
-} 
-@media only screen and(max-width: 900px) {
-    .logo-text {
-        font-size:0px;
-    }
-} */
 @media only screen and (max-width: 1150px) {
     .logo-text {
         font-size:0px;
