@@ -10,7 +10,9 @@ class Header extends Component{
                 <div className="header">
 
                     <div className="logo">
+                    <Link className="logo-image" to="/">
                         <img src={logoImage} className="logo-image" alt=""></img> 
+                        </Link>
                         <Link className="logo-text" to="/">MAC FORMULA ELECTRIC</Link>
                     </div>
 
