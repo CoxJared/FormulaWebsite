@@ -7,6 +7,7 @@
     margin-left: 15%;
     border: 2px grey solid;
     filter: grayscale(90%);
+    margin-bottom: 70px;
 }
 
 .event-container:hover {
@@ -18,17 +19,19 @@
 
 .date-box {
     position: relative;
-    
-    color: #fff;
     width:30%;
     text-align: center;
     vertical-align: middle;
-
-    background-image: url("./../../../img/events-backgrounds/sae-night-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    
 }
+.sae-night {
+    background-image: url("./../../../img/events-backgrounds/sae-night-background.jpg");
+}
+.formula-north {
+    background-image: url("./../../../img/events-backgrounds/formula-north.jpeg");
+}
+
 .date-box:hover {
     
     transition: all .5s ease;
@@ -37,7 +40,8 @@
 .date-box h1 {
     padding-top:50px;
     font-size: 70px;
-    color:#fff;
+    color: #fff;
+    -webkit-text-stroke: .5px rgb(255, 11, 11);
 }
 
 .info-box {

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from './../layout/header/Header';
 import DesignExplorer from '../layout/designexplorer/DesignExplorer';
-import Inovate from '../layout/textblocks/Inovate';
+import General from '../layout/textblocks/designtext/general/General';
 import SubteamExplorer from '../layout/subteamexplorer/SubteamExplorer';
 
 
 export class Design extends Component {
     state = {
-        textBlock : <Inovate />
+        textBlock : <General />
     }
 
     componentDidMount() {
