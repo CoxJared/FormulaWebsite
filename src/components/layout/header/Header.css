@@ -106,17 +106,7 @@ li.dropdown {
     display: block; 
 }
 
-@media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-
-  }
+/* 
   @media(max-width: 1050px) {
     .logo-text {
         font-size:0px;
@@ -127,5 +117,54 @@ li.dropdown {
         font-size:18px;
         padding-top: 37px;
     }
+  } */
+  label {
+    margin: 0 40px 0 0;
+    font-size:60px;
+    line-height: 70px;
+    display: none;
+    }
+    .toggle {
+    }
+  @media only screen and (max-width: 800px) {
+    label {
+        display: block;
+        cursor:pointer;
+        }
+    .logo-text {
+        font-size:0px;
+    }
+    .nav-bar {
+        position: absolute;
+        top:90px;
+        display:block;
+        text-align:center;
+        width:100%;
+        display:block;
+        margin:0;
+        padding:0;
+    }
+    .nav-bar-item {
+        display:block;
+        width:100%;
+        margin:0;
+        background-color: #fff;
+    }
+    .nav-bar a {
+        width:100%;
+        margin:0 ;
+        line-height: 40px;
+        display: block;
+        border: 1px solid #bbb;
+        border-radius: 0;
+    }
+    .nav-bar a:hover {
+        border: 2px solid #9A1414;
+    }
+
+    .toggle:checked + .nav-bar {
+        display: none;
+    }
+
   }
   
