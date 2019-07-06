@@ -1,9 +1,17 @@
+
 .design-explorer {
-    background-color: #333; 
+    width:100%;
     align-content: center;
     justify-content: center;
+    background-color: white;
+    border: 10px #555 solid;
 }
 
-.car-render-video {
-    width:93%;
+.image-show {
+    overflow: hidden;
+    width:100%;
+    background-color: white;
+    border: 1px white solid;
+    position: relative;
+    transition: all 2s ease;
 }

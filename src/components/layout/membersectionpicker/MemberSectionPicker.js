@@ -15,6 +15,9 @@ export class MemberSectionPicker extends Component {
                     <li className="member-section-option">
                         Electrical
                     </li>
+                    <li className="member-section-option">
+                        Business
+                    </li>
                 </ul>
             </div>
         )
