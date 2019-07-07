@@ -7,7 +7,7 @@
     padding:50px;
 }
 
-.gold, .silver, .bronze {
+.platinum, .gold, .silver, .software {
     padding-bottom:50px;
     display: flex;
     flex-wrap: wrap;
@@ -15,21 +15,31 @@
     justify-content: center;
 }
 
+.platinum .sponsor {
+    width:500px;
+    height:420px;
+    padding:10px;
+    margin:20px;
+}
 .gold .sponsor {
     width: 240px;
     height: 300px;
     padding:10px;
+    margin:20px;
 }
 .silver .sponsor {
     width:220px;
     height: 250px;
     padding: 10px;
+    margin:20px;
 }
-.bronze .sponsor {
-    width:200px;
-    height:220px;
-    padding:10px;
+.software .sponsor  {
+    width:220px;
+    height: 250px;
+    padding: 10px;
+    margin:20px;
 }
+
 
 .logo {
      object-fit: contain; 
@@ -47,42 +57,49 @@
     border-radius: 20px;
 }
 
+.platinum .sponsor:hover {
+    border: 5px #559696 solid;
+    background-color: #daf8fd;
+}
 .gold .sponsor:hover {
     border: 5px #dfce3d solid;
     background-color: #f5f0c3;
 }
-
 .silver .sponsor:hover {
     border: 5px #8a8a8a solid;
     background-color: #e4e4e4;
 }
-
-.bronze .sponsor:hover {
-    border: 5px #bd8e73 solid;
-    background-color: #f0e1d8;
+.software .sponsor:hover {
+    border: 5px #7b2cfa solid;
+    background-color: #c8d2fd;
 }
+
 
 h1{
     font-size: 30px;
     color: #444;
 }
 
-.gold-heading , .silver-heading, .bronze-heading{
+.platinum-heading, .gold-heading , .silver-heading, .software-heading{
     padding-top:90px;
     padding-bottom: 20px;
     font-size: 40px;
     color: #222;
 }
-.gold-heading span, .silver-heading span, .bronze-heading span {
+.gold-heading span, .silver-heading span, .bronze-heading span, .software-heading span {
     padding:7px;
 }
 
+.platinum-heading span{
+    border-bottom: 4px #559696 solid;
+}
 .gold-heading span{
     border-bottom: 4px #dfce3d solid;
 }
 .silver-heading span{
     border-bottom: 4px #8a8a8a solid;
 }
-.bronze-heading span{
-    border-bottom: 4px #bd8e73 solid;
+.software-heading span{
+    border-bottom: 4px #7b2cfa solid;
 }
+

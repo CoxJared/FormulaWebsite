@@ -17,6 +17,7 @@
     margin-top:0px;
     color: #ddd;
     border-bottom: 3px #333 solid;
+    cursor: pointer;
 }
 
 .subteam-option:hover {
