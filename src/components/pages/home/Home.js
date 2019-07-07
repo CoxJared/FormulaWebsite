@@ -3,6 +3,7 @@ import Header from '../../layout/header/Header';
 import MainShowcase from './mainshowcase/MainShowcase';
 import AboutUs from './aboutus/AboutUs';
 import WhyElectric from './whyelectric/WhyElectric';
+import Footer from './../../layout/footer/Footer';
 
 
 class Home extends Component {
@@ -17,6 +18,7 @@ class Home extends Component {
                 <MainShowcase />
                 <AboutUs />
                 <WhyElectric />
+                <Footer />
             </div>
         );
     }

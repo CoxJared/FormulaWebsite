@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../layout/header/Header';
 import SponsorExplorer from './sponsorexplorer/SponsorExplorer';
+import Footer from './../../layout/footer/Footer';
 
 export class Sponsors extends Component {
     componentDidMount() {
@@ -12,6 +13,7 @@ export class Sponsors extends Component {
             <div>
                 <Header />
                 <SponsorExplorer />
+                <Footer />
             </div>
         )
     }

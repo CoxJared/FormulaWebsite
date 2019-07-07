@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from './../../layout/header/Header';
+import Footer from './../../layout/footer/Footer';
+
 import DesignExplorer from './designexplorer/DesignExplorer';
 import General from './designtext/general/General';
 import SubteamExplorer from './subteamexplorer/SubteamExplorer';
@@ -36,6 +38,7 @@ export class Design extends Component {
                 <DesignExplorer type={this.state.subteam} />
                 <SubteamExplorer updateState = {this.updateState}/>
                 {this.state.textblock[this.state.subteam]}
+                <Footer />
             </div>
         )
     }
