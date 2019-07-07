@@ -5,13 +5,19 @@ import General from '../layout/textblocks/designtext/general/General';
 import SubteamExplorer from '../layout/subteamexplorer/SubteamExplorer';
 import Aerodynamics from '../layout/textblocks/designtext/aerodynamics/Aerodynamics';
 import Chassis from '../layout/textblocks/designtext/chassis/Chassis';
-import Supersension from '../layout/textblocks/designtext/suspension/Supersension';
+import Suspension from '../layout/textblocks/designtext/suspension/Supersension';
 
 
 export class Design extends Component {
 
     state = {
-        subteam: "suspension",
+        subteam: "general",
+        textblock: {
+            general: <General />,
+            aero: <Aerodynamics />,
+            suspension: <Suspension />,
+            chassis: <Chassis />
+        }
     }
     
 
@@ -29,7 +35,7 @@ export class Design extends Component {
                 <Header />
                 <DesignExplorer type={this.state.subteam} />
                 <SubteamExplorer updateState = {this.updateState}/>
-                <Aerodynamics />
+                {this.state.textblock[this.state.subteam]}
             </div>
         )
     }
