@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../layout/header/Header';
-import TeamGallery from '../layout/teamgallery/TeamGallery';
-import TeamMembers from '../layout/teammembers/TeamMembers';
-import MemberSectionPicker from '../layout/membersectionpicker/MemberSectionPicker';
+import Header from '../../layout/header/Header';
+import TeamGallery from './teamgallery/TeamGallery';
+import TeamMembers from './teammembers/TeamMembers';
+import MemberSectionPicker from './membersectionpicker/MemberSectionPicker';
 
 export class Team extends Component {
     componentDidMount() {

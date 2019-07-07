@@ -22,7 +22,7 @@ export class SubteamExplorer extends Component {
                     <li className="subteam-option" onClick={this.update.bind(this, "suspension")}>
                         Low Voltage
                     </li>
-                    <li className="subteam-option" onClick={this.update.bind(this, "general")}>
+                    <li className="subteam-option" onClick={this.update.bind(this, "tractive")}>
                         Tractive System
                     </li>
                     <li className="subteam-option" onClick={this.update.bind(this, "suspension")}>

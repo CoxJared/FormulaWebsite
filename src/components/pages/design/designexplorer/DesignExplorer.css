@@ -3,15 +3,22 @@
     width:100%;
     align-content: center;
     justify-content: center;
-    background-color: white;
-    border: 10px #555 solid;
+    background-color: 333;
+    border: 10px #333 solid;
 }
-
+.image-container {
+    position: relative;
+    width:100%;
+    overflow:hidden
+}
 .image-show {
     overflow: hidden;
+    object-fit: cover;
     width:100%;
     background-color: white;
     border: 1px white solid;
     position: relative;
     transition: all 2s ease;
+    position: relative;
+    
 }

@@ -1,35 +1,35 @@
 import React, { Component } from 'react';
 import './SponsorExplorer.css';
 
-import AirtechLogo from './../../../img/sponsor-logos/airtech-logo.png';
-import AltiumLogo from './../../../img/sponsor-logos/altium-logo.png';
-import AltairLogo from './../../../img/sponsor-logos/altair-logo.jpeg';
-import AmkLogo from './../../../img/sponsor-logos/amk-logo.svg';
-import BenderLogo from './../../../img/sponsor-logos/bender-logo.jpg';
-import CartesianLogo from './../../../img/sponsor-logos/cartesian-logo.png';
-import CpaontarioLogo from './../../../img/sponsor-logos/cpaontario-logo.png'
-import DiabLogo from './../../../img/sponsor-logos/diab-logo.jpeg';
-import DspaceLogo from './../../../img/sponsor-logos/dspace_logo.jpg';
-import EnlitenenergyServicesLogo from './../../../img/sponsor-logos/enlitenenergyservices-logo.png';
-import FastenalLogo from './../../../img/sponsor-logos/fastenal-logo.png';
-import Fmslogo from './../../../img/sponsor-logos/fms-logo.png';
-import GeneralsealantsLogo from './../../../img/sponsor-logos/generalsealants-logo.png';
-import GmLogo from './../../../img/sponsor-logos/gm-logo.png';
-import LinimarLogo from './../../../img/sponsor-logos/linimar-logo.png';
-import MathworksLogo from './../../../img/sponsor-logos/mathworks-logo.jpeg';
-import MclarenengineeringLogo from './../../../img/sponsor-logos/mclarenengineering-logo.jpg';
-import McmasterengineeringLogo from './../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
-import MesLogo from './../../../img/sponsor-logos/mes-logo.png';
-import MscSoftwareLogo from './../../../img/sponsor-logos/mscsoftware-logo.png';
-import OctopuzLogo from './../../../img/sponsor-logos/octopuz-logo.jpg'
-import SolidworksLogo from './../../../img/sponsor-logos/solidworks-logo.jpg';
-import SamuelLogo from './../../../img/sponsor-logos/samuel-logo.gif';
-import TeLogo from './../../../img/sponsor-logos/teconnectivity-logo.png';
-import TextremLogo from './../../../img/sponsor-logos/textreme-logo.png';
-import ViGradeLogo from './../../../img/sponsor-logos/vigrade-logo.png';
-import HoosierLogo from './../../../img/sponsor-logos/hoosier-logo.png';
-import OshparkLogo from './../../../img/sponsor-logos/oshpark-logo.jpeg';
-import FaroLogo from './../../../img/sponsor-logos/faro-logo.png';
+import AirtechLogo from './../../../../img/sponsor-logos/airtech-logo.png';
+import AltiumLogo from './../../../../img/sponsor-logos/altium-logo.png';
+import AltairLogo from './../../../../img/sponsor-logos/altair-logo.jpeg';
+import AmkLogo from './../../../../img/sponsor-logos/amk-logo.svg';
+import BenderLogo from './../../../../img/sponsor-logos/bender-logo.jpg';
+import CartesianLogo from './../../../../img/sponsor-logos/cartesian-logo.png';
+import CpaontarioLogo from './../../../../img/sponsor-logos/cpaontario-logo.png'
+import DiabLogo from './../../../../img/sponsor-logos/diab-logo.jpeg';
+import DspaceLogo from './../../../../img/sponsor-logos/dspace_logo.jpg';
+import EnlitenenergyServicesLogo from './../../../../img/sponsor-logos/enlitenenergyservices-logo.png';
+import FastenalLogo from './../../../../img/sponsor-logos/fastenal-logo.png';
+import Fmslogo from './../../../../img/sponsor-logos/fms-logo.png';
+import GeneralsealantsLogo from './../../../../img/sponsor-logos/generalsealants-logo.png';
+import GmLogo from './../../../../img/sponsor-logos/gm-logo.png';
+import LinimarLogo from './../../../../img/sponsor-logos/linimar-logo.png';
+import MathworksLogo from './../../../../img/sponsor-logos/mathworks-logo.jpeg';
+import MclarenengineeringLogo from './../../../../img/sponsor-logos/mclarenengineering-logo.jpg';
+import McmasterengineeringLogo from './../../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
+import MesLogo from './../../../../img/sponsor-logos/mes-logo.png';
+import MscSoftwareLogo from './../../../../img/sponsor-logos/mscsoftware-logo.png';
+import OctopuzLogo from './../../../../img/sponsor-logos/octopuz-logo.jpg'
+import SolidworksLogo from './../../../../img/sponsor-logos/solidworks-logo.jpg';
+import SamuelLogo from './../../../../img/sponsor-logos/samuel-logo.gif';
+import TeLogo from './../../../../img/sponsor-logos/teconnectivity-logo.png';
+import TextremLogo from './../../../../img/sponsor-logos/textreme-logo.png';
+import ViGradeLogo from './../../../../img/sponsor-logos/vigrade-logo.png';
+import HoosierLogo from './../../../../img/sponsor-logos/hoosier-logo.png';
+import OshparkLogo from './../../../../img/sponsor-logos/oshpark-logo.jpeg';
+import FaroLogo from './../../../../img/sponsor-logos/faro-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {

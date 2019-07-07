@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './../layout/header/Header';
-import DesignExplorer from '../layout/designexplorer/DesignExplorer';
-import General from '../layout/textblocks/designtext/general/General';
-import SubteamExplorer from '../layout/subteamexplorer/SubteamExplorer';
-import Aerodynamics from '../layout/textblocks/designtext/aerodynamics/Aerodynamics';
-import Chassis from '../layout/textblocks/designtext/chassis/Chassis';
-import Suspension from '../layout/textblocks/designtext/suspension/Supersension';
+import Header from './../../layout/header/Header';
+import DesignExplorer from './designexplorer/DesignExplorer';
+import General from './designtext/general/General';
+import SubteamExplorer from './subteamexplorer/SubteamExplorer';
+import Aerodynamics from './designtext/aerodynamics/Aerodynamics';
+import Chassis from './designtext/chassis/Chassis';
+import Suspension from './designtext/suspension/Supersension';
 
 
 export class Design extends Component {

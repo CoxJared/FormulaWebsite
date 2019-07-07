@@ -1,6 +1,6 @@
 .why-electric {
     position: relative;
-    background-image: url("./../../../img/suspension.jpeg"); 
+    background-image: url("./../../../../img/suspension.jpeg"); 
     background-position: center;
     background-size: cover;
     height: 1000px;
@@ -29,6 +29,6 @@
 .why-electric-textbox p {
     padding-top:10px;
     padding-bottom:10px;
-    padding-right: 20px;
+    padding-right: 20p;
     padding-left:20px; 
 }

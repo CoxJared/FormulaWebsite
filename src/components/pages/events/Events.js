@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from '../layout/header/Header';
-import EventExplorer from '../layout/eventexplorer/EventExplorer';
+import Header from '../../layout/header/Header';
+import EventExplorer from './eventexplorer/EventExplorer';
 
 export class Events extends Component {
     componentDidMount() {

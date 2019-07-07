@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './TeamMembers.css';
-import jessieshot from './../../../img/headshots/jessie.png';
-import scottshot from './../../../img/headshots/scott.png';
-import jaredshot from './../../../img/headshots/me.jpg';
-import blaireshot from './../../../img/headshots/blaire.png';
-import dylanshot from './../../../img/headshots/dylan.png';
-import harjotshot from './../../../img/headshots/harjot.png';
+import jessieshot from './../../../../img/headshots/jessie.png';
+import scottshot from './../../../../img/headshots/scott.png';
+import jaredshot from './../../../../img/headshots/me.jpg';
+import blaireshot from './../../../../img/headshots/blaire.png';
+import dylanshot from './../../../../img/headshots/dylan.png';
+import harjotshot from './../../../../img/headshots/harjot.png';
 
 
 export class TeamMembers extends Component {

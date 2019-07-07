@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './TeamGallery.css';
-import TeamPhoto from './../../../img/team-photo.png';
+import TeamPhoto from './../../../../img/team-photo.png';
 
 export class TeamGallery extends Component {
     render() {

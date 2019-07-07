@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from '../layout/header/Header';
-import SponsorExplorer from '../layout/sponsorexplorer/SponsorExplorer';
+import Header from '../../layout/header/Header';
+import SponsorExplorer from './sponsorexplorer/SponsorExplorer';
 
 export class Sponsors extends Component {
     componentDidMount() {

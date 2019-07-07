@@ -26,10 +26,10 @@
     background-size: 100%;
 }
 .sae-night {
-    background-image: url("./../../../img/events-backgrounds/sae-night-background.jpg");
+    background-image: url("./../../../../img/events-backgrounds/sae-night-background.jpg");
 }
 .formula-north {
-    background-image: url("./../../../img/events-backgrounds/formula-north.jpeg");
+    background-image: url("./../../../../img/events-backgrounds/formula-north.jpeg");
 }
 
 .date-box:hover {
