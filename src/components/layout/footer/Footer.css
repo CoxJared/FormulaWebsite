@@ -11,6 +11,7 @@
     background-color: #222;
     color:white;
     display: flex;
+    position: relative;
 }
 
 .name {

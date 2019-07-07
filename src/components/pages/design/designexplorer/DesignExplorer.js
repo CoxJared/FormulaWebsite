@@ -4,8 +4,10 @@ import './DesignExplorer.css';
 import generalRender from './../../../../img/design-showcase/general.png';
 import aeroRender from './../../../../img/design-showcase/aerodynamics.png';
 import chassisRender from './../../../../img/design-showcase/chassis.png';
-import suspRender from './../../../../img/design-showcase/susp.png';
+import suspRender from './../../../../img/design-showcase/suspension.png';
 import tractiveRender from './../../../../img/design-showcase/tractive.png';
+import controlsRender from './../../../../img/design-showcase/controls.png';
+import lowvoltageRender from './../../../../img/design-showcase/lowvoltage.png';
 
  class DesignExplorer extends Component {
      state = {
@@ -13,7 +15,9 @@ import tractiveRender from './../../../../img/design-showcase/tractive.png';
          aero: aeroRender,
          chassis: chassisRender,
          suspension: suspRender,
-         tractive: tractiveRender
+         tractive: tractiveRender,
+         lowvoltage: lowvoltageRender,
+         controls: controlsRender
      }
     render() {
         return (
