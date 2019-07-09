@@ -9,6 +9,9 @@ import 'react-animated-slider/build/horizontal.css';
 import img1 from './../../../../img/HomeCourt.jpg';
 import img2 from './../../../../img/CentreFold.jpg';
 
+import Macfelogo from './../../../../img/logo-transparent.png';
+import SchoolLogo from './../../../../img/school-logo.png';
+
 const content = [
 	{
 		title: 'What We Do',
@@ -43,7 +46,7 @@ class MainShowcase extends Component {
     render() {
         return (
             <div className="showcase">
-                <Slider className="slider-wrapper" autoplay={3000}>
+                <Slider className="slider-wrapper" autoplay={5000}>
                 {/* {content.map((item, index) => (
 					<div className="slide-container"
 						key={index}		>
@@ -55,19 +58,26 @@ class MainShowcase extends Component {
 					</div>
                 ))} */}
                 <div className="slider-container">
-                    <div className="what-we-do">
-                        <h1>What We Do</h1>
-                        <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p>
+                    <div className="intro">
+                        <div className="top-bar">
+                            <img className="mac-logo" src={SchoolLogo} alt=""/>
+                            <h2 className="school-name">McMaster University</h2>
+                            <img className="team-logo" src={Macfelogo} alt=""/>
+                        </div>
+                        <div className="draw-line"></div>
+                        <h1>Mac Formula Electric</h1>
+                        <div className="draw-line"></div>
+                        {/* <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p> */}
                     </div>
                 </div>
-                <div className="Why We do it">
+                {/* <div className="Why We do it">
                         <h1>Why We do it</h1>
                         <p>Sustainable MAC Formula Electric recognizes the necessary shift to the use of cleaner technology. By using electric vehicles as a platform for inn ovation the team hopes to promote the development of a socially, economically, and environmentally sustainable future.  High Performance With efficiencies of over 90%, electric motors are able to transmit a higher percentage of power to the wheels than an internal combustion engine. Moreover, with the ability to provide maximum torque at any speed, performance figures for MAC Formula Electric’s first car rival the top combustion and hybrid automobiles. Future of Transportation By getting hands-on experience in high-performance, environmentally-friendly technologies, our members are well equipped for the industry that awaits them upon graduation.</p>
                 </div>
                 <div className="why-electric">
                         <h1>Why Electric</h1>
                         <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p>
-                </div>
+                </div> */}
                 </Slider>
             </div>
         )

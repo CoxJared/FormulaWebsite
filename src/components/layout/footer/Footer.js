@@ -14,11 +14,13 @@ export class foot extends Component {
                     </div>
                     <div className="follow">
                         <h1>Follow</h1>
-                        <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li> 
-                            <li><a href="#" class="fa fa-instagram"></a></li> 
-                            <li><a href="#" class="fa fa-github"></a></li>
-                        </ul>
+                        <div className="list-container">
+                            <ul>
+                                <li><a href="#" class="fa fa-facebook"></a></li> 
+                                <li><a href="#" class="fa fa-instagram"></a></li> 
+                                <li><a href="#" class="fa fa-github"></a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="contact">
                         <h1>Contact</h1>

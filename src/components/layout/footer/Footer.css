@@ -1,3 +1,9 @@
+
+* {
+
+    transition: all .3s ease;
+}
+
 .footer-container {
     position: relative;
     width:100%;
@@ -23,13 +29,18 @@
     flex:1;
     padding-top:10px;
 }
+.list-container {
+    width:106px;
+    height:20px;
+    margin:auto;
+}
 .follow h1 {
     font-size: 20px;
     color: white;
 }
 .follow ul {
     list-style-type: none;
-    margin-right:25%;
+    margin:auto;
 }
 .follow a {
     size:20px;
@@ -37,11 +48,11 @@
     float: right;
     padding:10px;
     font-size: 25px;
+    margin:auto;
 }
 .follow a:hover {
     color: rgb(202, 19, 19);
     transition: all .3s ease;
-    font-size: 29px;
 }
 
 .contact {
@@ -59,7 +70,22 @@
         font-size:20px;
         transition: all .3s ease;
     }
-    .follow a:hover {
-        font-size: 23px;
+}
+@media only screen and (max-width: 1150px) {
+    .footer {
+        width: 100%;
+        transition: all 1s ease;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact h1 {
+        font-size: 15px;
+    }
+    .name {
+        font-size: 15px;
+    }
+    .follow {
+        flex: 3;
     }
 }

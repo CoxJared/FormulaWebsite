@@ -1,19 +1,65 @@
 .showcase {
     position: relative;
     padding-top: 90px;
-    height: 70vh;
+    height: 70vw;
 }
 
 .slider-container {
     height: 100%;
     background-color: aqua
 }
-.what-we-do {
-    background-image: url("./../../../../img/HomeCourt.jpg"); 
+.intro {
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.0) ), url("./../../../../img/HomeCourt.jpg");
     background-size: cover;
-    height:100%;
-    
+    background-position-y: -60px;
+    height:100%;   
+    color:#ddd; 
+    padding:30px;
 }
+.top-bar {
+    display: flex;
+    width:70%;
+    margin:auto;
+    height:12vw;
+}
+.top-bar .mac-logo {
+    flex:1;
+    width:1vw;
+    padding:1vw;
+}
+.top-bar .school-name  {
+    flex:5;
+    color: #ddd;
+    font-size: 4vw;
+    margin-top:4vw;
+}
+.top-bar .team-logo {
+    flex:1.3;
+    width:1vw;
+
+    padding:0;
+}
+.intro h1{
+    color:#fff; 
+    font-size: 7vw;
+    margin: 7px auto;
+}
+.team-logo {
+    position:relative;
+    width: 20vw;
+}
+.mac-logo {
+    position:relative;
+    width: 20vw;
+}
+
+.draw-line {
+    height:1px;
+    width:70%;
+    background-color:#bbb;
+    margin:auto;
+}
+
 
 
 
@@ -78,12 +124,12 @@ button:hover {
 
 .slider-wrapper {
   position: relative;
-  height: 70vh;
+  height: 70vw;
   overflow: hidden;
 }
 
 .slide {
-  height: 70vh;
+  height: 70vw;
   background-size: cover !important;
 }
 
@@ -94,7 +140,7 @@ button:hover {
     width: 100%;
     height: 100%;
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
     bottom: 0;
     left: 0;
 }
