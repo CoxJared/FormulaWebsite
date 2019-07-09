@@ -16,8 +16,8 @@ class Home extends Component {
             <div>
                 <Header />
                 <MainShowcase />
-                <AboutUs />
-                <WhyElectric />
+                {/* <AboutUs />
+                <WhyElectric /> */}
                 <Footer />
             </div>
         );

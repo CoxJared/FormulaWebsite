@@ -15,8 +15,8 @@ export class foot extends Component {
                     <div className="follow">
                         <h1>Follow</h1>
                         <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-facebook"></a></li> 
+                            <li><a href="#" class="fa fa-instagram"></a></li> 
                             <li><a href="#" class="fa fa-github"></a></li>
                         </ul>
                     </div>
