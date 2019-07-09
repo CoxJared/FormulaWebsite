@@ -6,12 +6,11 @@ import './Footer.css';
 export class foot extends Component {
     render() {
         return (
-            
-            <div className="container">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+            <div className="footer-container">
                 <div className="footer">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                     <div className="name">
-                        <p>Mac Formula Eletric 2019&copy;</p>
+                        <p>Mac Formula Electric 2019&copy;</p>
                     </div>
                     <div className="follow">
                         <h1>Follow</h1>

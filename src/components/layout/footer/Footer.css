@@ -1,14 +1,14 @@
-.container {
+.footer-container {
+    position: relative;
     width:100%;
     height: 90px;
-    background-color: #222;
+    background-color: #555;
 }
 
 .footer {
     margin: 0 auto;
-    height:100%;
     width:80%;
-    background-color: #222;
+    background-color: #555;
     color:white;
     display: flex;
     position: relative;
@@ -29,7 +29,7 @@
 }
 .follow ul {
     list-style-type: none;
-    margin-right:23px;
+    margin-right:25%;
 }
 .follow a {
     size:20px;

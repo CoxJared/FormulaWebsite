@@ -13,7 +13,7 @@ export class Events extends Component {
             <div>
                 <Header /> 
                 <EventExplorer />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         )
     }

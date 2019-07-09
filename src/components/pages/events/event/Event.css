@@ -23,7 +23,7 @@
     text-align: center;
     vertical-align: middle;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .sae-night {
     background-image: url("./../../../../img/events-backgrounds/sae-night-background.jpg");

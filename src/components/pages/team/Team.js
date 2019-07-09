@@ -5,6 +5,7 @@ import TeamMembers from './teammembers/TeamMembers';
 import MemberSectionPicker from './membersectionpicker/MemberSectionPicker';
 
 import Footer from './../../layout/footer/Footer';
+import MemberPage from './memberpage/MemberPage';
 
 export class Team extends Component {
     componentDidMount() {
