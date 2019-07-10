@@ -13,7 +13,7 @@
 
 .footer {
     margin: 0 auto;
-    width:80%;
+    width:90%;
     background-color: #555;
     color:white;
     display: flex;
@@ -23,6 +23,7 @@
 .name {
  flex:2;
  margin-top: 30px;
+ padding-left:20px;
 }
 
 .follow {
@@ -30,7 +31,7 @@
     padding-top:10px;
 }
 .list-container {
-    width:106px;
+    width:118px;
     height:20px;
     margin:auto;
 }
@@ -70,6 +71,9 @@
         font-size:20px;
         transition: all .3s ease;
     }
+    .list-container {
+        width:106px;
+    }
 }
 @media only screen and (max-width: 1150px) {
     .footer {
@@ -83,7 +87,7 @@
         font-size: 15px;
     }
     .name {
-        font-size: 15px;
+        font-size: 2vw;
     }
     .follow {
         flex: 3;

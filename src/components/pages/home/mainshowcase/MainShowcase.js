@@ -94,7 +94,7 @@ const content = [
         }
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ff0}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fd0}";
         document.body.appendChild(css);
     };
 
