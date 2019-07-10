@@ -12,6 +12,7 @@ import img2 from './../../../../img/CentreFold.jpg';
 import Macfelogo from './../../../../img/logo-transparent.png';
 import SchoolLogo from './../../../../img/school-logo.png';
 
+
 const content = [
 	{
 		title: 'What We Do',
@@ -42,10 +43,66 @@ const content = [
 	},
 ];
 
+
+ var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ff0}";
+        document.body.appendChild(css);
+    };
+
 class MainShowcase extends Component {
     render() {
         return (
             <div className="showcase">
+                <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet"/>
                 <Slider className="slider-wrapper" autoplay={5000}>
                 {/* {content.map((item, index) => (
 					<div className="slide-container"
@@ -67,13 +124,22 @@ class MainShowcase extends Component {
                         <div className="draw-line"></div>
                         <h1>Mac Formula Electric</h1>
                         <div className="draw-line"></div>
+                        <div className="typewriter-container">
+                            <h3 className="solid-text">Discover  </h3>
+                            <h3>           
+                            <a href="" className="typewrite" data-period="2000" data-type='[ "Technology", "Teamwork", "Innovation"]'>
+                                <span class="wrap"></span>
+                            </a>
+                            </h3>
+                        </div>
                         {/* <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p> */}
                     </div>
                 </div>
-                {/* <div className="Why We do it">
+                 {/* <div className="Why We do it">
                         <h1>Why We do it</h1>
                         <p>Sustainable MAC Formula Electric recognizes the necessary shift to the use of cleaner technology. By using electric vehicles as a platform for inn ovation the team hopes to promote the development of a socially, economically, and environmentally sustainable future.  High Performance With efficiencies of over 90%, electric motors are able to transmit a higher percentage of power to the wheels than an internal combustion engine. Moreover, with the ability to provide maximum torque at any speed, performance figures for MAC Formula Electric’s first car rival the top combustion and hybrid automobiles. Future of Transportation By getting hands-on experience in high-performance, environmentally-friendly technologies, our members are well equipped for the industry that awaits them upon graduation.</p>
-                </div>
+                </div> */}
+                {/*}
                 <div className="why-electric">
                         <h1>Why Electric</h1>
                         <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p>
