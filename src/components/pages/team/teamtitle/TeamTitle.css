@@ -1,0 +1,23 @@
+.team-title-container {
+    width: 100%;
+    height: calc(8vw + 90px);
+    background-color: #111;
+    padding-top: calc(0vw + 90px);
+}
+@media only screen and (max-width: 800px) {
+    .team-title-container {
+        padding-top: 70px;
+    }
+}
+
+
+.title-heading {
+    color:  rgb(192, 42, 42);;
+    margin:auto;
+    padding-top: .8vw;
+    font-size: 5vw;
+}
+
+.title-span {
+    color: #fff;
+}

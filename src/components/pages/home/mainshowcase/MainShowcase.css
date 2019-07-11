@@ -32,6 +32,7 @@
     flex:5;
     color: #ddd;
     font-size: 4vw;
+    font-weight: lighter;
     margin-top:4vw;
 }
 .top-bar .team-logo {
@@ -43,6 +44,7 @@
     color:#fff; 
     font-size: 6vw;
     margin: 2vw auto;
+    font-weight: lighter;
 }
 .team-logo {
     position:relative;
@@ -71,13 +73,15 @@
 .solid-text {
     padding-right:2vw;
     font-size: 4vw;
-    color: rgb(173, 172, 172);
+    color: rgb(218, 218, 218);
+    font-weight: lighter;
 }
 
 .typewrite {
-    color: rgb(250, 212, 41);
+    color: rgb(250, 211, 37);
     text-decoration: none;
     font-size: 4vw;
+    font-weight: lighter;
 }
 @media (max-width: 640px) {
     .typewriter-container { 
@@ -157,7 +161,7 @@ button:hover {
 
 .previousButton, .nextButton {
 		position: absolute;
-		bottom: -50%;
+		bottom: -60%;
 		transform: translateY(-50%);
 		z-index: 1;
         background: url('./../../../../img/white-arrow.png') no-repeat center center / 16px;

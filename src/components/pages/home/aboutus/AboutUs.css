@@ -1,13 +1,15 @@
 .about-us {
     color:#111;
     background-color: #fff;
-    padding: 3vw 10vw;
+    padding: 5vw 12vw;
     padding-top:120px;
     text-align: center; 
+    
 }
 
 .about-us p {
     font-size: 3vw;
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 800px) {

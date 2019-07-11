@@ -6,6 +6,7 @@ import MemberSectionPicker from './membersectionpicker/MemberSectionPicker';
 
 import Footer from './../../layout/footer/Footer';
 import MemberPage from './memberpage/MemberPage';
+import TeamTitle from './teamtitle/TeamTitle';
 
 export class Team extends Component {
     componentDidMount() {
@@ -16,7 +17,7 @@ export class Team extends Component {
         return (
             <div>
                 <Header />
-                <TeamGallery />
+                <TeamTitle />
                 <MemberSectionPicker />
                 <TeamMembers />
                 <Footer />
