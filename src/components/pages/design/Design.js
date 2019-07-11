@@ -37,7 +37,6 @@ export class Design extends Component {
                 <Header />
                 <DesignExplorer type={this.state.subteam} />
                 <SubteamExplorer updateState = {this.updateState}/>
-                {this.state.textblock[this.state.subteam]}
                 <Footer />
             </div>
         )

@@ -9,8 +9,11 @@ import tractiveRender from './../../../../img/design-showcase/tractive.png';
 import controlsRender from './../../../../img/design-showcase/controls.png';
 import lowvoltageRender from './../../../../img/design-showcase/lowvoltage.png';
 
+import tab1 from './../../../../img/design-showcase/general/moviebestres.gif'
+
  class DesignExplorer extends Component {
      state = {
+         main: {
          general: generalRender,
          aero: aeroRender,
          chassis: chassisRender,
@@ -18,12 +21,22 @@ import lowvoltageRender from './../../../../img/design-showcase/lowvoltage.png';
          tractive: tractiveRender,
          lowvoltage: lowvoltageRender,
          controls: controlsRender
+         },
+         tab1: {
+            general: tab1
+         }
      }
+
+
+
     render() {
         return (
             <div className="design-explorer"> 
                 <div className="image-container">     
-                    <img src={this.state[this.props.type]} className="image-show" />
+                    <img src={this.state.main[this.props.type]} className="image-show" />
+                    <div className="tab-1">
+                    {/* <img src={this.state.tab1[this.props.type]} className="image-tab-1" /> */}
+                    </div>
                 </div>
             </div>
         )

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import showcaseImage from './../../../../img/HomeCourt.jpg';
 import showcaseMain from './../../../../img/mcmaster-logo.png';
-import './MainShowcase.css';
+import './MainShowcase.scss';
 
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
@@ -103,7 +103,7 @@ class MainShowcase extends Component {
         return (
             <div className="showcase">
                 <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet"/>
-                <Slider className="slider-wrapper" autoplay={5000}>
+                <Slider className="slider-wrapper" autoplay={10000}>
                 {/* {content.map((item, index) => (
 					<div className="slide-container"
 						key={index}		>
@@ -132,13 +132,18 @@ class MainShowcase extends Component {
                             </a>
                             </h3>
                         </div>
-                        {/* <p>Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.</p> */}
                     </div>
                 </div>
-                 {/* <div className="Why We do it">
-                        <h1>Why We do it</h1>
-                        <p>Sustainable MAC Formula Electric recognizes the necessary shift to the use of cleaner technology. By using electric vehicles as a platform for inn ovation the team hopes to promote the development of a socially, economically, and environmentally sustainable future.  High Performance With efficiencies of over 90%, electric motors are able to transmit a higher percentage of power to the wheels than an internal combustion engine. Moreover, with the ability to provide maximum torque at any speed, performance figures for MAC Formula Electric’s first car rival the top combustion and hybrid automobiles. Future of Transportation By getting hands-on experience in high-performance, environmentally-friendly technologies, our members are well equipped for the industry that awaits them upon graduation.</p>
-                </div> */}
+                <div className="who-are-we">
+                        <h1 className="who-are-we-header">Who Are We</h1>
+                        <p className="who-are-we-p">We are 80 students coming from a variety of faculty, experiences and interests all working together to push the boudaries of electric vehicle technology   
+                        </p>
+                </div>
+                <div className="why-eletric">
+                        <h1 className="why-electric-header">Why Electric</h1>
+                        <p className="why-electric-p1">By using electric vehicles as a platform for innovation our team hopes to promote the development of a socially, economically, and environmentally sustainable future.  
+                        </p>
+                </div>
                 {/*}
                 <div className="why-electric">
                         <h1>Why Electric</h1>

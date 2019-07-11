@@ -11,9 +11,10 @@
 .subteam-option {
     float: left;
     list-style-type: none;
-    font-size: 17px;
-    padding:10px;
-    margin:10px;
+    font-size: 1.7vw;
+    font-weight: normal;
+    padding:1vw;
+    margin:1vw;
     margin-top:0px;
     color: #ddd;
     border-bottom: 3px #333 solid;
