@@ -208,6 +208,7 @@ export class SponsorExplorer extends Component {
     render() {
         return (    
             <div className="sponsor-contanainer">
+                <h1 className="explorer-header">Current Sponsors</h1>
                 <h1 className="platinum-heading"><span>Platinum Sponsorships</span></h1>
                 <div className="platinum">
                     <div className="sponsor">

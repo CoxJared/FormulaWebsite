@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../layout/header/Header';
-import SponsorExplorer from './sponsorexplorer/SponsorExplorer';
+import SponsorsContainer from './sponsorscontainer/SponsorsContainer';
 import Footer from './../../layout/footer/Footer';
 
 export class Sponsors extends Component {
@@ -12,7 +12,7 @@ export class Sponsors extends Component {
         return (
             <div>
                 <Header />
-                <SponsorExplorer />
+                <SponsorsContainer />
                 <Footer />
             </div>
         )
