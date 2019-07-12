@@ -1,25 +1,23 @@
 .event-container {
     position: relative;
     width: 70%;
-    max-width:900px;
-    height:200px;
+    height:20vw;
     display: flex;
-    margin-left: 15%;
+    margin:auto;
     border: 2px grey solid;
     filter: grayscale(90%);
-    margin-bottom: 70px;
+    margin-bottom: 7vw;
 }
 
 .event-container:hover {
-    width: 72%;
     margin-left:14%;
     filter: grayscale(5%);
     transition: all .3s ease;
 }
 
 .date-box {
+    flex:1;
     position: relative;
-    width:30%;
     text-align: center;
     vertical-align: middle;
     background-repeat: no-repeat;
@@ -33,23 +31,23 @@
 }
 
 .date-box:hover {
-    
     transition: all .5s ease;
 }
 
 .date-box h1 {
-    padding-top:50px;
-    font-size: 70px;
+    padding-top:5vw;
+    font-size: 7vw;
     color: #fff;
     -webkit-text-stroke: .5px rgb(255, 11, 11);
 }
 
 .info-box {
+    flex:2;
     position: relative;
-    border: 2px grey solid;
-    width:70%;
+    border: 1px grey solid;
     padding-top:30px;
 }
 .info-box p {
-    padding:10px;
+    padding:1vw;
+    font-size: 1.5vw;
 }

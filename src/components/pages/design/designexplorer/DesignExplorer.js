@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './DesignExplorer.css';
+import './DesignExplorer.scss';
 
 import generalRender from './../../../../img/design-showcase/general.png';
 import aeroRender from './../../../../img/design-showcase/aerodynamics.png';
@@ -17,7 +17,7 @@ import aeroTab1 from './../../../../img/design-showcase/aerodynamics/aeroflow.pn
 import aeroTab2 from './../../../../img/design-showcase/aerodynamics/rear-wing.png';
 import aeroTab3 from './../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
 
-import chassisTab1 from './../../../../img/design-showcase/chassis/infusion.jpg';
+import chassisTab1 from './../../../../img/design-showcase/chassis/chassis-layup.png';
 import chassisTab2 from './../../../../img/design-showcase/chassis/faro3.png';
 import chassisTab3 from './../../../../img/design-showcase/chassis/wrapping.jpg';
 
@@ -61,7 +61,7 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
          chassis: {
             render: chassisRender,
             tab1: chassisTab1,
-            tab1Name: "Vacuum infusion",
+            tab1Name: "Optimized Carbon Layup",
             tab2: chassisTab2,
             tab2Name: "Faro Arm",
             tab3: chassisTab3,
@@ -108,7 +108,24 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
 
 
     render() {
-        if(this.props.type == "general")
+        if(!this.props.entered)
+        {
+            return (
+                <div className="design-explorer"> 
+                
+                    <div classname="welcome-flex-column">           
+                        <div className="image-container-welcome">         
+                            <img src={this.state[this.props.type].render} className="image-show" />
+                        </div>
+                        <div className="welcome-button-container">
+                            <button className="welcome-button" onClick={this.props.enter}>Explore</button>
+                        </div>
+                    </div>
+                    <div className="background-slider"> </div>
+                </div>
+            )
+        }
+        if(this.props.type === "general")
         {
             return (
                 <div className="design-explorer"> 

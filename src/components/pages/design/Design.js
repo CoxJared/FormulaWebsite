@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../../layout/header/Header';
 import Footer from '../../layout/footer/Footer';
+import DesignWelcome from './designwelcome/DesignWelcome';
 
 import DesignExplorer from './designexplorer/DesignExplorer';
 import General from './designtext/general/General';
@@ -14,8 +15,8 @@ import Controls from './designtext/controls/Controls';
 
 
 export class Design extends Component {
-
     state = {
+        entered: false,
         subteam: "general",
         textblock: {
             general: <General />,
@@ -27,10 +28,13 @@ export class Design extends Component {
             controls: <Controls />
         }
     }
-    
 
     updateState = (newSubteam) => {
         this.setState({subteam : newSubteam})
+    }
+
+    enter = () => {
+        this.setState({entered: true})
     }
 
     componentDidMount() {
@@ -38,10 +42,20 @@ export class Design extends Component {
     }
 
     render() {
+        if (!this.state.entered)
+        {
+            return (
+                <div>
+                    <Header />
+                    <DesignExplorer entered={this.state.entered} enter={this.enter} type={this.state.subteam} />
+                    <Footer />
+                </div>
+            )
+        }
         return (
             <div>
                 <Header />
-                <DesignExplorer type={this.state.subteam} />
+                <DesignExplorer entered={this.state.entered} type={this.state.subteam}/>
                 <SubteamExplorer updateState = {this.updateState}/>
                 {this.state.textblock[this.state.subteam]}
                 <Footer />

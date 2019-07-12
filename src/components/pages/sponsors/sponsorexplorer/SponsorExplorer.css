@@ -5,11 +5,17 @@
 .sponsor-contanainer {
     position: relative;
     top:90px;
-    padding:50px;
+    padding:4vw;
+    padding-bottom: 20vw;
+}
+@media only screen and (max-width: 800px) {
+    .sponsor-contanainer {
+        top:70px;
+    }
 }
 
 .platinum, .gold, .silver, .software {
-    padding-bottom:10px;
+    padding-bottom:2vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -17,28 +23,28 @@
 }
 
 .platinum .sponsor {
-    width:200px;
-    height:200px;
-    padding:10px;
-    margin:20px;
+    width:20vw;
+    height:20vw;
+    padding:1vw;
+    margin:2vw;
 }
 .gold .sponsor {
-    width: 150px;
-    height: 150px;
-    padding:10px;
-    margin:20px;
+    width: 15vw;
+    height: 15vw;
+    padding:1vw;
+    margin:2vw;
 }
 .silver .sponsor {
-    width:140px;
-    height: 140px;
-    padding: 10px;
-    margin:20px;
+    width:14vw;
+    height: 14vw;
+    padding: 1vw;
+    margin:2vw;
 }
 .software .sponsor  {
-    width:150px;
-    height: 150px;
-    padding: 10px;
-    margin:20px;
+    width:15vw;
+    height: 15vw;
+    padding: 1vw;
+    margin:2vw;
 }
 
 
@@ -59,19 +65,19 @@
 }
 
 .platinum .sponsor:hover {
-    border: 5px #559696 solid;
+    border: .5vw #559696 solid;
     background-color: #daf8fd;
 }
 .gold .sponsor:hover {
-    border: 5px #dfce3d solid;
+    border: .5vw #dfce3d solid;
     background-color: #f5f0c3;
 }
 .silver .sponsor:hover {
-    border: 5px #8a8a8a solid;
+    border: .5vw #8a8a8a solid;
     background-color: #e4e4e4;
 }
 .software .sponsor:hover {
-    border: 5px #7b2cfa solid;
+    border: .5vw #7b2cfa solid;
     background-color: #c8d2fd;
 }
 
@@ -80,19 +86,22 @@ h1 {
 }
 
 .platinum h1{
-    font-size: 30px; 
+    font-size: 2.5vw; 
 }
 .gold h1{
-    font-size: 26px; 
+    font-size: 2vw; 
 }
 .silver h1{
-    font-size: 26px; 
+    font-size: 1.5vw; 
+}
+.software h1{
+    font-size: 2vw; 
 }
 
 .platinum-heading, .gold-heading , .silver-heading, .software-heading{
-    padding-top:90px;
-    padding-bottom: 20px;
-    font-size: 40px;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+    font-size: 4vw;
     color: #222;
 }
 

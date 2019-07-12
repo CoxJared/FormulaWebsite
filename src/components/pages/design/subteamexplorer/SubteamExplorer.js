@@ -13,18 +13,18 @@ export class SubteamExplorer extends Component {
                     <li className="subteam-option" onClick={this.update.bind(this, "general")}>
                         General
                     </li>
-                    <li className="subteam-option" onClick={this.update.bind(this, "aero")}>
-                        Aerodynamics
+                    <li className="subteam-option" onClick={this.update.bind(this, "tractive")}>
+                        Tractive System
                     </li>
                     <li className="subteam-option" onClick={this.update.bind(this, "chassis")}>
                         Chassis
                     </li>
+                    <li className="subteam-option" onClick={this.update.bind(this, "aero")}>
+                        Aerodynamics
+                    </li>
                     <li className="subteam-option" onClick={this.update.bind(this, "lowvoltage")}>
                         Low Voltage
-                    </li>
-                    <li className="subteam-option" onClick={this.update.bind(this, "tractive")}>
-                        Tractive System
-                    </li>
+                    </li>          
                     <li className="subteam-option" onClick={this.update.bind(this, "suspension")}>
                         Suspension
                     </li>
