@@ -22,8 +22,12 @@
 
 .name {
  flex:2;
- margin-top: 30px;
  padding-left:20px;
+}
+.name p {
+    margin-top: 2vw;
+    font-size: 2.2vw;
+    color: #ddd
 }
 
 .follow {
@@ -86,8 +90,9 @@
     .contact h1 {
         font-size: 15px;
     }
-    .name {
+    .name p{
         font-size: 2vw;
+        padding-top: 2vw;
     }
     .follow {
         flex: 3;
