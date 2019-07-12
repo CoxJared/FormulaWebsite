@@ -1,6 +1,6 @@
 .team-title-container {
     width: 100%;
-    height: calc(8vw + 90px);
+    height: calc(8vw + 9vw);
     background-color: #111;
     padding-top: calc(0vw + 90px);
 }
@@ -10,9 +10,8 @@
     }
 }
 
-
 .title-heading {
-    color:  rgb(192, 42, 42);;
+    color:  rgb(182, 180, 180);;
     margin:auto;
     padding-top: .8vw;
     font-size: 5vw;

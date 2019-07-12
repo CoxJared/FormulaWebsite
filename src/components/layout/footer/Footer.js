@@ -16,9 +16,9 @@ export class foot extends Component {
                         <h1>Follow</h1>
                         <div className="list-container">
                             <ul>
-                                <li><a href="#" class="fa fa-facebook"></a></li> 
+                                <li><a href="#" class="fa fa-linkedin"></a></li>
                                 <li><a href="#" class="fa fa-instagram"></a></li> 
-                                <li><a href="#" class="fa fa-github"></a></li>
+                                <li><a href="#" class="fa fa-facebook"></a></li> 
                             </ul>
                         </div>
                     </div>

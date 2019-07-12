@@ -24,7 +24,7 @@
     height:70%;
     width:80%;
     border-radius: 50%;
-    filter: grayscale(80%);
+    filter: grayscale(70%);
 }
 
 .name {
@@ -35,7 +35,31 @@
 }
 
 .title {
-    padding-bottom:1vw;
+    padding-bottom:.5vw;
     font-size: 2vw;
     color: #555;
+}
+
+.links-list li{
+    list-style-type: none;
+    display: inline;
+    padding: 1.5vw;
+    font-size: 3vw;
+    opacity:0;
+
+}
+.links-list a {
+    color: #666;
+}
+.links-list .linkedin a:hover {
+    color: rgb(27, 103, 226);
+}
+.links-list .github a:hover {
+    color: rgb(168, 48, 223);
+}
+.links-list .twitter a:hover {
+    color: rgb(48, 173, 223);
+}
+.member-container:hover .links-list li {
+    opacity: 1;
 }

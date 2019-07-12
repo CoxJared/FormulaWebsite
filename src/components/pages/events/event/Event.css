@@ -9,6 +9,7 @@
     margin-bottom: 7vw;
 }
 
+
 .event-container:hover {
     margin-left:14%;
     filter: grayscale(5%);
@@ -45,9 +46,34 @@
     flex:2;
     position: relative;
     border: 1px grey solid;
-    padding-top:30px;
+    padding-top:3vw;
 }
 .info-box p {
     padding:1vw;
     font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .event-container {
+        width:65%;
+        flex-direction: column;
+        height:60vw;
+        margin: 0 auto 7vw auto;
+        filter: grayscale(0%);
+    }
+    .date-box { 
+        flex:2;
+    }
+    .date-box h1{
+        font-size: 15vw;
+    }
+    .info-box {
+        flex:1;
+        padding-top:1vw;
+    }
+    .info-box p {
+        padding:1vw;
+        font-size: 2.5vw;
+    }
+
 }
