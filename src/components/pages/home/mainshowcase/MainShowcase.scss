@@ -80,7 +80,7 @@
 }
 
 .typewrite {
-    color: rgb(250, 211, 37);
+    color: rgb(255, 215, 36);
     text-decoration: none;
     font-size: 4vw;
     font-weight: lighter;
@@ -194,6 +194,7 @@ button:hover {
 .wrapper a {
   display: inline-block;
   margin: 5px;
+  
 }
 
 .wrapper a:first-child {
@@ -231,7 +232,7 @@ button:hover {
 		bottom: -60%;
 		transform: translateY(-50%);
 		z-index: 1;
-        background: url('./../../../../img/white-arrow.png') no-repeat center center / 16px;
+    background: url('./../../../../img/white-arrow.png') no-repeat center center / 16px;
 		width: 4vw;
 		height: 100%;
         cursor: pointer;
