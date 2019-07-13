@@ -71,8 +71,6 @@ export class TeamMembers extends Component {
                         <div className="links-container">
                             <ul className="links-list">
                             <li className="linkedin"><a href="#" class="fa fa-linkedin"></a></li> 
-                                <li className="github"><a href="#" class="fa fa-github"></a></li> 
-                                <li className="twitter"><a href="#" class="fa fa-twitter"></a></li>
                             </ul>
                         </div>
                     </div>

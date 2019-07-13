@@ -108,7 +108,7 @@ class MainShowcase extends Component {
         return (
             <div className="showcase">
                 <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet"/>
-                <Slider className="slider-wrapper" autoplay={10000}>
+                <Slider className="slider-wrapper" >
                 {/* {content.map((item, index) => (
 					<div className="slide-container"
 						key={index}		>
@@ -121,13 +121,13 @@ class MainShowcase extends Component {
                 ))} */}
                 <div className="slider-container">
                     <div className="intro">
-                        <div className="top-bar">
+                        {/* <div className="top-bar">
                             <img className="mac-logo" src={SchoolLogo} alt=""/>
                             <h2 className="school-name">McMaster University</h2>
                             <img className="team-logo" src={Macfelogo} alt=""/>
-                        </div>
+                        </div> */}
                         <div className="draw-line"></div>
-                        <h1>Mac Formula Electric</h1>
+                        <h1>MAC Formula Electric</h1>
                         <div className="draw-line"></div>
                         <div className="typewriter-container">
                             <h3 className="solid-text">Discover  </h3>

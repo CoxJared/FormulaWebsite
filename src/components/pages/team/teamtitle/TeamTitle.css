@@ -2,7 +2,7 @@
     width: 100%;
     height: calc(8vw + 9vw);
     background-color: #111;
-    padding-top: calc(0vw + 90px);
+    padding-top: calc(1.5vw + 90px);
 }
 @media only screen and (max-width: 800px) {
     .team-title-container {
@@ -11,7 +11,7 @@
 }
 
 .title-heading {
-    color:  rgb(182, 180, 180);;
+    color:  rgb(228, 51, 51);;
     margin:auto;
     padding-top: .8vw;
     font-size: 5vw;

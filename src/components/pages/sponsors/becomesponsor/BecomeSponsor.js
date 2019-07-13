@@ -9,7 +9,8 @@ export class BecomeSponsor extends Component {
                 <p className="become-sponsor-paragraph">
                    MAC Formula Electric looks forward to the possibilty of a partnership with companies looking to contribute to student engineering competitions. We feel that the experience which our team members gain from the team make them very well rounded employees for future careers.
                 </p>
-                <button className="sponsor-package">Sponsorship Package</button>
+                <button className="sponsor-package">Donate Now</button>
+                <button className="sponsor-package inverted">Contact Us</button>
             </div>
         )
     }

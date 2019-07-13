@@ -4,6 +4,7 @@ import './email.css';
 export function email (props) {
 
         return (
+            <div className="form-full">
             <div className="form-container">
                 <h1 className="name-header">Name<span className="dot"></span></h1>
                 <input
@@ -29,6 +30,7 @@ export function email (props) {
                 placeholder = "Message"
                 onChange={props.handleMessageChange}
                 />
+            </div>
             </div>
         )
     

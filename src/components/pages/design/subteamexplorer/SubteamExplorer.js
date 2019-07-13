@@ -11,7 +11,7 @@ export class SubteamExplorer extends Component {
             <div className="subteam-container">
                 <ul className='subteam-list'>
                     <li className="subteam-option" onClick={this.update.bind(this, "general")}>
-                        General
+                        Overview
                     </li>
                     <li className="subteam-option" onClick={this.update.bind(this, "tractive")}>
                         Tractive System
@@ -26,7 +26,7 @@ export class SubteamExplorer extends Component {
                         Low Voltage
                     </li>          
                     <li className="subteam-option" onClick={this.update.bind(this, "suspension")}>
-                        Suspension
+                        Vehicle Dynamics
                     </li>
                     <li className="subteam-option" onClick={this.update.bind(this, "controls")}>
                         Controls

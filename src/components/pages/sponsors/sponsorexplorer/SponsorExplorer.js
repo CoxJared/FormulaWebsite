@@ -36,7 +36,7 @@ export class SponsorExplorer extends Component {
         platinum: [
             {
                 id: 0,
-                name: 'GM',
+                name: 'General Motors',
                 websiteLink: 'https://www.gm.ca/en/home.html',
                 img: GmLogo
             },
@@ -316,7 +316,7 @@ export class SponsorExplorer extends Component {
                         <h1>{this.state.silver[9].name}</h1>
                     </div>
                 </div>
-                <h1 className="software-heading"><span>Software Sponsorships</span></h1>
+                <h1 className="software-heading"><span>Bronze Sponsorships</span></h1>
                 <div className="software">
                     <div className="sponsor">
                         <img className="logo" src={this.state.software[0].img} />

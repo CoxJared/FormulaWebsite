@@ -58,9 +58,9 @@
 }
 
 .draw-line {
-    height:1px;
+    height:2px;
     width:70%;
-    background-color:#bbb;
+    background-color:#ccc;
     margin:auto;
 }
 
@@ -80,10 +80,10 @@
 }
 
 .typewrite {
-    color: rgb(255, 215, 36);
+    color: rgb(253, 224, 60);
     text-decoration: none;
     font-size: 4vw;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 @media (max-width: 640px) {
     .typewriter-container { 

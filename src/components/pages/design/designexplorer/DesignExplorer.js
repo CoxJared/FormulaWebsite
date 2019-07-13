@@ -29,9 +29,9 @@ import hvTab1 from './../../../../img/design-showcase/tractivesystem/invertor.jp
 import hvTab2 from './../../../../img/design-showcase/tractivesystem/motor-exploded.png';
 import hvTab3 from './../../../../img/design-showcase/tractivesystem/fans.jpg';
 
-import suspTab1 from './../../../../img/design-showcase/suspension/sus 2.png';
-import suspTab2 from './../../../../img/design-showcase/suspension/suspension-testing-wiki.png';
-import suspTab3 from './../../../../img/design-showcase/suspension/front-view.jpg';
+import vehicledynamicsTab1 from './../../../../img/design-showcase/suspension/sus 2.png';
+import vehicledynamicsTab2 from './../../../../img/design-showcase/suspension/suspension-testing-wiki.png';
+import vehicledynamicsTab3 from './../../../../img/design-showcase/suspension/front-view.jpg';
 
 import controlTab1 from './../../../../img/design-showcase/controls/can-bus-wiki.png';
 import controlTab2 from './../../../../img/design-showcase/controls/dash-zoom.jpg';
@@ -69,11 +69,11 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
         },
          suspension: {
             render: suspRender,
-            tab1: suspTab1,
+            tab1: vehicledynamicsTab1,
             tab1Name: "Simulation",
-            tab2: suspTab2,
+            tab2: vehicledynamicsTab2,
             tab2Name: "Testing",
-            tab3: suspTab3,
+            tab3: vehicledynamicsTab3,
             tab3Name: "Mounted"
         },
          tractive: {
@@ -105,8 +105,6 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
         }     
      }
 
-
-
     render() {
         if(!this.props.entered)
         {
@@ -115,10 +113,17 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
                 
                     <div classname="welcome-flex-column">           
                         <div className="image-container-welcome">         
-                            <img src={this.state[this.props.type].render} className="image-show" />
+                            <img 
+                            src={this.state[this.props.type].render} 
+                            className="image-show" 
+                            alt=""/>
                         </div>
                         <div className="welcome-button-container">
-                            <button className="welcome-button" onClick={this.props.enter}>Explore</button>
+                            <button 
+                            className="welcome-button" 
+                            onClick={this.props.enter}>
+                                Explore
+                            </button>
                         </div>
                     </div>
                     <div className="background-slider"> </div>
@@ -130,10 +135,10 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
             return (
                 <div className="design-explorer"> 
                     <div className="image-container">     
-                        <img src={this.state[this.props.type].render} className="image-show" />
+                        <img src={this.state[this.props.type].render} className="image-show" alt=""/>
                         <div className="tabs">
                             <div className="tab">
-                                <img src={this.state[this.props.type].tab1} className="image-tab" />
+                                <img src={this.state[this.props.type].tab1} className="image-tab" alt=""/>
                                 <div className="tab-text">
                                 <h1 className="tab-heading">{this.state[this.props.type].tab1Name}</h1>
                                 </div>
@@ -142,7 +147,7 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
                                 <div className="gif-tab"></div>                  
                             </div>
                             <div className="tab">
-                                <img src={this.state[this.props.type].tab3} className="image-tab" />  
+                                <img src={this.state[this.props.type].tab3} className="image-tab" alt=""/>  
                                 <div className="tab-text">
                                 <h1 className="tab-heading">{this.state[this.props.type].tab3Name}</h1>
                                 </div>

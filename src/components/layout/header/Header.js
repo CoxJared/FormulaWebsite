@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import logoImage from './../../../img/MFElogo.png';
-import './Header.css';
+import './Header.scss';
 
 class Header extends Component{
     render() {
         return (
             <div className="header-container">
                 <div className="header">
-
                     <div className="logo">
                     <Link className="logo-image" to="/">
                         <img src={logoImage} className="logo-image" alt=""></img> 
@@ -38,6 +37,7 @@ class Header extends Component{
                         </li>
                     </ul>
                 </div>
+                <div className="top-buffer"></div>
             </div>
         );
     }

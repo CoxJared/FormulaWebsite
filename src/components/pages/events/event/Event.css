@@ -4,14 +4,11 @@
     height:20vw;
     display: flex;
     margin:auto;
-    border: 2px grey solid;
-    filter: grayscale(90%);
+    filter: grayscale(65%);
     margin-bottom: 7vw;
 }
 
-
 .event-container:hover {
-    margin-left:14%;
     filter: grayscale(5%);
     transition: all .3s ease;
 }
@@ -24,6 +21,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sae-night {
     background-image: url("./../../../../img/events-backgrounds/sae-night-background.jpg");
 }
