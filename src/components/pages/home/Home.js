@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import Header from '../../layout/header/Header';
 import MainShowcase from './mainshowcase/MainShowcase';
 import AboutUs from './aboutus/AboutUs';
-import WhyElectric from './whyelectric/WhyElectric';
 import Footer from './../../layout/footer/Footer';
+import ExtraSection from './extrasection/ExtraSection';
 
 
 class Home extends Component {
@@ -17,6 +17,7 @@ class Home extends Component {
                 <Header />
                 <MainShowcase />
                  <AboutUs />
+                 <ExtraSection />
                 <Footer />
             </div>
         );

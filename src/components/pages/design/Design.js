@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../layout/header/Header';
 import Footer from '../../layout/footer/Footer';
-import DesignWelcome from './designwelcome/DesignWelcome';
 
 import DesignExplorer from './designexplorer/DesignExplorer';
 import General from './designtext/general/General';
