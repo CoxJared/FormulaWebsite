@@ -1,0 +1,52 @@
+.form-container {
+    border: 1px solid rgb(139, 139, 139);
+    position: relative;
+    height: 50vw;
+    margin-bottom: 90px;
+    width:50%;
+    margin: 3vw auto 10vw auto;
+}
+
+.name-header, .email-header, .message-header {
+    font-size: 2vw;
+    padding-top: 3vw;
+    padding-bottom:1vw;
+} 
+
+.__name-input {
+    border: 1px solid #bbb;
+    color: #000;
+    outline: 0;
+    font-size: 1.1em;
+    min-width: 200px;
+    border-radius:4px;
+    background-size: 16px 16px;
+    padding-left: 5px;
+}
+.__email-input {
+    border: 1px solid #bbb;
+    color: #000;
+    outline: 0;
+    font-size: 1.1em;
+    min-width: 200px;
+    border-radius:4px;
+    background: url('./../../../../img/email-icon.png') no-repeat 10px 2px;
+    background-size: 16px 16px;
+    padding-left: 32px;
+}
+.__message-input {
+    border: 1px solid #bbb;
+    color: #000;
+    outline: 0;
+    font-size: 1.1em;
+    min-width: 200px;
+    border-radius:4px;
+    background-size: 16px 16px;
+    padding-left: 5px;
+}
+
+.dot {
+    width:1vw;
+    height:1vw;
+    background-color:red;
+}

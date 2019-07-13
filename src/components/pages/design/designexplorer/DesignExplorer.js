@@ -17,7 +17,7 @@ import aeroTab1 from './../../../../img/design-showcase/aerodynamics/aeroflow.pn
 import aeroTab2 from './../../../../img/design-showcase/aerodynamics/rear-wing.png';
 import aeroTab3 from './../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
 
-import chassisTab1 from './../../../../img/design-showcase/chassis/chassis-layup.png';
+import chassisTab1 from './../../../../img/design-showcase/chassis/chassis-analysis.png';
 import chassisTab2 from './../../../../img/design-showcase/chassis/faro3.png';
 import chassisTab3 from './../../../../img/design-showcase/chassis/wrapping.jpg';
 
@@ -61,7 +61,7 @@ import controlTab3 from './../../../../img/design-showcase/controls/controls-whe
          chassis: {
             render: chassisRender,
             tab1: chassisTab1,
-            tab1Name: "Optimized Carbon Layup",
+            tab1Name: "Structural Analysis",
             tab2: chassisTab2,
             tab2Name: "Faro Arm",
             tab3: chassisTab3,

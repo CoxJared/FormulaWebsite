@@ -4,7 +4,7 @@
 
 .sponsor-contanainer {
     position: relative;
-    padding:10vw 0;
+    padding: 0;
     padding-bottom: 0vw;
 }
 @media only screen and (max-width: 800px) {
@@ -16,9 +16,9 @@
     margin:auto;
     margin-bottom: 3vw;
     font-size: 2.5vw;
-    padding: 1vw 0 0 0;
+    padding: 1vw 0 1vw 0;
     color:#222;
-    border-bottom: .3vw solid rgb(244, 113, 113);
+    border-bottom: .3vw solid rgb(194, 2, 2);
 }
 
 .platinum, .gold, .silver, .software {
@@ -33,7 +33,7 @@
     width:10vw;
     height:10vw;
     padding:.1vw;
-    margin:.2vw;
+    margin:.4vw;
 }
 /* .gold .sponsor {
     width: 12vw;
@@ -65,13 +65,14 @@
 }
 
 .sponsor {
-    filter: grayscale(90%);
+    filter: grayscale(20%);
 }
 
 .sponsor:hover {
     transition: all .5s ease;
     filter: grayscale(0%);
     border-radius: 20px;
+    padding:0;
 }
 .sponsor:hover h1 {
     opacity: 1;
@@ -95,9 +96,9 @@ h1 {
 } */
 
 .platinum-heading, .gold-heading , .silver-heading, .software-heading{
-    padding-top:0vw;
-    padding-bottom: 2vw;
-    font-size: 2vw;
+    padding-top:1.8vw;
+    padding-bottom: 1vw;
+    font-size: 2.3vw;
     color: #222;
 }
 
@@ -108,25 +109,25 @@ h1 {
 .platinum-heading span{
     border-right: .4vw #559696 solid;
     border-left: .4vw #559696 solid;
-    padding: 0 1vw;
+    padding: .1vw 1vw;
     border-radius: 1vw;
 }
 .gold-heading span{
     border-right: .4vw #dfce3d solid;
     border-left: .4vw #dfce3d solid;
-    padding: 0 1vw;
+    padding: .1vw 1vw;
     border-radius: 1vw;
 }
 .silver-heading span{
     border-right: .4vw #8a8a8a solid;
     border-left: .4vw #8a8a8a solid;
-    padding: 0 1vw;
+    padding: .1vw 1vw;
     border-radius: 1vw;
 }
 .software-heading span{
     border-right: .4vw #7b2cfa solid;
     border-left: .4vw #7b2cfa solid;
-    padding: 0 1vw;
+    padding: .1vw 1vw;
     border-radius: 1vw;
 }
 

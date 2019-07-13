@@ -1,9 +1,15 @@
 .sponsor-container {
-    width:100%;
+    width:95%;
     position:relative;
     padding:0 3vw;
     padding-bottom: 0vw;
     height: 100%;
+    padding-top:90px;
+}
+@media only screen and (max-width: 800px) {
+    .sponsor-container{
+        padding-top: 70px;
+    }
 }
 .explorer{
     width: 65%;

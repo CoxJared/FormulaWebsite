@@ -1,0 +1,14 @@
+.contact-header-container{
+    position: relative;
+    top:90px;
+    padding:4vw;
+    padding-bottom: 10vw;
+    
+}
+
+.contact-header {
+    font-size: 5vw;
+    width: 36%;
+    margin:auto;
+    border-bottom: .2vw rgb(219, 22, 22) solid;
+}
