@@ -6,6 +6,8 @@ import jaredshot from './../../../../../../../img/headshots/me.jpg';
 import blaireshot from './../../../../../../../img/headshots/blaire.png';
 import dylanshot from './../../../../../../../img/headshots/dylan.png';
 import harjotshot from './../../../../../../../img/headshots/harjot.png';
+import rileyshot from './../../../../../../../img/headshots/riley.jpg';
+import andrewshot from './../../../../../../../img/headshots/andrew.png';
 
 
 export class LeadershipMembers2019 extends Component {
@@ -13,7 +15,7 @@ export class LeadershipMembers2019 extends Component {
         members: [
             {
                 id: 1,
-                name: 'Jessie Boudreau',
+                name: 'Riley Dunn',
                 title: 'Team Captain'
             },
             {
@@ -23,8 +25,8 @@ export class LeadershipMembers2019 extends Component {
             },
             {
                 id: 3,
-                name: 'Jared Cox',
-                title: 'Mechanical Captain'
+                name: 'Jessie Boudreau',
+                title: 'Electrical Captain'
             },
             {
                 id: 4,
@@ -33,7 +35,7 @@ export class LeadershipMembers2019 extends Component {
             },
             {
                 id: 5,
-                name: 'Dylan Boudreau',
+                name: 'Andrew Aslanidis',
                 title: 'Mechanical Captain'
             },
             {
@@ -51,7 +53,7 @@ export class LeadershipMembers2019 extends Component {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                 <div className="member-container">
                     <div className="member">
-                        <img className="headshot"src={jessieshot} alt={this.state.members[0].id} /> 
+                        <img className="headshot"src={rileyshot} alt={this.state.members[0].id} /> 
                         <h1 className="name">{this.state.members[0].name}</h1>
                         <h2 className="title">{this.state.members[0].title}</h2>
                         <div className="links-container">
@@ -77,7 +79,7 @@ export class LeadershipMembers2019 extends Component {
                 </div>
                 <div className="member-container">
                     <div className="member">
-                        <img className="headshot"src={jaredshot} alt={this.state.members[2].id} /> 
+                        <img className="headshot"src={jessieshot} alt={this.state.members[2].id} /> 
                         <h1 className="name">{this.state.members[2].name}</h1>
                         <h2 className="title">{this.state.members[2].title}</h2>
                         <div className="links-container">
@@ -105,7 +107,7 @@ export class LeadershipMembers2019 extends Component {
                 </div>
                 <div className="member-container">
                     <div className="member">
-                        <img className="headshot"src={dylanshot} alt={this.state.members[4].id} /> 
+                        <img className="headshot"src={andrewshot} alt={this.state.members[4].id} /> 
                         <h1 className="name">{this.state.members[4].name}</h1>
                         <h2 className="title">{this.state.members[4].title}</h2>
                         <div className="links-container">

@@ -1,16 +1,15 @@
-.media-container{
+.news-container{
     width:80%;
     height: 35vw;
     margin:auto;
     margin-bottom: 4vw;
 }
 
-.media-title-container{
+.news-title-container{
     height: 5vw;
     width:100%;
-
 }
-.media-title{
+.news-title{
     float:left;
     padding: .8vw 2vw 0vw 1vw;
     font-size:3vw;
@@ -20,45 +19,42 @@
 }
 
 
-.media-events{
+.news-events{
     width:100%;
     height:30vw;
-    overflow: hidden;
 }
 
-.media-event{
+.news-event{
     width:33%;
     height:100%;
-    padding:.5vw .6vw;
-    float: left;
+    padding:.5vw .6vw;;
 }
 
-
-.media-event-image-1{
+.news-event-image{
     width:100%;
     height:18vw;
-    background: url('./../../../../img/events-backgrounds/inhouse-solutions.png');
+    background: url('./../../../../img/events-backgrounds/sae-night-background.jpg');
     background-size: cover;
 }
 
-.media-event-date {
+.news-event-date {
     width:100%;
     height:2vw;
 }
 
-.media-event-date-header{
+.news-event-date-header{
     font-size: 1.3vw;
     float:left;
     padding-left: 1vw;
     color:rgb(97, 97, 97);
 }
 
-.media-event-description-container {
+.news-event-description-container {
     width:100%;
     height:7vw;
 }
 
-.media-event-description {
+.news-event-description {
     float:left;
     padding-top: 1vw;
     font-size: 2vw;

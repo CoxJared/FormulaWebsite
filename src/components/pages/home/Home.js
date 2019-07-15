@@ -3,8 +3,8 @@ import Header from '../../layout/header/Header';
 import MainShowcase from './mainshowcase/MainShowcase';
 import AboutUs from './aboutus/AboutUs';
 import Footer from './../../layout/footer/Footer';
-import ExtraSection from './extrasection/ExtraSection';
-
+import News from './news/news';
+import Media from './media/Media';
 
 class Home extends Component {
     componentDidMount() {
@@ -17,7 +17,8 @@ class Home extends Component {
                 <Header />
                 <MainShowcase />
                  <AboutUs />
-                 <ExtraSection />
+                 <News />
+                 <Media />
                 <Footer />
             </div>
         );
