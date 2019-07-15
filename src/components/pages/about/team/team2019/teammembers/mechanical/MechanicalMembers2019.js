@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import './TeamMembers.scss';
-import jessieshot from './../../../../img/headshots/jessie.png';
-import scottshot from './../../../../img/headshots/scott.png';
-import jaredshot from './../../../../img/headshots/me.jpg';
-import blaireshot from './../../../../img/headshots/blaire.png';
-import dylanshot from './../../../../img/headshots/dylan.png';
-import harjotshot from './../../../../img/headshots/harjot.png';
+import './../TeamMembers.scss';
+import jessieshot from './../../../../../../../img/headshots/jessie.png';
+import scottshot from './../../../../../../../img/headshots/scott.png';
+import jaredshot from './../../../../../../../img/headshots/me.jpg';
+import blaireshot from './../../../../../../../img/headshots/blaire.png';
+import dylanshot from './../../../../../../../img/headshots/dylan.png';
+import harjotshot from './../../../../../../../img/headshots/harjot.png';
 
-
-export class TeamMembers extends Component {
+export class MechanicalMembers2019 extends Component {
     state = {
         members: [
             {
@@ -117,23 +116,10 @@ export class TeamMembers extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="member-container">
-                    <div className="member">
-                        <img className="headshot"src={harjotshot} alt={this.state.members[5].id} /> 
-                        <h1 className="name">{this.state.members[5].name}</h1>
-                        <h2 className="title">{this.state.members[5].title}</h2>
-                        <div className="links-container">
-                            <ul className="links-list">
-                            <li className="linkedin"><a href="#" class="fa fa-linkedin"></a></li> 
-                                <li className="github"><a href="#" class="fa fa-github"></a></li> 
-                                <li className="twitter"><a href="#" class="fa fa-twitter"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         )
     }
 }
 
-export default TeamMembers
+export default MechanicalMembers2019

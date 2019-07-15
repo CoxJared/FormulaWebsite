@@ -21,10 +21,7 @@ class Header extends Component{
                     </div></div>
                     <ul className="nav-bar">               
                         <li className="nav-bar-item">
-                            <Link to="/design">Design</Link>
-                        </li> 
-                        <li className="nav-bar-item">
-                            <Link to="/team">Team</Link>
+                            <Link to="/about">About</Link>
                         </li> 
                         <li className="nav-bar-item">
                             <Link to="/sponsors">Sponsors</Link>

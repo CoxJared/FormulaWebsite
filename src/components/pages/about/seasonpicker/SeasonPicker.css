@@ -1,0 +1,65 @@
+.season-picker-container {
+    height: 6vw;
+    width:100%;
+    background-color:#111;
+}
+.season-picker {
+    display:flex;
+    height: 100%;
+    width:20vw;
+    margin: auto;
+    /* background-color:red; */
+}
+.season-container {
+    height: 100%;
+    width:10vw;
+    padding-top:.4vw;
+}
+.year-container {
+    height:2.2vw;
+    /* border:1px solid green; */
+}
+.year-header {
+    font-size:1.5vw;
+    color:rgb(245, 40, 40);
+    opacity:.3;
+}
+.timeline-container {
+    position:relative;
+    width:100%;
+    height:3vw;
+    /* border-color: blue;
+    background-color:blue; */
+}
+.timeline-line {
+    position: relative;
+    top:1.5vw;
+    width:100%;
+    height:.3vw;
+    background-color:rgb(82, 82, 82);
+}
+.time-dot{
+    background-color: rgb(117, 117, 117);
+    border-radius: 50%;
+    width:1.2vw;
+    height:1.2vw;
+    position: relative;
+    top:-.5vw;
+    margin: auto;
+}
+ .unselected-season:hover .year-header {
+    font-size:1.8vw;
+    opacity:1;
+}
+.unselected-season:hover .time-dot {
+    background-color: rgb(173, 173, 173);
+}
+
+.selected-season .year-header{
+    font-size:2.3vw;
+    color:rgb(250, 25, 25);
+    opacity:1;
+}
+.selected-season .time-dot{
+    background-color: rgb(221, 218, 218);
+}

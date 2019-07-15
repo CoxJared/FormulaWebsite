@@ -5,7 +5,7 @@ export class TeamTitle extends Component {
     render() {
         return (
             <div className="team-title-container">
-                <h1 className="title-heading">Our <span className="title-span">Team</span></h1>
+                <h1 className="title-heading">Overview <span className="title-span">Team</span> Design</h1>
             </div>
         )
     }

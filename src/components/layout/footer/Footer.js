@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import SponsorBanner from './sponsorbanner/SponsorBanner';
 
 
 
@@ -7,6 +8,7 @@ export class foot extends Component {
     render() {
         return (
             <div className="footer-container">
+                <SponsorBanner />
                 <div className="footer">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                     <div className="name">

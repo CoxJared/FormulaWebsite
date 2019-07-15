@@ -2,11 +2,12 @@
     transition: .5s ease;
 }
 
-.design-explorer {
+.design-explorer-container {
     width:98%;
     background-color: 333;
     border: 10px #fff solid;
     background-color: #fff;
+
 }
 
 .image-container {
@@ -113,12 +114,12 @@
     width:100%;
     height:100%;
     background-color:#fff;
-    background-image: url("./../../../../img/design-showcase/general/screenshot.png");
+    background-image: url("./../../../../../../img/design-showcase/general/screenshot.png");
     background-size: contain;
     filter:grayscale(80%);
 }
 .gif-tab:hover {
-    background-image: url("./../../../../img/design-showcase/general/movie.gif");
+    background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
     background-repeat: none;
     background-size: cover;
     filter:grayscale(0%);

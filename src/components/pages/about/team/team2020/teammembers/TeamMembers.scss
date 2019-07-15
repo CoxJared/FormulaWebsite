@@ -1,0 +1,65 @@
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw 4vw 1vw 4vw;
+    background-color: #eee;
+}
+
+.member-container {
+    width: 33%;
+    padding:2vw;
+    height: 37vw;
+    display: flex;
+}
+
+.member-container:hover .headshot{
+    filter: grayscale(0%);
+    border:rgb(196, 76, 76) 5px solid;
+    transition: all .2s ease;
+}
+
+.headshot {
+    object-fit: cover;
+    
+    height:70%;
+    width:80%;
+    border-radius: 50%;
+    filter: grayscale(70%);
+}
+
+.name {
+    padding:.1vw 0;
+    margin: 1vw auto 0 auto;
+    font-size: 3vw;
+    color: #000;
+}
+
+.title {
+    padding-bottom:.5vw;
+    font-size: 2vw;
+    color: #555;
+}
+
+.links-list li{
+    list-style-type: none;
+    display: inline;
+    padding: 1.5vw;
+    font-size: 2.5vw;
+    opacity:0;
+
+}
+.links-list a {
+    color: #666;
+}
+.links-list .linkedin a:hover {
+    color: rgb(27, 103, 226);
+}
+.links-list .github a:hover {
+    color: rgb(168, 48, 223);
+}
+.links-list .twitter a:hover {
+    color: rgb(48, 173, 223);
+}
+.member-container:hover .links-list li {
+    opacity: 1;
+}

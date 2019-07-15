@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from '../../layout/header/Header';
-import Footer from '../../layout/footer/Footer';
+import Header from '../../../../layout/header/Header';
+import Footer from '../../../../layout/footer/Footer';
 
 import DesignExplorer from './designexplorer/DesignExplorer';
 import General from './designtext/general/General';
@@ -13,7 +13,7 @@ import TractiveSystem from './designtext/tractivesystem/TractiveSystem';
 import Controls from './designtext/controls/Controls';
 
 
-export class Design extends Component {
+export class Design2019 extends Component {
     state = {
         entered: false,
         subteam: "general",
@@ -45,23 +45,19 @@ export class Design extends Component {
         {
             return (
                 <div>
-                    <Header />
                     <DesignExplorer entered={this.state.entered} enter={this.enter} type={this.state.subteam} />
-                    <Footer />
                 </div>
             )
         }
         return (
             <div>
-                <Header />
                 <DesignExplorer entered={this.state.entered} type={this.state.subteam}/>
                 <SubteamExplorer updateState = {this.updateState}/>
                 {this.state.textblock[this.state.subteam]}
-                <Footer />
             </div>
         )
     }
     
 }
 
-export default Design;
+export default Design2019;
