@@ -43,7 +43,7 @@ export class SponsorExplorer extends Component {
             {
                 id: 1,
                 name: 'McMaster Engineering',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.eng.mcmaster.ca/',
                 img: McmasterengineeringLogo
             },
         ],
@@ -51,73 +51,73 @@ export class SponsorExplorer extends Component {
             {
                 id: 0,
                 name: 'Altium',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.altium.com/',
                 img: AltiumLogo
             },
             {
                 id: 1,
                 name: 'AMK',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://amk-group.com/en/content/formula_student_electric',
                 img: AmkLogo
             },
             {
                 id: 2,
                 name: 'Dspace',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://duraspace.org/dspace/',
                 img: DspaceLogo
             },
             {
                 id: 3,
                 name: 'Fastenal',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.fastenal.com/',
                 img: FastenalLogo
             },
             {
                 id: 4,
                 name: 'General Sealants',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'http://www.generalsealants.com/',
                 img: GeneralsealantsLogo
             },
             {
                 id: 5,
                 name: 'Linamar',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.linamar.com/',
                 img: LinimarLogo
             },
             {
                 id: 6,
                 name: 'Mathworks',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.mathworks.com/',
                 img: MathworksLogo
             },
             {
                 id: 7,
                 name: 'Mclaren Engineering',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.mgmclaren.com/',
                 img: MclarenengineeringLogo
             },
             {
                 id: 8,
                 name: 'MES',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'http://www.macengsociety.ca/',
                 img: MesLogo
             },
             {
                 id: 9,
                 name: 'MSC Software',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.mscsoftware.com/',
                 img: MscSoftwareLogo
             },
             {
                 id: 10,
-                name: 'TE',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                name: 'TE Connectivty',
+                websiteLink: 'https://www.te.com/usa-en/home.html',
                 img: TeLogo
             },
             {
                 id: 11,
                 name: 'Faro',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.faro.com/',
                 img: FaroLogo
             },
         ],
@@ -125,61 +125,61 @@ export class SponsorExplorer extends Component {
             {
                 id: 0,
                 name: 'Bender',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.bender-ca.com/',
                 img: BenderLogo
             },
             {
                 id: 1,
                 name: 'Cartesian',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.cartesian.com/',
                 img: CartesianLogo
             },
             {
                 id: 2,
                 name: 'CpaOntario',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.cpaontario.ca/',
                 img: CpaontarioLogo
             },
             {
                 id: 3,
                 name: 'Diab',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.diabgroup.com/',
                 img: DiabLogo
             },
             {
                 id: 4,
                 name: 'EnLITen Energy Services',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.enliten.ca/',
                 img: EnlitenenergyServicesLogo
             },
             {
                 id: 5,
                 name: 'FMS',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.fmsinc.com/',
                 img: Fmslogo
             },
             {
                 id: 6,
                 name: 'OCTOPUZ inc.',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://octopuz.com/',
                 img: OctopuzLogo
             },
             {
                 id: 7,
                 name: 'Samuel',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.samuel.com/',
                 img: SamuelLogo
             },   
             {
                 id: 8,
                 name: 'Textreme',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'http://www.textreme.com/',
                 img: TextremLogo
             },  
             {
                 id: 9,
                 name: 'Hoosier',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.hoosiertire.com/',
                 img: HoosierLogo
             },   
         ],
@@ -187,19 +187,19 @@ export class SponsorExplorer extends Component {
             {
                 id: 0,
                 name: 'Solidworks',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.solidworks.com/',
                 img: SolidworksLogo
             },
             {
                 id: 1,
                 name: 'ViGrade',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://www.vi-grade.com/',
                 img: ViGradeLogo
             },
             {
                 id: 2,
                 name: 'Oshpark',
-                websiteLink: 'https://www.gm.ca/en/home.html',
+                websiteLink: 'https://oshpark.com/',
                 img: OshparkLogo
             },
         ]
@@ -209,127 +209,127 @@ export class SponsorExplorer extends Component {
         return (    
             <div className="sponsor-contanainer">
                 <h1 className="explorer-header">Our Sponsors</h1>
-                <h1 className="platinum-heading"><span>Platinum Sponsorships</span></h1>
+                <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
-                    <div className="sponsor">
+                    <a className="sponsor" href={this.state.platinum[0].websiteLink}>
                         <img className="logo" src={this.state.platinum[0].img} />
                         <h1>{this.state.platinum[0].name}</h1>
-                    </div>            
-                    <div className="sponsor">
+                    </a>            
+                    <a className="sponsor" href={this.state.platinum[1].websiteLink}>
                         <img className="logo" src={this.state.platinum[1].img} />
                         <h1>{this.state.platinum[1].name}</h1>
-                    </div>
+                    </a>
                 </div>
-                <h1 className="gold-heading"><span>Gold Sponsorships</span></h1>
+                <h1 className="gold-heading"><span>Gold Sponsors</span></h1>
                 <div className="gold">
-                    <div className="sponsor">
+                    <a className="sponsor" href={this.state.gold[0].websiteLink}>
                         <img className="logo" src={this.state.gold[0].img} />
                         <h1>{this.state.gold[0].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[1].websiteLink}>
                     <img className="logo" src={this.state.gold[1].img} />
                         <h1>{this.state.gold[1].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[2].websiteLink}>
                     <img className="logo" src={this.state.gold[2].img} />
                         <h1>{this.state.gold[2].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[3].websiteLink}>
                     <img className="logo" src={this.state.gold[3].img} />
                         <h1>{this.state.gold[3].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[4].websiteLink}>
                     <img className="logo" src={this.state.gold[4].img} />
                         <h1>{this.state.gold[4].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[5].websiteLink}>
                     <img className="logo" src={this.state.gold[5].img} />
                         <h1>{this.state.gold[5].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[6].websiteLink}>
                     <img className="logo" src={this.state.gold[6].img} />
                         <h1>{this.state.gold[6].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[7].websiteLink}>
                     <img className="logo" src={this.state.gold[7].img} />
                         <h1>{this.state.gold[7].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[8].websiteLink}>
                     <img className="logo" src={this.state.gold[8].img} />
                         <h1>{this.state.gold[8].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[9].websiteLink}>
                     <img className="logo" src={this.state.gold[9].img} />
                         <h1>{this.state.gold[9].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[10].websiteLink}>
                     <img className="logo" src={this.state.gold[10].img} />
                         <h1>{this.state.gold[10].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.gold[11].websiteLink}>
                     <img className="logo" src={this.state.gold[11].img} />
                         <h1>{this.state.gold[11].name}</h1>
-                    </div>
+                    </a>
 
                 </div>
                 
-                <h1 className="silver-heading"><span>Silver Sponsorships</span></h1>
+                <h1 className="silver-heading"><span>Silver Sponsors</span></h1>
                 <div className="silver">
-                    <div className="sponsor">
+                    <a className="sponsor" href={this.state.silver[0].websiteLink}>
                         <img className="logo" src={this.state.silver[0].img} />
                         <h1>{this.state.silver[0].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[1].websiteLink}>
                     <img className="logo" src={this.state.silver[1].img} />
                         <h1>{this.state.silver[1].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[2].websiteLink}>
                     <img className="logo" src={this.state.silver[2].img} />
                         <h1>{this.state.silver[2].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[3].websiteLink}>
                     <img className="logo" src={this.state.silver[3].img} />
                         <h1>{this.state.silver[3].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[4].websiteLink}>
                     <img className="logo" src={this.state.silver[4].img} />
                         <h1>{this.state.silver[4].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[5].websiteLink}>
                     <img className="logo" src={this.state.silver[5].img} />
                         <h1>{this.state.silver[5].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[6].websiteLink}>
                     <img className="logo" src={this.state.silver[6].img} />
                         <h1>{this.state.silver[6].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[7].websiteLink}>
                     <img className="logo" src={this.state.silver[7].img} />
                         <h1>{this.state.silver[7].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[8].websiteLink}>
                     <img className="logo" src={this.state.silver[8].img} />
                         <h1>{this.state.silver[8].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.silver[9].websiteLink}>
                     <img className="logo" src={this.state.silver[9].img}/>
                         <h1>{this.state.silver[9].name}</h1>
-                    </div>
+                    </a>
                 </div>
-                <h1 className="software-heading"><span>Bronze Sponsorships</span></h1>
+                <h1 className="software-heading"><span>Bronze Sponsors</span></h1>
                 <div className="software">
-                    <div className="sponsor">
+                    <a className="sponsor" href={this.state.software[0].websiteLink}>
                         <img className="logo" src={this.state.software[0].img} />
                         <h1>{this.state.software[0].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.software[1].websiteLink}>
                         <img className="logo" src={this.state.software[1].img} />
                         <h1>{this.state.software[1].name}</h1>
-                    </div>
-                    <div className="sponsor">
+                    </a>
+                    <a className="sponsor" href={this.state.software[2].websiteLink}>
                         <img className="logo" src={this.state.software[2].img} />
                         <h1>{this.state.software[2].name}</h1>
-                    </div>
+                    </a>
                 </div>
             </div>
                 

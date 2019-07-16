@@ -3,6 +3,8 @@ import Header from './../../layout/header/Header';
 import Footer from './../../layout/footer/Footer';
 import Email from './email/email';
 import ContactTitle from './contacttitle/ContactTitle';
+import Map from './map/Map';
+import { genericTypeAnnotation } from '@babel/types';
 
 
 
@@ -28,8 +30,11 @@ export class Contact extends Component {
         this.setState({message: event.target.value})
     }
     render() {
+        var style = {
+            backgroundColor:'rgb(247, 247, 247)'
+          };
         return (
-            <div>
+            <div style={style}>
                 <Header page="contact"/> 
                 <ContactTitle />
                 <Email 
@@ -40,6 +45,7 @@ export class Contact extends Component {
                 handleEmailChange={this.handleChange}
                 handleMessageChange={this.handleChange}
                 />
+                <Map />
                 <Footer />
             </div>
         )

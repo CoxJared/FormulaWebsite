@@ -1,28 +1,70 @@
 
 .form-full{
-    width:100%;
-    height:68vw;
-    padding-top:3vw;
-    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6) ),url('./../../../../img/hatch-center.jpg');
+    min-width:50%;
+    height:850px;
+    display: inline-block;
+    /* border: 2px solid green; */
+    /* background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6) ),url('./../../../../img/hatch-center.jpg');
 
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:fill; */
+
 }
 
 .form-container {
     position: relative;
-    height: 50vw;
-    width:50%;
-    margin: 3vw auto 10vw auto;
-    background-color: #bbb;
+    height: 600px;
+    width:700px;
+    margin: 10px auto 10vw auto;
+    /* background-color: #bbb; */
     opacity: 0.9;
+    /* border: 2px solid red; */
 }
 
 .name-header, .email-header, .message-header {
-    font-size: 2vw;
-    padding-top: 3vw;
-    padding-bottom:1vw;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom:20px;
+    /* border: 2px solid blue; */
+    text-align:left;
+    display:block;
+    width:100%;
+    margin-left:20px;
 } 
+.icon-1 {
+    margin:auto 5px;
+    display:inline-block;
+    width:22px;
+    height:22px;
+    position: relative;
+    bottom:-1px;
+    /* border:2px solid red; */
+    background: url('./../../../../img/email-fields/24b50e869f.svg');
+    background-size:contain;
+}
+.icon-2 {
+    margin:auto 5px;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    position: relative;
+    bottom:-1px;
+    /* border:2px solid red; */
+    background: url('./../../../../img/email-icon.png');
+    background-size:contain;
+    
+}
+.icon-3 {
+    margin:auto 5px;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    position: relative;
+    bottom:-5px;
+    /* border:2px solid red; */
+    background: url('./../../../../img/email-fields/message-174-141494.png');
+    background-size:contain;
+}
 
 .__name-input {
     border: 1px solid #bbb;
@@ -33,31 +75,60 @@
     border-radius:4px;
     background-size: 16px 16px;
     padding-left: 5px;
+    width:650px;
+    /* border: 2px solid red; */
+    float:left;
+    padding-left:10px;
+    margin-left:20px;
 }
 .__email-input {
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
     font-size: 1.1em;
+    width:650px;
     min-width: 200px;
     border-radius:4px;
-    background: url('./../../../../img/email-icon.png') no-repeat 10px 2px;
     background-size: 16px 16px;
-    padding-left: 32px;
+    padding-left:10px;
+    margin-left:20px;
+    float:left;
+    /* border: 2px solid red; */
 }
 .__message-input {
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
     font-size: 1.1em;
-    min-width: 200px;
+    min-width: 250px;
     border-radius:4px;
     background-size: 16px 16px;
-    padding-left: 5px;
+    padding-left:10px;
+    margin-left:20px;
+    float:left;
+    /* border: 2px solid red; */
+    width:650px;
+    height:150px;
+    padding-top:10px;
+    max-width:650px;
+    min-width:650px;
+    max-height:300px;
 }
 
-.dot {
-    width:1vw;
-    height:1vw;
-    background-color:red;
+.submit-button {
+width:130px;
+height:40px;
+float:left;
+font-size: 20px;
+margin-left:20px;
+margin-top:30px;
+border-radius: 10px;
+color:rgb(196, 3, 3);
+font-weight: normal;
+}
+.submit-button:hover {
+    background-color:rgb(231, 231, 231);
+    color:rgb(255, 45, 45);
+    border-color: rgb(153, 153, 153);
+    box-shadow: 5px 5px 8px #999;
 }
