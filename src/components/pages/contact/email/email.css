@@ -1,13 +1,21 @@
 
+.form-full{
+    width:100%;
+    height:68vw;
+    padding-top:3vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6) ),url('./../../../../img/hatch-center.jpg');
+
+    background-repeat: no-repeat;
+    background-size:contain;
+}
 
 .form-container {
     position: relative;
     height: 50vw;
-    margin-bottom: 90px;
     width:50%;
     margin: 3vw auto 10vw auto;
     background-color: #bbb;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .name-header, .email-header, .message-header {
