@@ -5,7 +5,7 @@ export class Recruitment extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Header page="recruitment"/>
             </div>
         )
     }

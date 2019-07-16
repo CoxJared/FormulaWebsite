@@ -30,7 +30,7 @@ export class Contact extends Component {
     render() {
         return (
             <div>
-                <Header /> 
+                <Header page="contact"/> 
                 <ContactTitle />
                 <Email 
                 nameValue={this.state.name}

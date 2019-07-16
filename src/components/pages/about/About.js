@@ -46,7 +46,7 @@ export class About extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Header page="about"/>
                  <SectionPicker 
                  section={this.state.section}
                  updateSection={this.updateSection}

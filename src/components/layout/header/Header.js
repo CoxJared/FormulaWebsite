@@ -4,6 +4,15 @@ import logoImage from './../../../img/MFElogo.png';
 import './Header.scss';
 
 class Header extends Component{
+    pageIsSelected(currentPage, checkPage)
+    {
+        if(currentPage == checkPage)
+        {
+            return "selected-page"
+        }
+        return ""
+    }
+
     render() {
         return (
             <div className="header-container">
@@ -20,16 +29,16 @@ class Header extends Component{
                     <div className="hamburger"><div>
                     </div></div>
                     <ul className="nav-bar">               
-                        <li className="nav-bar-item">
-                            <Link to="/about">About</Link>
+                        <li className={`nav-bar-item ${this.pageIsSelected("about", this.props.page)}`}>
+                             <Link to="/about">About</Link>
                         </li> 
-                        <li className="nav-bar-item">
+                        <li className={`nav-bar-item ${this.pageIsSelected("sponsors", this.props.page)}`}>
                             <Link to="/sponsors">Sponsors</Link>
                         </li> 
-                        <li className="nav-bar-item">
+                        <li className={`nav-bar-item ${this.pageIsSelected("recruitment", this.props.page)}`}>
                             <Link to="/recruitment">Recruitment</Link>
                         </li>   
-                        <li className="nav-bar-item">
+                        <li className={`nav-bar-item ${this.pageIsSelected("contact", this.props.page)}`}>
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li className="nav-bar-item-donate-button">

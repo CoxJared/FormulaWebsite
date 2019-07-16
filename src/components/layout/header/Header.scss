@@ -78,6 +78,13 @@
     transition: all .5s ease;
     border: 1px #aaa solid; 
 }
+.selected-page a {
+    background-color: #Fefefe;
+    padding: 14px 23px;
+    color: #9A1414;
+    transition: all .5s ease;
+    border: 1px #aaa solid; 
+}
 
 .nav-bar-item a:active {
     background-color: rgb(250, 227, 227);
@@ -130,14 +137,14 @@ li.dropdown {
 .nav-bar-item-donate-button a {
     width:100px;
     color: rgb(255, 255, 255);
-    background-color: rgb(211, 0, 0);
+    background-color: rgb(228, 47, 47);
     padding: 12px 20px;
     border: 1px rgb(146, 146, 146) solid;
     border-radius: 30px;
     text-decoration: none; 
     font-weight: normal;
 }
-.nav-bar-item-donate-button:hover a {
+.nav-bar-item-donate-button:hover a{
     color: rgb(255, 255, 255);
     background-color: rgb(124, 0, 0);
     border: 1px #fff solid;

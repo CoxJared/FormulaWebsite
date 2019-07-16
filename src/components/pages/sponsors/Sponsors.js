@@ -11,7 +11,7 @@ export class Sponsors extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Header page="sponsors"/>
                 <SponsorsContainer />
                 <Footer />
             </div>
