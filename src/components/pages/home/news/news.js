@@ -10,7 +10,7 @@ export class news extends Component {
                 </div>
                 <div className="news-events">
                     <div className="news-event">
-                        <div className="news-event-image">
+                        <div className="news-event-image-1">
 
                         </div>
                         <div className="news-event-date">
@@ -19,6 +19,19 @@ export class news extends Component {
                         <div className="news-event-description-container">
                             <p className="news-event-description">
                                 2019 SAE STUDENT’S NIGHT
+                            </p>
+                        </div>
+                    </div>
+                    <div className="news-event">
+                        <div className="news-event-image-2">
+
+                        </div>
+                        <div className="news-event-date">
+                            <h1 className="news-event-date-header">May 31</h1>
+                        </div>
+                        <div className="news-event-description-container">
+                            <p className="news-event-description">
+                                FSAE - Formula North
                             </p>
                         </div>
                     </div>

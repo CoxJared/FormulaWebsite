@@ -32,12 +32,27 @@
     padding:.5vw .6vw;
     float: left;
 }
+.media-event:hover{
+    background-color: #eee;
+}
 
 
 .media-event-image-1{
     width:100%;
     height:18vw;
     background: url('./../../../../img/events-backgrounds/inhouse-solutions.png');
+    background-size: cover;
+}
+.media-event-image-2{
+    width:100%;
+    height:18vw;
+    background: url('./../../../../img/events-backgrounds/bcm-event.png');
+    background-size: cover;
+}
+.media-event-image-3{
+    width:100%;
+    height:18vw;
+    background: url('./../../../../img/events-backgrounds/macleans.png');
     background-size: cover;
 }
 
