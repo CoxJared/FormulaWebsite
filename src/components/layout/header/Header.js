@@ -27,10 +27,13 @@ class Header extends Component{
                             <Link to="/sponsors">Sponsors</Link>
                         </li> 
                         <li className="nav-bar-item">
-                            <Link to="/events">Events</Link>
+                            <Link to="/recruitment">Recruitment</Link>
                         </li>   
                         <li className="nav-bar-item">
                             <Link to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-bar-item-donate-button">
+                        `<Link to="/">Donate</Link>
                         </li>
                     </ul>
                 </div>

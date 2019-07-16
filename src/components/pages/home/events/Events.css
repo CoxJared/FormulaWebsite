@@ -1,16 +1,16 @@
-.media-container{
+.events-container{
     width:80%;
     height: 35vw;
     margin:auto;
     margin-bottom: 4vw;
 }
 
-.media-title-container{
+.events-title-container{
     height: 5vw;
     width:100%;
 
 }
-.media-title{
+.events-title{
     float:left;
     padding: .8vw 2vw 0vw 1vw;
     font-size:3vw;
@@ -19,61 +19,60 @@
     border-bottom: 1px solid red;
 }
 
-
-.media-events{
+.events-events{
     width:100%;
-    height:30vw;
-    overflow: hidden;
+    height:29vw;
 }
 
-.media-event{
+.events-event{
     width:33%;
     height:100%;
     padding:.5vw .6vw;
     float: left;
 }
-.media-event:hover{
+.events-event:hover{
     background-color: #eee;
+    box-shadow: 5px 0 10px  grey;
 }
 
 
-.media-event-image-1{
+.events-event-image-1{
     width:100%;
     height:18vw;
-    background: url('./../../../../img/events-backgrounds/inhouse-solutions.png');
+    background: url('./../../../../img/events-backgrounds/sae-night-background.jpg');
     background-size: cover;
 }
-.media-event-image-2{
+.events-event-image-2{
     width:100%;
     height:18vw;
-    background: url('./../../../../img/events-backgrounds/bcm-event.png');
+    background: url('./../../../../img/events-backgrounds/formula-north.jpeg');
     background-size: cover;
 }
-.media-event-image-3{
+.events-event-image-3{
     width:100%;
     height:18vw;
     background: url('./../../../../img/events-backgrounds/macleans.png');
     background-size: cover;
 }
 
-.media-event-date {
+.events-event-date {
     width:100%;
     height:2vw;
 }
 
-.media-event-date-header{
+.events-event-date-header{
     font-size: 1.3vw;
     float:left;
     padding-left: 1vw;
     color:rgb(97, 97, 97);
 }
 
-.media-event-description-container {
+.events-event-description-container {
     width:100%;
     height:7vw;
 }
 
-.media-event-description {
+.events-event-description {
     float:left;
     padding-top: 1vw;
     font-size: 2vw;

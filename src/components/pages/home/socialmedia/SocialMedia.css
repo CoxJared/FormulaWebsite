@@ -1,0 +1,72 @@
+.socialmedia-container{
+    width:80%;
+    height: 35vw;
+    margin:auto;
+    margin-bottom: 4vw;
+}
+
+.socialmedia-title-container{
+    height: 5vw;
+    width:100%;
+}
+.socialmedia-title{
+    float:left;
+    padding: .8vw 2vw 0vw 1vw;
+    font-size:3vw;
+    color: rgb(189, 2, 2);
+
+    border-bottom: 1px solid red;
+}
+
+
+.socialmedia-events{
+    width:100%;
+    height:30vw;
+}
+
+.socialmedia-event{
+    width:33%;
+    height:100%;
+    padding:.5vw .6vw;;
+    float:left;
+}
+.socialmedia-event:hover {
+    background-color: #eee;
+}
+
+.socialmedia-event-image-1{
+    width:100%;
+    height:18vw;
+    background: url('./../../../../img/events-backgrounds/sae-night-background.jpg');
+    background-size: cover;
+}
+.socialmedia-event-image-2{
+    width:100%;
+    height:18vw;
+    background: url('./../../../../img/events-backgrounds/formula-north.jpeg');
+    background-size: cover;
+}
+
+.socialmedia-event-date {
+    width:100%;
+    height:2vw;
+}
+
+.socialmedia-event-date-header{
+    font-size: 1.3vw;
+    float:left;
+    padding-left: 1vw;
+    color:rgb(97, 97, 97);
+}
+
+.socialmedia-event-description-container {
+    width:100%;
+    height:7vw;
+}
+
+.socialmedia-event-description {
+    float:left;
+    padding-top: 1vw;
+    font-size: 2vw;
+    text-align: left;
+}
