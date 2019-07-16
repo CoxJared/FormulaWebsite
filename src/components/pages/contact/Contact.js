@@ -4,7 +4,7 @@ import Footer from './../../layout/footer/Footer';
 import Email from './email/email';
 import ContactTitle from './contacttitle/ContactTitle';
 import Map from './map/Map';
-import { genericTypeAnnotation } from '@babel/types';
+import './Contact.css';
 
 
 
@@ -37,15 +37,17 @@ export class Contact extends Component {
             <div style={style}>
                 <Header page="contact"/> 
                 <ContactTitle />
-                <Email 
-                nameValue={this.state.name}
-                emailValue={this.state.email}
-                messageValue={this.state.message}
-                handleNameChange={this.handleChange}
-                handleEmailChange={this.handleChange}
-                handleMessageChange={this.handleChange}
-                />
-                <Map />
+                    <div className="contact-container">
+                    <Email 
+                    nameValue={this.state.name}
+                    emailValue={this.state.email}
+                    messageValue={this.state.message}
+                    handleNameChange={this.handleChange}
+                    handleEmailChange={this.handleChange}
+                    handleMessageChange={this.handleChange}
+                    />
+                    <Map />
+                </div>
                 <Footer />
             </div>
         )
