@@ -31,7 +31,10 @@
 }
 @media only screen and (max-width: 800px) {
     .top-buffer {
-        height: 80px;
+        height: 70px;
+    }
+    .tracker-backgound{
+        height:70px;
     }
 }
 
@@ -182,7 +185,7 @@ li.dropdown {
         font-size:0px;
     }
     .header {
-        height:70px;
+        height:60px;
     }
     .logo-image {
         height: 70px;
@@ -261,5 +264,21 @@ li.dropdown {
     .toggle:checked + .hamburger > div:after {
         top: 0;
         transform:rotate(90deg);
+    }
+
+    .nav-bar-item-donate-button a {
+        color: rgb(255, 255, 255);
+        background-color: rgb(253, 60, 60);
+        padding: 12px 20px;
+        border: 1px rgb(146, 146, 146) solid;
+        text-decoration: none; 
+        font-weight: normal;
+        position: relative;
+        bottom:20px;
+    }
+    .nav-bar-item-donate-button:hover a{
+        color: rgb(255, 255, 255);
+        background-color: rgb(124, 0, 0);
+
     }
 }

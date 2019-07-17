@@ -47,7 +47,7 @@ export class Media extends Component {
                     
 
                     <a href="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/">
-                    <div className="news-event">
+                    <div className="news-event hidden-full">
                         <div className="news-event-image-1">
                         <h1 className="hidden-view-article-header">Read Article</h1>
                         </div>

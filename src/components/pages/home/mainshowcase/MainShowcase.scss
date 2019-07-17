@@ -53,3 +53,47 @@
 }
 
 
+@media only screen and (max-width: 800px) {
+  .showcase-container { 
+    height: 300px;
+  }
+  .team-logo-container{
+    height: 90px;
+  }
+  .team-logo {
+    position: relative;
+    bottom:10px;
+    height:120%;
+    padding:auto auto 80px auto;
+  }
+  .draw-line {
+    height:1px;
+    width:60%;
+    background-color:#ccc;
+    margin:auto;
+  }
+  .team-name {
+    padding: 6px 0;
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .typewriter-container {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center
+  }
+  .solid-text {
+    padding-right:15px;
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+    font-weight:normal;
+  }
+  .typewrite {
+    color: rgb(247, 28, 28);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+  }
+}
+
