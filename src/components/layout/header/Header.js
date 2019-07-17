@@ -15,7 +15,9 @@ class Header extends Component{
 
     render() {
         return (
+            <div>
             <div className="header-container">
+            <div className="tracker-backgound">
                 <div className="header">
                     <div className="logo">
                     <Link className="logo-image" to="/">
@@ -46,7 +48,11 @@ class Header extends Component{
                         </li>
                     </ul>
                 </div>
-                <div className="top-buffer"></div>
+                
+
+                </div>
+            </div>
+            <div className="top-buffer"></div>
             </div>
         );
     }

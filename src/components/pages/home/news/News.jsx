@@ -5,6 +5,7 @@ import './News.scss';
 export class Media extends Component {
     render() {
         return (
+            <div className="width-restricter">
             <div className="news-container">
                 <div className="news-title-container">
                     <h1 className="news-title">News</h1>
@@ -61,6 +62,7 @@ export class Media extends Component {
                     </div>
                     </a>
                 </div>
+            </div>
             </div>
         )
     }

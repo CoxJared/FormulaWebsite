@@ -19,10 +19,9 @@
 
 .map-container{
     float:right;
-    /* border: 1px solid red; */
-    width: 50%;
-    height: 40vw;
-    padding-top:70px;
+    width: 600px;
+    height: 400px;
+    margin-top:40px;
 }
 
 .address-text-box {

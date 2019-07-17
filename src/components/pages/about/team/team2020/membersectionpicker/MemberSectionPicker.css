@@ -7,49 +7,49 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 9vw;
+    height: 90px;
     margin-top:0px;
-    padding-bottom:1.6vw;
+    padding-bottom:16px;
 }
 
 .member-section-only-option {
     float: left;
     list-style-type: none;
-    font-size: 2.7vw;
-    padding:1vw;
-    margin-right: 2vw;
-    margin-left: 2vw;
+    font-size: 27px;
+    padding:10px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-top:0px;
     color: rgb(192, 191, 191);
-    border-bottom: .3vw #111 solid;
+    border-bottom: 3px #111 solid;
 }
 
 .member-section-option:hover {
     color: rgb(255, 45, 45);
-    border-bottom:.3vw rgb(192, 73, 73) solid;
+    border-bottom:3px rgb(192, 73, 73) solid;
     transition: all .7s ease;
 }
 
 .selected-only {
     float: left;
     list-style-type: none;
-    font-size: 2.7vw;
-    padding:1vw;
-    margin-right: 2vw;
-    margin-left: 20vw;
+    font-size: 27px;
+    padding:10px;
+    margin-right: 20px;
+    margin-left: 200px;
     margin-top:0px;
     color: rgb(255, 45, 45);
-    border-bottom:.3vw rgb(192, 73, 73) solid;
+    border-bottom:3px rgb(192, 73, 73) solid;
 }
 
 .apply-button {
-    font-size: 2vw;
-    padding:1.2vw 1.8vw;
-    margin-left: 6vw;
-    border-radius: 1.5vw;
-    border: 1px solid rgb(156, 156, 156);
+    font-size: 15px;
+    padding:8px 15px;
+    margin-left: 60px;
+    border-radius: 15px;
+    border: 1px solid rgb(90, 90, 90);
 
-    background-color: rgb(170, 19, 19);
+    background-color: rgb(206, 20, 20);
     color:rgb(231, 231, 231);
     font-weight: normal;
 }
@@ -58,4 +58,5 @@
     background-color: rgb(255, 30, 30);
     color:rgb(226, 226, 226);
     border: 1px solid rgb(83, 83, 83);
+    box-shadow: 5px 5px 5px #333;
 }

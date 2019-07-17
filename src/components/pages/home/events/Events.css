@@ -1,33 +1,39 @@
+.width-restricter{
+width:100%;
+max-width:1500px;
+margin:auto;
+}
+
 .events-container{
     width:80%;
-    height: 35vw;
+    height: 400px;
     margin:auto;
-    margin-bottom: 4vw;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    display: inline-block;
 }
 
 .events-title-container{
-    height: 5vw;
+    height: 50px;
     width:100%;
-
 }
 .events-title{
     float:left;
-    padding: .8vw 2vw 0vw 1vw;
-    font-size:3vw;
+    padding: 8px 20px 0vw 10px;
+    font-size:30px;
     color: rgb(189, 2, 2);
-
     border-bottom: 1px solid red;
 }
 
 .events-events{
     width:100%;
-    height:29vw;
+    height:350px;
 }
 
 .events-event{
     width:33%;
     height:100%;
-    padding:.5vw .6vw;
+    padding:5px 6px;
     float: left;
 }
 .events-event:hover{
@@ -36,45 +42,64 @@
 }
 
 
+
 .events-event-image-1{
     width:100%;
-    height:18vw;
+    height:250px;
     background: url('./../../../../img/events-backgrounds/sae-night-background.jpg');
     background-size: cover;
 }
 .events-event-image-2{
     width:100%;
-    height:18vw;
+    height:250px;
     background: url('./../../../../img/events-backgrounds/formula-north.jpeg');
     background-size: cover;
 }
 .events-event-image-3{
     width:100%;
-    height:18vw;
+    height:250px;
     background: url('./../../../../img/events-backgrounds/macleans.png');
     background-size: cover;
 }
 
+
+.hidden-view-article-header{
+    height:100%;
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    opacity:0;
+}
+.events-event:hover .hidden-view-article-header {
+
+    height:100%;
+    padding-top: 90px;
+    opacity:1;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 .events-event-date {
     width:100%;
-    height:2vw;
+    height:20px;
 }
 
 .events-event-date-header{
-    font-size: 1.3vw;
+    font-size: 13px;
     float:left;
-    padding-left: 1vw;
+    padding-left: 10px;
     color:rgb(97, 97, 97);
 }
 
 .events-event-description-container {
     width:100%;
-    height:7vw;
+    height:70px;
 }
 
 .events-event-description {
     float:left;
-    padding-top: 1vw;
-    font-size: 2vw;
+    padding-top: 10px;
+    font-size: 20px;
     text-align: left;
 }

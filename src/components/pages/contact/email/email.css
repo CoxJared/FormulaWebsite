@@ -1,7 +1,8 @@
 
 .form-full{
     min-width:50%;
-    height:850px;
+    max-width:600px;
+    height:500px;
     display: inline-block;
     /* border: 2px solid green; */
     /* background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6) ),url('./../../../../img/hatch-center.jpg');
@@ -13,9 +14,9 @@
 
 .form-container {
     position: relative;
-    height: 600px;
-    width:700px;
-    margin: 10px auto 10vw auto;
+    height: 500px;
+
+    margin: 10px auto 10px auto;
     /* background-color: #bbb; */
     opacity: 0.9;
     /* border: 2px solid red; */
@@ -67,17 +68,17 @@
 }
 
 .__first_name-input {
-    padding:17px;
-    border-radius:15px;
+    padding:12px;
+    border-radius:14px;
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
-    font-size: 1.1em;
+    font-size: .9em;
     min-width: 200px;
     /* border-radius:4px; */
     background-size: 16px 16px;
     padding-left: 5px;
-    width:650px;
+    width:600px;
     /* border: 2px solid red; */
     float:left;
     padding-left:10px;
@@ -85,46 +86,47 @@
     margin-top:80px;
 }
 .__last_name-input {
-    padding:17px;
-    border-radius:15px;
+    padding:12px;
+    border-radius:14px;
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
-    font-size: 1.1em;
+    font-size: .9em;
     min-width: 200px;
     /* border-radius:4px; */
     background-size: 16px 16px;
     padding-left: 5px;
-    width:650px;
+    width:600px;
     /* border: 2px solid red; */
     float:left;
     padding-left:10px;
     margin-left:20px;
-    margin-top:40px;
+    margin-top:30px;
 }
 .__email-input {
-    padding:15px;
-    border-radius:17px;
+    padding:12px;
+    border-radius:14px;
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
-    font-size: 1.1em;
-    width:650px;
+    font-size: .9em;
+    width:600px;
     min-width: 200px;
     /* border-radius:4px; */
     background-size: 16px 16px;
     padding-left:10px;
     margin-left:20px;
     float:left;
-    margin-top:40px;
+    margin-top:30px;
     /* border: 2px solid red; */
 }
 .__message-input {
-    border-radius:20px;
+    padding:12px;
+    border-radius:14px;
     border: 1px solid #bbb;
     color: #000;
     outline: 0;
-    font-size: 1.1em;
+    font-size: .9em;
     min-width: 250px;
     /* border-radius:4px; */
     background-size: 16px 16px;
@@ -132,17 +134,17 @@
     margin-left:20px;
     float:left;
     /* border: 2px solid red; */
-    width:650px;
+    width:600px;
     height:150px;
     padding-top:15px;
-    max-width:650px;
-    min-width:650px;
+    max-width:600px;
+    min-width:600px;
     max-height:300px;
-    margin-top:40px;
+    margin-top:30px;
 }
 
 .submit-button {
-width:650px;
+width:600px;
 height:50px;
 float:left;
 font-size: 25px;

@@ -1,14 +1,23 @@
+.width-restricter-team{
+    background-color: #eee;
+    width:100%;
+}
+
 .members-container {
+    width:100%;
+    max-width:1050px;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 1vw 4vw 1vw 4vw;
+    padding: 10px 40px 10px 40px;
     background-color: #eee;
 }
 
 .member-container {
+    
     width: 33%;
-    padding:2vw;
-    height: 37vw;
+    padding:20px;
+    height: 370px;
     display: flex;
 }
 
@@ -28,23 +37,23 @@
 }
 
 .name {
-    padding:.1vw 0;
-    margin: 1vw auto 0 auto;
-    font-size: 3vw;
+    padding:1px 0;
+    margin: 10px auto 0 auto;
+    font-size: 30px;
     color: #000;
 }
 
 .title {
-    padding-bottom:.5vw;
-    font-size: 2vw;
+    padding-bottom:5px;
+    font-size: 20px;
     color: #555;
 }
 
 .links-list li{
     list-style-type: none;
     display: inline;
-    padding: 1.5vw;
-    font-size: 2.5vw;
+    padding: 15px;
+    font-size: 25px;
     opacity:0;
 
 }

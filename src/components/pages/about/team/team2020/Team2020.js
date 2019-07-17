@@ -32,7 +32,7 @@ export class Team2020 extends Component {
                 updateSection={this.updateSection}
                 />
                 {sectionComponenet[this.state.section]}
-            </div>
+                </div>
         )
     }
 }

@@ -49,6 +49,7 @@ export class LeadershipMembers2019 extends Component {
 
     render() {
         return (
+            <div className="width-restricter-team">
             <div className="members-container">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                 <div className="member-container">
@@ -133,6 +134,7 @@ export class LeadershipMembers2019 extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

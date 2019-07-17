@@ -1,18 +1,23 @@
 .coming-soon-container {
     width:100%;
-    height: 58vw;
+    max-width:1050px;
+    margin:auto;
+    height: 580px;
     overflow:hidden;
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6) );
+
+    border-left:3px solid grey;
+    border-right:3px solid grey;
 }
 
 .coming-soon-image-container{
 width:70%;
 margin:auto;
-height:50vw;
+height:500px;
 background: url("./../../../../../../img//design-showcase/2020-car.png");
 background-size:contain;
 background-repeat: none;
-background-position-x: 3vw;
+background-position-x: 30px;
 }
 
 .coming-soon-header-container {
@@ -22,7 +27,7 @@ background-position-x: 3vw;
 }
 .coming-soon-header{
     position: relative;
-    top:-4vw;
+    top:-40px;
     color: #fff;;
-    font-size: 5vw;
+    font-size: 50px;
 }

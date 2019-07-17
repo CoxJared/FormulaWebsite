@@ -1,12 +1,14 @@
 .about-us {
     color:#111;
     background-color: #fff;
-    padding: 4vw 12vw;
+    padding: 60px 150px;
     text-align: center; 
-    
+    width:70%;
+    max-width: 1500px;
+    margin:auto;
 }
 
 .about-us p {
-    font-size: 2.5vw;
+    font-size: 30px;
     font-weight: lighter;
 }

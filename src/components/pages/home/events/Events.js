@@ -4,6 +4,7 @@ import './Events.css';
 export class Events extends Component {
     render() {
         return (
+            <div className="width-restricter">
             <div className="events-container">
                 <div className="events-title-container">
                     <h1 className="events-title">Events</h1>
@@ -38,6 +39,7 @@ export class Events extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

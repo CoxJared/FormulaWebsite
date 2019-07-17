@@ -4,7 +4,8 @@
 
 .sponsor-contanainer {
     position: relative;
-    padding: 0;
+    width:70%;
+    margin:auto;
     padding-bottom: 0vw;
 }
 @media only screen and (max-width: 800px) {
@@ -12,13 +13,13 @@
     }
 }
 .explorer-header {
-    width:35vw;
+    width:350px;
     margin:auto;
-    margin-bottom: 3vw;
-    font-size: 4vw;
-    padding: 1vw 0 1vw 0;
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding: 10px 0 10px 0;
     color:#222;
-    border-bottom: .3vw solid rgb(194, 2, 2);
+    border-bottom: 3px solid rgb(194, 2, 2);
 }
 
 .platinum, .gold, .silver, .software {
@@ -30,28 +31,28 @@
 }
 
 .platinum .sponsor,  .gold .sponsor, .silver .sponsor, .software .sponsor{
-    width:20vw;
-    height:20vw;
-    padding:.1vw;
-    margin:.4vw;
+    width:200px;
+    height:200px;
+    padding:1px;
+    margin:4px;
 }
 .gold .sponsor {
-    width: 12vw;
-    height: 12vw;
+    width: 120px;
+    height: 120px;
     padding:0vw;
-    margin:.1vw;
+    margin:1px;
 }
 .silver .sponsor {
-    width:10vw;
-    height: 10vw;
+    width:100px;
+    height: 100px;
     padding: 0vw;
-    margin:.1vw;
+    margin:1px;
 }
 .software .sponsor  {
-    width:10vw;
-    height: 10vw;
+    width:100px;
+    height: 100px;
     padding: 0vw;
-    margin:.2vw;
+    margin:2px;
 } 
  .sponsor h1 {
     opacity: 0;
@@ -91,7 +92,7 @@ h1 {
 }
 
 .platinum h1, .gold h1, .silver h1, .software h1{
-    font-size: 1.2vw; 
+    font-size: 12px; 
 }
 /* .gold h1{
     font-size: 2vw; 
@@ -105,9 +106,9 @@ h1 {
 
 
 .platinum-heading, .gold-heading , .silver-heading, .software-heading{
-    padding-top:1.8vw;
-    padding-bottom: 1vw;
-    font-size: 2.3vw;
+    padding-top:18px;
+    padding-bottom: 10px;
+    font-size: 23px;
     color: #222;
 }
 
@@ -116,27 +117,27 @@ h1 {
 }
 
 .platinum-heading span{
-    border-right: .4vw #559696 solid;
-    border-left: .4vw #559696 solid;
-    padding: .1vw 1vw;
-    border-radius: 1vw;
+    border-right: 4px #559696 solid;
+    border-left: 4px #559696 solid;
+    padding: 1px 10px;
+    border-radius: 10px;
 }
 .gold-heading span{
-    border-right: .4vw #dfce3d solid;
-    border-left: .4vw #dfce3d solid;
-    padding: .1vw 1vw;
-    border-radius: 1vw;
+    border-right: 4px #dfce3d solid;
+    border-left: 4px #dfce3d solid;
+    padding: 1px 10px;
+    border-radius: 10px;
 }
 .silver-heading span{
-    border-right: .4vw #8a8a8a solid;
-    border-left: .4vw #8a8a8a solid;
-    padding: .1vw 1vw;
-    border-radius: 1vw;
+    border-right: 4px #8a8a8a solid;
+    border-left: 4px #8a8a8a solid;
+    padding: 1px 10px;
+    border-radius: 10px;
 }
 .software-heading span{
-    border-right: .4vw #b85f16 solid;
-    border-left: .4vw #b85f16 solid;
-    padding: .1vw 1vw;
-    border-radius: 1vw;
+    border-right: 4px #b85f16 solid;
+    border-left: 4px #b85f16 solid;
+    padding: 1px 10px;
+    border-radius: 10px;
 }
 
