@@ -47,12 +47,17 @@
     top:-5px;
     margin: auto;
 }
+
+.unselected-season:hover, .selected-season:hover {
+    cursor: pointer;
+}
  .unselected-season:hover .year-header {
     font-size:18px;
     opacity:1;
 }
 .unselected-season:hover .time-dot {
     background-color: rgb(216, 216, 216);
+
 }
 
 .selected-season .year-header{

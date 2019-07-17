@@ -29,6 +29,9 @@
     color:#fff;
     opacity: 1;
 }
+.choice:hover {
+    cursor: pointer;
+}
 
 .choice:hover .unselected-section{
     color:#fff;

@@ -15,7 +15,7 @@ import Controls from './designtext/controls/Controls';
 
 export class Design2019 extends Component {
     state = {
-        entered: false,
+        entered: true,
         subteam: "general",
         textblock: {
             general: <General />,
@@ -51,9 +51,10 @@ export class Design2019 extends Component {
         }
         return (
             <div>
+                <SubteamExplorer updateState = {this.updateState} subteam={this.state.subteam}/>
                 <DesignExplorer entered={this.state.entered} type={this.state.subteam}/>
-                <SubteamExplorer updateState = {this.updateState}/>
                 {this.state.textblock[this.state.subteam]}
+                
             </div>
         )
     }
