@@ -47,3 +47,43 @@
 .inverted:hover{
     color: rgb(255, 255, 255);
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    .become-sponsor-container {
+        width:95%;
+        max-width: 400px;
+        margin:auto;
+    }
+    
+    .become-sponsor-header {
+        font-size: 20px;
+        width: 300px;
+        margin:auto;
+        color:#000;
+        border-bottom: 3px solid rgb(194, 2, 2);
+
+    }
+    
+    .become-sponsor-paragraph {
+        padding-top: 20px;
+        line-height: 1.5em;
+        font-size: 10px;
+    }
+    
+    .sponsor-package{
+        margin-top:20px;
+        padding:10px;
+        border-radius: 10px;
+        font-size: 10px;
+        background-color: rgb(227, 3, 3);
+        color:#fff;
+        font-weight: normal;
+        margin:15vpx 15vpx 0 15px;
+    }
+    .sponsor-package:hover{
+        background-color: rgb(158, 1, 1);
+        box-shadow: 5px 5px 5px 1px #bbb;
+    }
+}

@@ -207,7 +207,6 @@ export class SponsorExplorer extends Component {
 
     render() {
         return (    
-            <div className="width-restricter">
             <div className="sponsor-contanainer">
                 <h1 className="explorer-header">Our Sponsors</h1>
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
@@ -332,7 +331,6 @@ export class SponsorExplorer extends Component {
                         <h1>{this.state.software[2].name}</h1>
                     </a>
                 </div>
-            </div>
             </div>
                 
         )
