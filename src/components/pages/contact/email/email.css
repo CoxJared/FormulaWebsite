@@ -161,3 +161,170 @@ font-weight: normal;
     border-color: rgb(153, 153, 153);
     box-shadow: 5px 5px 8px #999;
 }
+
+
+
+@media only screen and (max-width: 1250px) {
+    .form-full{
+        width:90%;
+        max-width:600px;
+        height:600px;
+        /* border: 2px solid green; */
+        /* background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6) ),url('./../../../../img/hatch-center.jpg');
+    
+        background-repeat: no-repeat;
+        background-size:fill; */
+    
+    }
+    
+    .form-container {
+        position: relative;
+        height: 500px;
+    
+        margin: 0px auto 0px auto;
+        /* background-color: #bbb; */
+        opacity: 0.9;
+        /* border: 2px solid red; */
+    }
+    
+    .name-header, .email-header, .message-header {
+        font-size: 30px;
+        padding-top: 60px;
+        padding-bottom:20px;
+        /* border: 2px solid blue; */
+        text-align:left;
+        width:100%;
+    } 
+    .icon-1 {
+        margin:auto ;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        position: relative;
+        bottom:-1px;
+        /* border:2px solid red; */
+        background: url('./../../../../img/email-fields/24b50e869f.svg');
+        background-size:contain;
+    }
+    .icon-2 {
+        margin:auto 5px;
+        display:inline-block;
+        width:25px;
+        height:25px;
+        position: relative;
+        bottom:-1px;
+        /* border:2px solid red; */
+        background: url('./../../../../img/email-icon.png');
+        background-size:contain;
+        
+    }
+    .icon-3 {
+        margin:auto 5px;
+        display:inline-block;
+        width:25px;
+        height:25px;
+        position: relative;
+        bottom:-5px;
+        /* border:2px solid red; */
+        background: url('./../../../../img/email-fields/message-174-141494.png');
+        background-size:contain;
+    }
+    
+    .__first_name-input {
+        padding:8px;
+        border-radius:14px;
+        border: 1px solid #bbb;
+        color: #000;
+        outline: 0;
+        font-size: .9em;
+        min-width: 100%;
+        /* border-radius:4px; */
+        background-size: 16px 16px;
+        padding-left: 5px;
+        width:100%;
+        /* border: 2px solid red; */
+        float:left;
+        padding-left:10px;
+        margin-left:0px;
+        margin-top:20px;
+    }
+    .__last_name-input {
+        padding:8px;
+        border-radius:14px;
+        border: 1px solid #bbb;
+        color: #000;
+        outline: 0;
+        font-size: .9em;
+        min-width: 100%;
+        /* border-radius:4px; */
+        background-size: 16px 16px;
+        padding-left: 5px;
+        width:100%;
+        /* border: 2px solid red; */
+        float:left;
+        padding-left:10px;
+        margin-left:0px;
+        margin-top:15px;
+    }
+    .__email-input {
+        padding:8px;
+        border-radius:14px;
+        border: 1px solid #bbb;
+        color: #000;
+        outline: 0;
+        font-size: .9em;
+        width:100%;
+        min-width: 200px;
+        /* border-radius:4px; */
+        background-size: 16px 16px;
+        padding-left:10px;
+        margin-left:0px;
+        float:left;
+        margin-top:15px;
+        /* border: 2px solid red; */
+    }
+    .__message-input {
+        padding:8px;
+        border-radius:14px;
+        border: 1px solid #bbb;
+        color: #000;
+        outline: 0;
+        font-size: .9em;
+        min-width: 250px;
+        /* border-radius:4px; */
+        background-size: 16px 16px;
+        padding-left:15px;
+        margin-left:0px;
+        float:left;
+        /* border: 2px solid red; */
+        width:600px;
+        height:150px;
+        padding-top:15px;
+        max-width:100%;
+        min-width:100%;
+        max-height:300px;
+        min-height: 100px;
+        margin-top:15px;
+    }
+    
+    .submit-button {
+    
+    width:100%;
+    max-width:600px;
+    height:50px;
+    float:left;
+    font-size: 25px;
+    margin-left:0px;
+    margin-top:30px;
+    border-radius: 16px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(250, 36, 36);
+    font-weight: normal;
+    }
+    .submit-button:hover {
+        background-color:rgb(66, 0, 0);
+        color:rgb(255, 45, 45);
+        border-color: rgb(153, 153, 153);
+        box-shadow: 5px 5px 8px #999;
+    }
+}
