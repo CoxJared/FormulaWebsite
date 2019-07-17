@@ -32,7 +32,7 @@
 
 .choice:hover .unselected-section{
     color:#fff;
-    font-size: 24px;
+    font-size: 22px;
     opacity: .8;
 }
 
@@ -48,32 +48,32 @@
     }
     
     .section-picker{
-        width: 390px;
+        width: 350px;
         margin:auto;
     }
     
     .choice {
        display: inline-block;
-       width: 130px;
+       width: 100px;
        height:0px;
        vertical-align: middle;
     }
     
     .choice-name {
-        font-size: 20px;
+        font-size: 16px;
         color:#fff;
         opacity: .3;
     }
     
     .selected-section {
-        font-size: 26px;
+        font-size: 24px;
         color:#fff;
         opacity: 1;
     }
     
     .choice:hover .unselected-section{
         color:#fff;
-        font-size: 22px;
+        font-size: 17px;
         opacity: .8;
     }
 }    
