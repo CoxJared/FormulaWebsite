@@ -41,7 +41,7 @@
 }
 
 .welcome-button-container {
-    margin-bottom:120px;
+    margin-bottom:10px;
     height: 20px;
 }
 .welcome-button {
@@ -125,4 +125,139 @@
     background-repeat: none;
     background-size: cover;
     filter:grayscale(0%);
+}
+
+
+@media only screen and (max-width: 800px) {
+    *{
+        transition: .5s ease;
+    }
+    
+    .design-explorer-container {
+        width:100%;
+        max-width:800px;
+        margin:auto;
+        background-color: 333;
+        border: 10px #fff solid;
+        background-color: #fff;
+    
+    }
+    
+    .image-container {
+        position: relative;
+        width:100%;
+        margin:auto;
+        overflow:hidden;
+        display:flex;
+        height:50vw;
+        transition: 2s ease;
+    }
+    .welcome-flex-column{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        z-index:2;
+    }
+    .image-container-welcome{
+        position: relative;
+        width:65%;
+        margin:auto;
+        overflow:hidden;
+        display:flex;
+        flex-direction: row;
+        height:50vw;
+        & tabs {
+            flex:0;
+        }
+    }
+    
+    .welcome-button-container {
+        margin-bottom:10px;
+        height: 20px;
+    }
+    .welcome-button {
+        position: relative;
+        z-index:100;
+        font-size:15px;
+        padding:6px 10px;
+        background-color: #fff;
+        border: 1px solid #bbb;
+        border-radius: 15px;
+        color: #333;
+        top:-10px;
+    }
+    .welcome-button:hover {
+        background-color: rgb(245, 244, 244);
+        color: rgb(192, 35, 35);
+        text-decoration: none;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .image-show {
+        overflow: hidden;
+        flex:1.8;
+        position: relative;
+        transition: all 2s ease;
+    }
+    
+    .tabs {
+        flex:1;
+        padding: 0 0vw 0vw 0px;
+    }
+    
+    .tab {
+        width:100%;
+        height: 33%;
+        padding:1px;
+        padding-left: 0px;
+    }
+    .image-tab {
+        border: 1px rgb(109, 19, 19) solid; 
+        background-color: #444;
+        border-radius: 10px;
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        overflow: hidden;
+        filter: grayscale(70%);
+    }
+    .image-tab:hover {
+        filter: grayscale(0%);
+        transition: .4s ease;
+    }
+    .tab-text {
+        position:relative;
+        background-color: rgb(59, 59, 59);
+        border-bottom-left-radius: 1.5vw;
+        border-bottom-right-radius: 1.5vw;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        width: 100%;
+        z-index: -1;
+        bottom:3.5vw;
+    }
+    .tab-heading {
+        color: #fff;
+        font-size: 2vw;font-weight: bold;
+        padding:.2vw;
+    }
+    .image-tab:hover ~ .tab-text {
+        z-index: 2;
+    }
+    
+    .gif-tab {
+        border: 3px rgb(109, 19, 19) solid; 
+        border-radius: 10px;
+        width:100%;
+        height:100%;
+        background-color:#fff;
+        background-image: url("./../../../../../../img/design-showcase/general/screenshot.png");
+        background-size: contain;
+        filter:grayscale(80%);
+    }
+    .gif-tab:hover {
+        background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
+        background-repeat: none;
+        background-size: cover;
+        filter:grayscale(0%);
+    }
 }

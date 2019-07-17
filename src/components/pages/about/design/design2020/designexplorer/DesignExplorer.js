@@ -6,7 +6,7 @@ import './DesignExplorer.scss';
 
     render() {
             return (
-                <div className="width-restricter">
+                <div className="width-restricter-coming-soon">
                 <div className="coming-soon-container"> 
                     <div className="coming-soon-header-container">
                         <div className="coming-soon-image-container"></div>
