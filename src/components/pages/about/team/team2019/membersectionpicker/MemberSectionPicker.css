@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     height: 40px;
     margin-top:0px;
     padding-bottom:0px;
@@ -63,10 +63,10 @@
 .member-section-option {
     float: left;
     list-style-type: none;
-    font-size: 12px;
-    padding:5px;
+    font-size: 10px;
+    padding:3px;
     margin-right: 9px;
-    margin-left: 9px;
+    margin-left: 10px;
     margin-top:0px;
     color: rgb(192, 191, 191);
     border-bottom: 1px #111 solid;
@@ -81,7 +81,7 @@
 .selected {
     float: left;
     list-style-type: none;
-    font-size: 16px;
+    font-size: 12px;
     padding:5px;
     margin-right: 10px;
     margin-left: 10px;
