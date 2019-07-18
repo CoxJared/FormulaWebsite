@@ -47,7 +47,7 @@ class MainShowcase extends Component {
     componentWillMount() {
         console.log("mounted");
         window.onload = () =>{
-            console.log("hello");
+            console.log("started")
             var elements = document.getElementsByClassName('typewrite');
             for (var i=0; i<elements.length; i++) {
                 var toRotate = elements[i].getAttribute('data-type');

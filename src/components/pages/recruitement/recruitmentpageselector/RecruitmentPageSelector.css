@@ -1,0 +1,84 @@
+
+.recruitment-section-selector-container {
+    width: 100%;
+    background-color:#222;
+    padding: 25px;
+    height: 75px;
+    justify-content: center;
+}
+
+.recruitment-section-selector{
+    width: 900px;
+    margin:auto;
+}
+
+.recruitment-choice {
+   display: inline-block;
+   width: 250px;
+   vertical-align: middle;
+}
+
+.recruitment-choice-name {
+    font-size: 22px;
+    color:#fff;
+    opacity: .3;
+}
+
+.recruitment-selected-section {
+    font-size: 30px;
+    color:#fff;
+    opacity: 1;
+}
+.recruitment-choice:hover {
+    cursor: pointer;
+}
+
+.recruitment-choice:hover .recruitment-unselected-section{
+    color:#fff;
+    font-size: 24px;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .recruitment-section-selector-container {
+        width: 100%;
+        background-color:#111;
+        padding: 0px;
+        padding-top:10px;
+        height: 70px;
+        justify-content: center;
+    }
+    
+    .recruitment-section-selector{
+        width: 350px;
+        margin:auto;
+    }
+    
+    .recruitment-choice {
+       display: inline-block;
+       width: 100px;
+       height:0px;
+       vertical-align: middle;
+    }
+    
+    .recruitment-choice-name {
+        font-size: 16px;
+        color:#fff;
+        opacity: .3;
+    }
+    
+    .recruitment-selected-section {
+        font-size: 24px;
+        color:#fff;
+        opacity: 1;
+    }
+    
+    .recruitment-hoice:hover .recruitment-unselected-section{
+        color:#fff;
+        font-size: 17px;
+        opacity: .8;
+    }
+}    
+
+

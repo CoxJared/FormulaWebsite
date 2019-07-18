@@ -21,12 +21,12 @@
     margin-left: 20px;
     margin-top:0px;
     color: rgb(165, 165, 165);
-    border-bottom: 3px #111 solid;
+    border-bottom: 1px #111 solid;
 }
 
 .member-section-option:hover {
     color: rgb(252, 252, 252);
-    border-bottom:3px rgb(253, 253, 253) solid;
+    border-bottom:1px rgb(253, 253, 253) solid;
     transition: all .7s ease;
 }
 
@@ -39,7 +39,7 @@
     margin-left: 200px;
     margin-top:0px;
     color: rgb(255, 255, 255);
-    border-bottom:3px rgb(253, 253, 253) solid;
+    border-bottom:1px rgb(253, 253, 253) solid;
 }
 
 .apply-button {
