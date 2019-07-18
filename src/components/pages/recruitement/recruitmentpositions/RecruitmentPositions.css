@@ -83,6 +83,17 @@
     width:100%;
 }
 
+.no-positions-container{
+    width:100%;
+    background-color:rgb(245, 245, 245);
+    height:800px;
+}
+
+.no-positions-header{
+    padding: 90px;
+    font-size:22px;
+}
+
 
 @media only screen and (max-width: 950px) {
     .positions-section-container{
@@ -172,3 +183,6 @@
     }
     
 }
+
+
+

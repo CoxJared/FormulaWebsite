@@ -59,12 +59,12 @@ export class RecrruitmentPositions extends Component {
                         description:'blah blah ssksnskns',
                         openings: '10'
                     },
-                    {
-                        type:'business',
-                        name:'Event Organizer',
-                        description:'Something something something',
-                        openings: '1'
-                    }
+                    // {
+                    //     type:'business',
+                    //     name:'Event Organizer',
+                    //     description:'Something something something',
+                    //     openings: '1'
+                    // }
                 ]
                                
                 
@@ -122,8 +122,22 @@ export class RecrruitmentPositions extends Component {
             </div>;
 
 
-
-
+        if(visiblePosition.length === 0) 
+        {
+            return (
+                <div>
+                    <RecruitmentPositionSelector 
+                    positionsListed={this.state.positionsListed}
+                    updatePositionsVisible={this.updatePositionsVisible}
+                    />
+                    <div className="no-positions-container">
+                        <h1 className="no-positions-header">
+                            No open positions available at this time.
+                        </h1>
+                    </div>
+                </div>
+            )
+        }               
         return (
             <div>
                 <RecruitmentPositionSelector 
