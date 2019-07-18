@@ -43,40 +43,39 @@
 @media only screen and (max-width: 800px) {
     .recruitment-section-selector-container {
         width: 100%;
-        background-color:#111;
         padding: 0px;
         padding-top:10px;
-        height: 70px;
+        height: 50px;
         justify-content: center;
     }
     
     .recruitment-section-selector{
-        width: 350px;
+        width: 270px;
         margin:auto;
     }
     
     .recruitment-choice {
        display: inline-block;
-       width: 100px;
+       width: 130px;
        height:0px;
        vertical-align: middle;
     }
     
     .recruitment-choice-name {
-        font-size: 16px;
+        font-size: 14px;
         color:#fff;
         opacity: .3;
     }
     
     .recruitment-selected-section {
-        font-size: 24px;
+        font-size: 18px;
         color:#fff;
         opacity: 1;
     }
     
-    .recruitment-hoice:hover .recruitment-unselected-section{
+    .recruitment-choice:hover .recruitment-unselected-section{
         color:#fff;
-        font-size: 17px;
+        font-size: 16px;
         opacity: .8;
     }
 }    

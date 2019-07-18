@@ -211,7 +211,7 @@ export class SponsorExplorer extends Component {
                 <h1 className="explorer-header">Our Sponsors</h1>
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
-                    <a className="sponsor" href={this.state.platinum[0].websiteLink}>
+                    <a className="sponsor" href={this.state.platinum[0].websiteLink} target="_blank">
                         <img className="logo" src={this.state.platinum[0].img} />
                         <h1>{this.state.platinum[0].name}</h1>
                     </a>            

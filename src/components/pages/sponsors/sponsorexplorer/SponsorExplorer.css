@@ -104,7 +104,7 @@ h1 {
 
 .platinum-heading, .gold-heading , .silver-heading, .software-heading{
     padding-top:18px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-size: 23px;
     color: #222;
 }
@@ -256,12 +256,12 @@ h1 {
     border-left: 2px #559696 solid;
     padding: 1px 10px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .gold-heading span{
     border-right: 2px #dfce3d solid;
     border-left: 2px #dfce3d solid;
     padding: 1px 10px;
-    border-radius: 10px;
 }
 .silver-heading span{
     border-right: 2px #8a8a8a solid;

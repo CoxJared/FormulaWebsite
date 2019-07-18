@@ -42,26 +42,21 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 10vw;
-    background-color: #111;
+    height: 50px;
 }
 
 .info-option {
     float: left;
     list-style-type: none;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: normal;
-    padding:7px;
-    margin:0px;
+    padding:5px 10px;
+    margin:5px 10px;
     margin-top:0px;
-    color: #ddd;
-    border-bottom: 3px #111 solid;
     cursor: pointer;
 }
 
 .info-option:hover{
-    color: rgb(238, 174, 174);
-    border-bottom: 1px rgb(192, 73, 73) solid;
     transition: all .2s ease;
 }
 
@@ -74,25 +69,21 @@
     justify-content: center;
     width: 100%;
     height: 10vw;
-    background-color: #333;
 }
 
 .info-option {
     float: left;
     list-style-type: none;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: normal;
     padding:6px;
     margin:0px;
     margin-top:0px;
     color: #ddd;
-    border-bottom: 3px #333 solid;
     cursor: pointer;
 }
 
 .info-option:hover {
-    color: rgb(238, 174, 174);
-    border-bottom: 1px rgb(192, 73, 73) solid;
     transition: all .2s ease;
 }
 }

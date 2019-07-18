@@ -5,6 +5,7 @@ import AboutUs from './aboutus/AboutUs';
 import Footer from './../../layout/footer/Footer';
 import News from './news/News';
 import Events from './events/Events';
+import WhatWeDo from './whatwedo/WhatWeDo';
 
 class Home extends Component {
     componentDidMount() {
@@ -18,6 +19,7 @@ class Home extends Component {
                 <MainShowcase />
                  <AboutUs />
                  <Events />
+                 <WhatWeDo />
                  <News />
                 <Footer />
             </div>

@@ -13,7 +13,7 @@ export class Media extends Component {
 
                 <div className="news-events">
 
-                    <a href="https://www.inhousesolutions.com/2016/11/mac-formula-electric-turning-designs-into-reality/">
+                    <a href="https://www.inhousesolutions.com/2016/11/mac-formula-electric-turning-designs-into-reality/" target="_blank">
                     <div className="news-event">
                         <div className="news-event-image-3">
                             <h1 className="hidden-view-article-header">Read Article</h1>
@@ -29,7 +29,7 @@ export class Media extends Component {
                     </div>
                     </a>
 
-                    <a href="https://www.pcbway.com/project/sponsor/Body_Control_Module_PCB___MAC_Formula_Electric.html">
+                    <a href="https://www.pcbway.com/project/sponsor/Body_Control_Module_PCB___MAC_Formula_Electric.html" target="_blank">
                     <div className="news-event">
                         <div className="news-event-image-2">
                         <h1 className="hidden-view-article-header">Read Article</h1>
@@ -46,7 +46,7 @@ export class Media extends Component {
                     </a>
                     
 
-                    <a href="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/">
+                    <a href="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/" target="_blank">
                     <div className="news-event hidden-full">
                         <div className="news-event-image-1">
                         <h1 className="hidden-view-article-header">Read Article</h1>
