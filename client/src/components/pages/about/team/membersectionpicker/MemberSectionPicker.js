@@ -1,4 +1,4 @@
-import React, { Component } from '../../../../../../../node_modules/react';
+import React, { Component } from 'react';
 import './MemberSectionPicker.css';
 
 export class MemberSectionPicker extends Component {
@@ -13,6 +13,8 @@ export class MemberSectionPicker extends Component {
     }
 
     render() {
+        if(this.props.season==="2019")
+        {
         return (
             <div className='sections'>
                 <ul className='member-section-list'>
@@ -43,6 +45,20 @@ export class MemberSectionPicker extends Component {
                 </ul>
             </div>
         )
+        }
+        return (
+            <div className='sections'>
+                <ul className='member-section-list'>
+                    <li 
+                    className={`member-section-option ${this.isSelected("leadership", this.props.section)}`}
+                    onClick={this.props.updateSection.bind(this, "leadership")}
+                    >
+                        Leadership
+                    </li>
+                </ul>
+            </div>
+        )
+        
     }
 }
 
