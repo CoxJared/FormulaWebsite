@@ -74,14 +74,14 @@ class MainShowcase extends Component {
                     <div className="draw-line"></div>
                     <h1 className="team-name">MAC Formula Electric</h1>
                     <div className="draw-line"></div>
-                    {/* <div className="typewriter-container">
-                        <h3 className="solid-text">Discover  </h3>
-                        <h3>           
+                    <div className="typewriter-container">
+                        <h3 className="solid-text">Inpiring a culture of innovation  </h3>
+                        {/* <h3>           
                             <a href="" className="typewrite" data-period="2000" data-type='[ "Technology", "Teamwork", "Innovation"]'>
                                 <span className="wrap"></span>
                             </a>
-                        </h3>
-                        </div> */}
+                        </h3> */}
+                        </div>
                 </div>
             </div>
         )
