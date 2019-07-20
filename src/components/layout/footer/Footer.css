@@ -51,8 +51,13 @@ margin:auto;
     text-decoration: none;
 }
 
+.follow-list-container a:hover{
+    padding-bottom: 1px;
+    border-bottom: 1px solid #fff;
+}
+
 .follow-list-container a:visited {
-    color:rgb(188, 113, 250);
+    color:rgb(255, 255, 255);
     text-decoration: underline;
     font-size: 17px;
 }
@@ -128,12 +133,9 @@ margin:auto;
     }
     
     
-    .follow-list-container a{
-        text-decoration: none;
-    }
-    
+
     .follow-list-container a:visited {
-        color:rgb(188, 113, 250);
+
         text-decoration: underline;
         font-size: 17px;
     }
