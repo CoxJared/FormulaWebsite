@@ -1,14 +1,15 @@
 .why-electric-container-full{
     width:100%;
-    background-color: #444;
+    background-color: rgb(56, 56, 56);
 }
 
 .why-electric-container{
     width:95%;
     max-width:1200px;
     margin:auto;
-    background-color: #444;
-    color:#fff;
+    background-color: rgb(56, 56, 56);
+    color:#ddd;
+    padding-bottom: 20px;
 }
 
 .why-electric-textbox{
@@ -18,17 +19,17 @@
 }
 
 .why-electric-header-container{
-    border:1px solid green;
+    /* border:1px solid green; */
     width:100%;
 }
 .why-electric-header{
     color:#fff;
     padding:20px;
-    font-size:40px;
+    font-size:45px;
 }
 
 .why-electric-reason-container{
-    border:1px solid red;
+    /* border:1px solid red; */
     flex:1;
     padding:15px;
 }
@@ -36,28 +37,50 @@
 .why-electric-reason-image-container{
     height:200px;
     width:100%;
-    border:1px solid blue;
+    /* border:1px solid blue; */
+}
+.image-sustainable{
+    background: url('./../../../../img/tree.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:150px;
+    margin:auto;
+}
+.image-performance{
+    background: url('./../../../../img/output-onlinepngtools.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:210px;
+    margin:auto;
+    background-position-y: -20px;
 }
 .image-future{
     background: url('./../../../../img/delorean-03-512.png');
     background-size:contain;
     background-repeat: no-repeat;
-    width:200px;
+    width:190px;
     margin:auto;
+    /* background-position-y: -10px; */
 }
 
 .why-electric-reason-header-container{
-    border:1px solid yellow;
-    padding:10px;
+    /* border:1px solid yellow; */
+    padding:15px;
+    font-size:20px;
+    font-weight: 500;
+    color:#fff;
 }
 
 .why-electric-reason-paragraph-container{
-    border:1px solid purple;
+    /* border:1px solid purple; */
     width: 100%;
-    padding:10px;
+    padding:5px;
 }
 .why-electric-reason-paragraph-container p{
-    font-size:20px;
+    font-size:18px;
     line-height: 1.3em;
+    text-align: justify;
+    color:#fff;
+    font-weight: 400;
 }
 

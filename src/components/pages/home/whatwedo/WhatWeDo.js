@@ -5,10 +5,13 @@ export class WhatWeDo extends Component {
     render() {
         return (
             <div className="what-we-do-full-container">
-                <div className="what-we-do-container">
-                    <div className="what-we-do-title-container">
+                <div className="what-we-do-title-container">
+                        <div className="line-break"></div>
+                        <div className="what-we-do-title-inner">
                         <h1 className="what-we-do-title">What We Do</h1>
+                        </div>
                     </div>
+                <div className="what-we-do-container">   
                     <div className="what-we-do-paragraph-container">
                         <p className="what-we-do-paragraph">
                             Formula SAE and Formula Student challenge students to build a single seat, open wheeled racecar to compete against other schools at annual international competitions. There are many areas of evaluation in these competitions including engineering design, business and cost as well as numerous dynamic events.

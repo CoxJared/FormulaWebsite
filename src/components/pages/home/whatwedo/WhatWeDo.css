@@ -1,6 +1,6 @@
 .what-we-do-full-container{
     width:100%;
-    background-color:#bbb;
+    background-color:#fff;
     /* border-top:2px solid rgb(110, 110, 110);
     border-bottom:2px solid rgb(110, 110, 110); */
     margin-top:20px;
@@ -16,10 +16,29 @@
 .what-we-do-title-container{
     padding:20px;
     font-size:20px;
+    border:1px solid #fff;
+}
+.line-break{
+    height:1px;
+    width:90%;
+    max-width: 1200px;
+    background-color: rgb(172, 172, 172);
+    position: relative;
+    top:25px;
+    z-index: 0;
+    margin:auto;
 }
 
 .what-we-do-title{
+    width:260px;
+    margin:auto;
+    background-color:#fff;
     color:rgb(63, 63, 63);
+    z-index: 2;
+}
+.what-we-do-title-inner{
+    position: relative;
+    z-index: 2;
 }
 
 .what-we-do-paragraph-container{
