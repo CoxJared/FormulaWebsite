@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './SponsorExplorer.css';
 
-import AirtechLogo from '../../../../img/sponsor-logos/airtech-logo.png';
 import AltiumLogo from '../../../../img/sponsor-logos/altium-logo.png';
-import AltairLogo from '../../../../img/sponsor-logos/altair-logo.jpeg';
 import AmkLogo from '../../../../img/sponsor-logos/amk-logo.svg';
 import BenderLogo from '../../../../img/sponsor-logos/bender-logo.jpg';
 import CartesianLogo from '../../../../img/sponsor-logos/cartesian-logo.png';
@@ -248,7 +246,7 @@ export class SponsorExplorer extends Component {
                 <div className="software">
                     {this.state.software.map(sponsor => (
                         <>
-                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
                         <img className="logo" src={sponsor.img} alt="bronze-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  

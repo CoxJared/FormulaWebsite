@@ -3,7 +3,8 @@
     background-color:#fff;
     /* border-top:2px solid rgb(110, 110, 110);
     border-bottom:2px solid rgb(110, 110, 110); */
-    margin-top:20px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .what-we-do-container{
@@ -19,7 +20,7 @@
     border:1px solid #fff;
 }
 .line-break{
-    height:1px;
+    height:2px;
     width:90%;
     max-width: 1200px;
     background-color: rgb(172, 172, 172);

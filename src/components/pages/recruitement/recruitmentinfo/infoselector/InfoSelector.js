@@ -5,7 +5,7 @@ export class InfoSelector extends Component {
 
     isPageSelected(selectedInfo, thisInfo) 
     {
-        if(selectedInfo == thisInfo)
+        if(selectedInfo === thisInfo)
         {
             return "info-subteam"
         }

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../../../layout/header/Header';
-import Footer from '../../../../layout/footer/Footer';
 
 import DesignExplorer from './designexplorer/DesignExplorer';
 import General from './designtext/general/General';

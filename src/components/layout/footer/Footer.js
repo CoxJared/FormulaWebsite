@@ -20,7 +20,7 @@ export class foot extends Component {
                             <ul>
                                 <li><a href="#" className="fa fa-linkedin"></a></li>
                                 <li><a href="#" className="fa fa-instagram"></a></li> 
-                                <li><a href="#" className="fa fa-facebook"></a></li> 
+                                <li><a href="https://www.facebook.com/MACFormulaElectric/">Facebook</a></li> 
                             </ul>
                         </div>
                     </div>

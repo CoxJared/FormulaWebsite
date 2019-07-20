@@ -5,7 +5,7 @@ export class MemberSectionPicker extends Component {
 
     isSelected(name, selectedName)
     {
-        if(name==selectedName)
+        if(name===selectedName)
         {
             return "selected"
         }
