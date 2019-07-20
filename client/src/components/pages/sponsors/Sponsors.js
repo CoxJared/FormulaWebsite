@@ -1,4 +1,4 @@
-import React, { Component } from '../../../../node_modules/react';
+import React, { Component } from 'react';
 import Header from '../../layout/header/Header';
 import SponsorsContainer from './sponsorscontainer/SponsorsContainer';
 import Footer from '../../layout/footer/Footer';

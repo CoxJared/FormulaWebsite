@@ -1,4 +1,4 @@
-import React, {Component} from '../../../../node_modules/react';
+import React, {Component} from 'react';
 import Header from '../../layout/header/Header';
 import MainShowcase from './mainshowcase/MainShowcase';
 import AboutUs from './aboutus/AboutUs';

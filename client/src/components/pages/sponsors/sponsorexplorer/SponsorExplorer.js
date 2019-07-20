@@ -1,4 +1,4 @@
-import React, { Component } from '../../../../../node_modules/react';
+import React, { Component } from 'react';
 import './SponsorExplorer.css';
 
 import AirtechLogo from '../../../../img/sponsor-logos/airtech-logo.png';
@@ -211,125 +211,49 @@ export class SponsorExplorer extends Component {
                 <h1 className="explorer-header">Our Sponsors</h1>
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
-                    <a className="sponsor" href={this.state.platinum[0].websiteLink} target="_blank">
-                        <img className="logo" src={this.state.platinum[0].img} />
-                        <h1>{this.state.platinum[0].name}</h1>
-                    </a>            
-                    <a className="sponsor" href={this.state.platinum[1].websiteLink}>
-                        <img className="logo" src={this.state.platinum[1].img} />
-                        <h1>{this.state.platinum[1].name}</h1>
-                    </a>
+                    {this.state.platinum.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <img className="logo" src={sponsor.img} />
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
                 <h1 className="gold-heading"><span>Gold Sponsors</span></h1>
                 <div className="gold">
-                    <a className="sponsor" href={this.state.gold[0].websiteLink}>
-                        <img className="logo" src={this.state.gold[0].img} />
-                        <h1>{this.state.gold[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[1].websiteLink}>
-                    <img className="logo" src={this.state.gold[1].img} />
-                        <h1>{this.state.gold[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[2].websiteLink}>
-                    <img className="logo" src={this.state.gold[2].img} />
-                        <h1>{this.state.gold[2].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[3].websiteLink}>
-                    <img className="logo" src={this.state.gold[3].img} />
-                        <h1>{this.state.gold[3].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[4].websiteLink}>
-                    <img className="logo" src={this.state.gold[4].img} />
-                        <h1>{this.state.gold[4].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[5].websiteLink}>
-                    <img className="logo" src={this.state.gold[5].img} />
-                        <h1>{this.state.gold[5].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[6].websiteLink}>
-                    <img className="logo" src={this.state.gold[6].img} />
-                        <h1>{this.state.gold[6].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[7].websiteLink}>
-                    <img className="logo" src={this.state.gold[7].img} />
-                        <h1>{this.state.gold[7].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[8].websiteLink}>
-                    <img className="logo" src={this.state.gold[8].img} />
-                        <h1>{this.state.gold[8].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[9].websiteLink}>
-                    <img className="logo" src={this.state.gold[9].img} />
-                        <h1>{this.state.gold[9].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[10].websiteLink}>
-                    <img className="logo" src={this.state.gold[10].img} />
-                        <h1>{this.state.gold[10].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[11].websiteLink}>
-                    <img className="logo" src={this.state.gold[11].img} />
-                        <h1>{this.state.gold[11].name}</h1>
-                    </a>
+                    {this.state.gold.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <img className="logo" src={sponsor.img} />
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
 
                 </div>
                 
                 <h1 className="silver-heading"><span>Silver Sponsors</span></h1>
                 <div className="silver">
-                    <a className="sponsor" href={this.state.silver[0].websiteLink}>
-                        <img className="logo" src={this.state.silver[0].img} />
-                        <h1>{this.state.silver[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[1].websiteLink}>
-                    <img className="logo" src={this.state.silver[1].img} />
-                        <h1>{this.state.silver[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[2].websiteLink}>
-                    <img className="logo" src={this.state.silver[2].img} />
-                        <h1>{this.state.silver[2].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[3].websiteLink}>
-                    <img className="logo" src={this.state.silver[3].img} />
-                        <h1>{this.state.silver[3].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[4].websiteLink}>
-                    <img className="logo" src={this.state.silver[4].img} />
-                        <h1>{this.state.silver[4].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[5].websiteLink}>
-                    <img className="logo" src={this.state.silver[5].img} />
-                        <h1>{this.state.silver[5].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[6].websiteLink}>
-                    <img className="logo" src={this.state.silver[6].img} />
-                        <h1>{this.state.silver[6].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[7].websiteLink}>
-                    <img className="logo" src={this.state.silver[7].img} />
-                        <h1>{this.state.silver[7].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[8].websiteLink}>
-                    <img className="logo" src={this.state.silver[8].img} />
-                        <h1>{this.state.silver[8].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[9].websiteLink}>
-                    <img className="logo" src={this.state.silver[9].img}/>
-                        <h1>{this.state.silver[9].name}</h1>
-                    </a>
+                {this.state.silver.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <img className="logo" src={sponsor.img} />
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
                 <h1 className="software-heading"><span>Bronze Sponsors</span></h1>
                 <div className="software">
-                    <a className="sponsor" href={this.state.software[0].websiteLink}>
-                        <img className="logo" src={this.state.software[0].img} />
-                        <h1>{this.state.software[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.software[1].websiteLink}>
-                        <img className="logo" src={this.state.software[1].img} />
-                        <h1>{this.state.software[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.software[2].websiteLink}>
-                        <img className="logo" src={this.state.software[2].img} />
-                        <h1>{this.state.software[2].name}</h1>
-                    </a>
+                    {this.state.software.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <img className="logo" src={sponsor.img} />
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
             </div>
                 

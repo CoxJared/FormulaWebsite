@@ -1,6 +1,6 @@
-import React, { Component } from '../../../../../node_modules/react';
-import { Form, FormGroup, Input, Label, Button} from '../../../../../node_modules/reactstrap/lib';
-import axios from '../../../../../node_modules/axios';
+import React, { Component } from 'react';
+import { Form, FormGroup, Input, Button} from 'reactstrap';
+import axios from 'axios';
 import './email.css';
 
 class email extends Component{

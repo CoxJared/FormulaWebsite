@@ -1,4 +1,4 @@
-import React, { Component } from '../../../../../node_modules/react'
+import React, { Component } from 'react'
 import InfoSelector from './infoselector/InfoSelector';
 
 export class RecruitmentInfo extends Component {

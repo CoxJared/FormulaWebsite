@@ -1,6 +1,6 @@
-import React from '../node_modules/react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router,  Route } from '../node_modules/react-router-dom';
+import { BrowserRouter as Router,  Route } from 'react-router-dom';
 
 import Home from './components/pages/home/Home';
 import Sponsors from './components/pages/sponsors/Sponsors';

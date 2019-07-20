@@ -1,4 +1,4 @@
-import React, { Component } from '../../../../../node_modules/react';
+import React, { Component } from 'react';
 import './SponsorBanner.css';
 
 import sponsor1 from '../../../../img/sponsor-logos/gm-logo.png';
