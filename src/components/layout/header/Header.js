@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import logoImage from './../../../img/MFElogo.png';
+import logoImage from '../../../img/MFElogo.png';
 import './Header.scss';
 
 class Header extends Component{
     pageIsSelected(currentPage, checkPage)
     {
-        if(currentPage == checkPage)
+        if(currentPage === checkPage)
         {
             return "selected-page"
         }
@@ -34,17 +34,18 @@ class Header extends Component{
                         <li className={`nav-bar-item ${this.pageIsSelected("about", this.props.page)}`}>
                              <Link to="/about">About</Link>
                         </li> 
-                        <li className={`nav-bar-item ${this.pageIsSelected("sponsors", this.props.page)}`}>
-                            <Link to="/sponsors">Sponsors</Link>
-                        </li> 
                         <li className={`nav-bar-item ${this.pageIsSelected("recruitment", this.props.page)}`}>
                             <Link to="/recruitment">Recruitment</Link>
                         </li>   
+                        <li className={`nav-bar-item ${this.pageIsSelected("sponsors", this.props.page)}`}>
+                            <Link to="/sponsors">Sponsors</Link>
+                        </li> 
+
                         <li className={`nav-bar-item ${this.pageIsSelected("contact", this.props.page)}`}>
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li className="nav-bar-item-donate-button">
-                        `<Link to="/">Donate</Link>
+                        <Link to="/">Donate</Link>
                         </li>
                     </ul>
                 </div>

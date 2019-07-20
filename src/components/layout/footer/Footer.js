@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import SponsorBanner from './sponsorbanner/SponsorBanner';
 
 
 

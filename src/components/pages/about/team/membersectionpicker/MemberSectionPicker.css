@@ -25,8 +25,8 @@
 }
 
 .member-section-option:hover {
-    color: rgb(255, 45, 45);
-    border-bottom:3px rgb(192, 73, 73) solid;
+    color: rgb(255, 255, 255);
+    border-bottom:1px rgb(253, 253, 253) solid;
     transition: all .7s ease;
     cursor: pointer;
 }

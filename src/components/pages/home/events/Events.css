@@ -37,11 +37,14 @@ margin:auto;
     height:100%;
     padding:5px 6px;
     float: left;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 5px 0 10px  rgb(182, 182, 182);
+    margin-right:20px;
 }
-.events-event:hover{
+/* .events-event:hover{
     background-color: #eee;
     box-shadow: 5px 0 10px  grey;
-}
+} */
 
 
 

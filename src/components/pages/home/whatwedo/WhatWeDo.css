@@ -1,12 +1,16 @@
 .what-we-do-full-container{
     width:100%;
     background-color:#bbb;
+    /* border-top:2px solid rgb(110, 110, 110);
+    border-bottom:2px solid rgb(110, 110, 110); */
+    margin-top:20px;
 }
 
 .what-we-do-container{
     width:80%;
     max-width:1100px;
     margin:auto;
+    
 }
 
 .what-we-do-title-container{
@@ -26,6 +30,7 @@
 .what-we-do-paragraph{
     color:rgb(19, 19, 19);
     padding:10px;
-    font-size:18px;
+    font-size:19px;
     line-height: 1.5em;
+    font-weight: 340;
 }

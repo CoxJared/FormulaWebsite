@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './../../layout/header/Header';
-import Footer from './../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
+import Footer from '../../layout/footer/Footer';
 import Email from './email/email';
 import ContactTitle from './contacttitle/ContactTitle';
 import Map from './map/Map';

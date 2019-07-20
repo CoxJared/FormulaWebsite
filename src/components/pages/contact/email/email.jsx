@@ -1,46 +1,98 @@
 import React, { Component } from 'react';
+import { Form, FormGroup, Input, Button} from 'reactstrap';
+import axios from 'axios';
 import './email.css';
 
-export function email (props) {
+class email extends Component{
 
+    constructor() {
+        super()
+
+        this.state = {
+            name: '',
+            phoneNumber:'',
+            email: '',
+            message: ''
+        }
+
+        this.handleChange = this.handleChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
+    }
+
+    handleChange = e => {
+        this.setState({[e.target.name]: e.target.value})
+    }
+
+    async handleSubmit(e) {
+        e.preventDefault()
+
+        const {name, phoneNumber, email, message} = this.state
+        document.getElementById("myForm").reset();
+        await axios.post('/api/form',
+        {
+            name,
+            phoneNumber,
+            email,
+            message
+        })
+        .then(
+            response => {
+                
+            })
+        .catch(error => {
+            console.log(error.message)
+        })
+    }
+
+    render(){
         return (
             <div className="form-full">
                 <div className="form-container">
-                    {/* <h1 className="name-header"><div className="icon-1"></div>Name</h1> */}
-                    <input
-                    type="text"
-                    value={props.value}
-                    className="__first_name-input"
-                    placeholder = "First Name"
-                    onChange={props.handleNameChange}
-                    />
-                    <input
-                    type="text"
-                    value={props.value}
-                    className="__last_name-input"
-                    placeholder = "Last Name"
-                    onChange={props.handleNameChange}
-                    />
-                    {/* <h1 className="email-header"><div className="icon-2"></div>Email Address</h1> */}
-                    <input
-                    type="text"
-                    value={props.value}
-                    className="__email-input"
+                <Form onSubmit={this.handleSubmit} id="myForm">
+                    <FormGroup>
+                        <Input 
+                        type="text"
+                        name="name"
+                        onChange={this.handleChange} 
+                        className="__first_name-input"
+                        placeholder = "Name"/>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <Input 
+                        type="text"
+                        name="phoneNumber"
+                        onChange={this.handleChange} 
+                        className="__last_name-input"
+                        placeholder = "PhoneNumber"/>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <Input 
+                        type="email"
+                        name="email"
+                        onChange={this.handleChange} 
+                        className="__email-input"
                     placeholder = "Email Address"
-                    onChange={props.handleEmailChange}
                     />
-                    {/* <h1 className="message-header"><div className="icon-3"></div>Message</h1> */}
-                    <textarea
-                    type="text"
-                    value={props.value}
-                    className="__message-input"
-                    placeholder = "Message"
-                    onChange={props.handleMessageChange}
-                    />
-                    <button className="submit-button">Send</button>
+                    </FormGroup>
+
+                    <FormGroup>
+                        <Input 
+                        type="textarea"
+                        name="message"
+                        onChange={this.handleChange} 
+                        className="__message-input"
+                        placeholder = "Message"/>
+                    </FormGroup>
+
+                    <Button className="submit-button">Submit</Button>
+                </Form>
+
                 </div>
             </div>
         )
+                }
     
 }
 

@@ -1,6 +1,8 @@
 .width-restricter-team{
     background-color: #eee;
     width:100%;
+
+    min-height:800px;
 }
 
 .members-container {
@@ -19,6 +21,10 @@
     padding:20px;
     height: 370px;
     display: flex;
+}
+
+.member-container:hover {
+    box-shadow: 3px 3px 5px #555;
 }
 
 .member-container:hover .headshot{

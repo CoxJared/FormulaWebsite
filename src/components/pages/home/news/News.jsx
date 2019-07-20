@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InstagramEmbed from 'react-instagram-embed';
 import './News.scss';
 
 export class Media extends Component {

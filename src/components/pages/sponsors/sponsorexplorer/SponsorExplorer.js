@@ -1,35 +1,35 @@
 import React, { Component } from 'react';
 import './SponsorExplorer.css';
 
-import AirtechLogo from './../../../../img/sponsor-logos/airtech-logo.png';
-import AltiumLogo from './../../../../img/sponsor-logos/altium-logo.png';
-import AltairLogo from './../../../../img/sponsor-logos/altair-logo.jpeg';
-import AmkLogo from './../../../../img/sponsor-logos/amk-logo.svg';
-import BenderLogo from './../../../../img/sponsor-logos/bender-logo.jpg';
-import CartesianLogo from './../../../../img/sponsor-logos/cartesian-logo.png';
-import CpaontarioLogo from './../../../../img/sponsor-logos/cpaontario-logo.png'
-import DiabLogo from './../../../../img/sponsor-logos/diab-logo.jpeg';
-import DspaceLogo from './../../../../img/sponsor-logos/dspace_logo.jpg';
-import EnlitenenergyServicesLogo from './../../../../img/sponsor-logos/enlitenenergyservices-logo.png';
-import FastenalLogo from './../../../../img/sponsor-logos/fastenal-logo.png';
-import Fmslogo from './../../../../img/sponsor-logos/fms-logo.png';
-import GeneralsealantsLogo from './../../../../img/sponsor-logos/generalsealants-logo.png';
-import GmLogo from './../../../../img/sponsor-logos/gm-logo.png';
-import LinimarLogo from './../../../../img/sponsor-logos/linimar-logo.png';
-import MathworksLogo from './../../../../img/sponsor-logos/mathworks-logo.jpeg';
-import MclarenengineeringLogo from './../../../../img/sponsor-logos/mclarenengineering-logo.jpg';
-import McmasterengineeringLogo from './../../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
-import MesLogo from './../../../../img/sponsor-logos/mes-logo.png';
-import MscSoftwareLogo from './../../../../img/sponsor-logos/mscsoftware-logo.png';
-import OctopuzLogo from './../../../../img/sponsor-logos/octopuz-logo.jpg'
-import SolidworksLogo from './../../../../img/sponsor-logos/solidworks-logo.jpg';
-import SamuelLogo from './../../../../img/sponsor-logos/samuel-logo.gif';
-import TeLogo from './../../../../img/sponsor-logos/teconnectivity-logo.png';
-import TextremLogo from './../../../../img/sponsor-logos/textreme-logo.png';
-import ViGradeLogo from './../../../../img/sponsor-logos/vigrade-logo.png';
-import HoosierLogo from './../../../../img/sponsor-logos/hoosier-logo.png';
-import OshparkLogo from './../../../../img/sponsor-logos/oshpark-logo.jpeg';
-import FaroLogo from './../../../../img/sponsor-logos/faro-logo.png';
+import AirtechLogo from '../../../../img/sponsor-logos/airtech-logo.png';
+import AltiumLogo from '../../../../img/sponsor-logos/altium-logo.png';
+import AltairLogo from '../../../../img/sponsor-logos/altair-logo.jpeg';
+import AmkLogo from '../../../../img/sponsor-logos/amk-logo.svg';
+import BenderLogo from '../../../../img/sponsor-logos/bender-logo.jpg';
+import CartesianLogo from '../../../../img/sponsor-logos/cartesian-logo.png';
+import CpaontarioLogo from '../../../../img/sponsor-logos/cpaontario-logo.png'
+import DiabLogo from '../../../../img/sponsor-logos/diab-logo.jpeg';
+import DspaceLogo from '../../../../img/sponsor-logos/dspace_logo.jpg';
+import EnlitenenergyServicesLogo from '../../../../img/sponsor-logos/enlitenenergyservices-logo.png';
+import FastenalLogo from '../../../../img/sponsor-logos/fastenal-logo.png';
+import Fmslogo from '../../../../img/sponsor-logos/fms-logo.png';
+import GeneralsealantsLogo from '../../../../img/sponsor-logos/generalsealants-logo.png';
+import GmLogo from '../../../../img/sponsor-logos/gm-logo.png';
+import LinimarLogo from '../../../../img/sponsor-logos/linimar-logo.png';
+import MathworksLogo from '../../../../img/sponsor-logos/mathworks-logo.jpeg';
+import MclarenengineeringLogo from '../../../../img/sponsor-logos/mclarenengineering-logo.jpg';
+import McmasterengineeringLogo from '../../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
+import MesLogo from '../../../../img/sponsor-logos/mes-logo.png';
+import MscSoftwareLogo from '../../../../img/sponsor-logos/mscsoftware-logo.png';
+import OctopuzLogo from '../../../../img/sponsor-logos/octopuz-logo.jpg'
+import SolidworksLogo from '../../../../img/sponsor-logos/solidworks-logo.jpg';
+import SamuelLogo from '../../../../img/sponsor-logos/samuel-logo.gif';
+import TeLogo from '../../../../img/sponsor-logos/teconnectivity-logo.png';
+import TextremLogo from '../../../../img/sponsor-logos/textreme-logo.png';
+import ViGradeLogo from '../../../../img/sponsor-logos/vigrade-logo.png';
+import HoosierLogo from '../../../../img/sponsor-logos/hoosier-logo.png';
+import OshparkLogo from '../../../../img/sponsor-logos/oshpark-logo.jpeg';
+import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {
@@ -211,125 +211,49 @@ export class SponsorExplorer extends Component {
                 <h1 className="explorer-header">Our Sponsors</h1>
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
-                    <a className="sponsor" href={this.state.platinum[0].websiteLink} target="_blank">
-                        <img className="logo" src={this.state.platinum[0].img} />
-                        <h1>{this.state.platinum[0].name}</h1>
-                    </a>            
-                    <a className="sponsor" href={this.state.platinum[1].websiteLink}>
-                        <img className="logo" src={this.state.platinum[1].img} />
-                        <h1>{this.state.platinum[1].name}</h1>
-                    </a>
+                    {this.state.platinum.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={sponsor.img} alt="platinum-sponsor"/>
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
                 <h1 className="gold-heading"><span>Gold Sponsors</span></h1>
                 <div className="gold">
-                    <a className="sponsor" href={this.state.gold[0].websiteLink}>
-                        <img className="logo" src={this.state.gold[0].img} />
-                        <h1>{this.state.gold[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[1].websiteLink}>
-                    <img className="logo" src={this.state.gold[1].img} />
-                        <h1>{this.state.gold[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[2].websiteLink}>
-                    <img className="logo" src={this.state.gold[2].img} />
-                        <h1>{this.state.gold[2].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[3].websiteLink}>
-                    <img className="logo" src={this.state.gold[3].img} />
-                        <h1>{this.state.gold[3].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[4].websiteLink}>
-                    <img className="logo" src={this.state.gold[4].img} />
-                        <h1>{this.state.gold[4].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[5].websiteLink}>
-                    <img className="logo" src={this.state.gold[5].img} />
-                        <h1>{this.state.gold[5].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[6].websiteLink}>
-                    <img className="logo" src={this.state.gold[6].img} />
-                        <h1>{this.state.gold[6].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[7].websiteLink}>
-                    <img className="logo" src={this.state.gold[7].img} />
-                        <h1>{this.state.gold[7].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[8].websiteLink}>
-                    <img className="logo" src={this.state.gold[8].img} />
-                        <h1>{this.state.gold[8].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[9].websiteLink}>
-                    <img className="logo" src={this.state.gold[9].img} />
-                        <h1>{this.state.gold[9].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[10].websiteLink}>
-                    <img className="logo" src={this.state.gold[10].img} />
-                        <h1>{this.state.gold[10].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.gold[11].websiteLink}>
-                    <img className="logo" src={this.state.gold[11].img} />
-                        <h1>{this.state.gold[11].name}</h1>
-                    </a>
+                    {this.state.gold.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={sponsor.img} alt="gold-sponsor"/>
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
 
                 </div>
                 
                 <h1 className="silver-heading"><span>Silver Sponsors</span></h1>
                 <div className="silver">
-                    <a className="sponsor" href={this.state.silver[0].websiteLink}>
-                        <img className="logo" src={this.state.silver[0].img} />
-                        <h1>{this.state.silver[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[1].websiteLink}>
-                    <img className="logo" src={this.state.silver[1].img} />
-                        <h1>{this.state.silver[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[2].websiteLink}>
-                    <img className="logo" src={this.state.silver[2].img} />
-                        <h1>{this.state.silver[2].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[3].websiteLink}>
-                    <img className="logo" src={this.state.silver[3].img} />
-                        <h1>{this.state.silver[3].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[4].websiteLink}>
-                    <img className="logo" src={this.state.silver[4].img} />
-                        <h1>{this.state.silver[4].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[5].websiteLink}>
-                    <img className="logo" src={this.state.silver[5].img} />
-                        <h1>{this.state.silver[5].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[6].websiteLink}>
-                    <img className="logo" src={this.state.silver[6].img} />
-                        <h1>{this.state.silver[6].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[7].websiteLink}>
-                    <img className="logo" src={this.state.silver[7].img} />
-                        <h1>{this.state.silver[7].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[8].websiteLink}>
-                    <img className="logo" src={this.state.silver[8].img} />
-                        <h1>{this.state.silver[8].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.silver[9].websiteLink}>
-                    <img className="logo" src={this.state.silver[9].img}/>
-                        <h1>{this.state.silver[9].name}</h1>
-                    </a>
+                {this.state.silver.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
+                        <img className="logo" src={sponsor.img} alt="silver-sponsor"/>
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
                 <h1 className="software-heading"><span>Bronze Sponsors</span></h1>
                 <div className="software">
-                    <a className="sponsor" href={this.state.software[0].websiteLink}>
-                        <img className="logo" src={this.state.software[0].img} />
-                        <h1>{this.state.software[0].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.software[1].websiteLink}>
-                        <img className="logo" src={this.state.software[1].img} />
-                        <h1>{this.state.software[1].name}</h1>
-                    </a>
-                    <a className="sponsor" href={this.state.software[2].websiteLink}>
-                        <img className="logo" src={this.state.software[2].img} />
-                        <h1>{this.state.software[2].name}</h1>
-                    </a>
+                    {this.state.software.map(sponsor => (
+                        <>
+                        <a className="sponsor" href={sponsor.websiteLink} target="_blank">
+                        <img className="logo" src={sponsor.img} alt="bronze-sponsor"/>
+                        <h1>{sponsor.name}</h1>    
+                        </a>  
+                        </> 
+                    ))}
                 </div>
             </div>
                 

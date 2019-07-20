@@ -142,6 +142,10 @@
     max-height:300px;
     margin-top:30px;
 }
+.__first_name-input:focus, .__email-input:focus, .__last_name-input:focus, .__message-input:focus {
+    border: 1px solid rgb(255, 52, 52);
+    box-shadow: 1px 1px 1px rgb(128, 128, 128);
+}
 
 .submit-button {
 width:600px;

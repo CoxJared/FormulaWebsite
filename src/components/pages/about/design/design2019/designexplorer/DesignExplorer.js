@@ -1,41 +1,41 @@
 import React, { Component } from 'react';
 import './DesignExplorer.scss';
 
-import generalRender from './../../../../../../img/design-showcase/general.png';
-import aeroRender from './../../../../../../img/design-showcase/aerodynamics.png';
-import chassisRender from './../../../../../../img/design-showcase/chassis.png';
-import suspRender from './../../../../../../img/design-showcase/suspension.png';
-import tractiveRender from './../../../../../../img/design-showcase/tractive.png';
-import controlsRender from './../../../../../../img/design-showcase/controls.png';
-import lowvoltageRender from './../../../../../../img/design-showcase/lowvoltage.png';
+import generalRender from '../../../../../../img/design-showcase/general.png';
+import aeroRender from '../../../../../../img/design-showcase/aerodynamics.png';
+import chassisRender from '../../../../../../img/design-showcase/chassis.png';
+import suspRender from '../../../../../../img/design-showcase/suspension.png';
+import tractiveRender from '../../../../../../img/design-showcase/tractive.png';
+import controlsRender from '../../../../../../img/design-showcase/controls.png';
+import lowvoltageRender from '../../../../../../img/design-showcase/lowvoltage.png';
 
-import generalTab1 from './../../../../../../img/design-showcase/general/top.png';
-import generalTab2 from './../../../../../../img/design-showcase/general/movie.gif';
-import generalTab3 from './../../../../../../img/design-showcase/general/sie.png';
+import generalTab1 from '../../../../../../img/design-showcase/general/top.png';
+import generalTab2 from '../../../../../../img/design-showcase/general/movie.gif';
+import generalTab3 from '../../../../../../img/design-showcase/general/sie.png';
 
-import aeroTab1 from './../../../../../../img/design-showcase/aerodynamics/aeroflow.png';
-import aeroTab2 from './../../../../../../img/design-showcase/aerodynamics/rear-wing.png';
-import aeroTab3 from './../../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
+import aeroTab1 from '../../../../../../img/design-showcase/aerodynamics/aeroflow.png';
+import aeroTab2 from '../../../../../../img/design-showcase/aerodynamics/rear-wing.png';
+import aeroTab3 from '../../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
 
-import chassisTab1 from './../../../../../../img/design-showcase/chassis/chassis-analysis.png';
-import chassisTab2 from './../../../../../../img/design-showcase/chassis/faro3.png';
-import chassisTab3 from './../../../../../../img/design-showcase/chassis/wrapping.jpg';
+import chassisTab1 from '../../../../../../img/design-showcase/chassis/chassis-analysis.png';
+import chassisTab2 from '../../../../../../img/design-showcase/chassis/faro3.png';
+import chassisTab3 from '../../../../../../img/design-showcase/chassis/wrapping.jpg';
 
-import lvTab1 from './../../../../../../img/design-showcase/lowvoltage/render.png';
-import lvTab2 from './../../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
-import lvTab3 from './../../../../../../img/design-showcase/lowvoltage/enclosure-photo.jpg';
+import lvTab1 from '../../../../../../img/design-showcase/lowvoltage/render.png';
+import lvTab2 from '../../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
+import lvTab3 from '../../../../../../img/design-showcase/lowvoltage/enclosure-photo.jpg';
 
-import hvTab1 from './../../../../../../img/design-showcase/tractivesystem/invertor.jpg';
-import hvTab2 from './../../../../../../img/design-showcase/tractivesystem/motor-exploded.png';
-import hvTab3 from './../../../../../../img/design-showcase/tractivesystem/fans.jpg';
+import hvTab1 from '../../../../../../img/design-showcase/tractivesystem/invertor.jpg';
+import hvTab2 from '../../../../../../img/design-showcase/tractivesystem/motor-exploded.png';
+import hvTab3 from '../../../../../../img/design-showcase/tractivesystem/fans.jpg';
 
-import vehicledynamicsTab1 from './../../../../../../img/design-showcase/suspension/sus 2.png';
-import vehicledynamicsTab2 from './../../../../../../img/design-showcase/suspension/suspension-testing-wiki.png';
-import vehicledynamicsTab3 from './../../../../../../img/design-showcase/suspension/front-view.jpg';
+import vehicledynamicsTab1 from '../../../../../../img/design-showcase/suspension/sus 2.png';
+import vehicledynamicsTab2 from '../../../../../../img/design-showcase/suspension/suspension-testing-wiki.png';
+import vehicledynamicsTab3 from '../../../../../../img/design-showcase/suspension/front-view.jpg';
 
-import controlTab1 from './../../../../../../img/design-showcase/controls/can-bus-wiki.png';
-import controlTab2 from './../../../../../../img/design-showcase/controls/dash-zoom.jpg';
-import controlTab3 from './../../../../../../img/design-showcase/controls/controls-wheel.png';
+import controlTab1 from '../../../../../../img/design-showcase/controls/can-bus-wiki.png';
+import controlTab2 from '../../../../../../img/design-showcase/controls/dash-zoom.jpg';
+import controlTab3 from '../../../../../../img/design-showcase/controls/controls-wheel.png';
 
 
  class DesignExplorer extends Component {

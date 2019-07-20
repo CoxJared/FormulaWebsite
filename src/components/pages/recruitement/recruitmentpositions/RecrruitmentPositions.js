@@ -79,24 +79,7 @@ export class RecrruitmentPositions extends Component {
 
     render() {
 
-        var stations = [
-            {call:'station one',frequency:'000'},
-            {call:'station two',frequency:'001'}
-        ];
-
-        const Test = 
-            <div>
-              {stations.map(station => (
-                <div className="station" key={station.call}>
-                    <h1>
-                        {station.call}
-                    </h1>
-                </div>
-              ))}
-            </div>
-          ; 
-
-        const  visiblePosition = this.state.positions.filter(position => position.type== this.state.positionsListed || this.state.positionsListed === 'all');
+        const  visiblePosition = this.state.positions.filter(position => position.type=== this.state.positionsListed || this.state.positionsListed === 'all');
 
           const positions = 
             <div className="positions-section-container">

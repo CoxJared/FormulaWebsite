@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import Header from '../../layout/header/Header';
 import MainShowcase from './mainshowcase/MainShowcase';
 import AboutUs from './aboutus/AboutUs';
-import Footer from './../../layout/footer/Footer';
+import Footer from '../../layout/footer/Footer';
 import News from './news/News';
 import Events from './events/Events';
 import WhatWeDo from './whatwedo/WhatWeDo';
+import WhyElectric from './whyelectric/WhyElectric';
 
 class Home extends Component {
     componentDidMount() {
@@ -20,6 +21,7 @@ class Home extends Component {
                  <AboutUs />
                  <Events />
                  <WhatWeDo />
+                 <WhyElectric />
                  <News />
                 <Footer />
             </div>

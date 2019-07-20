@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './SponsorBanner.css';
 
-import sponsor1 from './../../../../img/sponsor-logos/gm-logo.png';
-import sponsor2 from './../../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
+import sponsor1 from '../../../../img/sponsor-logos/gm-logo.png';
+import sponsor2 from '../../../../img/sponsor-logos/mcmasterengineering-logo.jpg';
 
 export class SponsorBanner extends Component {
     render() {

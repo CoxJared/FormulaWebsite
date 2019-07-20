@@ -1,34 +1,63 @@
-.why-electric {
-    position: relative;
-    background-image: url("./../../../../img/suspension.jpeg"); 
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
-    line-height: 1.7em; 
+.why-electric-container-full{
+    width:100%;
+    background-color: #444;
 }
 
-.why-electric-textbox {
-    position:relative;
-    margin:00px 200px;
-    padding-top: 50px;
-    width:70%;
-    top:150px;
-    background-color:#bbb;
-    opacity:.95; 
+.why-electric-container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+    background-color: #444;
+    color:#fff;
 }
 
-.why-electric h1{
-    padding-top:0;
-    color:#333; 
+.why-electric-textbox{
+    width:100%;
+    height:100%;
+    display:flex;
 }
 
-.why-electric-textbox h2 {
-    padding-top:30px; 
+.why-electric-header-container{
+    border:1px solid green;
+    width:100%;
+}
+.why-electric-header{
+    color:#fff;
+    padding:20px;
+    font-size:40px;
 }
 
-.why-electric-textbox p {
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-right: 20p;
-    padding-left:20px; 
+.why-electric-reason-container{
+    border:1px solid red;
+    flex:1;
+    padding:15px;
 }
+
+.why-electric-reason-image-container{
+    height:200px;
+    width:100%;
+    border:1px solid blue;
+}
+.image-future{
+    background: url('./../../../../img/delorean-03-512.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:200px;
+    margin:auto;
+}
+
+.why-electric-reason-header-container{
+    border:1px solid yellow;
+    padding:10px;
+}
+
+.why-electric-reason-paragraph-container{
+    border:1px solid purple;
+    width: 100%;
+    padding:10px;
+}
+.why-electric-reason-paragraph-container p{
+    font-size:20px;
+    line-height: 1.3em;
+}
+
