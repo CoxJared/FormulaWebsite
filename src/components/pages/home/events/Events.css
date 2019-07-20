@@ -87,7 +87,7 @@ margin:auto;
 .events-event-date-header{
     font-size: 13px;
     float:left;
-    padding-left: 10px;
+    padding-left: 2px;
     color:rgb(97, 97, 97);
 }
 
@@ -114,7 +114,7 @@ margin:auto;
     }
     
     .events-title-container{
-        height: 50px;
+        height: 30px;
         width:100%;
     }
     .events-title{

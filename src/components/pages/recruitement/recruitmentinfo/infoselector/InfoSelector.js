@@ -21,12 +21,12 @@ export class InfoSelector extends Component {
                     onClick={this.props.updateInfo.bind(this, "why-join")}>
                         Why Join
                     </li>
-                    <li 
+                    {/* <li 
                     className={`info-option ${this.isPageSelected(this.props.info, "process")}`}
                     onClick={this.props.updateInfo.bind(this, "process")
                     }>
                         Process
-                    </li>
+                    </li> */}
                     <li 
                     className={`info-option ${this.isPageSelected(this.props.info, "events")}`}
                     onClick={this.props.updateInfo.bind(this, "events")}>

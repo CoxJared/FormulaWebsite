@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import InfoSelector from './infoselector/InfoSelector';
+import RecruitmentEvents from './recruitmentevents/RecruitmentEvents';
+import WhyJoin from './whyjoin/WhyJoin';
 
 export class RecruitmentInfo extends Component {
 
@@ -17,11 +19,23 @@ export class RecruitmentInfo extends Component {
     }
 
     render() {
+        if(this.state.infoPage === "why-join")
+        {
         return (
             <div>
                 <InfoSelector 
                 info={this.state.infoPage}
                 updateInfo={this.updateInfo}/>
+                {/* <RecruitmentInfo /> */}
+            </div>
+        )
+        } 
+        return (
+            <div>
+                <InfoSelector 
+                info={this.state.infoPage}
+                updateInfo={this.updateInfo}/>
+                <RecruitmentEvents />
             </div>
         )
     }

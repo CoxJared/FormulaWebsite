@@ -8,7 +8,7 @@ export class Overview2019 extends Component {
                 <div className="overview-2019-intro">
                 <div className="overview-2019-intro-title-container">
                         <h1 className="overview-2019-intro-title">Season Review</h1>
-                    </div>
+                </div>
                     <div className="overview-2019-intro-image-container">
                     <div className="overview-2019-intro-image"></div>
                     </div>

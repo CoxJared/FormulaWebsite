@@ -11,14 +11,14 @@ export class WhyElectric extends Component {
                     </div>
                 <div className="why-electric-textbox"> 
                     
-                    <div className="why-electric-reason-container">
+                    <div className="why-electric-reason-container sustainable-container">
                         <div className="why-electric-reason-image-container image-sustainable"></div>
                         <div className="why-electric-reason-header-container">
                             <h2>Sustainable</h2>
                         </div>
                         <div className="why-electric-reason-paragraph-container">
                             <p>
-                                MAC Formula Electric recognizes the necessary shift to the use of cleaner technology. By using electric vehicles as a platform for inn ovation the team hopes to promote the development of a socially, economically, and environmentally sustainable future.
+                                MAC Formula Electric recognizes the necessary shift to the use of cleaner technology. By using electric vehicles as a platform for innovation the team hopes to promote the development of a socially, economically, and environmentally sustainable future.
                             </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export class WhyElectric extends Component {
                         </div>
                         <div className="why-electric-reason-paragraph-container">
                             <p>
-                                By getting hands-on experience in high-performance, environmentally-friendly technologies, our members are well equipped for the industry that awaits them upon graduation.
+                                By getting hands-on experience in high performance, environmentally friendly technologies, our members are well equipped for the industry that awaits them upon graduation.
                             </p>
                         </div>
                     </div>

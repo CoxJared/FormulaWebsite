@@ -1,5 +1,5 @@
 .season-picker-container {
-    height: 60px;
+    height: 70px;
     width:100%;
     background-color:#111;
 }
@@ -16,7 +16,7 @@
     padding-top:4px;
 }
 .year-container {
-    height:22px;
+    height:25px;
     /* border:1px solid green; */
 }
 .year-header {

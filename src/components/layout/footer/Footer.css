@@ -49,6 +49,7 @@ margin:auto;
 
 .follow-list-container a{
     text-decoration: none;
+    color:rgb(255, 255, 255);
 }
 
 .follow-list-container a:hover{
