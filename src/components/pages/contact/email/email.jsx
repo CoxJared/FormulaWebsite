@@ -48,7 +48,7 @@ class email extends Component{
         return (
             <div className="form-full">
                 <div className="form-container">
-                <Form onSubmit={this.handleSubmit} id="myForm">
+                <Form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
                     <FormGroup>
                         <Input 
                         type="text"
@@ -86,7 +86,7 @@ class email extends Component{
                         placeholder = "Message"/>
                     </FormGroup>
 
-                    <Button className="submit-button">Submit</Button>
+                    <Button className="submit-button" type="submit">Submit</Button>
                 </Form>
 
                 </div>
