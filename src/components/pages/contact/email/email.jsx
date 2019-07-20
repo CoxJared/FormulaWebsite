@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, Input, Button} from 'reactstrap';
-import axios from 'axios';
 import './email.css';
 
 class email extends Component{
@@ -16,33 +15,33 @@ class email extends Component{
         }
 
         this.handleChange = this.handleChange.bind(this)
-        this.handleSubmit = this.handleSubmit.bind(this)
+        // this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleChange = e => {
         this.setState({[e.target.name]: e.target.value})
     }
 
-    async handleSubmit(e) {
-        e.preventDefault()
+    // async handleSubmit(e) {
+    //     e.preventDefault()
 
-        const {name, phoneNumber, email, message} = this.state
-        document.getElementById("myForm").reset();
-        await axios.post('/api/form',
-        {
-            name,
-            phoneNumber,
-            email,
-            message
-        })
-        .then(
-            response => {
+    //     const {name, phoneNumber, email, message} = this.state
+    //     document.getElementById("myForm").reset();
+    //     await axios.post('/api/form',
+    //     {
+    //         name,
+    //         phoneNumber,
+    //         email,
+    //         message
+    //     })
+    //     .then(
+    //         response => {
                 
-            })
-        .catch(error => {
-            console.log(error.message)
-        })
-    }
+    //         })
+    //     .catch(error => {
+    //         console.log(error.message)
+    //     })
+    // }
 
     render(){
         return (
