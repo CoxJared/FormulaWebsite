@@ -44,7 +44,7 @@ class Header extends Component{
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li className="nav-bar-item-donate-button">
-                        <Link to="/">Donate</Link>
+                        `<Link to="/">Donate</Link>
                         </li>
                     </ul>
                 </div>
