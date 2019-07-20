@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../../../node_modules/react';
 import './Overview2019.css';
 
 export class Overview2019 extends Component {

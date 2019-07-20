@@ -148,7 +148,7 @@ export class Team2019 extends Component {
                                 <div className="member">
                                     <img className="headshot"src={member.headshot} alt="" /> 
                                     <h1 className="name">{member.name}</h1>
-                                    <h2 className="title">{member.title}</h2>
+                                    <h2 className="title">{member.position}</h2>
                                     <div className="links-container">
                                         <ul className="links-list">
                                             <li className="linkedin"><a href="#" class="fa fa-linkedin"></a></li> 

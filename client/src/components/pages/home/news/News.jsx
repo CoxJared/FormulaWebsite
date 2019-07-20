@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../../node_modules/react';
+import InstagramEmbed from '../../../../../node_modules/react-instagram-embed/lib';
 import './News.scss';
 
 export class Media extends Component {

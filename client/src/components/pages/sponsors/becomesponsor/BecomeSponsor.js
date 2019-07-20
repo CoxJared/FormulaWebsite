@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../../node_modules/react';
 import './BecomeSponsor.scss';
 
 export class BecomeSponsor extends Component {

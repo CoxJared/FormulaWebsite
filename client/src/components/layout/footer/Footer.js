@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../node_modules/react';
 import './Footer.css';
+import SponsorBanner from './sponsorbanner/SponsorBanner';
 
 
 

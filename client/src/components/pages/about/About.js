@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../node_modules/react';
 import Header from '../../layout/header/Header';
 import SeasonPicker from './seasonpicker/SeasonPicker';
 import SectionPicker from './sectionpicker/SectionPicker';

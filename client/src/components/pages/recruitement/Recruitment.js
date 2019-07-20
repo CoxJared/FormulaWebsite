@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../node_modules/react';
 import Header from '../../layout/header/Header';
 import SectionSelector from './recruitmentpageselector/RecruitmentPageSelector';
 import RecrruitmentPositions from './recruitmentpositions/RecrruitmentPositions';

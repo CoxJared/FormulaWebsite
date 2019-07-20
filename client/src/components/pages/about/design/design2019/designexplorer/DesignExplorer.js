@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../../../../../../node_modules/react';
 import './DesignExplorer.scss';
 
 import generalRender from '../../../../../../img/design-showcase/general.png';
