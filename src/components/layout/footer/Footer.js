@@ -8,22 +8,19 @@ export class foot extends Component {
         return (
             <div className="footer-container">
                 <div className="footer">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                     <div className="name-container">
-                        <p>MAC Formula Electric &copy; </p>
+                        <p className="footer-name">MAC Formula Electric  &nbsp; | </p>
+                        <div className="follow-list-container">
+                        <ul>
+                                <li><a href="https://twitter.com/macformula" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                                <li><a href="https://www.instagram.com/macformulaelectric/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a></li> 
+                                <li><a href="https://www.facebook.com/MACFormulaElectric/" target="_blank" rel="noopener noreferrer">Facebook</a></li> 
+                            </ul>
+                            </div>
                     </div>
-                     <div className="contact">
+                     <div className="made-with-container">
                          <h1>Made With <span className="love">Love</span> In Canada</h1>
                     </div> 
-                    <div className="follow">
-                        <div className="list-container">
-                            <ul>
-                                <li><a href="#" className="fa fa-linkedin"></a></li>
-                                <li><a href="#" className="fa fa-instagram"></a></li> 
-                                <li><a href="https://www.facebook.com/MACFormulaElectric/">Facebook</a></li> 
-                            </ul>
-                        </div>
-                    </div>
                     
                 </div>
             </div>
