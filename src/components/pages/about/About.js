@@ -35,6 +35,9 @@ export class About extends Component {
         }
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      } 
     updateSection = (newSection) => {
         this.setState({section: newSection})
     }
@@ -46,14 +49,15 @@ export class About extends Component {
         return (
             <div>
                 <Header page="about"/>
+                <SeasonPicker 
+                 season={this.state.season}
+                 updateSeason={this.updateSeason}
+                 />
                  <SectionPicker 
                  section={this.state.section}
                  updateSection={this.updateSection}
                  />
-                 <SeasonPicker 
-                 season={this.state.season}
-                 updateSeason={this.updateSeason}
-                 />
+                
                  {displayWindow[this.state.season][this.state.section]}
                  <Footer />
             </div>

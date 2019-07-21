@@ -34,7 +34,9 @@ export class Team2019 extends Component {
                     section: 'leadership',
                     season:'2019',
                     headshot: scottShot,
-                    links:[]
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
+                    }]
                 },
                 {
                     id: 3,
@@ -92,7 +94,9 @@ export class Team2019 extends Component {
                     section: 'leadership',
                     season:'2020',
                     headshot: scottShot,
-                    links:[]
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
+                    }]
                 },
                 {
                     id: 3,

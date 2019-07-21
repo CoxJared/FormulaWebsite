@@ -10,7 +10,7 @@ export class Recruitment extends Component {
     constructor (props){
         super(props);
         this.state = {
-            page: "positions"   
+            page: "about"   
         }
     }
 

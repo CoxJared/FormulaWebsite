@@ -11,9 +11,9 @@ export class Events extends Component {
                 </div>
 
                 <div className="events-events">
-                    <div className="events-event">
+                    <a className="events-event" href="http://saecentralontario.org/events/" target="_blank" rel="noopener noreferrer">
                         <div className="events-event-image-1">
-
+                        <h1 className="hidden-view-article-header">Learn More</h1>
                         </div>
                         <div className="events-event-date">
                             <h1 className="events-event-date-header">June 1, 2019</h1>
@@ -23,11 +23,11 @@ export class Events extends Component {
                                 2019 SAE Student's night
                             </p>
                         </div>
-                    </div>
+                    </a>
 
-                    <div className="events-event">
+                    <a className="events-event" href="https://www.sae.org/attend/student-events/formula-sae-north" target="_blank" rel="noopener noreferrer">
                         <div className="events-event-image-2">
-
+                        <h1 className="hidden-view-article-header">Learn More</h1>
                         </div>
                         <div className="events-event-date">
                             <h1 className="events-event-date-header">March 4, 2019</h1>
@@ -37,7 +37,7 @@ export class Events extends Component {
                                 FSAE - Formula North
                             </p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             </div>

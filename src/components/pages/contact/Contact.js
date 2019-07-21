@@ -29,6 +29,9 @@ export class Contact extends Component {
     handleMessageChange(event) {
         this.setState({message: event.target.value})
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      } 
     render() {
         var style = {
             backgroundColor:'rgb(247, 247, 247)'

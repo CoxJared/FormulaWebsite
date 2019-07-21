@@ -11,6 +11,9 @@ export class RecruitmentInfo extends Component {
             infoPage: 'why-join'
         }
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      } 
 
     updateInfo = (newInfo) => {
         this.setState({infoPage: newInfo})
@@ -26,7 +29,7 @@ export class RecruitmentInfo extends Component {
                 <InfoSelector 
                 info={this.state.infoPage}
                 updateInfo={this.updateInfo}/>
-                {/* <RecruitmentInfo /> */}
+                <WhyJoin />
             </div>
         )
         } 

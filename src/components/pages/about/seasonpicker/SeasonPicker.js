@@ -28,7 +28,7 @@ export class SeasonPicker extends Component {
                             >2019</h1>
                         </div>
                         <div className="timeline-container">
-                            <div className="timeline-line">
+                            <div className="timeline-line-left">
                                 <div className="time-dot"></div>
                             </div>        
                         </div>
@@ -42,7 +42,7 @@ export class SeasonPicker extends Component {
                             >2020</h1>
                         </div>
                         <div className="timeline-container">
-                            <div className="timeline-line">
+                            <div className="timeline-line-right">
                                 <div className="time-dot"></div>
                             </div>        
                         </div>
