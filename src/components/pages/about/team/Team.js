@@ -43,7 +43,9 @@ export class Team2019 extends Component {
                     section: 'leadership',
                     season:'2019',
                     headshot: jessieShot,
-                    links:[]
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
+                    }]
                 },
                 {
                     id: 4,
@@ -79,7 +81,9 @@ export class Team2019 extends Component {
                     section:'leadership',
                     season:'2020',
                     headshot: jessieShot,
-                    links:[]
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
+                    }]
                 },
                 {
                     id: 2,
@@ -99,7 +103,7 @@ export class Team2019 extends Component {
                     headshot: jaredShot,
                     links:[{
                         name:"linkedin",
-                        url:"linkedin.com/in/jared-cox-110591149"
+                        url:"https://www.linkedin.com/in/jared-cox-110591149/"
                     }]
                 },
                 {
@@ -143,10 +147,13 @@ export class Team2019 extends Component {
     
     render() {
 
+        
+
         const visibleMembers = this.state.members.filter(member => 
             member.section === this.state.section &
             member.season === this.props.season
         )
+
 
         return (
             <div>
@@ -168,7 +175,7 @@ export class Team2019 extends Component {
                                         <ul className="links-list">
                                             {member.links.map(link => (
                                             // eslint-disable-next-line jsx-a11y/anchor-has-content
-                                            <li className={`${link.name}`}><a href={link.url} class="fa fa-linkedin"></a></li> 
+                                            <li className={`${link.name}`}><a href={link.url} class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a></li> 
                                             ))};
                                         </ul>
                                     </div>
