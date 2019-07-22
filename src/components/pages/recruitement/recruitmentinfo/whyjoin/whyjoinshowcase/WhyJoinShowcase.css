@@ -131,6 +131,7 @@
         height:200px;
         /* min-height:55vw; */
         overflow:hidden;
+        background-color: #222;
     }
     
     .layer{
@@ -182,7 +183,7 @@
     }
     
     .bottom .content-body{
-        right:calc(50% - 340px);
+        right:calc(50% - 320px);
         top:80px;
     }
     .bottom h1{
@@ -207,10 +208,10 @@
     .top p, .bottom p{
         color:#222;
         padding:15px;
-        width:170px;
+        width:120px;
         height:10px;
         margin: auto;
-        text-align: justify;
+        text-align: left;
         font-size: 8px;
     }
     .top p{
@@ -218,7 +219,7 @@
     }
     
     .top .content-body {
-        right:calc(50% - 20px);
+        right:calc(50% - 50px);
         color:rgb(15, 139, 255);
     }
     
