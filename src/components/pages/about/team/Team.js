@@ -180,7 +180,7 @@ export class Team2019 extends Component {
                                             {member.links.map(link => (
                                             // eslint-disable-next-line jsx-a11y/anchor-has-content
                                             <li className={`${link.name}`}><a href={link.url} class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a></li> 
-                                            ))};
+                                            ))}
                                         </ul>
                                     </div>
                                 </div>

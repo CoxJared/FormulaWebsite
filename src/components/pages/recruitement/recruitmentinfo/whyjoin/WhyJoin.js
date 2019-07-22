@@ -16,7 +16,7 @@ export class WhyJoin extends Component {
                     </div>
                     <div className="why-join-intro-paragraph-container">
                     <p className="why-join-intro-paragraph">
-                    &emsp; By joining Mac Formula Electric you will be shown processes and manufacturing techniques that you may not have otherwise had a chance to see.  This includes material analyses and production of composite components, standard processes used elsewhere in aviation and aerospace.  Custom PCB(Printed Circuit Boards) designed, assembled and tested in house.  Design and testing of a CAN bus communications network used heavily in the automotive industry.  And a 600V, 138 lithium-ion cell Accumulator developed and assembled by our team.  In addition, you will be meeting representitives from a variety of industries interested in the exact skills you will be gaining.  Shoot us an email and see how we can get you involved!
+                    &emsp; By joining Mac Formula Electric you will be shown processes and manufacturing techniques that you may not have otherwise had a chance to see.  This includes material analyses and production of composite components, standard processes used elsewhere in aviation and aerospace.  Custom PCBs(Printed Circuit Boards) designed, assembled and tested in house.  Design and testing of a CAN bus communications network used heavily in the automotive industry.  And a 600V, 138 lithium-ion cell Accumulator developed and assembled by our team.  In addition, you will be meeting representitives from a variety of industries interested in the exact skills you will be gaining.  Shoot us an email and see how we can get you involved!
                     </p>
                     </div>
                 </div>

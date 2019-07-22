@@ -38,6 +38,11 @@
     transform: translate(-50%, -50%);
 }
 
+.top img{
+    /* opacity: .7;
+    background-color: rgb(33,33,33); */
+}
+
 .layer h1{
     font-size:2em;
 }
