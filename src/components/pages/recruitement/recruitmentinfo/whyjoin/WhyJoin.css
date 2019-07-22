@@ -25,3 +25,33 @@
     text-align:left;
     line-height:1.5em;
 }
+
+@media only screen and (max-width: 800px) {
+
+    .why-join-container{
+        /* height:800px; */
+        }
+        
+        
+        
+        .showbox{
+            padding:0px 0 50px;
+        }
+        
+        .discover-passion-header{
+            padding:45px;
+            font-size: 20px;
+        }
+        
+        .why-join-intro-paragraph-container{
+            padding-top:30px;
+            /* border:1px solid red; */
+            width:90%;
+            max-width: 920px;
+            margin:auto;
+            /* height:500px; */
+            font-size: 12px;
+            text-align:left;
+            line-height:1.5em;
+        }
+}
