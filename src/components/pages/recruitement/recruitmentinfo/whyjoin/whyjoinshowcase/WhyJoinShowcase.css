@@ -162,7 +162,7 @@
         position: relative;
         width:300px;
         top:40%;
-        left:130px;
+        left:127px;
         transform: translate(-50%, -50%);
     }
     
@@ -200,7 +200,6 @@
         background: #222;
         z-index:2;
     
-        width:50vw;
         border-bottom:3px solid rgb(106, 220, 255);
         border-top:3px solid #222;
     }
