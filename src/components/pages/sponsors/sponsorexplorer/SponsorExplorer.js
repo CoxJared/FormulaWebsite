@@ -21,7 +21,7 @@ import MesLogo from '../../../../img/sponsor-logos/mes-logo.png';
 import MscSoftwareLogo from '../../../../img/sponsor-logos/mscsoftware-logo.png';
 import OctopuzLogo from '../../../../img/sponsor-logos/octopuz-logo.jpg'
 import SolidworksLogo from '../../../../img/sponsor-logos/solidworks-logo.svg';
-import SamuelLogo from '../../../../img/sponsor-logos/samuel-logo.gif';
+import SamuelLogo from '../../../../img/sponsor-logos/samuel-logo.png';
 import TeLogo from '../../../../img/sponsor-logos/teconnectivity-logo.png';
 import TextremLogo from '../../../../img/sponsor-logos/textreme-logo.jpg';
 import ViGradeLogo from '../../../../img/sponsor-logos/vigrade-logo.png';
@@ -32,24 +32,6 @@ import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
 export class SponsorExplorer extends Component {
     state = {
         platinum: [
-            {
-                id: 0,
-                name: 'General Motors',
-                websiteLink: 'https://www.gm.ca/en/home.html',
-                img: GmLogo
-            },
-            {
-                id: 1,
-                name: 'McMaster Engineering',
-                websiteLink: 'https://www.eng.mcmaster.ca/',
-                img: McmasterengineeringLogo
-            },
-            {
-                id: 0,
-                name: 'Solidworks',
-                websiteLink: 'https://www.solidworks.com/',
-                img: SolidworksLogo
-            },
             {
                 id: 0,
                 name: 'Altium',
@@ -68,8 +50,35 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://duraspace.org/dspace/',
                 img: DspaceLogo
             },
+            {
+                id: 0,
+                name: 'General Motors',
+                websiteLink: 'https://www.gm.ca/en/home.html',
+                img: GmLogo
+            },
+            {
+                id: 1,
+                name: 'McMaster Engineering',
+                websiteLink: 'https://www.eng.mcmaster.ca/',
+                img: McmasterengineeringLogo
+            },
+            {
+                id: 0,
+                name: 'Solidworks',
+                websiteLink: 'https://www.solidworks.com/',
+                img: SolidworksLogo
+            },
+
+
+
         ],
         gold: [
+            {
+                id: 11,
+                name: 'Faro',
+                websiteLink: 'https://www.faro.com/',
+                img: FaroLogo
+            },
             {
                 id: 3,
                 name: 'Fastenal',
@@ -118,12 +127,7 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://www.te.com/usa-en/home.html',
                 img: TeLogo
             },
-            {
-                id: 11,
-                name: 'Faro',
-                websiteLink: 'https://www.faro.com/',
-                img: FaroLogo
-            },
+
             {
                 id: 1,
                 name: 'ViGrade',
@@ -169,6 +173,12 @@ export class SponsorExplorer extends Component {
                 img: Fmslogo
             },
             {
+                id: 9,
+                name: 'Hoosier',
+                websiteLink: 'https://www.hoosiertire.com/',
+                img: HoosierLogo
+            },  
+            {
                 id: 6,
                 name: 'OCTOPUZ inc.',
                 websiteLink: 'https://octopuz.com/',
@@ -186,12 +196,7 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'http://www.textreme.com/',
                 img: TextremLogo
             },  
-            {
-                id: 9,
-                name: 'Hoosier',
-                websiteLink: 'https://www.hoosiertire.com/',
-                img: HoosierLogo
-            },   
+ 
         ],
         software: [
             
