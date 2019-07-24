@@ -15,49 +15,49 @@ export class RecrruitmentPositions extends Component {
                             type:'mechanical',
                             name:'General Mechanical Member',
                             description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: '10'
+                            openings: 'Sept 8, 2019'
                         }, 
                         {
                             type:'electrical',
                             name:'General Electrical Member',
                             description:'V = IR',
-                            openings: '10'
+                            openings: 'Sept 8, 2019'
                         },  
                         {
                             type:'software',
                             name:'General Software Member',
                             description:'Something something something',
-                            openings: '10'
+                            openings: 'Sept 8, 2019'
                         },
                         {
                             type:'mechanical',
                             name:'Composites Manufacturing',
                             description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: '3'
+                            openings: 'Sept 8, 2019'
                         },
                         {
                             type:'mechanical',
                             name: 'Cad (Computer Aided Design)',
                             description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: '5'
+                            openings: 'Sept 8, 2019'
                         },
                         {
                             type:'mechanical',
                             name: 'Structural Analysis',
                             description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: '1'
+                            openings: 'Sept 8, 2019'
                         },
                     {
                         type:'electrical',
                         name:'Wiring Harness',
                         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                        openings: '2'
+                        openings: 'Sept 8, 2019'
                     },        
                     {
                         type:'software',
                         name:'Controls Tester',
                         description:'blah blah ssksnskns',
-                        openings: '10'
+                        openings: 'Sept 8, 2019'
                     },
                     // {
                     //     type:'business',
@@ -91,8 +91,8 @@ export class RecrruitmentPositions extends Component {
                                         <h1 className="position-title">{position.name}</h1>
                                     </div>
                                     <div className="position-openings-container">
-                                        {/* <h2 className="position-opening-title">openings: </h2>
-                                        <h1 className="position-openings">{position.openings}</h1> */}
+                                        <h2 className="position-opening-title">Closing: </h2>
+                                        <h1 className="position-openings">{position.openings}</h1>
                                     </div>
                                     <div className="position-description-container">
                                         <p className="position-description"> {position.description}</p>
