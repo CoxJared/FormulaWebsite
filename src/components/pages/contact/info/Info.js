@@ -21,15 +21,15 @@ function Info () {
                </div>
                <div className="info-item-container">
                <h1 className="info-item-title">Social Media</h1>
-               <a href="https://www.facebook.com/MACFormulaElectric/" class="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+               <a href="https://www.facebook.com/MACFormulaElectric/" class="fa fa-facebook box-link box-face" target="_blank" rel="noopener noreferrer"></a>
 
-               <a href="https://www.instagram.com/macformulaelectric/?hl=en" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+               <a href="https://www.instagram.com/macformulaelectric/?hl=en" class="fa fa-instagram box-link box-insta" target="_blank" rel="noopener noreferrer"></a>
 
-                <a href="https://twitter.com/macformula" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://twitter.com/macformula" class="fa fa-twitter box-link box-twit" target="_blank" rel="noopener noreferrer"></a>
 
-                <a href="https://www.youtube.com/channel/UC-IzKhdEu-NmXFsn1G_zvZw" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.youtube.com/channel/UC-IzKhdEu-NmXFsn1G_zvZw" class="fa fa-youtube box-link box-you" target="_blank" rel="noopener noreferrer"></a>
 
-                <a href="https://www.linkedin.com/company/mac-formula-electric?originalSubdomain=ca" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+                <a href="https://www.linkedin.com/company/mac-formula-electric?originalSubdomain=ca" class="fa fa-linkedin box-link box-links" target="_blank" rel="noopener noreferrer"></a>
 
                </div>
             </div>

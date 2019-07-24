@@ -26,7 +26,7 @@
     text-align: left;
 }
 
-.fa {
+ .box-link {
     padding: 20px;
     font-size: 40px;
     width: 60px;
@@ -35,31 +35,31 @@
     margin: 20px 5px;
     opacity:.8;
   }
-  
-  .fa:hover {
+   
+   .fa:hover {
     opacity: 1;
     box-shadow: 2px 2px 5px #555;
 }
 
-.fa-linkedin {
+ .box-links {
     background: #007bb5;
     color: white;
-  }
+  } 
   
-  .fa-youtube {
+  .box-you {
     background: #bb0000;
     color: white;
   }
-  .fa-instagram {
+  .box-insta {
     background: #d80d8a;
     color: white;
   }
-  .fa-facebook {
+  .box-face {
     background: #3B5998;
     color: white;
   }
   
-  .fa-twitter {
+  .box-twit {
     background: #55ACEE;
     color: white;
-  }
+  } 
