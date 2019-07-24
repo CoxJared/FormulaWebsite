@@ -35,12 +35,12 @@
     /* border-color: blue;
     background-color:blue; */
 }
-.timeline-line-left, .timeline-line-right {
+.timeline-line-left, .timeline-line-right, .timeline-line {
     position: relative;
     top:15px;
     width:100%;
     height:3px;
-    background-color:rgb(82, 82, 82);
+    background-color:#bbb;
 }
 .timeline-line-left{
     background-image: linear-gradient(to right, #111 , #bbb);

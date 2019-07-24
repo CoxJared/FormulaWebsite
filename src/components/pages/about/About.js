@@ -4,7 +4,7 @@ import SeasonPicker from './seasonpicker/SeasonPicker';
 import SectionPicker from './sectionpicker/SectionPicker';
 import Footer from '../../layout/footer/Footer';
 
-
+import Overview2018 from './overview/overview2018/Overview2018';
 import Overview2019 from './overview/overview2019/Overview2019';
 import Design2019 from './design/design2019/Design2019';
 import Overview2020 from './overview/overview2020/Overview2020';
@@ -12,6 +12,12 @@ import Design2020 from './design/design2020/Design2020';
 import Team from './team/Team';
 
 const displayWindow = {
+    "2018":
+    {
+        "overview": <Overview2018 />,
+        "design": <Design2019 />,
+        "team": <Team season="2018" />
+    },
     "2019":
     {
         "overview": <Overview2019 />,

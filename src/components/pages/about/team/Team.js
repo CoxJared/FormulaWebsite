@@ -8,6 +8,7 @@ import andrewShot from './../../../../img/headshots/andrew.png';
 import dylanShot from './../../../../img/headshots/dylan.png';
 import harjotshot from './../../../../img/headshots/harjot.png';
 import jaredShot from './../../../../img/headshots/me.jpg';
+import gramshot from './../../../../img/headshots/gram-headshot.jpeg';
 
 import './TeamMembers.scss';
 
@@ -18,6 +19,17 @@ export class Team2019 extends Component {
         this.state= {
             section: "leadership",
             members: [
+                {
+                    id: 1,
+                    name: 'Graeme Cox',
+                    title: "Electrical Captain",
+                    section:'leadership',
+                    season:'2018',
+                    headshot: gramshot,
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/graemekcox/"
+                    }]
+                },
                 {
                     id: 1,
                     name: 'Riley Dunn',
