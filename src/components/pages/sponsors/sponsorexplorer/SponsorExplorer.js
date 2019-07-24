@@ -44,8 +44,12 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://www.eng.mcmaster.ca/',
                 img: McmasterengineeringLogo
             },
-        ],
-        gold: [
+            {
+                id: 0,
+                name: 'Solidworks',
+                websiteLink: 'https://www.solidworks.com/',
+                img: SolidworksLogo
+            },
             {
                 id: 0,
                 name: 'Altium',
@@ -64,6 +68,8 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://duraspace.org/dspace/',
                 img: DspaceLogo
             },
+        ],
+        gold: [
             {
                 id: 3,
                 name: 'Fastenal',
@@ -118,6 +124,12 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://www.faro.com/',
                 img: FaroLogo
             },
+            {
+                id: 1,
+                name: 'ViGrade',
+                websiteLink: 'https://www.vi-grade.com/',
+                img: ViGradeLogo
+            }
         ],
         silver: [
             {
@@ -182,18 +194,7 @@ export class SponsorExplorer extends Component {
             },   
         ],
         software: [
-            {
-                id: 0,
-                name: 'Solidworks',
-                websiteLink: 'https://www.solidworks.com/',
-                img: SolidworksLogo
-            },
-            {
-                id: 1,
-                name: 'ViGrade',
-                websiteLink: 'https://www.vi-grade.com/',
-                img: ViGradeLogo
-            },
+            
             {
                 id: 2,
                 name: 'Oshpark',

@@ -9,18 +9,23 @@
     background-color: 333;
     border: 10px #fff solid;
     background-color: #fff;
-
+    height:400px;
+    z-index: -3;
+    overflow:hidden;
 }
 
 .image-container {
     position: relative;
-    width:600px;
+    width:850px;
     margin:0 auto ;
     overflow:hidden;
     display:flex;
-    height: 440px;
+    height: 530px;
     transition: 2s ease;
     // border:1px solid red;
+    top:-90px;
+    z-index:0;
+    left:-50px;
 }
 .welcome-flex-column{
     width:100%;
@@ -117,12 +122,12 @@
     width:100%;
     height:100%;
     background-color:#fff;
-    background-image: url("./../../../../../../img/design-showcase/general/screenshot.png");
+    background-image: url("./../../../../../../img/design-showcase/general.png");
     background-size: contain;
     filter:grayscale(80%);
 }
 .gif-tab:hover {
-    background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
+    // background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
     background-repeat: none;
     background-size: cover;
     filter:grayscale(0%);
@@ -254,12 +259,12 @@
         width:100%;
         height:100%;
         background-color:#fff;
-        background-image: url("./../../../../../../img/design-showcase/general/screenshot.png");
+        background-image: url("./../../../../../../img/design-showcase/general.png");
         background-size: contain;
         filter:grayscale(80%);
     }
     .gif-tab:hover {
-        background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
+        // background-image: url("./../../../../../../img/design-showcase/general/movie.gif");
         background-repeat: none;
         background-size: cover;
         filter:grayscale(0%);

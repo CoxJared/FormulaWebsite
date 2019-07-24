@@ -9,99 +9,30 @@ import tractiveRender from '../../../../../../img/design-showcase/tractive.png';
 import controlsRender from '../../../../../../img/design-showcase/controls.png';
 import lowvoltageRender from '../../../../../../img/design-showcase/lowvoltage.png';
 
-import generalTab1 from '../../../../../../img/design-showcase/general/top.png';
-import generalTab2 from '../../../../../../img/design-showcase/general/movie.gif';
-import generalTab3 from '../../../../../../img/design-showcase/general/sie.png';
-
-import aeroTab1 from '../../../../../../img/design-showcase/aerodynamics/aeroflow.png';
-import aeroTab2 from '../../../../../../img/design-showcase/aerodynamics/rear-wing.png';
-import aeroTab3 from '../../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
-
-import chassisTab1 from '../../../../../../img/design-showcase/chassis/chassis-analysis.png';
-import chassisTab2 from '../../../../../../img/design-showcase/chassis/faro3.png';
-import chassisTab3 from '../../../../../../img/design-showcase/chassis/wrapping.jpg';
-
-import lvTab1 from '../../../../../../img/design-showcase/lowvoltage/render.png';
-import lvTab2 from '../../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
-import lvTab3 from '../../../../../../img/design-showcase/lowvoltage/enclosure-photo.jpg';
-
-import hvTab1 from '../../../../../../img/design-showcase/tractivesystem/invertor.jpg';
-import hvTab2 from '../../../../../../img/design-showcase/tractivesystem/motor-exploded.png';
-import hvTab3 from '../../../../../../img/design-showcase/tractivesystem/fans.jpg';
-
-import vehicledynamicsTab1 from '../../../../../../img/design-showcase/suspension/sus 2.png';
-import vehicledynamicsTab2 from '../../../../../../img/design-showcase/suspension/suspension-testing-wiki.png';
-import vehicledynamicsTab3 from '../../../../../../img/design-showcase/suspension/front-view.jpg';
-
-import controlTab1 from '../../../../../../img/design-showcase/controls/can-bus-wiki.png';
-import controlTab2 from '../../../../../../img/design-showcase/controls/dash-zoom.jpg';
-import controlTab3 from '../../../../../../img/design-showcase/controls/controls-wheel.png';
 
 
  class DesignExplorer extends Component {
      state = {
          general: {
-             render: generalRender,
-             tab1: generalTab1,
-             tab1Name: "Top View",
-             tab2: generalTab2,
-             tab2Name: "Animated Render",
-             tab3: generalTab3,
-             tab3Name: "Side View",
+             render: generalRender
          },
          aero: {
-            render: aeroRender,
-            tab1: aeroTab1,
-            tab1Name: "Airflow",
-            tab2: aeroTab2,
-            tab2Name: "Pressure Profile",
-            tab3: aeroTab3,
-            tab3Name: "Composite Layup"
+            render: aeroRender
         },
          chassis: {
-            render: chassisRender,
-            tab1: chassisTab1,
-            tab1Name: "Structural Analysis",
-            tab2: chassisTab2,
-            tab2Name: "Faro Arm",
-            tab3: chassisTab3,
-            tab3Name: "In-house Vinyl Wrap"
+            render: chassisRender
         },
          suspension: {
-            render: suspRender,
-            tab1: vehicledynamicsTab1,
-            tab1Name: "Simulation",
-            tab2: vehicledynamicsTab2,
-            tab2Name: "Testing",
-            tab3: vehicledynamicsTab3,
-            tab3Name: "Mounted"
+            render: suspRender
         },
          tractive: {
-            render: tractiveRender,
-            tab1: hvTab1,
-            tab1Name: "Invertors",
-            tab2: hvTab2,
-            tab2Name: "Motor Diagram",
-            tab3: hvTab3,
-            tab3Name: "Air Cooling"
+            render: tractiveRender
         },
          lowvoltage: {
-            render: lowvoltageRender,
-            tab1: lvTab1,
-            tab1Name: "BCM Schematic",
-            tab2: lvTab2,
-            tab2Name: "BCM Enclosure",
-            tab3: lvTab3,
-            tab3Name: "BCM Complete"
+            render: lowvoltageRender
         },
          controls: {
-            render: controlsRender,
-            tab1: controlTab1,
-            tab1Name: "Diagram",
-            tab2: controlTab2,
-            tab2Name: "Custom Dashboard",
-            tab3: controlTab3,
-            tab3Name: "Installed"
+            render: controlsRender
         }     
      }
 

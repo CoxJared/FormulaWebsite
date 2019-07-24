@@ -55,7 +55,7 @@ margin:auto;
 
 .follow-list-container a:hover{
     padding-bottom: 1px;
-    border-bottom: 1px solid #fff;
+    color:rgb(255, 14, 14);
 }
 
 .follow-list-container a:visited {
