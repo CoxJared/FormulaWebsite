@@ -5,6 +5,7 @@ import Email from './email/email';
 import ContactTitle from './contacttitle/ContactTitle';
 import Map from './map/Map';
 import './Contact.css';
+import Info from './info/Info';
 
 
 
@@ -49,7 +50,8 @@ export class Contact extends Component {
                     handleEmailChange={this.handleChange}
                     handleMessageChange={this.handleChange}
                     />
-                    <Map />
+                    {/* <Map /> */}
+                    <Info />
                 </div>
                 <Footer />
             </div>

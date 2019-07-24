@@ -7,7 +7,7 @@ import BenderLogo from '../../../../img/sponsor-logos/bender-logo.jpg';
 import CartesianLogo from '../../../../img/sponsor-logos/cartesian-logo.png';
 import CpaontarioLogo from '../../../../img/sponsor-logos/cpaontario-logo.png'
 import DiabLogo from '../../../../img/sponsor-logos/diab-logo.jpeg';
-import DspaceLogo from '../../../../img/sponsor-logos/dspace_logo.jpg';
+import DspaceLogo from '../../../../img/sponsor-logos/dspace_logo.png';
 import EnlitenenergyServicesLogo from '../../../../img/sponsor-logos/enlitenenergyservices-logo.png';
 import FastenalLogo from '../../../../img/sponsor-logos/fastenal-logo.png';
 import Fmslogo from '../../../../img/sponsor-logos/fms-logo.png';
@@ -20,13 +20,13 @@ import McmasterengineeringLogo from '../../../../img/sponsor-logos/mcmasterengin
 import MesLogo from '../../../../img/sponsor-logos/mes-logo.png';
 import MscSoftwareLogo from '../../../../img/sponsor-logos/mscsoftware-logo.png';
 import OctopuzLogo from '../../../../img/sponsor-logos/octopuz-logo.jpg'
-import SolidworksLogo from '../../../../img/sponsor-logos/solidworks-logo.jpg';
+import SolidworksLogo from '../../../../img/sponsor-logos/solidworks-logo.svg';
 import SamuelLogo from '../../../../img/sponsor-logos/samuel-logo.gif';
 import TeLogo from '../../../../img/sponsor-logos/teconnectivity-logo.png';
-import TextremLogo from '../../../../img/sponsor-logos/textreme-logo.png';
+import TextremLogo from '../../../../img/sponsor-logos/textreme-logo.jpg';
 import ViGradeLogo from '../../../../img/sponsor-logos/vigrade-logo.png';
 import HoosierLogo from '../../../../img/sponsor-logos/hoosier-logo.png';
-import OshparkLogo from '../../../../img/sponsor-logos/oshpark-logo.jpeg';
+import OshparkLogo from '../../../../img/sponsor-logos/oshpark-logo.png';
 import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
 
 export class SponsorExplorer extends Component {

@@ -54,7 +54,7 @@ class email extends Component{
                         name="name"
                         onChange={this.handleChange} 
                         className="__first_name-input"
-                        placeholder = "Name"/>
+                        placeholder = "First Name"/>
                     </FormGroup>
 
                     <FormGroup>
@@ -63,7 +63,7 @@ class email extends Component{
                         name="phoneNumber"
                         onChange={this.handleChange} 
                         className="__last_name-input"
-                        placeholder = "PhoneNumber"/>
+                        placeholder = "Last Name"/>
                     </FormGroup>
 
                     <FormGroup>

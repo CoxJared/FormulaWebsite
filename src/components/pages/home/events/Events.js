@@ -7,7 +7,8 @@ export class Events extends Component {
             <div className="width-restricter">
             <div className="events-container">
                 <div className="events-title-container">
-                    <h1 className="events-title">Events</h1>
+                <div className="line-break-events"></div>
+                    <h1 className="events-title"> Events</h1>
                 </div>
 
                 <div className="events-events">

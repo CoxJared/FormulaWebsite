@@ -53,16 +53,17 @@ margin:auto;
     color:rgb(255, 255, 255);
 }
 
-.follow-list-container a:hover{
-    padding-bottom: 1px;
-    color:rgb(255, 14, 14);
-}
-
 .follow-list-container a:visited {
     color:rgb(255, 255, 255);
     text-decoration: underline;
     font-size: 17px;
 }
+
+.follow-list-container a:hover{
+    padding-bottom: 1px;
+    color:rgb(255, 75, 75);
+}
+
 
 .made-with-container{
     width:250px;

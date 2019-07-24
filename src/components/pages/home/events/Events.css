@@ -14,16 +14,27 @@ margin:auto;
 }
 
 .events-title-container{
-    height: 50px;
+    height: 70px;
     width:100%;
 }
+.line-break-events{
+    height:2px;
+    width:100%;
+    max-width: 1200px;
+    background-color: rgb(206, 102, 102);
+    position: relative;
+    top:25px;
+    z-index: -1;
+    margin:auto;
+}
 .events-title{
-    float:left;
-    padding: 0px 20px 0vw 10px;
-    font-size:30px;
+    padding: 0px 10px 0vw 10px;
+    font-size:35px;
+    width:170px;
+    margin: auto;
     color: rgb(189, 2, 2);
-    border-bottom: 1px solid red;
-    margin-left:20px;
+    background: #fff;
+    z-index: 1;
 }
 
 .events-events{
