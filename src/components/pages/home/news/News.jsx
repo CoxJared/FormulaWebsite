@@ -7,7 +7,9 @@ export class Media extends Component {
             <div className="width-restricter">
             <div className="news-container">
                 <div className="news-title-container">
-                    <h1 className="news-title">News</h1>
+    
+                <div className="line-break-events"></div>
+                    <h1 className="events-title"> News</h1>
                 </div>
 
                 <div className="news-events">

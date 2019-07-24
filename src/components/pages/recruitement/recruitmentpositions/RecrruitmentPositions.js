@@ -91,8 +91,8 @@ export class RecrruitmentPositions extends Component {
                                         <h1 className="position-title">{position.name}</h1>
                                     </div>
                                     <div className="position-openings-container">
-                                        <h2 className="position-opening-title">openings: </h2>
-                                        <h1 className="position-openings">{position.openings}</h1>
+                                        {/* <h2 className="position-opening-title">openings: </h2>
+                                        <h1 className="position-openings">{position.openings}</h1> */}
                                     </div>
                                     <div className="position-description-container">
                                         <p className="position-description"> {position.description}</p>
