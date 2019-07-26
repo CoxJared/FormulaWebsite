@@ -1,5 +1,5 @@
 .sections {
-    background-color: #111;
+    background-color: #222;
 }
 
 .member-section-list {
@@ -21,7 +21,7 @@
     margin-left: 20px;
     margin-top:0px;
     color: rgb(121, 121, 121);
-    border-bottom: 1px #111 solid;
+    border-bottom: 1px #222 solid;
 }
 
 .member-section-option:hover {

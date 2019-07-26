@@ -4,6 +4,7 @@ import SectionSelector from './recruitmentpageselector/RecruitmentPageSelector';
 import RecrruitmentPositions from './recruitmentpositions/RecrruitmentPositions';
 import RecruitmentInfo from './recruitmentinfo/RecruitmentInfo';
 import Footer from '../../layout/footer/Footer';
+import './Recruitment.css';
 
 export class Recruitment extends Component {
 
@@ -25,23 +26,28 @@ export class Recruitment extends Component {
             <div>
                 <Header 
                 page="recruitment"/>
+                <div className="recruitment-page-container">
                 <SectionSelector 
                 page={this.state.page}
                 updatePage={this.updatePage} />
                 <RecrruitmentPositions />    
+                </div>
                 <Footer />
             </div>
         )
         }
         return (
-            <div>
+            <div >
+                
                 <Header 
                 page="recruitment"/>
+                <div className="recruitment-page-container">
                 <SectionSelector 
                 page={this.state.page}
                 updatePage={this.updatePage}
                 />
                 <RecruitmentInfo />
+                </div>
                 <Footer />
             </div>
         )

@@ -1,7 +1,7 @@
 .season-picker-container {
     height: 70px;
     width:100%;
-    background-color:#111;
+    background-color:#222;
     /* border: 1px solid red; */
 }
 .season-picker {
@@ -43,10 +43,10 @@
     background-color:#bbb;
 }
 .timeline-line-left{
-    background-image: linear-gradient(to right, #111 , #bbb);
+    background-image: linear-gradient(to right, #222 , #bbb);
 }
 .timeline-line-right{
-    background-image: linear-gradient(to left, #111 , #bbb);
+    background-image: linear-gradient(to left, #222 , #bbb);
 }
 .time-dot{
     background-color: rgb(117, 117, 117);

@@ -6,6 +6,12 @@ import Macfelogo from '../../../../img/logo-transparent.png';
 
 class MainShowcase extends Component {
 
+    componentDidMount (){
+        window.addEventListener("load", () => {
+            document.querySelector("body").classList.add("loaded"); 
+           });
+    }
+
     render() {
         return (
             <div className="showcase-container">
