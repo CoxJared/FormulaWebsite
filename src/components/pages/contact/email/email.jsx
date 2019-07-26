@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  FormGroup, Input, Button} from 'reactstrap';
+// import {  FormGroup, Input, Button} from 'reactstrap';
 import './email.css';
 
 class email extends Component{
@@ -48,44 +48,44 @@ class email extends Component{
             <div className="form-full">
                 <div className="form-container">
                 <form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
-                    <FormGroup>
-                        <Input 
+                    {/* <FormGroup> */}
+                        <input 
                         type="text"
                         name="name"
                         onChange={this.handleChange} 
                         className="__first_name-input"
                         placeholder = "First Name"/>
-                    </FormGroup>
+                    {/* </FormGroup>
 
-                    <FormGroup>
-                        <Input 
+                    <FormGroup> */}
+                        <input 
                         type="text"
                         name="phoneNumber"
                         onChange={this.handleChange} 
                         className="__last_name-input"
                         placeholder = "Last Name"/>
-                    </FormGroup>
+                    {/* </FormGroup>
 
-                    <FormGroup>
-                        <Input 
+                    <FormGroup> */}
+                        <input 
                         type="email"
                         name="email"
                         onChange={this.handleChange} 
                         className="__email-input"
                     placeholder = "Email Address"
                     />
-                    </FormGroup>
+                    {/* </FormGroup>
 
-                    <FormGroup>
-                        <Input 
-                        type="textarea"
+                    <FormGroup> */}
+                        <textarea 
+                        // type="textarea"
                         name="message"
                         onChange={this.handleChange} 
                         className="__message-input"
                         placeholder = "Message"/>
-                    </FormGroup>
+                    {/* </FormGroup> */}
 
-                    <Button className="submit-button" type="submit">Submit</Button>
+                    <button className="submit-button" type="send">Send</button>
                 </form>
 
                 </div>
