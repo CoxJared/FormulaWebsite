@@ -51,10 +51,21 @@ export class TeamMember extends Component {
                                 <h1 className="member-popup-right-title">{this.props.member.title}</h1>
                             </div>
                             <div className="member-popup-right-experience-container">
-                                <h1 className="member-popup-right-experience-title">2019 projects</h1>
-                                <h2 className="member-popup-right-experience-item">-Finalize Accumulator Design</h2>
-                                <h2 className="member-popup-right-experience-item">-Accumulator Assembly</h2>
-                                <h2 className="member-popup-right-experience-item">-Inverter Assembly</h2>
+
+                                {this.props.member.projects.map(projectYear => (
+                                    <div>
+                                        <h1 className="member-popup-right-experience-title">{projectYear.year} projects</h1>
+                                        {projectYear.projectsForYear.map(project => (
+                                            <>
+                                                <h2 className="member-popup-right-experience-item">- {project}</h2>
+                                            </>
+                                        ))}
+                                    </div>
+                                ))}
+
+
+
+
                             </div>
                             {/* <div className="member-popup-right-skills-container">
                                 <h1 className="member-popup-right-skills-title">2019</h1>

@@ -41,7 +41,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2019',
                     headshot: rileyshot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Team Management","Composites Lead"
+                        ]}
+                    ]
                 },
                 {
                     id: 2,
@@ -53,7 +59,13 @@ export class Team2019 extends Component {
                     headshot: scottShot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Body Control Module Lead","HV Circuitry"
+                        ]}
+                    ]
                 },
                 {
                     id: 3,
@@ -65,7 +77,13 @@ export class Team2019 extends Component {
                     headshot: jessieShot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Powertrain Lead","Accumulator Assembly","Inverter Assembly"
+                        ]}
+                    ]
                 },
                 {
                     id: 4,
@@ -75,7 +93,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2019',
                     headshot:blaireShot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Chassis Lead", "Waterjet Lead"
+                        ]}
+                    ]
                 },
                 {
                     id: 5,
@@ -85,7 +109,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2019',
                     headshot:andrewShot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Aerodynamics Lead"
+                        ]}
+                    ]
                 },
                 {
                     id: 6,
@@ -95,7 +125,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2019',
                     headshot: harjotshot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Controls Lead", "Driving Simulator"
+                        ]}
+                    ]
                 },
                 {
                     id: 1,
@@ -107,7 +143,13 @@ export class Team2019 extends Component {
                     headshot: jessieShot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Powertrain Lead","Accumulator Assembly","Inverter Assembly"
+                        ]}
+                    ]
                 },
                 {
                     id: 2,
@@ -119,7 +161,13 @@ export class Team2019 extends Component {
                     headshot: scottShot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Body Control Module Lead","HV Circuitry"
+                        ]}
+                    ]
                 },
                 {
                     id: 3,
@@ -132,7 +180,13 @@ export class Team2019 extends Component {
                     links:[{
                         name:"linkedin",
                         url:"https://www.linkedin.com/in/jared-cox-110591149/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Aero-Pack Manufacturing","LV Wiring Harness", "Website Development"
+                        ]}
+                    ]
                 },
                 {
                     id: 4,
@@ -142,7 +196,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2020',
                     headshot:blaireShot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Chassis Lead"
+                        ]}
+                    ]
                 },
                 {
                     id: 5,
@@ -152,7 +212,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2020',
                     headshot:dylanShot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Suspension Lead","Vehicle Dynamics"
+                        ]}
+                    ]
                 },
                 {
                     id: 6,
@@ -162,7 +228,13 @@ export class Team2019 extends Component {
                     email:"placeholder@blah.com",
                     season:'2020',
                     headshot: harjotshot,
-                    links:[]
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Controls Lead", "Driving Simulator"
+                        ]}
+                    ]
                 }
             ]
         }

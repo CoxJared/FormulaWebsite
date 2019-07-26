@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, Input, Button} from 'reactstrap';
+import {  FormGroup, Input, Button} from 'reactstrap';
 import './email.css';
 
 class email extends Component{
@@ -47,7 +47,7 @@ class email extends Component{
         return (
             <div className="form-full">
                 <div className="form-container">
-                <Form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
+                <form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
                     <FormGroup>
                         <Input 
                         type="text"
@@ -86,7 +86,7 @@ class email extends Component{
                     </FormGroup>
 
                     <Button className="submit-button" type="submit">Submit</Button>
-                </Form>
+                </form>
 
                 </div>
             </div>
