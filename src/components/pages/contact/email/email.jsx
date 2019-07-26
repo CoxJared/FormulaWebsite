@@ -8,8 +8,8 @@ class email extends Component{
         super()
 
         this.state = {
-            name: '',
-            phoneNumber:'',
+            firstName: '',
+            lastName:'',
             email: '',
             message: ''
         }
@@ -47,18 +47,18 @@ class email extends Component{
         return (
             <div className="form-full">
                 <div className="form-container">
-                <form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
+                <form id="myForm" name="contact" method="POST" value="contact">
 
                     <input 
                     type="text"
-                    name="name"
+                    name="firstName"
                     onChange={this.handleChange} 
                     className="__first_name-input"
                     placeholder = "First Name"/>
 
                     <input 
                     type="text"
-                    name="phoneNumber"
+                    name="lastName"
                     onChange={this.handleChange} 
                     className="__last_name-input"
                     placeholder = "Last Name"/>
