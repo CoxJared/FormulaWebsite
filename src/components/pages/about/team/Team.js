@@ -206,7 +206,7 @@ export class Team2019 extends Component {
                     projects:[
                         {year:"2019",
                         projectsForYear:[
-                            "Chassis Lead"
+                            "Chassis Lead", "Waterjet Lead"
                         ]}
                     ]
                 },

@@ -14,9 +14,30 @@ class Header extends Component{
     }
 
     render() {
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos < currentScrollPos ) {
+            console.log(currentScrollPos);
+            if(currentScrollPos > 90)
+            {
+                
+                console.log("-90px");
+            (document.getElementById("header-container")).style.top="-90px";
+            }
+            else{
+                console.log("-".concat(currentScrollPos,"px"));
+                (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
+            }
+            
+        } else {
+            (document.getElementById("header-container")).style.top="0" ;
+        }
+        prevScrollpos = currentScrollPos;
+        }
         return (
             <div>
-            <div className="header-container">
+            <div id="header-container">
             <div className="tracker-backgound">
                 <div className="header">
                     <div className="logo">

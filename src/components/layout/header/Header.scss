@@ -1,9 +1,10 @@
-.header-container {
+#header-container {
     width:100%;
     box-shadow: 3px 3px 10px grey;
     align-content: center;
     position: fixed;
     z-index: 5000; 
+    transition:.7s ease;
 }
 .header  {
     display: flex;
