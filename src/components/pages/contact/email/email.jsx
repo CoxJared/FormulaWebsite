@@ -61,16 +61,14 @@ class email extends Component{
     // }
 
     render(){
-    const { firstName, lastName, email, message } = this.state;
         return (
             <div className="form-full">
                 <div className="form-container">
-                <form id="myForm" onSubmit={this.handleSubmit} >
-
+                <form id="myForm" name="contact" method="post">
+                    <input type="hidden" name="form name" value="contact" />
                     <input 
                     type="text"
                     name="firstName"
-                    value={firstName}
                     onChange={this.handleChange} 
                     className="__first_name-input"
                     placeholder = "First Name"/>
@@ -78,7 +76,6 @@ class email extends Component{
                     <input 
                     type="text"
                     name="lastName"
-                    value={lastName}
                     onChange={this.handleChange} 
                     className="__last_name-input"
                     placeholder = "Last Name"/>
@@ -86,7 +83,6 @@ class email extends Component{
                     <input 
                     type="email"
                     name="email"
-                    value={email}
                     onChange={this.handleChange} 
                     className="__email-input"
                     placeholder = "Email Address"
@@ -94,7 +90,6 @@ class email extends Component{
 
                     <textarea 
                     name="message"
-                    value={message}
                     onChange={this.handleChange} 
                     className="__message-input"
                     placeholder = "Message"/>
