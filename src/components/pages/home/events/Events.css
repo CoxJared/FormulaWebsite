@@ -1,22 +1,21 @@
 .width-restricter{
-width:100%;
-max-width:1500px;
-margin:auto;
-}
+    width:100%;
+    max-width:1500px;
+    margin:auto;}
 
 .events-container{
-    width:80%;
+    width:95%;
+    max-width:1000px;
     height: 400px;
     margin:auto;
     margin-bottom: 30px;
     margin-top: 40px;
-    display: inline-block;
-}
+    display: inline-block;}
 
 .events-title-container{
     height: 70px;
-    width:100%;
-}
+    width:100%;}
+
 .line-break-events{
     height:2px;
     width:100%;
@@ -25,8 +24,8 @@ margin:auto;
     position: relative;
     top:25px;
     z-index: -1;
-    margin:auto;
-}
+    margin:auto;}
+
 .events-title{
     padding: 0px 10px 0vw 10px;
     font-size:35px;
@@ -34,19 +33,16 @@ margin:auto;
     margin: auto;
     color: rgb(189, 2, 2);
     background: #fff;
-    z-index: 1;
-}
+    z-index: 1;}
 
 .events-events{
     padding-top:10px;
     width:100%;
-    height:370px;
-}
+    height:370px;}
 
 .events-events a{
     text-decoration: none;
-    color:#222;
-}
+    color:#222;}
 
 .events-event{
     width:33%;
@@ -55,70 +51,61 @@ margin:auto;
     float: left;
     /* background-color: rgb(243, 243, 243);
     box-shadow: 5px 0 10px  rgb(182, 182, 182); */
-    margin-right:20px;
-}
+    margin-right:20px;}
+
 .events-event:hover{
     background-color: #eee;
     box-shadow: 5px 0 10px  grey;
-    cursor: pointer;
-}
-
-
+    cursor: pointer;}
 
 .events-event-image-1{
     width:100%;
-    height:250px;
+    height:26vw;
+    max-height:250px;
     background: url('./../../../../img/events-backgrounds/sae-night-background.jpg');
-    background-size: cover;
-}
+    background-size: cover;}
+
 .events-event-image-2{
     width:100%;
-    height:250px;
+    height:26vw;
+    max-height:250px;
     background: url('./../../../../img/events-backgrounds/formula-north.jpeg');
-    background-size: cover;
-}
-
+    background-size: cover;}
 
 .hidden-view-article-header{
     height:100%;
     padding-top: 60px;
     color: rgb(255, 255, 255);
     font-weight:bold;
-    opacity:0;
-}
-.events-event:hover .hidden-view-article-header {
+    opacity:0;}
 
+.events-event:hover .hidden-view-article-header {
     height:100%;
     padding-top: 90px;
     opacity:1;
     color: rgb(255, 255, 255);
     font-weight:bold;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-}
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));}
 
 .events-event-date {
     width:100%;
-    height:20px;
-}
+    height:20px;}
 
 .events-event-date-header{
     font-size: 13px;
     float:left;
     padding-left: 2px;
-    color:rgb(97, 97, 97);
-}
+    color:rgb(97, 97, 97);}
 
 .events-event-description-container {
     width:100%;
-    height:70px;
-}
+    height:70px;}
 
 .events-event-description {
     float:left;
     padding-top: 10px;
     font-size: 20px;
-    text-align: left;
-}
+    text-align: left;}
 
 @media only screen and (max-width: 800px) {
     .events-container{
@@ -134,12 +121,21 @@ margin:auto;
         height: 30px;
         width:100%;
     }
+    .line-break-events{
+        height:2px;
+        width:100%;
+        /* max-width: 500px; */
+        background-color: rgb(240, 119, 119);
+        /* background-color: rgb(255, 255, 255); */
+        position: relative;
+        top:20px;
+        z-index: -1;
+        margin:auto;}
     .events-title{
-        float:left;
-        padding: 8px 0px 0vw 5px;
+        padding: 8px 0px 0vw 0px;
         font-size:15px;
         color: rgb(189, 2, 2);
-        border-bottom: 1px solid red;
+        width:100px;
     }
     
     .events-events{

@@ -9,7 +9,6 @@ class MainShowcase extends Component {
     render() {
         return (
             <div className="showcase-container">
-                {/* <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet"/> */}
                 <div className="showcase">
                     <div className="team-logo-container">
                         <img className="team-logo" src={Macfelogo} alt="Mac FE logo"/>
@@ -17,14 +16,9 @@ class MainShowcase extends Component {
                     <div className="draw-line"></div>
                     <h1 className="team-name">MAC Formula Electric</h1>
                     <div className="draw-line"></div>
-                    <div className="typewriter-container">
-                        <h3 className="solid-text">Inspiring a culture of innovation</h3>
-                        {/* <h3>           
-                            <a href="" className="typewrite" data-period="2000" data-type='[ "Technology", "Teamwork", "Innovation"]'>
-                                <span className="wrap"></span>
-                            </a>
-                        </h3> */}
-                        </div>
+                    <div className="culture-container">
+                        <h3 className="culture-text">Inspiring a culture of innovation</h3>
+                    </div>
                 </div>
             </div>
         )

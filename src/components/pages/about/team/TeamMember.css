@@ -16,7 +16,7 @@
     width:700px;
     height:500px;
     /* border:1px solid green; */
-    top:160px;
+    top:calc(20vh - 80px);
     left:calc(50vw - 350px);
     z-index:10001;
     background-color:#eee;

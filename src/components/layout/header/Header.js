@@ -17,7 +17,7 @@ class Header extends Component{
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos < currentScrollPos ) {
+        if (prevScrollpos < (currentScrollPos +1)) {
             console.log(currentScrollPos);
             if(currentScrollPos > 90)
             {

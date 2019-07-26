@@ -4,81 +4,75 @@
     background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("./../../../../img/home-1.jpeg");
     background-position-y: 0px;
     background-size: cover;
-    background-position: 20%;
-    
-}
-.showcase {
-  width:100%;
-  height:100%;
-}
+    background-position: 20%;}
 
-.team-logo-container{
-  height: 150px;
-}
-.team-logo {
-  position: relative;
-  bottom:30px;
-  height:150%;
-  padding:auto auto 80px auto;
-}
-.draw-line {
-  height:2px;
-  width:800px;
-  background-color:#ccc;
-  margin:auto;
-}
-.team-name {
-  padding: 23px 0;
-  font-size: 80px;
-  color: #fff;
-}
+  .showcase {
+    width:100%;
+    height:100%;}
 
-.typewriter-container {
-  display: flex;
-  margin-top: 170px;
-  justify-content: center
-}
-.solid-text {
-  color: rgb(218, 218, 218);
-  font-size: 35px;
-}
-
-
-
-@media only screen and (max-width: 800px) {
-  .showcase-container { 
-    height: 300px;
-  }
   .team-logo-container{
-    height: 90px;
-  }
-  .team-logo {
-    position: relative;
-    bottom:10px;
-    height:120%;
-    padding:auto auto 80px auto;
-  }
+    height: 150px;}
+
+    .team-logo {
+      position: relative;
+      bottom:30px;
+      height:150%;
+      padding:auto auto 80px auto;}
+
   .draw-line {
-    height:1px;
-    width:60%;
+    height:2px;
+    width:800px;
     background-color:#ccc;
-    margin:auto;
-  }
+    margin:auto;}
+
   .team-name {
-    padding: 6px 0;
-    font-size: 35px;
-    color: #fff;
-  }
-  
-  .typewriter-container {
+    padding: 23px 0;
+    font-size: 80px;
+    color: #fff;}
+
+  .culture-container {
     display: flex;
-    margin-top: 60px;
-    justify-content: center
-  }
-  .solid-text {
-    padding-right:15px;
+    margin-top: 170px;
+    justify-content: center}
+
+  .culture-text {
     color: rgb(218, 218, 218);
-    font-size: 15px;
-  }
+    font-size: 35px;}
+
+
+
+@media only screen and (max-width: 850px) {
+  .showcase-container { 
+    height: 300px;}
+
+    .team-logo-container{
+      height: 90px;}
+
+      .team-logo {
+        position: relative;
+        bottom:10px;
+        height:120%;
+        padding:auto auto 80px auto;}
+
+    .draw-line {
+      height:1px;
+      width:60%;
+      background-color:#ccc;
+      margin:auto;}
+
+    .team-name {
+      padding: 6px 0;
+      font-size: 35px;
+      color: #fff;}
+    
+    .culture-container {
+      display: flex;
+      margin-top: 60px;
+      justify-content: center}
+
+      .culture-text {
+        padding-right:15px;
+        color: rgb(218, 218, 218);
+        font-size: 15px;}
 }
 

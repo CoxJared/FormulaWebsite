@@ -5,61 +5,84 @@
     float:right;
     background-color:rgb(245, 245, 245);
     box-shadow: 3px 3px 5px rgb(110, 110, 110);
-    margin-right: 100px;
-}
+    margin-right: 100px;}
 
-.info-item-container{
-    padding-top:20px;
-    padding-bottom:20px;
-}
-.info-item-title{
-    font-size:25px;
-    padding:2px 20px;
-    color:#f00;
-    font-weight: normal;
-    text-align: left;
-}
+    .info-item-container{
+        padding-top:20px;
+        padding-bottom:20px;}
 
-.info-item-stuff{
-    padding:2px 20px;
-    font-size:20px;
-    text-align: left;
-}
+        .info-item-title{
+            font-size:25px;
+            padding:2px 20px;
+            color:#f00;
+            font-weight: normal;
+            text-align: left;}
 
- .box-link {
-    padding: 20px;
-    font-size: 40px;
-    width: 60px;
-    text-align: center;
-    text-decoration: none;
-    margin: 20px 5px;
-    opacity:.8;
-  }
-   
-   .box-link:hover {
-    opacity: 1;
-    box-shadow: 2px 2px 5px #555;
-}
+        .info-item-stuff{
+            padding:2px 20px;
+            font-size:20px;
+            text-align: left;}
 
- .box-links {
-    background: #007bb5;
-    color: white;
-  } 
-  
-  .box-you {
-    background: #bb0000;
-    color: white;
-  }
-  .box-insta {
-    background: #d80d8a;
-    color: white;
-  }
-  .box-face {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .box-twit {
-    background: #55ACEE;
-    color: white;
-  } 
+        .box-link {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            margin: 20px 5px;
+            opacity:.8;}
+        .box-link:hover {
+            opacity: 1;
+            box-shadow: 2px 2px 5px #555;}
+        .box-links {
+            background: #007bb5;
+            color: white;} 
+        
+        .box-you {
+            background: #bb0000;
+            color: white;}
+        .box-insta {
+            background: #d80d8a;
+            color: white;}
+        .box-face {
+            background: #3B5998;
+            color: white;}
+        .box-twit {
+            background: #55ACEE;
+            color: white;} 
+
+
+@media only screen and (max-width: 1250px) {
+
+    .contact-info-container{
+        float: none;
+        margin:auto;
+        margin-top:50px;
+        width:80%;
+        max-width: 600px;}
+    
+        .info-item-container{
+            }
+    
+            .info-item-title{
+                }
+    
+            .info-item-stuff{
+                }
+    
+            .box-link {
+                }
+            .box-link:hover {
+                }
+            .box-links {
+                } 
+            
+            .box-you {
+                }
+            .box-insta {
+                }
+            .box-face {
+                }
+            .box-twit {
+                } 
+}

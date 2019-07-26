@@ -8,7 +8,13 @@ export class Supersension extends Component {
                     Suspension
                 </h1>
                 <p className="general-paragraph">
-                    MAC Formula Electric prides itself for being on the cutting edge of motorsport technology by implementing techniques and design features which are rarely seen in anything other than premier racing series. The use of CNC machinery and CAD modelling as well as various FEA software has allowed us to detail, design and analyze every portion of our car to the smallest detail. Taking full advantage of all the opportunities presented to the team we were able to design not only our best performing, but also by far our most efficient car to date.
+                    &nbsp; After analyzing tire test data, our team decided to use 10” Hoosier LCO tires because of 
+                    their superior grip capabilities. A thorough analysis of tire test data allowed the team to 
+                    determine the acceleration limits of the tires and use this to better understand the loads that the 
+                    suspension will likely encounter. MAC Formula Electric chooses to use a pushrod style set up 
+                    because of its lightweight and highly adjustable capabilities. Finally, we chose to incorporate highly  
+                    adjustable dampers into the system because of their use of twin tube damping technology designed  
+                    specifically for FSAE cars. 
                 </p>
             </div>
         )

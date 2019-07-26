@@ -9,7 +9,7 @@ export class foot extends Component {
             <div className="footer-container">
                 <div className="footer">
                     <div className="name-container">
-                        <p className="footer-name">MAC Formula Electric  &nbsp; | </p>
+                        <p className="footer-name">MAC Formula Electric  &nbsp; <span className="footer-name-span">| </span></p>
                         <div className="follow-list-container">
                         <ul>
                                 <li><a href="https://twitter.com/macformula" target="_blank" rel="noopener noreferrer">Twitter</a></li>
