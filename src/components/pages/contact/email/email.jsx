@@ -100,19 +100,32 @@ class email extends Component{
             <form name="contact" method="post">
                 <input type="hidden" name="form-name" value="contact" />
 
-                        <input 
-                        type="text" 
-                        name="firstName"/>
-                        <input 
-                        type="text" 
-                        name="lastName"/>
+                    <input 
+                    type="text" 
+                    name="firstName"
+                    className="__first_name-input"
+                    placeholder = "First Name"/>
+                    
+                    <input 
+                    type="text" 
+                    name="lastName"
+                    className="__last_name-input"
+                    placeholder = "Last Name"/>
+                    
+                    <input type="email" name="email"
+                    className="__email-input"
+                    placeholder = "Email Address"/>
+                    
+                    
+                    <textarea name="message" 
+                    className="__message-input"
+                    placeholder = "Message" />
                         
-                        <input type="email" name="email"/>
-                        
-                        
-                        <textarea name="message"></textarea>
-                        
-                    <button type="submit">Send</button>
+                    <button 
+                    type="submit"
+                    className="submit-button">
+                        Send
+                    </button>
 
             </form>
 
