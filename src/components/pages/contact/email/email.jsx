@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 // import {  FormGroup, Input, Button} from 'reactstrap';
 import './email.css';
 
+
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
 class email extends Component{
 
     constructor() {
@@ -15,8 +21,19 @@ class email extends Component{
         }
 
         this.handleChange = this.handleChange.bind(this)
-        // this.handleSubmit = this.handleSubmit.bind(this)
     }
+
+    handleSubmit = e => {
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...this.state })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
+  
+        e.preventDefault();
+      };
 
     handleChange = e => {
         this.setState({[e.target.name]: e.target.value})
@@ -44,14 +61,16 @@ class email extends Component{
     // }
 
     render(){
+    const { firstName, lastName, email, message } = this.state;
         return (
             <div className="form-full">
                 <div className="form-container">
-                <form id="myForm" name="contact" method="POST" value="contact">
+                <form id="myForm" onSubmit={this.handleSubmit} >
 
                     <input 
                     type="text"
                     name="firstName"
+                    value={firstName}
                     onChange={this.handleChange} 
                     className="__first_name-input"
                     placeholder = "First Name"/>
@@ -59,6 +78,7 @@ class email extends Component{
                     <input 
                     type="text"
                     name="lastName"
+                    value={lastName}
                     onChange={this.handleChange} 
                     className="__last_name-input"
                     placeholder = "Last Name"/>
@@ -66,6 +86,7 @@ class email extends Component{
                     <input 
                     type="email"
                     name="email"
+                    value={email}
                     onChange={this.handleChange} 
                     className="__email-input"
                     placeholder = "Email Address"
@@ -73,11 +94,12 @@ class email extends Component{
 
                     <textarea 
                     name="message"
+                    value={message}
                     onChange={this.handleChange} 
                     className="__message-input"
                     placeholder = "Message"/>
 
-                    <button className="submit-button" type="send">Send</button>
+                    <button className="submit-button" type="submit">Send</button>
                 </form>
 
                 </div>
