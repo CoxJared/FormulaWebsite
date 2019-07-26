@@ -64,7 +64,7 @@ class email extends Component{
         return (
             <div className="form-full">
                 <div className="form-container">
-                <form id="myForm" name="contact" method="post">
+                {/* <form id="myForm" name="contact" method="post">
                     <input type="hidden" name="form name" value="contact" />
                     <input 
                     type="text"
@@ -95,7 +95,23 @@ class email extends Component{
                     placeholder = "Message"/>
 
                     <button className="submit-button" type="submit">Send</button>
-                </form>
+                </form> */}
+
+<form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
 
                 </div>
             </div>
