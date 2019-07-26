@@ -48,46 +48,59 @@ class email extends Component{
             <div className="form-full">
                 <div className="form-container">
                 <form id="myForm" data-netlify="true" name="Contact Submissions" method="POST">
-                    {/* <FormGroup> */}
-                        <input 
-                        type="text"
-                        name="name"
-                        onChange={this.handleChange} 
-                        className="__first_name-input"
-                        placeholder = "First Name"/>
-                    {/* </FormGroup>
 
-                    <FormGroup> */}
-                        <input 
-                        type="text"
-                        name="phoneNumber"
-                        onChange={this.handleChange} 
-                        className="__last_name-input"
-                        placeholder = "Last Name"/>
-                    {/* </FormGroup>
+                    <input 
+                    type="text"
+                    name="name"
+                    onChange={this.handleChange} 
+                    className="__first_name-input"
+                    placeholder = "First Name"/>
 
-                    <FormGroup> */}
-                        <input 
-                        type="email"
-                        name="email"
-                        onChange={this.handleChange} 
-                        className="__email-input"
+                    <input 
+                    type="text"
+                    name="phoneNumber"
+                    onChange={this.handleChange} 
+                    className="__last_name-input"
+                    placeholder = "Last Name"/>
+
+                    <input 
+                    type="email"
+                    name="email"
+                    onChange={this.handleChange} 
+                    className="__email-input"
                     placeholder = "Email Address"
                     />
-                    {/* </FormGroup>
 
-                    <FormGroup> */}
-                        <textarea 
-                        // type="textarea"
-                        name="message"
-                        onChange={this.handleChange} 
-                        className="__message-input"
-                        placeholder = "Message"/>
-                    {/* </FormGroup> */}
+                    <textarea 
+                    name="message"
+                    onChange={this.handleChange} 
+                    className="__message-input"
+                    placeholder = "Message"/>
 
                     <button className="submit-button" type="send">Send</button>
                 </form>
 
+                
+                <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
                 </div>
             </div>
         )

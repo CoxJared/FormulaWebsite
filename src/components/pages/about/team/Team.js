@@ -31,7 +31,13 @@ export class Team2019 extends Component {
                     headshot: gramshot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/graemekcox/"
-                    }]
+                    }],
+                    projects:[
+                        {year:"2018",
+                        projectsForYear:[
+                            "not sure"
+                        ]}
+                    ]
                 },
                 {
                     id: 1,
