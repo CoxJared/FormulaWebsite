@@ -11,6 +11,7 @@ import jaredShot from './../../../../img/headshots/me.jpg';
 import gramshot from './../../../../img/headshots/gram-headshot.jpeg';
 
 import './TeamMembers.scss';
+import TeamMember from './TeamMember';
 
 
 export class Team2019 extends Component {
@@ -18,12 +19,14 @@ export class Team2019 extends Component {
         super(props);
         this.state= {
             section: "leadership",
+            showMember: <div></div>,
             members: [
                 {
                     id: 1,
                     name: 'Graeme Cox',
                     title: "Electrical Captain",
                     section:'leadership',
+                    email:"placeholder@blah.com",
                     season:'2018',
                     headshot: gramshot,
                     links:[{
@@ -35,6 +38,7 @@ export class Team2019 extends Component {
                     name: 'Riley Dunn',
                     title: 'Team Captain',
                     section:'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot: rileyshot,
                     links:[]
@@ -44,6 +48,7 @@ export class Team2019 extends Component {
                     name: 'Scott Sutherland',
                     title: 'Electrical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot: scottShot,
                     links:[{
@@ -55,6 +60,7 @@ export class Team2019 extends Component {
                     name: 'Jessie Boudreau',
                     title: 'Electrical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot: jessieShot,
                     links:[{
@@ -66,6 +72,7 @@ export class Team2019 extends Component {
                     name: 'Blaire Pauli',
                     title: 'Mechanical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot:blaireShot,
                     links:[]
@@ -75,6 +82,7 @@ export class Team2019 extends Component {
                     name: 'Andrew Aslanidis',
                     title: 'Mechanical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot:andrewShot,
                     links:[]
@@ -84,6 +92,7 @@ export class Team2019 extends Component {
                     name: 'Harjot Nijjar',
                     title: 'Electrical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2019',
                     headshot: harjotshot,
                     links:[]
@@ -93,6 +102,7 @@ export class Team2019 extends Component {
                     name: 'Jessie Boudreau',
                     title: 'Team Captain',
                     section:'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot: jessieShot,
                     links:[{
@@ -104,6 +114,7 @@ export class Team2019 extends Component {
                     name: 'Scott Sutherland',
                     title: 'Electrical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot: scottShot,
                     links:[{
@@ -115,6 +126,7 @@ export class Team2019 extends Component {
                     name: 'Jared Cox',
                     title: 'Mechanical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot: jaredShot,
                     links:[{
@@ -127,6 +139,7 @@ export class Team2019 extends Component {
                     name: 'Blaire Pauli',
                     title: 'Mechanical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot:blaireShot,
                     links:[]
@@ -136,6 +149,7 @@ export class Team2019 extends Component {
                     name: 'Dylan boudreau',
                     title: 'Mechanical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot:dylanShot,
                     links:[]
@@ -145,6 +159,7 @@ export class Team2019 extends Component {
                     name: 'Harjot Nijjar',
                     title: 'Electrical Captain',
                     section: 'leadership',
+                    email:"placeholder@blah.com",
                     season:'2020',
                     headshot: harjotshot,
                     links:[]
@@ -160,6 +175,18 @@ export class Team2019 extends Component {
     updateSection = (newSection) => {
         this.setState({section: newSection})
     }
+
+    shouldShowTeam = (showMember) => {
+                this.setState({showMember: 
+                <TeamMember 
+               member={showMember}
+                closeMember={this.closeTeam}
+                /> 
+            })
+    }
+    closeTeam = () =>{
+        this.setState({showMember:<div></div>})
+    }
     
     render() {
 
@@ -173,6 +200,7 @@ export class Team2019 extends Component {
 
         return (
             <div>
+                
                 <MemberSectionPicker 
                 season={this.props.season}
                 section={this.state.section}
@@ -182,7 +210,7 @@ export class Team2019 extends Component {
                     <div className="members-container">
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                         {visibleMembers.map(member =>(
-                            <div className="member-container">
+                            <div className="member-container" onClick={this.shouldShowTeam.bind(this,member)}>
                                 <div className="member">
                                     <img className="headshot"src={member.headshot} alt="" /> 
                                     <h1 className="name">{member.name}</h1>
@@ -200,6 +228,9 @@ export class Team2019 extends Component {
                         ))}
                     </div>
                 </div>
+                {this.state.showMember}
+                
+                
             </div>
         )
     }

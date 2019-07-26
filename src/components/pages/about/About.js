@@ -66,6 +66,7 @@ export class About extends Component {
                 
                  {displayWindow[this.state.season][this.state.section]}
                  <Footer />
+                 
             </div>
         )
     }
