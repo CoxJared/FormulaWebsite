@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Overview.css';
 import bcmphoto from './../../../../../img/bcm-nice.png';
+import bcmopen from './../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
 import freshChassis from './../../../../../img/freshChassis.jpg';
 import invertorChillin from './../../../../../img/invertorchilllin.jpeg';
 import dashdash from './../../../../../img/dashdash.jpg';
@@ -23,7 +24,7 @@ export class Overview extends Component {
                 {
                     name:"Body Control Module",
                     paragraph:"Our Next Major achievment this season was our new custom Body Control Module, BMC for short. This board is the main board that controls all systems of the car, appart from the motors. The board has 2 microcontrollers for parellel processing of vehicle data, such as pedal position, steering angle, etc. The board also houses safety circuitry for the car, as well as circuitry for the dashboard display, and for CAN communication, the protocal used for communication between the vehicles various systems. The board is located in the front end of the car, in an aluminum enclosure with a fan for active cooling of the power electronics.",
-                    images:[bcmphoto]
+                    images:[bcmphoto,bcmopen]
                 },
                 {
                     name:"Composites",
