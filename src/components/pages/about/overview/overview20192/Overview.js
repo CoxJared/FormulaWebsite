@@ -1,11 +1,25 @@
 import React, { Component } from 'react';
 import './Overview.css';
+
 import bcmphoto from './../../../../../img/bcm-nice.png';
 import bcmopen from './../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
+
 import freshChassis from './../../../../../img/freshChassis.jpg';
+import bag from './../../../../../img/design-showcase/chassis/infusion.jpg';
+import faro from './../../../../../img/design-showcase/chassis/faro.jpg';
+import analyse from './../../../../../img/design-showcase/chassis/chassis-analysis.png';
+
 import invertorChillin from './../../../../../img/invertorchilllin.jpeg';
+import under from './../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
+import fw from './../../../../../img/design-showcase/aerodynamics/front-wing.jpg';
+
 import dashdash from './../../../../../img/dashdash.jpg';
+
 import vinylWrap from './../../../../../img/vinyl.jpeg'
+import pods from './../../../../../img/design-showcase/chassis/wrappods.jpeg';
+import progresswrap from './../../../../../img/design-showcase/chassis/wrapping.jpg';
+import wing from './../../../../../img/design-showcase/chassis/wrapwing.jpeg';
+
 import OverviewPopup from './OverviewPopup';
 
 
@@ -19,7 +33,7 @@ export class Overview extends Component {
                 {
                     name:"Carbon Monocoque",
                     paragraph:"Our first major milestone this season has been our carbon fibre monocoque.",
-                    images:[freshChassis]
+                    images:[freshChassis,analyse, bag,faro]
                 },
                 {
                     name:"Body Control Module",
@@ -29,7 +43,7 @@ export class Overview extends Component {
                 {
                     name:"Composites",
                     paragraph:"One of the manufacturing processes we our proud of this year is our use of composites through a vacuum infusion process. We have used this process to create a number of different carbon fibre parts on the car, including the whole aerodynamic package.  We have also taken advantage of the properties of kevlar with respect to high voltage.  With this knowledge we have constructed a kevlar composite firewall, invertor enclosure(pictured right), and full accumulator encloure.",
-                    images:[invertorChillin]
+                    images:[invertorChillin,under,fw]
                 },
                 {
                     name:"Custom Dashboard",
@@ -39,7 +53,7 @@ export class Overview extends Component {
                 {
                     name:"Vinyl-wrap",
                     paragraph:"rapped it",
-                    images:[vinylWrap]
+                    images:[vinylWrap,progresswrap,wing,pods]
             }
             ]
         }

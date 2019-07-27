@@ -133,15 +133,18 @@
     width:100%;
     height:auto;
     display: flex;
+    flex-wrap: wrap;
+    padding-left:20px;
+    padding-top:20px;
 }
 
 .overview-popup-left-image-container{
     /* border: 1px solid red; */
-    width:100px;
-    height:100px;
-    margin:20px;
+    width:108px;
+    height:90px;
+    margin:10px;
     box-shadow: 1px 1px 5px #333;
-    opacity: .9;
+    opacity: .8;
     filter: grayscale(20%);
     cursor: pointer;
 }
