@@ -10,6 +10,7 @@ import Design2019 from './design/design2019/Design2019';
 import Overview2020 from './overview/overview2020/Overview2020';
 import Design2020 from './design/design2020/Design2020';
 import Team from './team/Team';
+import Overview from './overview/overview20192/Overview';
 
 const displayWindow = {
     "2018":
@@ -20,13 +21,13 @@ const displayWindow = {
     },
     "2019":
     {
-        "overview": <Overview2019 />,
+        "overview": <Overview />,
         "design": <Design2019 />,
         "team": <Team season="2019" />
     },
     "2020":
     {
-        "overview": <Overview2020 />,
+        "overview": <Overview2019 />,
         "design": <Design2020 />,
         "team": <Team season="2020"/>
     }

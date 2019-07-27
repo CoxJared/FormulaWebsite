@@ -30,7 +30,7 @@ export class SectionSelector extends Component {
                         <h1 
                         className={`recruitment-choice-name ${this.isSelected("positions", this.props.page)}`}
                         onClick={this.props.updatePage.bind(this, "positions")}
-                        >Open Positions
+                        >Openings
                         </h1>
                     </div>
                 </div>

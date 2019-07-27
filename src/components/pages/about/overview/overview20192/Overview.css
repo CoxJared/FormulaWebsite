@@ -1,0 +1,148 @@
+.overview2019-full-container{
+    overflow: hidden;
+
+}
+
+.overview2019-showcase{
+    width:100%;
+    height:30vw;
+    max-height: 500px;
+    background: linear-gradient( rgba(0, 0, 5, 0.1), rgba(0, 0, 5, 0.15) ),url('./../../../../../img/night-life.png');
+    position: relative;
+    background-size: cover;
+    background-position-y: 59%;
+    background-repeat: no-repeat;}
+
+.overview2019-showcase-header{
+    font-size:70px;
+    padding:150px;
+    font-weight: normal;
+    color:rgb(255, 255, 255);
+    position: relative;
+    left:16vw;}
+
+.overview2019-intro-para{
+    padding:50px 0 0 0;
+    width:80%;
+    max-width:920px;
+    text-align:justify; 
+    margin:auto;
+    line-height: 1.5em;
+    font-size: 17px;}
+
+    .overview2019-explore-milestones-container{
+        /* border:1px solid red; */
+        width:90%;
+        max-width:1000px;
+        height:auto;
+    
+        margin:50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
+    .overview2019-explore-milestones-single{
+        /* border:1px solid blue; */
+        width:300px;
+        height:300px;
+        margin:15px;
+        /* flex:1; */
+        padding:10px;
+        box-shadow: 2px 2px 2px 1px rgb(238, 238, 238);
+    }
+    .overview2019-explore-milestones-single:hover {
+        box-shadow: 3px 3px 3px 2px rgb(200, 200, 200);
+        cursor: pointer;
+    }
+
+
+    .overview2019-explore-milestones-image{
+        position: relative;
+        object-fit: cover;
+        width:100%;
+        height:70%;}
+
+
+    .overview2019-explore-milestones-header-container{
+        width:100%;
+        /* border:1px solid green; */
+        height:60px;
+        padding:10px;
+    }
+    .overview2019-explore-milestones-header{
+        font-size:18px;
+        text-align:left;
+        font-weight: normal;
+    }
+
+
+
+
+
+
+
+
+
+
+
+.overview-popup-full{
+    /* border:5px solid red; */
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    z-index:10000;
+    background-color: #222;
+    opacity:.5;
+    top:0;
+}
+
+.overview-popup-container{
+    opacity:1;
+    /* border:1px solid red; */
+    position: fixed;
+    width:1000px;
+    height:700px;
+    background-color: #222;
+    
+    top:0;
+    right:calc(50vw - 500px);
+    top:200px;
+    background-color:#fff;
+    z-index:10001;
+}
+
+.overview-popup-left-container{
+    position: relative;
+    width:55%;
+    height:100%;
+    /* border:1px solid green; */
+    float:left;
+}
+
+.overview-popup-left-container-image{
+    position: relative;
+    object-fit: cover;
+    width:90%;
+    height:60%;
+    padding-top:30px;
+}
+
+.overview-popup-right-container{
+    position: relative;
+    width:45%;
+    height:100%;
+    float:right;
+}
+
+.overview-popup-right-container-header {
+    padding:30px 30px 0 30px;
+    text-align: left;
+}
+
+.overview-popup-right-container-paragraph{
+    padding:30px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.4em;
+}
