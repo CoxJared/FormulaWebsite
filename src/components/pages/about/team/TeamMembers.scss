@@ -105,6 +105,8 @@
         height: 220px;
         display: flex;
     }
+    .member-container:hover {
+        box-shadow: none;}
     
     .member-container:hover .headshot{
         filter: grayscale(0%);
