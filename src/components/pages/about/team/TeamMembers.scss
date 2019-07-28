@@ -83,6 +83,7 @@
     .width-restricter-team{
         background-color: #eee;
         width:100%;
+        min-height: 0;
     }
     
     .members-container {
@@ -93,6 +94,7 @@
         width:100%;
         max-width: 400px;;
         background-color: #eee;
+        height:700px;
     }
     
     .member-container {

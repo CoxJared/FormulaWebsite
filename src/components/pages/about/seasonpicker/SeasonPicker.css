@@ -131,11 +131,11 @@
         margin: auto;
     }
      .unselected-season:hover .year-header {
-        font-size:18px;
-        opacity:1;
+        /* font-size:18px;
+        opacity:1; */
     }
     .unselected-season:hover .time-dot {
-        background-color: rgb(216, 216, 216);
+        /* background-color: rgb(216, 216, 216); */
     }
     
     .selected-season .year-header{
