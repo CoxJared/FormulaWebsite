@@ -27,7 +27,7 @@ const displayWindow = {
     },
     "2020":
     {
-        "overview": <Overview2019 />,
+        "overview": <Overview2020 />,
         "design": <Design2020 />,
         "team": <Team season="2020"/>
     }
