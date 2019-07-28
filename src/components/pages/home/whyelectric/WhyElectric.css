@@ -134,16 +134,16 @@
         background: url('./../../../../img/tree.png');
         background-size: contain;
         background-repeat: no-repeat;
-        width:100px;
+        width:90px;
         margin:auto;
-        height:120px;
+        height:100px;
         background-position-y: 10px;
     }
     .image-performance{
         background: url('./../../../../img/output-onlinepngtools.png');
         background-size: contain;
         background-repeat: no-repeat;
-        width:100px;
+        width:90px;
         margin:auto;
         background-position-y: 20px;
     }
@@ -151,7 +151,7 @@
         background: url('./../../../../img/delorean-03-512.png');
         background-size:contain;
         background-repeat: no-repeat;
-        width:100px;
+        width:90px;
         margin:auto;
         background-position-y: 10px;
     }
@@ -163,13 +163,13 @@
         font-weight: 300;
         color:#fff;
         position: relative;
-        width:220px;
+        width:180px;
         float:right;
     }
     
     .why-electric-reason-paragraph-container{
         /* border:1px solid purple; */
-        width: 225px;
+        width: 60vw;
         padding:0px;
         position: relative;
         float:right;
