@@ -15,7 +15,7 @@ class Home extends Component {
       
     render() {
         return (
-            <div>
+            <div style={{height:'auto',overflow:'hidden'}}>
                 <Header />
                 <MainShowcase />
                  <AboutUs />

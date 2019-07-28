@@ -34,4 +34,42 @@
     transition: all 2s ease;
 }
 
+@media only screen and (max-width: 550px) {
+    *{
+        transition: .5s ease;
+    }
+    
+    .design-explorer-container {
+        width:400px;
+        margin:auto;
+        background-color: 333;
+        border: 10px #fff solid;
+        background-color: #fff;
+        height:240px;
+        z-index: -3;
+        overflow:hidden;
+        // border:1px solid blue;
+    }
+    
+    .image-container {
+        position: relative;
+        width:540px;
+        margin:0 auto ;
+        overflow:hidden;
+        display:flex;
+        height: 310px;
+        transition: 2s ease;
+        // border:1px solid red;
+        top:-50px;
+        z-index:0;
+        left:-120px;
+    }
+    .image-show {
+        overflow: hidden;
+        flex:1.8;
+        position: relative;
+        transition: all 2s ease;
+    }
+}
+
 

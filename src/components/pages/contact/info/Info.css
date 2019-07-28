@@ -27,10 +27,10 @@
             padding: 20px;
             font-size: 40px;
             width: 60px;
-            text-align: center;
             text-decoration: none;
             margin: 20px 5px;
-            opacity:.8;}
+            opacity:.8;
+        }
         .box-link:hover {
             opacity: 1;
             box-shadow: 2px 2px 5px #555;}
@@ -59,9 +59,12 @@
         margin:auto;
         margin-top:50px;
         width:80%;
-        max-width: 600px;}
+        max-width: 600px;
+    height:590px;
+}
     
         .info-item-container{
+            padding-right:50px;
             }
     
             .info-item-title{
@@ -71,6 +74,8 @@
                 }
     
             .box-link {
+                float: left;
+                margin: 20px 10px;
                 }
             .box-link:hover {
                 }

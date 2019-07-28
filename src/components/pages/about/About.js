@@ -16,7 +16,7 @@ const displayWindow = {
     "2018":
     {
         "overview": <Overview2018 />,
-        "design": <Design2019 />,
+        "design": <Overview2018 />,
         "team": <Team season="2018" />
     },
     "2019":
@@ -53,6 +53,9 @@ export class About extends Component {
     }
 
     render() {
+        if(this.state.season =="2018" && this.state.section =="design"){
+            this.setState({section:"overview"})
+        }
         return (
             <div>
                 <Header page="about"/>
@@ -63,6 +66,7 @@ export class About extends Component {
                  <SectionPicker 
                  section={this.state.section}
                  updateSection={this.updateSection}
+                 season={this.state.season}
                  />
                 
                  {displayWindow[this.state.season][this.state.section]}

@@ -5,7 +5,7 @@ import bcmphoto from './../../../../../img/design-showcase/lowvoltage/unpacking.
 import freshChassis from './../../../../../img/freshChassis.jpg';
 import invertorChillin from './../../../../../img/invertorchilllin.jpeg';
 import dashdash from './../../../../../img/dashdash.jpg';
-import vinylWrap from './../../../../../img/vinyl.jpeg'
+import vinylWrap from './../../../../../img/vinyl.jpeg';
 
 export class Overview2019 extends Component {
     render() {

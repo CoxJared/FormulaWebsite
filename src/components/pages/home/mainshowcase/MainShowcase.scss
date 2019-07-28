@@ -5,7 +5,6 @@
     background-position-y: 0px;
     background-size: cover;
     background-position: 20%;
-
     -webkit-animation-name: slide-in;
     -webkit-animation-duration: 1.5s;
     // -webkit-animation-name: fade-in;
@@ -18,6 +17,8 @@
       from {opacity: 0;}
       to {opacity: 1;}
     }
+
+    @media only screen and (min-width: 850px) {
     @keyframes slide-in {
       from {height:0;
         opacity: 0;
@@ -25,6 +26,17 @@
       to{height:650px;
         opacity: 1;}
     }
+  }
+  @media only screen and (max-width: 850px) {
+    @keyframes slide-in {
+      from {height:0;
+        opacity: 0;
+      }
+      to{height:300px;
+        opacity: 1;}
+    }
+  }
+
     
 
   .showcase {

@@ -13,11 +13,22 @@ export class SectionPicker extends Component {
         return "unselected-section"
     } 
 
+    isDesignShowing = (season) => {
+        if(season==="2018")
+        {return "hide-design"}
+        return "choice"
+    }
+
+    
     render() {
+            if(this.props.section =="design"){
+                this.props.updateSection.bind(this, "overview")
+            }
+
         return (
             <div className="section-picker-container">
                 <div className="section-picker">
-                    <div className="choice">
+                    <div className={`${this.isDesignShowing(this.props.season)}`}>
                         <h1 
                         className={`choice-name ${this.isSelected("design", this.props.section)}`}
                         onClick={this.props.updateSection.bind(this, "design")}

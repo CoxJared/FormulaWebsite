@@ -66,7 +66,7 @@
 @media only screen and (max-width: 1250px) {
 
 .form-full{
-    width:900%;
+    width:90%;
     max-width:600px;
     height:auto;
     display: inline-block;}
@@ -91,12 +91,14 @@
             float:left;
             padding-left:10px;
             margin-left:0px;
-            margin-top:30px;}
+            margin-top:15px;}
 
         .__message-input {
             height:225px;
             width:100%;
-            max-height:300px;}
+            max-height:300px;
+            max-width:400px;
+            min-width:300px;}
 
         .__first_name-input:focus, .__email-input:focus, .__last_name-input:focus, .__message-input:focus {
             border: 1px solid rgb(255, 52, 52);}

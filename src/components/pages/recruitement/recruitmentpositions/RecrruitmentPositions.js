@@ -11,54 +11,54 @@ export class RecrruitmentPositions extends Component {
             positionsListed: 'all',
             positions:
                 [
-                        {
-                            type:'mechanical',
-                            name:'General Mechanical Member',
-                            description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: 'Sept 8, 2019'
-                        }, 
-                        {
-                            type:'electrical',
-                            name:'General Electrical Member',
-                            description:'V = IR',
-                            openings: 'Sept 8, 2019'
-                        },  
-                        {
-                            type:'software',
-                            name:'General Software Member',
-                            description:'Something something something',
-                            openings: 'Sept 8, 2019'
-                        },
-                        {
-                            type:'mechanical',
-                            name:'Composites Manufacturing',
-                            description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: 'Sept 8, 2019'
-                        },
-                        {
-                            type:'mechanical',
-                            name: 'Cad (Computer Aided Design)',
-                            description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: 'Sept 8, 2019'
-                        },
-                        {
-                            type:'mechanical',
-                            name: 'Structural Analysis',
-                            description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                            openings: 'Sept 8, 2019'
-                        },
-                    {
-                        type:'electrical',
-                        name:'Wiring Harness',
-                        description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                        openings: 'Sept 8, 2019'
-                    },        
-                    {
-                        type:'software',
-                        name:'Controls Tester',
-                        description:'blah blah ssksnskns',
-                        openings: 'Sept 8, 2019'
-                    },
+                    //     {
+                    //         type:'mechanical',
+                    //         name:'General Mechanical Member',
+                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
+                    //         openings: 'Sept 8, 2019'
+                    //     }, 
+                    //     {
+                    //         type:'electrical',
+                    //         name:'General Electrical Member',
+                    //         description:'V = IR',
+                    //         openings: 'Sept 8, 2019'
+                    //     },  
+                    //     {
+                    //         type:'software',
+                    //         name:'General Software Member',
+                    //         description:'Something something something',
+                    //         openings: 'Sept 8, 2019'
+                    //     },
+                    //     {
+                    //         type:'mechanical',
+                    //         name:'Composites Manufacturing',
+                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
+                    //         openings: 'Sept 8, 2019'
+                    //     },
+                    //     {
+                    //         type:'mechanical',
+                    //         name: 'Cad (Computer Aided Design)',
+                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
+                    //         openings: 'Sept 8, 2019'
+                    //     },
+                    //     {
+                    //         type:'mechanical',
+                    //         name: 'Structural Analysis',
+                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
+                    //         openings: 'Sept 8, 2019'
+                    //     },
+                    // {
+                    //     type:'electrical',
+                    //     name:'Wiring Harness',
+                    //     description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
+                    //     openings: 'Sept 8, 2019'
+                    // },        
+                    // {
+                    //     type:'software',
+                    //     name:'Controls Tester',
+                    //     description:'blah blah ssksnskns',
+                    //     openings: 'Sept 8, 2019'
+                    // },
                     // {
                     //     type:'business',
                     //     name:'Event Organizer',

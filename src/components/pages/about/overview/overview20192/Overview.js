@@ -10,6 +10,7 @@ import faro from './../../../../../img/design-showcase/chassis/faro.jpg';
 import analyse from './../../../../../img/design-showcase/chassis/chassis-analysis.png';
 
 import invertorChillin from './../../../../../img/invertorchilllin.jpeg';
+import accum from './../../../../../img/design-showcase/tractivesystem/accumcomp.png';
 import under from './../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
 import fw from './../../../../../img/design-showcase/aerodynamics/front-wing.jpg';
 
@@ -43,7 +44,7 @@ export class Overview extends Component {
                 {
                     name:"Composites",
                     paragraph:"One of the manufacturing processes we our proud of this year is our use of composites through a vacuum infusion process. We have used this process to create a number of different carbon fibre parts on the car, including the whole aerodynamic package.  We have also taken advantage of the properties of kevlar with respect to high voltage.  With this knowledge we have constructed a kevlar composite firewall, invertor enclosure(pictured right), and full accumulator encloure.",
-                    images:[invertorChillin,under,fw]
+                    images:[invertorChillin, accum, under,fw]
                 },
                 {
                     name:"Custom Dashboard",

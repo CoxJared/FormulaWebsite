@@ -72,8 +72,8 @@
     }
     
     .what-we-do-title-container{
-        padding:10px;
-        font-size:14px;
+        padding:6px;
+        font-size:11px;
         border:1px solid #fff;
     }
     .line-break{
@@ -82,13 +82,13 @@
         max-width: 1200px;
         background-color: rgb(172, 172, 172);
         position: relative;
-        top:25px;
+        top:15px;
         z-index: 0;
         margin:auto;
     }
     
     .what-we-do-title{
-        width:220px;
+        width:160px;
         margin:auto;
         background-color:#fff;
         color:rgb(63, 63, 63);
