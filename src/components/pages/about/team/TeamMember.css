@@ -219,7 +219,7 @@ color:#222;
         width:310px;
         height:350px;
         /* border:1px solid green; */
-        top:calc(20vh - 40px);
+        top:calc(20vh - 10px);
         left:calc(50vw - 155px);
         z-index:10001;
         background-color:#eee;
