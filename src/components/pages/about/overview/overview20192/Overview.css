@@ -297,7 +297,7 @@
         
         top:0;
         right:calc(50vw - 155px);
-        top:100px;
+        top:60px;
         background-color:#fff;
         z-index:10001;
     }
@@ -307,7 +307,7 @@
         width:310px;
         height:250px;
         /* border:1px solid green; */
-        top:130px;
+        top:90px;
         float:left;
     }
     
