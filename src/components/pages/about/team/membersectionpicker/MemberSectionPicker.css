@@ -24,6 +24,10 @@
     color: rgb(121, 121, 121);
     border-bottom: 1px #222 solid;
 }
+.member-section-option-collapse{
+    opacity:0;
+    width:0;
+}
 
 .member-section-option:hover {
     color: rgb(255, 255, 255);

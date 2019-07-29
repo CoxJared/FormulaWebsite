@@ -9,6 +9,11 @@ import dylanShot from './../../../../img/headshots/dylan.png';
 import harjotshot from './../../../../img/headshots/harjot.png';
 import jaredShot from './../../../../img/headshots/me.jpg';
 import gramshot from './../../../../img/headshots/gram-headshot.jpeg';
+import brianShot from './../../../../img/headshots/brian-headshot.png';
+import noahShot from './../../../../img/headshots/noah-headshot.jpg';
+import patriciaShot from './../../../../img/headshots/patricia-headshot.jpg';
+import donShot from './../../../../img/headshots/don-headshot.jpg';
+import nathanshot from './../../../../img/headshots/nathan-headshot.png';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -35,10 +40,103 @@ export class Team2019 extends Component {
                     projects:[
                         {year:"2018",
                         projectsForYear:[
-                            "not sure"
+                            "PCB Design",
+                            "Low Voltage Wiring",
+                            "Board Programming"
                         ]}
                     ]
                 },
+                {
+                    id: 1,
+                    name: 'Brian Won',
+                    title: "Electrical Captain",
+                    section:'leadership',
+                    email:"t.brianwong@gmail.com",
+                    season:'2018',
+                    headshot: brianShot,
+                    links:[
+                    ],
+                    projects:[
+                        {year:"2018",
+                        projectsForYear:[
+                            "Driving Simulator"
+                        ]}
+                    ]
+                },
+                {
+                    id: 3,
+                    name: 'Jared Cox',
+                    title: 'Freelancer',
+                    section: 'mechanical',
+                    email:"coxj1@mcmaster.ca",
+                    season:'2019',
+                    headshot: jaredShot,
+                    links:[{
+                        name:"linkedin",
+                        url:"https://www.linkedin.com/in/jared-cox-110591149/"
+                    }],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Aero-Pack Manufacturing","LV Wiring Harness", "Website Development"
+                        ]}
+                    ]
+                },
+                {
+                    id: 1,
+                    name: 'Noah Mrjvelj',
+                    title: "Freelancer",
+                    section:'mechanical',
+                    email:"mrveljn@mcmaster.ca",
+                    season:'2019',
+                    headshot: noahShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/noah-mrvelj-3094b6173/"}
+                    ],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Invertor/Charger Kevlar Housings", "Chassis", "Vinyl Wrap"
+                        ]}
+                    ]
+                }, 
+                {id: 1,
+                    name: 'Patricia Ostrowski',
+                    title: "Freelancer",
+                    section:'mechanical',
+                    email:"ostrowsp@mcmaster.ca",
+                    season:'2019',
+                    headshot: patriciaShot,
+                    links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Pre-preg manufacturing process research", "PCB housing", "Undertray mounts"
+                ]}]},  
+                {id: 1,
+                    name: 'Nathan Lam',
+                    title: "Manufacturing",
+                    section:'mechanical',
+                    email:"Lamn7@mcmaster.ca",
+                    season:'2019',
+                    headshot: nathanshot,
+                    links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Chassis Contruction", "Miscellaneous welding tasks"
+                ]}]},   
+                {id: 1,
+                    name: 'Don Trung Hieu',
+                    title: "Microcontrollers",
+                    section:'electrical',
+                    email:"dont1@mcmaster.ca",
+                    season:'2019',
+                    headshot: donShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/hieudon"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:["Embedded Systems for microcontrollers, C programming", "Serial communication program UART and SPI for the microcontroller", "Communicated with the gyroscope, accelerometer using SPI"
+                        ]}]},              
                 {
                     id: 1,
                     name: 'Riley Dunn',
@@ -180,7 +278,7 @@ export class Team2019 extends Component {
                     name: 'Jared Cox',
                     title: 'Mechanical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"coxj1@mcmaster.ca",
                     season:'2020',
                     headshot: jaredShot,
                     links:[{

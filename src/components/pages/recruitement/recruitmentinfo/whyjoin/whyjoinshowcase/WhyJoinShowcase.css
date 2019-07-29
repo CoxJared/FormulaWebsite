@@ -48,10 +48,10 @@
 }
 
 .bottom {
-    background :#fff;
+    background :#eee;
     z-index:1;
     border-top:3px solid rgb(106, 220, 255);
-    border-bottom:3px solid #fff;
+    border-bottom:3px solid #eee;
 }
 
 .bottom .content-body{
@@ -73,7 +73,7 @@
 
     width:50vw;
     border-bottom:3px solid rgb(106, 220, 255);
-    border-top:3px solid #222;
+    border-top:0px solid #222;
 }
 
 .top p, .bottom p{
