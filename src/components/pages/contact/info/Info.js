@@ -9,13 +9,13 @@ function Info () {
                     <h1 className="info-item-title">Email:</h1>
                     <h2 className="info-item-stuff">formula@mcmaster.ca</h2>
                 </div>
-                <div className="info-item-container">
+                {/* <div className="info-item-container">
                     <h1 className="info-item-title">Telephone:</h1>
                     <h2 className="info-item-stuff">(888) 777-4344</h2>
-                </div>
+                </div> */}
                 <div className="info-item-container">
                     <h1 className="info-item-title">Address:</h1>
-                    <h2 className="info-item-stuff">1280 Main Street West, </h2>
+                    <h2 className="info-item-stuff">1280 Main Street West, JHE-H104</h2>
                     <h2 className="info-item-stuff">Hamilton, Ontario</h2>
                     <h2 className="info-item-stuff">L8S 4L8</h2>
                 </div>

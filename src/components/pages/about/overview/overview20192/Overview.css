@@ -293,6 +293,7 @@
         position: fixed;
         width:310px;
         height:500px;
+        max-height: calc(100vh - 100px);
         background-color: #222;
         
         top:0;
@@ -375,8 +376,8 @@
         position: relative;
         top:220px;
         text-align: justify;
-        font-size: 12px;
-        line-height: 1.4em;
+        font-size: 11px;
+        line-height: 1.3em;
     }
     
 
