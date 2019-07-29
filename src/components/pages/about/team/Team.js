@@ -49,7 +49,7 @@ export class Team2019 extends Component {
                 },
                 {
                     id: 1,
-                    name: 'Brian Won',
+                    name: 'Brian Wong',
                     title: "Electrical Captain",
                     section:'leadership',
                     email:"t.brianwong@gmail.com",
@@ -85,7 +85,7 @@ export class Team2019 extends Component {
                 },
                 {
                     id: 5,
-                    name: 'Dylan boudreau',
+                    name: 'Dylan Boudreau',
                     title: 'Suspension',
                     section: 'mechanical',
                     email:"boudread@mcmaster.ca",
@@ -240,7 +240,7 @@ export class Team2019 extends Component {
                     name: 'Andrew Aslanidis',
                     title: 'Mechanical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"aslanida@mcmaster.ca",
                     season:'2019',
                     headshot:andrewShot,
                     links:[],
@@ -340,7 +340,7 @@ export class Team2019 extends Component {
                 },
                 {
                     id: 5,
-                    name: 'Dylan boudreau',
+                    name: 'Dylan Boudreau',
                     title: 'Mechanical Captain',
                     section: 'leadership',
                     email:"boudread@mcmaster.ca",
