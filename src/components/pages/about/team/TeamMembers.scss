@@ -6,7 +6,7 @@
 
 .members-container {
     width:100%;
-    max-width:1050px;
+    max-width:1010px;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
@@ -15,9 +15,10 @@
 }
 
 .member-container {
-    width: 33%;
+    width: 300px;
     padding:20px;
-    height: 370px;
+    margin:5px;
+    height: 360px;
     display: flex;
 }
 
@@ -34,8 +35,8 @@
 .headshot {
     object-fit: cover;
     
-    height:70%;
-    width:80%;
+    height:65%;
+    width:75%;
     border-radius: 50%;
     filter: grayscale(40%);
 }
@@ -48,7 +49,7 @@
 }
 
 .title {
-    padding-bottom:5px;
+    padding-top:5px;
     font-size: 20px;
     color: #555;
 }

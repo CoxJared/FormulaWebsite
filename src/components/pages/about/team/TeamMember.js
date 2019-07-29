@@ -24,7 +24,7 @@ export class TeamMember extends Component {
 
 
 
-                                <a href={link.url} class={`fa fa-${link.name} smaller`} target="_blank" rel="noopener noreferrer"></a>
+                                <a href={link.url} class={`fa fa-${link.name} custom-${link.name} smaller`} target="_blank" rel="noopener noreferrer"></a>
 
                                 ))}
                             </div>

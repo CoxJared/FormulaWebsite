@@ -4,7 +4,7 @@
     align-content: center; 
     width: 90%;
     margin:auto;
-    min-height:calc(100vh - 760px);
+    min-height:calc(100vh - 730px);
   }
   
   .general-header {

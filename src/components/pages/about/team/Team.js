@@ -14,6 +14,7 @@ import noahShot from './../../../../img/headshots/noah-headshot.jpg';
 import patriciaShot from './../../../../img/headshots/patricia-headshot.jpg';
 import donShot from './../../../../img/headshots/don-headshot.jpg';
 import nathanshot from './../../../../img/headshots/nathan-headshot.png';
+import hemelShot from './../../../../img/headshots/hemel-headshot.png';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -31,7 +32,7 @@ export class Team2019 extends Component {
                     name: 'Graeme Cox',
                     title: "Electrical Captain",
                     section:'leadership',
-                    email:"placeholder@blah.com",
+                    email:"Graeme.k.cox@gmail.com",
                     season:'2018',
                     headshot: gramshot,
                     links:[{
@@ -83,6 +84,22 @@ export class Team2019 extends Component {
                     ]
                 },
                 {
+                    id: 5,
+                    name: 'Dylan boudreau',
+                    title: 'Suspension',
+                    section: 'mechanical',
+                    email:"boudread@mcmaster.ca",
+                    season:'2019',
+                    headshot:dylanShot,
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Suspension Lead","Vehicle Dynamics"
+                        ]}
+                    ]
+                },
+                {
                     id: 1,
                     name: 'Noah Mrjvelj',
                     title: "Freelancer",
@@ -101,7 +118,7 @@ export class Team2019 extends Component {
                 }, 
                 {id: 1,
                     name: 'Patricia Ostrowski',
-                    title: "Freelancer",
+                    title: "Manufacturing",
                     section:'mechanical',
                     email:"ostrowsp@mcmaster.ca",
                     season:'2019',
@@ -116,7 +133,7 @@ export class Team2019 extends Component {
                     name: 'Nathan Lam',
                     title: "Manufacturing",
                     section:'mechanical',
-                    email:"Lamn7@mcmaster.ca",
+                    email:"royh@mcmaster.ca",
                     season:'2019',
                     headshot: nathanshot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
@@ -125,6 +142,19 @@ export class Team2019 extends Component {
                         projectsForYear:[
                             "Chassis Contruction", "Miscellaneous welding tasks"
                 ]}]},   
+                {id: 1,
+                    name: 'Hemel Roy',
+                    title: "Embedded Systems",
+                    section:'electrical',
+                    email:"Lamn7@mcmaster.ca",
+                    season:'2019',
+                    headshot: hemelShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/hemelroy"}, {name:"github", url:"https://github.com/hemelroy"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Chassis Contruction", "Miscellaneous welding tasks"
+                ]}]}, 
                 {id: 1,
                     name: 'Don Trung Hieu',
                     title: "Microcontrollers",
@@ -142,10 +172,10 @@ export class Team2019 extends Component {
                     name: 'Riley Dunn',
                     title: 'Team Captain',
                     section:'leadership',
-                    email:"placeholder@blah.com",
+                    email:"dunnrw@mcmaster.ca",
                     season:'2019',
                     headshot: rileyshot,
-                    links:[],
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/riley-dunn-94860bb2/"}],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
@@ -158,7 +188,7 @@ export class Team2019 extends Component {
                     name: 'Scott Sutherland',
                     title: 'Electrical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"suthes1@mcmaster.ca",
                     season:'2019',
                     headshot: scottShot,
                     links:[{
@@ -176,7 +206,7 @@ export class Team2019 extends Component {
                     name: 'Jessie Boudreau',
                     title: 'Electrical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"boudrj1@mcmaster.ca",
                     season:'2019',
                     headshot: jessieShot,
                     links:[{
@@ -194,7 +224,7 @@ export class Team2019 extends Component {
                     name: 'Blaire Pauli',
                     title: 'Mechanical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"paulib@mcmaster.ca",
                     season:'2019',
                     headshot:blaireShot,
                     links:[],
@@ -217,7 +247,7 @@ export class Team2019 extends Component {
                     projects:[
                         {year:"2019",
                         projectsForYear:[
-                            "Aerodynamics Lead"
+                            "Technical Drawings", "Cost Report", "Aerodynamics"
                         ]}
                     ]
                 },
@@ -226,7 +256,7 @@ export class Team2019 extends Component {
                     name: 'Harjot Nijjar',
                     title: 'Electrical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"nijjarhs@mcmaster.ca",
                     season:'2019',
                     headshot: harjotshot,
                     links:[],
@@ -242,7 +272,7 @@ export class Team2019 extends Component {
                     name: 'Jessie Boudreau',
                     title: 'Team Captain',
                     section:'leadership',
-                    email:"placeholder@blah.com",
+                    email:"boudrj1@mcmaster.ca",
                     season:'2020',
                     headshot: jessieShot,
                     links:[{
@@ -260,7 +290,7 @@ export class Team2019 extends Component {
                     name: 'Scott Sutherland',
                     title: 'Electrical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"suthes1@mcmaster.ca",
                     season:'2020',
                     headshot: scottShot,
                     links:[{
@@ -297,7 +327,7 @@ export class Team2019 extends Component {
                     name: 'Blaire Pauli',
                     title: 'Mechanical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"paulib@mcmaster.ca",
                     season:'2020',
                     headshot:blaireShot,
                     links:[],
@@ -313,7 +343,7 @@ export class Team2019 extends Component {
                     name: 'Dylan boudreau',
                     title: 'Mechanical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"boudread@mcmaster.ca",
                     season:'2020',
                     headshot:dylanShot,
                     links:[],
@@ -329,7 +359,7 @@ export class Team2019 extends Component {
                     name: 'Harjot Nijjar',
                     title: 'Electrical Captain',
                     section: 'leadership',
-                    email:"placeholder@blah.com",
+                    email:"nijjarhs@mcmaster.ca",
                     season:'2020',
                     headshot: harjotshot,
                     links:[],
@@ -391,14 +421,14 @@ export class Team2019 extends Component {
                                     <img className="headshot"src={member.headshot} alt="" /> 
                                     <h1 className="name">{member.name}</h1>
                                     <h2 className="title">{member.title}</h2>
-                                    <div className="links-container">
+                                    {/* <div className="links-container">
                                         <ul className="links-list">
                                             {member.links.map(link => (
                                             // eslint-disable-next-line jsx-a11y/anchor-has-content
                                             <li className={`${link.name}`}><a href={link.url} class="fa fa-linkedin smaller" target="_blank" rel="noopener noreferrer"></a></li> 
                                             ))}
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))}

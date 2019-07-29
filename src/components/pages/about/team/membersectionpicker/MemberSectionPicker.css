@@ -8,16 +8,16 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90px;
+    height: 60px;
     margin-top:0px;
-    padding-bottom:16px;
+    padding-bottom:10px;
 }
 
 .member-section-option {
     float: left;
     list-style-type: none;
-    font-size: 27px;
-    padding:10px;
+    font-size: 20px;
+    padding:5px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top:0px;
@@ -39,8 +39,7 @@
 .selected {
     float: left;
     list-style-type: none;
-    font-size: 27px;
-    padding:10px;
+    font-size: 20px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top:0px;
