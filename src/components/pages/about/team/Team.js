@@ -20,6 +20,7 @@ import lawrenceShot from './../../../../img/headshots/lawrence-headshot.png';
 import samShot from './../../../../img/headshots/sam-headshot.jpg';
 import ridvanShot from './../../../../img/headshots/ridvan-headshot.png';
 import samuelShot from './../../../../img/headshots/samuel-photo.jpg';
+import greshot from './../../../../img/headshots/greg-headshot.png';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -122,7 +123,14 @@ export class Team2019 extends Component {
                     email:"royh@mcmaster.ca",
                     headshot: nathanshot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
-                    projects:[{year:"2019",projectsForYear:["Chassis Contruction", "Miscellaneous welding tasks" ]}]},   
+                    projects:[{year:"2019",projectsForYear:["Chassis Contruction", "Miscellaneous welding tasks" ]}]},  
+                {id: 1,
+                    name: 'Greg Butler',
+                    seasons:{'2019':{section: 'mechanical', title: 'Cooling'}},
+                    email:"butleg@mcmaster.ca",
+                    headshot: greshot,
+                    links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
+                    projects:[{year:"2019",projectsForYear:["Cooling system for motors and inverters" ]}]},   
                 {id: 1,
                     name: 'Hemel Roy',
                     seasons:{
