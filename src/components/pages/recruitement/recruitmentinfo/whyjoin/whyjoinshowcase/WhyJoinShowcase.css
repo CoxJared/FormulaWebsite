@@ -132,6 +132,7 @@
         /* min-height:55vw; */
         overflow:hidden;
         background-color: #222;
+        overflow: hidden;
     }
     
     .layer{
@@ -180,6 +181,7 @@
         z-index:1;
         border-top:3px solid rgb(106, 220, 255);
         border-bottom:3px solid #fff;
+        height:200px;
     }
     
     .bottom .content-body{
@@ -198,10 +200,10 @@
     
     .top {
         background: #222;
-        z-index:2;
-    
-        border-bottom:3px solid rgb(106, 220, 255);
-        border-top:3px solid #222;
+        z-index:3;
+        height:200px;
+        border-bottom:2px solid rgb(106, 220, 255);
+        border-top:2px solid #222;
     }
     
     .top p, .bottom p{
@@ -227,13 +229,13 @@
         height: 100%;
         display:block;
         background-color:rgb(106, 220, 255);
-        width:3px;
+        width:2px;
         top:0;
         left:50%;
         z-index: 3;
     }
     
-    .skewed .handle {
+    /* .skewed .handle {
         top:50%;
         transform: rotate(30deg) translateY(-50%);
         height: 200%;
@@ -250,5 +252,5 @@
     .skewed .top .content-wrap {
         transform: skew(30deg);
         margin-left: 1000px;
-    }
+    } */
 }
