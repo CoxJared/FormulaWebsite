@@ -1,5 +1,5 @@
 .sections {
-    background-color: #222;
+    background-color: #eee;
     /* border: 1px solid red; */
 }
 
@@ -7,22 +7,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: auto;
+    margin:auto;
     height: 60px;
     margin-top:0px;
-    padding-bottom:10px;
+    padding-bottom:0px;
+    padding-top:20px;
+    /* border-bottom: 1px solid #ddd; */
 }
 
 .member-section-option {
     float: left;
     list-style-type: none;
     font-size: 20px;
-    padding:5px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding:5px 10px;
+    padding-bottom:10px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top:0px;
-    color: rgb(121, 121, 121);
-    border-bottom: 1px #222 solid;
+    color: #888;
+    border-bottom: 1px #ddd solid;
 }
 .member-section-option-collapse{
     opacity:0;
@@ -30,8 +34,8 @@
 }
 
 .member-section-option:hover {
-    color: rgb(255, 255, 255);
-    border-bottom:1px rgb(253, 253, 253) solid;
+    color: #333;
+    border-bottom:1px #333 solid;
     transition: all .7s ease;
     cursor: pointer;
 }
@@ -40,11 +44,9 @@
     float: left;
     list-style-type: none;
     font-size: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     margin-top:0px;
-    color: rgb(255, 255, 255);
-    border-bottom:1px rgb(253, 253, 253) solid;
+    color: rgb(0, 0, 0);
+    border-bottom:1px #222 solid;
 }
 
 
@@ -52,7 +54,7 @@
 @media only screen and (max-width: 800px) {
 
 .sections {
-    background-color: #222
+    background-color: #eee
 }
 
 .member-section-list {
@@ -74,7 +76,6 @@
     margin-right: 9px;
     margin-left: 10px;
     margin-top:0px;
-    color: rgb(192, 191, 191);
 }
 
 .member-section-option:hover {

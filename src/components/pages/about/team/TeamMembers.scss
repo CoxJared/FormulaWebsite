@@ -10,7 +10,8 @@
     margin:auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 40px 10px 40px;
+    height:auto;
+    padding: 50px 40px 10px 40px;
     background-color: #eee;
 }
 
@@ -91,11 +92,12 @@
         margin:auto;
         display: flex;
         flex-wrap: wrap;
-        padding: 1px 4px 1px 4px;
+        padding: 10px 4px 1px 4px;
         width:100%;
+        min-height: calc(100vh - 200px);
         max-width: 400px;;
         background-color: #eee;
-        height:700px;
+        height:auto;
         box-shadow: none;
     }
     
