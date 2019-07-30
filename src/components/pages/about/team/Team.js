@@ -100,7 +100,7 @@ export class Team2019 extends Component {
                     seasons:{'2019':{section: 'mechanical', title: 'Manufacturing'}},
                     email:"prasas2@mcmaster.ca",
                     headshot: samuelShot,
-                    links:[],
+                    links:[{name:"instagram", url:"https://www.instagram.com/samuelprasad98/"}],
                     projects:[{year:"2019", projectsForYear:["Welding jobs", "Carbon rims research", "Aero manufacturing"]}]},  
                 {id: 1,
                     name: 'Patricia Ostrowski',
