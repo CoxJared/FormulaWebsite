@@ -15,6 +15,8 @@ import patriciaShot from './../../../../img/headshots/patricia-headshot.jpg';
 import donShot from './../../../../img/headshots/don-headshot.jpg';
 import nathanshot from './../../../../img/headshots/nathan-headshot.png';
 import hemelShot from './../../../../img/headshots/hemel-headshot.png';
+import parsaShot from './../../../../img/headshots/parsa-headshot.png';
+import lawrenceShot from './../../../../img/headshots/lawrence-headshot.png';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -27,13 +29,12 @@ export class Team2019 extends Component {
             section: "leadership",
             showMember: <div></div>,
             members: [
-                {
-                    id: 1,
+                {id: 1,
                     name: 'Graeme Cox',
-                    title: "Electrical Captain",
-                    section:'leadership',
+                    seasons:{
+                        '2018':{section: 'leadership', title: 'Electrical Captain'}
+                    },
                     email:"Graeme.k.cox@gmail.com",
-                    season:'2018',
                     headshot: gramshot,
                     links:[{
                         name:"linkedin", url:"https://www.linkedin.com/in/graemekcox/"
@@ -44,16 +45,13 @@ export class Team2019 extends Component {
                             "PCB Design",
                             "Low Voltage Wiring",
                             "Board Programming"
-                        ]}
-                    ]
-                },
-                {
-                    id: 1,
+                ]}]},
+                {id: 1,
                     name: 'Brian Wong',
-                    title: "Electrical Captain",
-                    section:'leadership',
+                    seasons:{
+                        '2018':{section: 'leadership', title: 'Electrical Captain'}
+                    },
                     email:"t.brianwong@gmail.com",
-                    season:'2018',
                     headshot: brianShot,
                     links:[
                     ],
@@ -61,51 +59,73 @@ export class Team2019 extends Component {
                         {year:"2018",
                         projectsForYear:[
                             "Driving Simulator"
-                        ]}
-                    ]
-                },
-                {
-                    id: 3,
-                    name: 'Jared Cox',
-                    title: 'Freelancer',
-                    section: 'mechanical',
-                    email:"coxj1@mcmaster.ca",
-                    season:'2019',
-                    headshot: jaredShot,
+                ]}]},
+                {id: 1,
+                    name: 'Riley Dunn',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Team Captain'}
+                    },
+                    email:"dunnrw@mcmaster.ca",
+                    headshot: rileyshot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/riley-dunn-94860bb2/"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Team Management","Composites Lead"
+                        ]}]},
+                {id: 3,
+                    name: 'Jessie Boudreau',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Electrical Captain'},
+                        '2020':{section: 'leadership', title: 'Team Captain'},
+                    },
+                    email:"boudrj1@mcmaster.ca",
+                    headshot: jessieShot,
                     links:[{
-                        name:"linkedin",
-                        url:"https://www.linkedin.com/in/jared-cox-110591149/"
+                        name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
                     }],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
-                            "Aero-Pack Manufacturing","LV Wiring Harness", "Website Development"
-                        ]}
-                    ]
-                },
-                {
-                    id: 5,
-                    name: 'Dylan Boudreau',
-                    title: 'Suspension',
-                    section: 'mechanical',
-                    email:"boudread@mcmaster.ca",
-                    season:'2019',
-                    headshot:dylanShot,
-                    links:[],
+                            "Powertrain Lead","Accumulator Assembly","Inverter Assembly"
+                ]}]},
+                {id: 2,
+                    name: 'Scott Sutherland',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Electrical Captain'},
+                        '2020':{section: 'leadership', title: 'Electrical Captain'},
+                    },
+                    email:"suthes1@mcmaster.ca",
+                    headshot: scottShot,
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
+                    }],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
-                            "Suspension Lead","Vehicle Dynamics"
-                        ]}
-                    ]
-                },
-                {
-                    id: 1,
+                            "Body Control Module Lead","HV Circuitry"
+                ]}]},
+                {id: 3,
+                    name: 'Jared Cox',
+                    seasons:{
+                        '2019':{section: 'mechanical', title: 'Freelancer'},
+                        '2020':{section: 'leadership', title: 'Mechanical Captain'}
+                    },
+                    email:"coxj1@mcmaster.ca",
+                    headshot: jaredShot,
+                    links:[ {name:"linkedin", url:"https://www.linkedin.com/in/jared-cox-110591149/"},
+                            {name:"github", url:"https://github.com/CoxJared"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Aero-Pack Manufacturing","LV Wiring Harness", "Website Development"
+                ]}]},
+                {id: 1,
                     name: 'Noah Mrjvelj',
-                    title: "Freelancer",
-                    section:'mechanical',
+                    seasons:{
+                        '2019':{section: 'mechanical', title: 'Freelancer'}
+                    },
                     email:"mrveljn@mcmaster.ca",
-                    season:'2019',
                     headshot: noahShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/noah-mrvelj-3094b6173/"}
                     ],
@@ -113,15 +133,13 @@ export class Team2019 extends Component {
                         {year:"2019",
                         projectsForYear:[
                             "Invertor/Charger Kevlar Housings", "Chassis", "Vinyl Wrap"
-                        ]}
-                    ]
-                }, 
+                ]}]}, 
                 {id: 1,
                     name: 'Patricia Ostrowski',
-                    title: "Manufacturing",
-                    section:'mechanical',
+                    seasons:{
+                        '2019':{section: 'mechanical', title: 'Manufacturing'}
+                    },
                     email:"ostrowsp@mcmaster.ca",
-                    season:'2019',
                     headshot: patriciaShot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
                     projects:[
@@ -131,10 +149,10 @@ export class Team2019 extends Component {
                 ]}]},  
                 {id: 1,
                     name: 'Nathan Lam',
-                    title: "Manufacturing",
-                    section:'mechanical',
+                    seasons:{
+                        '2019':{section: 'mechanical', title: 'Manufacturing'}
+                    },
                     email:"royh@mcmaster.ca",
-                    season:'2019',
                     headshot: nathanshot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
                     projects:[
@@ -144,10 +162,10 @@ export class Team2019 extends Component {
                 ]}]},   
                 {id: 1,
                     name: 'Hemel Roy',
-                    title: "Embedded Systems",
-                    section:'electrical',
+                    seasons:{
+                        '2019':{section: 'electrical', title: 'Embedded Systems'}
+                    },
                     email:"Lamn7@mcmaster.ca",
-                    season:'2019',
                     headshot: hemelShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/hemelroy"}, {name:"github", url:"https://github.com/hemelroy"}],
                     projects:[
@@ -157,219 +175,98 @@ export class Team2019 extends Component {
                 ]}]}, 
                 {id: 1,
                     name: 'Don Trung Hieu',
-                    title: "Microcontrollers",
-                    section:'electrical',
+                    seasons:{
+                        '2019':{section: 'electrical', title: 'MicroControllers'}
+                    },
                     email:"dont1@mcmaster.ca",
-                    season:'2019',
                     headshot: donShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/hieudon"}],
                     projects:[
                         {year:"2019",
                         projectsForYear:["Embedded Systems for microcontrollers, C programming", "Serial communication program UART and SPI for the microcontroller", "Communicated with the gyroscope, accelerometer using SPI"
-                        ]}]},              
-                {
-                    id: 1,
-                    name: 'Riley Dunn',
-                    title: 'Team Captain',
-                    section:'leadership',
-                    email:"dunnrw@mcmaster.ca",
-                    season:'2019',
-                    headshot: rileyshot,
-                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/riley-dunn-94860bb2/"}],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Team Management","Composites Lead"
-                        ]}
-                    ]
-                },
-                {
-                    id: 2,
-                    name: 'Scott Sutherland',
-                    title: 'Electrical Captain',
-                    section: 'leadership',
-                    email:"suthes1@mcmaster.ca",
-                    season:'2019',
-                    headshot: scottShot,
-                    links:[{
-                        name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
-                    }],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Body Control Module Lead","HV Circuitry"
-                        ]}
-                    ]
-                },
-                {
-                    id: 3,
-                    name: 'Jessie Boudreau',
-                    title: 'Electrical Captain',
-                    section: 'leadership',
-                    email:"boudrj1@mcmaster.ca",
-                    season:'2019',
-                    headshot: jessieShot,
-                    links:[{
-                        name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
-                    }],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Powertrain Lead","Accumulator Assembly","Inverter Assembly"
-                        ]}
-                    ]
-                },
-                {
-                    id: 4,
+                ]}]},              
+                {id: 4,
                     name: 'Blaire Pauli',
-                    title: 'Mechanical Captain',
-                    section: 'leadership',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Mechanical Captain'},
+                        '2020':{section: 'leadership', title: 'Mechanical Captain'}
+                    },
                     email:"paulib@mcmaster.ca",
-                    season:'2019',
                     headshot:blaireShot,
                     links:[],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
                             "Chassis Lead", "Waterjet Lead"
-                        ]}
-                    ]
-                },
-                {
-                    id: 5,
-                    name: 'Andrew Aslanidis',
-                    title: 'Mechanical Captain',
-                    section: 'leadership',
-                    email:"aslanida@mcmaster.ca",
-                    season:'2019',
-                    headshot:andrewShot,
-                    links:[],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Technical Drawings", "Cost Report", "Aerodynamics"
-                        ]}
-                    ]
-                },
-                {
-                    id: 6,
-                    name: 'Harjot Nijjar',
-                    title: 'Electrical Captain',
-                    section: 'leadership',
-                    email:"nijjarhs@mcmaster.ca",
-                    season:'2019',
-                    headshot: harjotshot,
-                    links:[],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Controls Lead", "Driving Simulator"
-                        ]}
-                    ]
-                },
-                {
-                    id: 1,
-                    name: 'Jessie Boudreau',
-                    title: 'Team Captain',
-                    section:'leadership',
-                    email:"boudrj1@mcmaster.ca",
-                    season:'2020',
-                    headshot: jessieShot,
-                    links:[{
-                        name:"linkedin", url:"https://www.linkedin.com/in/jessie-boudreau-46203ba5/"
-                    }],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Powertrain Lead","Accumulator Assembly","Inverter Assembly"
-                        ]}
-                    ]
-                },
-                {
-                    id: 2,
-                    name: 'Scott Sutherland',
-                    title: 'Electrical Captain',
-                    section: 'leadership',
-                    email:"suthes1@mcmaster.ca",
-                    season:'2020',
-                    headshot: scottShot,
-                    links:[{
-                        name:"linkedin", url:"https://www.linkedin.com/in/suthes1/"
-                    }],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Body Control Module Lead","HV Circuitry"
-                        ]}
-                    ]
-                },
-                {
-                    id: 3,
-                    name: 'Jared Cox',
-                    title: 'Mechanical Captain',
-                    section: 'leadership',
-                    email:"coxj1@mcmaster.ca",
-                    season:'2020',
-                    headshot: jaredShot,
-                    links:[{
-                        name:"linkedin",
-                        url:"https://www.linkedin.com/in/jared-cox-110591149/"
-                    }],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Aero-Pack Manufacturing","LV Wiring Harness", "Website Development"
-                        ]}
-                    ]
-                },
-                {
-                    id: 4,
-                    name: 'Blaire Pauli',
-                    title: 'Mechanical Captain',
-                    section: 'leadership',
-                    email:"paulib@mcmaster.ca",
-                    season:'2020',
-                    headshot:blaireShot,
-                    links:[],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Chassis Lead", "Waterjet Lead"
-                        ]}
-                    ]
-                },
-                {
-                    id: 5,
+                ]}]},
+                {id: 5,
                     name: 'Dylan Boudreau',
-                    title: 'Mechanical Captain',
-                    section: 'leadership',
+                    seasons:{
+                        '2019':{section: 'mechanical', title: 'Suspension'},
+                        '2020':{section: 'leadership', title: 'Mechanical Captain'}
+                    },
                     email:"boudread@mcmaster.ca",
-                    season:'2020',
                     headshot:dylanShot,
                     links:[],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
                             "Suspension Lead","Vehicle Dynamics"
-                        ]}
-                    ]
-                },
+                ]}]},
                 {
-                    id: 6,
+                    id: 5,
+                    name: 'Andrew Aslanidis',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Mechanical Captain'}
+                    },
+                    email:"aslanida@mcmaster.ca",
+                    headshot:andrewShot,
+                    links:[],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Technical Drawings", "Cost Report", "Aerodynamics"
+                ]}]},
+                {id: 6,
                     name: 'Harjot Nijjar',
-                    title: 'Electrical Captain',
-                    section: 'leadership',
+                    seasons:{
+                        '2019':{section: 'leadership', title: 'Electrical Captain'},
+                        '2020':{section: 'leadership', title: 'Electrical Captain'},
+                    },
                     email:"nijjarhs@mcmaster.ca",
-                    season:'2020',
                     headshot: harjotshot,
                     links:[],
                     projects:[
                         {year:"2019",
                         projectsForYear:[
                             "Controls Lead", "Driving Simulator"
-                        ]}
-                    ]
-                }
+                ]}]},
+                {id: 6,
+                    name: 'Parsa Beheshti',
+                    seasons:{
+                        '2019':{section: 'electrical', title: 'Tractive System'},
+                    },
+                    email:"beheshtp@mcmaster.ca",
+                    headshot: parsaShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/beheshtipar"},{name:"github",url:"https://www.github.com/beheshtipar"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Sponsorship package re-design", "Accumulator Management System (AMS)"
+                ]}]},
+                {id: 6,
+                    name: 'Lawrence Chung',
+                    seasons:{
+                        '2019':{section: 'electrical', title: 'Freelancer'},
+                    },
+                    email:" chungl1@mcmaster.ca",
+                    headshot: lawrenceShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/lawrence-chung-51abb0111/"}],
+                    projects:[
+                        {year:"2019",
+                        projectsForYear:[
+                            "Custom dashboard"
+                ]}]}
             ]
         }
     }
@@ -387,6 +284,7 @@ export class Team2019 extends Component {
                 <TeamMember 
                member={showMember}
                 closeMember={this.closeTeam}
+                season={this.props.season}
                 /> 
             })
     }
@@ -398,9 +296,9 @@ export class Team2019 extends Component {
 
         
 
-        const visibleMembers = this.state.members.filter(member => 
-            member.section === this.state.section &
-            member.season === this.props.season
+        const visibleMembers = this.state.members.filter(member => {
+            try{ return member.seasons[this.props.season].section === this.state.section }
+            catch{ return false }}
         )
 
 
@@ -420,23 +318,13 @@ export class Team2019 extends Component {
                                 <div className="member">
                                     <img className="headshot"src={member.headshot} alt="" /> 
                                     <h1 className="name">{member.name}</h1>
-                                    <h2 className="title">{member.title}</h2>
-                                    {/* <div className="links-container">
-                                        <ul className="links-list">
-                                            {member.links.map(link => (
-                                            // eslint-disable-next-line jsx-a11y/anchor-has-content
-                                            <li className={`${link.name}`}><a href={link.url} class="fa fa-linkedin smaller" target="_blank" rel="noopener noreferrer"></a></li> 
-                                            ))}
-                                        </ul>
-                                    </div> */}
+                                    <h2 className="title">{member.seasons[this.props.season].title}</h2>
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
-                {this.state.showMember}
-                
-                
+                {this.state.showMember}       
             </div>
         )
     }

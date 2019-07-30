@@ -53,7 +53,7 @@ export class Overview extends Component {
                 },
                 {
                     name:"Vinyl-wrap",
-                    paragraph:"rapped it",
+                    paragraph:"The Vinyl-wrap of our car was applied in-house by members with experience in that field.  The surface of the chassis, sidepods, and both wings were first thoroughly cleaned with an alcoholic solution to prepare for wrapping. The vinyl sheets were then given a wipe-down, measured, and cut for each panel accordingly.  The backing of the vinyl was finally peeled off and placed on the corresponding panel while air bubbles were being worked out of the vinyl through a combination of using heat guns, stretching the vinyl, and specialized vinyl wrapping tools. The result being a clear and smooth finish acroos the whole vehicle.",
                     images:[vinylWrap,progresswrap,wing,pods]
             }
             ]

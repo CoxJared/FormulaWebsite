@@ -48,7 +48,7 @@ export class TeamMember extends Component {
                                 <h1 className="member-popup-right-name">{this.props.member.name}</h1>
                             </div>
                             <div className="member-popup-right-title-container">
-                                <h1 className="member-popup-right-title">{this.props.member.title}</h1>
+                                <h1 className="member-popup-right-title">{this.props.member.seasons[this.props.season].title}</h1>
                             </div>
                             <div className="member-popup-right-experience-container">
 

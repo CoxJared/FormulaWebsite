@@ -5,7 +5,7 @@ export class Supersension extends Component {
         return (
             <div className="design-summary">
                 <h1 className="general-header">
-                    Suspension
+                    Vehicle Dynamics
                 </h1>
                 <p className="general-paragraph">
                     &nbsp; After analyzing tire test data, our team decided to use 10” Hoosier LCO tires because of 
