@@ -48,10 +48,10 @@
 }
 
 .bottom {
-    background :#eee;
+    background: rgb(245, 245, 245);
     z-index:1;
     border-top:3px solid rgb(106, 220, 255);
-    border-bottom:3px solid #eee;
+    border-bottom:3px solid rgb(245, 245, 245);;
 }
 
 .bottom .content-body{

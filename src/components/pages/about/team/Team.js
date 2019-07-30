@@ -17,6 +17,7 @@ import nathanshot from './../../../../img/headshots/nathan-headshot.png';
 import hemelShot from './../../../../img/headshots/hemel-headshot.png';
 import parsaShot from './../../../../img/headshots/parsa-headshot.png';
 import lawrenceShot from './../../../../img/headshots/lawrence-headshot.png';
+import samShot from './../../../../img/headshots/sam-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -29,6 +30,21 @@ export class Team2019 extends Component {
             section: "leadership",
             showMember: <div></div>,
             members: [
+                {id: 1,
+                    name: 'Sam Jantzi',
+                    seasons:{
+                        '2018':{section: 'leadership', title: 'Mechanical Captain'}
+                    },
+                    email:"samjantzi@live.com",
+                    headshot: samShot,
+                    links:[{
+                        name:"linkedin", url:"https://www.linkedin.com/in/samueljantzi/"
+                    }],
+                    projects:[
+                        {year:"2018",
+                        projectsForYear:[
+                            "PowerTrain Development"
+                ]}]},
                 {id: 1,
                     name: 'Graeme Cox',
                     seasons:{
