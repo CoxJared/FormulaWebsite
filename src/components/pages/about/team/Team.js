@@ -256,17 +256,11 @@ export class Team2019 extends Component {
                 ]}]},
                 {id: 6,
                     name: 'Lawrence Chung',
-                    seasons:{
-                        '2019':{section: 'electrical', title: 'Freelancer'},
-                    },
+                    seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
                     email:" chungl1@mcmaster.ca",
                     headshot: lawrenceShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/lawrence-chung-51abb0111/"}],
-                    projects:[
-                        {year:"2019",
-                        projectsForYear:[
-                            "Custom dashboard"
-                ]}]}
+                    projects:[{year:"2019", projectsForYear:["Custom dashboard"]}]}
             ]
         }
     }
