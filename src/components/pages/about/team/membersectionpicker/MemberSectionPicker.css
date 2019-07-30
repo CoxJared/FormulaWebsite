@@ -25,10 +25,11 @@
     margin-right: 30px;
     margin-left: 30px;
     margin-top:0px;
-    color: #888;
+    color: #aaa;
     border-bottom: 1px #ddd solid;
 }
 .member-section-option-collapse{
+    list-style-type: none;
     opacity:0;
     width:0;
 }
@@ -46,7 +47,7 @@
     font-size: 20px;
     margin-top:0px;
     color: rgb(0, 0, 0);
-    border-bottom:1px #222 solid;
+    border-bottom:1px #111 solid;
 }
 
 

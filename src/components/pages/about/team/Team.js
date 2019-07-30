@@ -21,6 +21,7 @@ import samShot from './../../../../img/headshots/sam-headshot.jpg';
 import ridvanShot from './../../../../img/headshots/ridvan-headshot.png';
 import samuelShot from './../../../../img/headshots/samuel-photo.jpg';
 import greshot from './../../../../img/headshots/greg-headshot.png';
+import justingshot from './../../../../img/headshots/justin-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -131,6 +132,13 @@ export class Team2019 extends Component {
                     headshot: greshot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
                     projects:[{year:"2019",projectsForYear:["Cooling system for motors and inverters" ]}]},   
+                {id: 1,
+                    name: 'Justin Isenberg-Verrall',
+                    seasons:{'2019':{section: 'mechanical', title: 'Driver Input'}},
+                    email:"Isenberj@mcmaster.ca",
+                    headshot: justingshot,
+                    links:[],
+                    projects:[{year:"2019",projectsForYear:["Driver input: seat, wheel, pedal-tray", "Driver Gear" ]}]},  
                 {id: 1,
                     name: 'Hemel Roy',
                     seasons:{
