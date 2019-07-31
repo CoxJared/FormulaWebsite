@@ -1,7 +1,7 @@
 .positions-section-container{
     width:100%;
     background-color:rgb(245, 245, 245);
-    min-height:700px;
+    min-height:calc(100vh - 500px);
 }
 
 .positions-container {
@@ -100,7 +100,6 @@
     .positions-section-container{
         width:100%;
         background-color:rgb(245, 245, 245);
-        min-height:700px;
     }
     
     .positions-container {

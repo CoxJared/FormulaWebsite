@@ -7,7 +7,7 @@ export class donate extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Header page="donate"/>
                 <div className="why-donate-container-page">
 
                     <div className="why-donate-showcase">

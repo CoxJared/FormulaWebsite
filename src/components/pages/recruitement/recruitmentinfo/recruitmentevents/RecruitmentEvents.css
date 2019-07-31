@@ -1,5 +1,5 @@
 .recruitment-events-container{
-    height:700px;
+    height:calc(100vh - 300px);
 }
 
 .recruitment-events-header{
