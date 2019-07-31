@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import MemberSectionPicker from './membersectionpicker/MemberSectionPicker';
 import rileyshot from './../../../../img/headshots/riley.jpg';
-import scottShot from './../../../../img/headshots/scott.png';
-import jessieShot from './../../../../img/headshots/jessie.png';
-import blaireShot from './../../../../img/headshots/blaire.png';
-import andrewShot from './../../../../img/headshots/andrew.png';
-import dylanShot from './../../../../img/headshots/dylan.png';
-import harjotshot from './../../../../img/headshots/harjot.png';
+import scottShot from './../../../../img/headshots/scott.jpg';
+import jessieShot from './../../../../img/headshots/jessie.jpg';
+import blaireShot from './../../../../img/headshots/blaire.jpg';
+import andrewShot from './../../../../img/headshots/andrew.jpg';
+import dylanShot from './../../../../img/headshots/dylan.jpg';
+import harjotshot from './../../../../img/headshots/harjot.jpg';
 import jaredShot from './../../../../img/headshots/me.jpg';
 import gramshot from './../../../../img/headshots/gram-headshot.jpeg';
-import brianShot from './../../../../img/headshots/brian-headshot.png';
+import brianShot from './../../../../img/headshots/brian-headshot.jpg';
 import noahShot from './../../../../img/headshots/noah-headshot.jpg';
 import patriciaShot from './../../../../img/headshots/patricia-headshot.jpg';
 import donShot from './../../../../img/headshots/don-headshot.jpg';
-import nathanshot from './../../../../img/headshots/nathan-headshot.png';
-import hemelShot from './../../../../img/headshots/hemel-headshot.png';
-import parsaShot from './../../../../img/headshots/parsa-headshot.png';
-import lawrenceShot from './../../../../img/headshots/lawrence-headshot.png';
+import nathanshot from './../../../../img/headshots/nathan-headshot.jpg';
+import hemelShot from './../../../../img/headshots/hemel-headshot.jpg';
+import parsaShot from './../../../../img/headshots/parsa-headshot.jpg';
+import lawrenceShot from './../../../../img/headshots/lawrence-headshot.jpg';
 import samShot from './../../../../img/headshots/sam-headshot.jpg';
-import ridvanShot from './../../../../img/headshots/ridvan-headshot.png';
+import ridvanShot from './../../../../img/headshots/ridvan-headshot.jpg';
 import samuelShot from './../../../../img/headshots/samuel-photo.jpg';
-import greshot from './../../../../img/headshots/greg-headshot.png';
+import greshot from './../../../../img/headshots/greg-headshot.jpg';
 import justingshot from './../../../../img/headshots/justin-headshot.jpg';
 import dharakShot from './../../../../img/headshots/dharak-headshot.jpg';
-import jacksonShot from './../../../../img/headshots/jackson-headshot.png';
+import jacksonShot from './../../../../img/headshots/jackson-headshot.jpg';
 import alecShot from './../../../../img/headshots/alec-headshot.jpg';
 import mattfShot from './../../../../img/headshots/mattf-headshot.jpg';
 
@@ -79,7 +79,7 @@ export class Team2019 extends Component {
                     email:"franceschinimatt@gmail.com",
                     headshot: mattfShot,
                     links:[{name:"linkedin", url:'https://www.linkedin.com/in/francemj/'}],
-                    projects:[{year:"2018",projectsForYear:[ "Project Management", "Website maintenance"]}]},
+                    projects:[{year:"2018",projectsForYear:[ "Project management", "Website maintenance"]}]},
                 {id: 1,
                     name: 'Riley Dunn',
                     seasons:{'2019':{section: 'leadership', title: 'Team Captain'}},

@@ -46,6 +46,7 @@ export class MemberSectionPicker extends Component {
             </div>
         )
         }
+        this.props.updateSection.bind(this, "leadership")
         return (
             <div className='sections'>
                 <ul className='member-section-list'>
@@ -57,19 +58,16 @@ export class MemberSectionPicker extends Component {
                     </li>
                     <li 
                     className={` member-section-option-collapse`}
-                    onClick={this.props.updateSection.bind(this, "mechanical")}
                     >
                         Mechanical
                     </li>
                     <li 
                     className={`member-section-option-collapse`}
-                    onClick={this.props.updateSection.bind(this, "electrical")}
                     >
                         Electrical
                     </li>
                     <li 
                     className={`member-section-option-collapse`}
-                    onClick={this.props.updateSection.bind(this, "business")}
                     >
                         Business
                     </li>
