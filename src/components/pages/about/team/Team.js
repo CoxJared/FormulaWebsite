@@ -25,6 +25,7 @@ import justingshot from './../../../../img/headshots/justin-headshot.jpg';
 import dharakShot from './../../../../img/headshots/dharak-headshot.jpg';
 import jacksonShot from './../../../../img/headshots/jackson-headshot.png';
 import alecShot from './../../../../img/headshots/alec-headshot.jpg';
+import mattfShot from './../../../../img/headshots/mattf-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -72,6 +73,13 @@ export class Team2019 extends Component {
                     headshot: brianShot,
                     links:[],
                     projects:[{year:"2018",projectsForYear:[ "Driving Simulator"]}]},
+                {id: 1, 
+                    name: 'Matt Franceschini',
+                    seasons:{'2018':{section: 'leadership', title: 'Mechanical Captain'}},
+                    email:"franceschinimatt@gmail.com",
+                    headshot: mattfShot,
+                    links:[{name:"linkedin", url:'https://www.linkedin.com/in/francemj/'}],
+                    projects:[{year:"2018",projectsForYear:[ "Project Management", "Website maintenance"]}]},
                 {id: 1,
                     name: 'Riley Dunn',
                     seasons:{'2019':{section: 'leadership', title: 'Team Captain'}},
