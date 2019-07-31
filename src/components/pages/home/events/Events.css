@@ -110,7 +110,7 @@
 @media only screen and (max-width: 800px) {
     .events-container{
         width:90%;
-        height: calc(30vw + 180px);
+        height: calc(30vw + 160px);
         margin:auto;
         margin-bottom: 0px;
         margin-top: 00px;
@@ -118,7 +118,7 @@
     }
     
     .events-title-container{
-        height: 30px;
+        height: 32px;
         width:100%;
     }
     .line-break-events{
@@ -132,8 +132,8 @@
         z-index: -1;
         margin:auto;}
     .events-title{
-        padding: 8px 0px 0vw 0px;
-        font-size:15px;
+        padding: 5px 0px 0vw 0px;
+        font-size:20px;
         color: rgb(189, 2, 2);
         width:100px;
     }
