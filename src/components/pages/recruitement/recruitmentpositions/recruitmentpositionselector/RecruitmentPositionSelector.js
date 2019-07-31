@@ -5,7 +5,6 @@ export class RecruitmentPositionSelector extends Component {
 
     isSubteamSelected(selectedSubteam, thisSubteam) 
     {
-        console.log("hello, ",selectedSubteam, thisSubteam);
         if(selectedSubteam === thisSubteam)
         {
             return "selected-selector-position"

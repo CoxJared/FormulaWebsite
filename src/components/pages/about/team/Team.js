@@ -22,6 +22,9 @@ import ridvanShot from './../../../../img/headshots/ridvan-headshot.png';
 import samuelShot from './../../../../img/headshots/samuel-photo.jpg';
 import greshot from './../../../../img/headshots/greg-headshot.png';
 import justingshot from './../../../../img/headshots/justin-headshot.jpg';
+import dharakShot from './../../../../img/headshots/dharak-headshot.jpg';
+import jacksonShot from './../../../../img/headshots/jackson-headshot.png';
+import alecShot from './../../../../img/headshots/alec-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -34,6 +37,13 @@ export class Team2019 extends Component {
             section: "leadership",
             showMember: <div></div>,
             members: [
+                {id: 1,
+                    name: 'Jackson Diebel',
+                    seasons:{'2018':{section: 'leadership', title: 'Team Captain'}},
+                    email:"jacksondiebel@gmail.com",
+                    headshot: jacksonShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/jacksondiebel/"}],
+                    projects:[{year:"2018", projectsForYear:["PowerTrain Development", "Chassis Development"]}]},
                 {id: 1,
                     name: 'Sam Jantzi',
                     seasons:{'2018':{section: 'leadership', title: 'Mechanical Captain'}},
@@ -48,6 +58,13 @@ export class Team2019 extends Component {
                     headshot: gramshot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/graemekcox/"}],
                     projects:[ {year:"2018",projectsForYear:["PCB Design","Low Voltage Wiring","Board Programming"]}]},
+                {id: 1,
+                    name: 'Alec Taraborrelli',
+                    seasons:{'2018':{section: 'leadership', title: 'Electrical Captain'}},
+                    email:"alec.taraborrelli@gmail.com",
+                    headshot: alecShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/taraborrelli/"}],
+                    projects:[ {year:"2018",projectsForYear:["High Voltage Accumulator: Mechanical Enclosure and Electrical Configuration","Aerodynamics Design Lead","Inverter Enclosure Design/Low Voltage Enclosures"]}]},
                 {id: 1, 
                     name: 'Brian Wong',
                     seasons:{'2018':{section: 'leadership', title: 'Electrical Captain'}},
@@ -154,7 +171,7 @@ export class Team2019 extends Component {
                     email:"dont1@mcmaster.ca",
                     headshot: donShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/hieudon"}],
-                    projects:[ {year:"2019",projectsForYear:["Embedded Systems for microcontrollers, C programming", "Serial communication program UART and SPI for the microcontroller", "Communicated with the gyroscope, accelerometer using SPI"]}]},              
+                    projects:[ {year:"2019",projectsForYear:["Embedded Systems for microcontrollers, C programming", "Serial communication program UART and SPI for the microcontroller", "Communicated with the gyroscope, accelerometer using SPI"]}]},          
                 {id: 4,
                     name: 'Blaire Pauli',
                     seasons:{'2019':{section: 'leadership', title: 'Mechanical Captain'}, '2020':{section: 'leadership', title: 'Mechanical Captain'}},
@@ -191,6 +208,13 @@ export class Team2019 extends Component {
                     headshot: lawrenceShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/lawrence-chung-51abb0111/"}],
                     projects:[{year:"2019", projectsForYear:["Custom dashboard"]}]},
+                {id: 6,
+                    name: 'Dharak Verma',
+                    seasons:{'2019':{section: 'electrical', title: 'Microcontrollers'}},
+                    email:" vermad1@mcmaster.ca",
+                    headshot: dharakShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/vermad1"}],
+                    projects:[{year:"2019", projectsForYear:["Embedded C libraries for PWM cooling fan/pump control", "Serial communication program UART and SPI for the microcontroller"]}]},    
             ]
         }
     }

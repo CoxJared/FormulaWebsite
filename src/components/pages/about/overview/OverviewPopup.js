@@ -24,7 +24,7 @@ export class OverviewPopup extends Component {
             </div>
             <div className="overview-popup-container">
                 <div className="overview-popup-left-container">
-                    <img className="overview-popup-left-container-image" src={this.state.image}/>
+                    <img className="overview-popup-left-container-image" src={this.state.image} alt=""/>
 
                     <div className="overview-popup-left-images-container">
 
@@ -32,7 +32,7 @@ export class OverviewPopup extends Component {
 
 
                         <div className="overview-popup-left-image-container" onClick={this.updatePhoto.bind(this,image)}>
-                            <img src={image} className="overview-popup-left-image"></img>
+                            <img src={image} className="overview-popup-left-image" alt="" />
                         </div>
 
                     ))}

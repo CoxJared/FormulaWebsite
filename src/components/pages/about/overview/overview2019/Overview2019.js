@@ -88,7 +88,7 @@ export class Overview2019 extends Component {
 
                     {this.state.milestones.map(milestone => (
                         <div className="overview2019-explore-milestones-single" onClick={this.showPopup.bind(this,milestone)}>
-                        <img className="overview2019-explore-milestones-image" src={milestone.images[0]}/>
+                        <img className="overview2019-explore-milestones-image" src={milestone.images[0]} alt=""/>
                         <div className="overview2019-explore-milestones-header-container">
                             <h1 className="overview2019-explore-milestones-header">{milestone.name}</h1>
                         </div>

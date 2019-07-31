@@ -7,7 +7,7 @@ export function Aerodynamics () {
                 Aerodynamics
             </h1>
             <p className="general-paragraph">
-                &nbsp; MAC Formula Electric prides itself for being on the cutting edge of motorsport technology by implementing techniques and design features which are rarely seen in anything other than premier racing series. The use of CNC machinery and CAD modelling as well as various FEA software has allowed us to detail, design and analyze every portion of our car to the smallest detail. Taking full advantage of all the opportunities presented to the team we were able to design not only our best performing, but also by far our most efficient car to date.
+                &nbsp; Airflow over, around and through the car is the focus of aerodynamic analysis of our Formula car. The main objectives of the aero package is to minimize drag and maximize downforce (negative lift).  Through multiple iterations and CFD analysis our current aero package was designed. All components of the package are manufactured using carbon composites through the vacuum infusion process
             </p>
         </div>
     )

@@ -17,8 +17,6 @@ export class RecruitmentInfo extends Component {
 
     updateInfo = (newInfo) => {
         this.setState({infoPage: newInfo})
-        console.log("new-info", newInfo)
-        console.log(this.state.infoPage)
     }
 
     render() {

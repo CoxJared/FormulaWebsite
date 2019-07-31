@@ -4,10 +4,8 @@ import './RecruitmentPageSelector.css';
 export class SectionSelector extends Component {
 
     isSelected = (choice, currentSection) => {
-        console.log(choice, currentSection)
         if (choice === currentSection)
         {
-            console.log("yep")
             return "recruitment-selected-section"
         }
         return "recruitment-unselected-section"

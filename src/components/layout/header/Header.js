@@ -18,15 +18,11 @@ class Header extends Component{
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos < (currentScrollPos +1)) {
-            console.log(currentScrollPos);
             if(currentScrollPos > 90)
             {
-                
-                console.log("-90px");
-            (document.getElementById("header-container")).style.top="-90px";
+                (document.getElementById("header-container")).style.top="-90px";
             }
             else{
-                console.log("-".concat(currentScrollPos,"px"));
                 (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
             }
             
@@ -66,7 +62,7 @@ class Header extends Component{
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li className="nav-bar-item-donate-button">
-                        <Link to="/">Donate</Link>
+                        <Link to="/donate">Donate</Link>
                         </li>
                     </ul>
                 </div>

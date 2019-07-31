@@ -1,0 +1,42 @@
+.why-donate-container-page{
+
+    min-height:calc(100vh - 150px);
+}
+
+.why-donate-showcase {
+    background: linear-gradient( rgba(0, 0, 5, 0.0), rgba(0, 0, 5, 0.3) ), url('./../../../img//gmvisit.png');
+    background-size: cover;
+    background-position-y:75%;
+
+    height:500px;
+}
+
+.why-donate-header{
+    padding-top:350px;
+    color:#fff;
+    font-size:70px;
+    padding-right:350px;
+    font-weight: normal;
+}
+
+
+
+.why-donate-paragraph-container{
+    
+}
+
+
+.why-donate-paragraph{
+    width:90%;
+    max-width:700px;
+    margin:auto;
+    padding-top:50px;
+    font-size:20px;
+    line-height: 1.4em;
+    text-align: justify;
+    color:#444;
+}
+
+.donate-paypal-container{
+    padding:50px;
+}

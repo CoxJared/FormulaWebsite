@@ -19,6 +19,7 @@
     max-width: 800px;
     margin:auto;
     padding-top: 20px;
+    padding-bottom: 30px;
     line-height: 1.5em;
     font-size: 15px;
 }
@@ -31,7 +32,8 @@
     background-color: rgb(227, 3, 3);
     color:#fff;
     font-weight: normal;
-    margin:35px 15px 0 15px;
+    margin:55px 15px 0 15px;
+    text-decoration: none;
 }
 .sponsor-package:hover{
     background-color: rgb(158, 1, 1);
@@ -84,7 +86,7 @@
         background-color: rgb(227, 3, 3);
         color:#fff;
         font-weight: normal;
-        margin:15vpx 15vpx 0 15px;
+        margin:15px 15px 0 15px;
     }
     .sponsor-package:hover{
         background-color: rgb(158, 1, 1);

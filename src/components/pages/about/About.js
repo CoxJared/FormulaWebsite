@@ -52,7 +52,7 @@ export class About extends Component {
     }
 
     render() {
-        if(this.state.season =="2018" && this.state.section =="design"){
+        if(this.state.season ==="2018" && this.state.section === "design"){
             this.setState({section:"overview"})
         }
         return (

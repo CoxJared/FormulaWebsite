@@ -7,6 +7,7 @@ import Sponsors from './components/pages/sponsors/Sponsors';
 import Contact from './components/pages/contact/Contact';
 import About from './components/pages/about/About';
 import Recruitment from './components/pages/recruitement/Recruitment';
+import donate from './components/pages/donate/donate';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
               component={Sponsors} />
           <Route path="/contact" 
               component={Contact} />
+          <Route path="/donate" 
+              component={donate} />
       </div>
     </Router>
   );

@@ -4,24 +4,22 @@ import './SectionPicker.css';
 export class SectionPicker extends Component {
 
     isSelected = (choice, currentSection) => {
-        console.log(choice, currentSection)
         if (choice === currentSection)
         {
-            console.log("yep")
             return "selected-section"
         }
         return "unselected-section"
     } 
 
     isDesignShowing = (season) => {
-        if(season==="2018")
+        if(season === "2018")
         {return "hide-design"}
         return "choice"
     }
 
     
     render() {
-            if(this.props.section =="design"){
+            if(this.props.section === "design"){
                 this.props.updateSection.bind(this, "overview")
             }
 

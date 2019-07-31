@@ -10,7 +10,7 @@ export class TeamMember extends Component {
                 <div className="member-popup-container">
                     <div className="member-popup-left-container">
                         <div className="member-popup-left-image-container">
-                            <img src={this.props.member.headshot} className="member-popup-left-image"/>
+                            <img src={this.props.member.headshot} className="member-popup-left-image" alt="headshot"/>
                         </div>
                         <div className="member-popup-left-email-container">
                             <h1 className="member-popup-left-email">{this.props.member.email}</h1>

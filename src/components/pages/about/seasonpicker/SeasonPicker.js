@@ -4,10 +4,8 @@ import './SeasonPicker.css';
 export class SeasonPicker extends Component {
 
     isSelected = (choice, currentSection) => {
-        console.log(choice, currentSection)
         if (choice === currentSection)
         {
-            console.log("yep")
             return "selected-season"
         }
         return "unselected-season"
