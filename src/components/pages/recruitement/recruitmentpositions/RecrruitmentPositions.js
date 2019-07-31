@@ -65,9 +65,7 @@ export class RecrruitmentPositions extends Component {
                     //     description:'Something something something',
                     //     openings: '1'
                     // }
-                ]
-                               
-                
+                ]          
         }
     }
 

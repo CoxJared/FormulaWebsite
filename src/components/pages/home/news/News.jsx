@@ -1,19 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './News.scss';
 
-export class Media extends Component {
-    render() {
+export function Media () {
         return (
-            <div className="width-restricter">
+        <div className="width-restricter">
             <div className="news-container">
                 <div className="news-title-container">
-    
-                <div className="line-break-events"></div>
+                    <div className="line-break-events"></div>
                     <h1 className="events-title"> News</h1>
                 </div>
 
                 <div className="news-events">
-
                     <a href="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/" target="_blank" rel="noopener noreferrer">
                     <div className="news-event">
                         <div className="news-event-image-3">
@@ -64,9 +61,8 @@ export class Media extends Component {
                     </a>
                 </div>
             </div>
-            </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default Media

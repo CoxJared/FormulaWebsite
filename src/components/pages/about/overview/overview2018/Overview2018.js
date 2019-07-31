@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './Overview2018.css';
 
-export class Overview2018 extends Component {
-    render() {
-        return (
-            <div>
-                hi
-            </div>
-        )
-    }
+export function Overview2018 () {
+    return (
+        <div className="overview2018-container">
+            hi
+        </div>
+    )
 }
 
 export default Overview2018

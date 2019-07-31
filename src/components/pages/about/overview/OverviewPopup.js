@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Overview.css';
+import './overview2019/Overview2019.css';
 
 export class OverviewPopup extends Component {
     

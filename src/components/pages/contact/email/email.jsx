@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import {  FormGroup, Input, Button} from 'reactstrap';
 import './email.css';
 class email extends Component{
-
     constructor(){
         super()
         this.state={

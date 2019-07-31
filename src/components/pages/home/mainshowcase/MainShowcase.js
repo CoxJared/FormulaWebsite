@@ -3,7 +3,6 @@ import './MainShowcase.scss';
 
 import Macfelogo from '../../../../img/logo-transparent.png';
 
-
 class MainShowcase extends Component {
 
     componentDidMount (){

@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './WhyElectric.css';
 
-export class WhyElectric extends Component {
-    render() {
-        return (
-            <div className="why-electric-container-full">
+export function WhyElectric () {
+    return (
+        <div className="why-electric-container-full">
             <div className="why-electric-container">
-                    <div className="why-electric-header-container">
-                        <h1 className="why-electric-header">Why Electric?</h1>
-                    </div>
-                <div className="why-electric-textbox"> 
-                    
+                <div className="why-electric-header-container">
+                    <h1 className="why-electric-header">Why Electric?</h1>
+                </div>
+                <div className="why-electric-textbox">  
                     <div className="why-electric-reason-container sustainable-container">
                         <div className="why-electric-reason-image-container image-sustainable"></div>
                         <div className="why-electric-reason-header-container">
@@ -48,9 +46,8 @@ export class WhyElectric extends Component {
                     </div>
                 </div>
             </div>
-            </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default WhyElectric
