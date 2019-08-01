@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Overview2019.css';
 
-import bcmphoto from './../../../../../img/bcm-nice.png';
+import bcmphoto from './../../../../../img/bcm-nice.jpg';
 import bcmopen from './../../../../../img/design-showcase/lowvoltage/unpacking.jpg';
 
 import freshChassis from './../../../../../img/freshChassis.jpg';
