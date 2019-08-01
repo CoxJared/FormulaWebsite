@@ -14,7 +14,7 @@ export class donate extends Component {
                         <h1 className="why-donate-header">Support us</h1>
                     </div>
                 <div className="why-donate-paragraph-container">
-                    <p className="why-donate-paragraph">With the ambitious goals the team has set, the use of advanced materials, manufacturing techniques, and components are vital to success. Due to the nature of the relatively new electric vehicle industry, many of the technologies being implemented into the car are also new. In general, this means low volume at a high cost. By donating to the team, you will be providing us with the resources necessary to turn our designs into reality.
+                    <p className="why-donate-paragraph">&nbsp;&nbsp;With the ambitious goals the team has set, the use of advanced materials, manufacturing techniques, and components are vital to success. Due to the nature of the relatively new electric vehicle industry, many of the technologies being implemented into the car are also new. In general, this means low volume at a high cost. By donating to the team, you will be providing us with the resources necessary to turn our designs into reality.
 By donating you will not only be helping build a car; you will be investing in the next generation of engineers, entrepreneurs, and leaders.</p>
                 </div>
                 <div className="donate-paypal-container">

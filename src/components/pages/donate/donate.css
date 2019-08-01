@@ -40,3 +40,51 @@
 .donate-paypal-container{
     padding:50px;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .why-donate-container-page{
+
+        min-height:calc(100vh - 120px);
+    }
+    
+    .why-donate-showcase {
+        background: linear-gradient( rgba(0, 0, 5, 0.0), rgba(0, 0, 5, 0.3) ), url('./../../../img//gmvisit.jpg');
+        background-size: cover;
+        background-position-y:75%;
+    
+        height:240px;
+    }
+    
+    .why-donate-header{
+        padding-top:180px;
+        color:#fff;
+        font-size:40px;
+        padding-right:120px;
+    }
+    
+    
+    
+    .why-donate-paragraph-container{
+        
+    }
+    
+    
+    .why-donate-paragraph{
+        width:90%;
+        max-width:700px;
+        margin:auto;
+        padding-top:40px;
+        font-size:14px;
+        line-height: 1.4em;
+        text-align: justify;
+        color:#444;
+    }
+    
+    .donate-paypal-container{
+        padding:30px;
+    }
+}
