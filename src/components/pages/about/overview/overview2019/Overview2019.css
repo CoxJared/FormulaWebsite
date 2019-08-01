@@ -107,7 +107,7 @@
     
     top:0;
     right:calc(50vw - 500px);
-    top:150px;
+    top:calc(50vh - 320px);
     background-color:#fff;
     z-index:10001;
 }
