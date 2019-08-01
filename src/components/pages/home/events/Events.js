@@ -25,6 +25,7 @@ export function Events () {
                     </a>
                     <a className="events-event" href="https://www.sae.org/attend/student-events/formula-sae-north" target="_blank" rel="noopener noreferrer">
                         <div className="events-event-image-2">     
+                        <h1 className="hidden-view-article-header">Learn More</h1>  
                         </div>
                         <div className="events-event-date">
                             <h1 className="events-event-date-header">March 4, 2019</h1>
