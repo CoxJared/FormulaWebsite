@@ -211,7 +211,7 @@ export class Team2019 extends Component {
                     projects:[{year:"2019", projectsForYear:["Sponsorship package re-design", "Accumulator Management System (AMS)"]}]},
                 {id: 6,
                     name: 'Lawrence Chung',
-                    seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
+                    seasons:{'2019':{section: 'electrical', title: 'Dashboard'}},
                     email:"chungl1@mcmaster.ca",
                     headshot: lawrenceShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/lawrence-chung-51abb0111/"}],
@@ -250,13 +250,14 @@ export class Team2019 extends Component {
     
     render() {
 
-        
+        if(this.props.season !== '2019' & this.state.section !=='leadership'){
+            this.setState({section: 'leadership'})
+        }
 
         const visibleMembers = this.state.members.filter(member => {
             try{ return member.seasons[this.props.season].section === this.state.section }
             catch{ return false }}
         )
-
 
         return (
             <div>

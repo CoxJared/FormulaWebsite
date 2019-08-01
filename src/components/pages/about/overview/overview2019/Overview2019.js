@@ -9,17 +9,18 @@ import bag from './../../../../../img/design-showcase/chassis/infusion.jpg';
 import faro from './../../../../../img/design-showcase/chassis/faro.jpg';
 import analyse from './../../../../../img/design-showcase/chassis/chassis-analysis.png';
 
-import invertorChillin from './../../../../../img/invertorchilllin.jpeg';
-import accum from './../../../../../img/design-showcase/tractivesystem/accumcomp.png';
+import invertorChillin from './../../../../../img/invertorchilllin.jpg';
+import accum from './../../../../../img/design-showcase/tractivesystem/accumcomp.jpg';
 import under from './../../../../../img/design-showcase/aerodynamics/layup-undertray.jpg';
-import fw from './../../../../../img/design-showcase/aerodynamics/front-wing.jpg';
+import fw from './../../../../../img/design-showcase/aerodynamics/frontwingcomp.jpeg';
 
 import dashdash from './../../../../../img/dashdash.jpg';
+import dashwrap from './../../../../../img/design-showcase/controls/controls-wheel.jpg'
 
-import vinylWrap from './../../../../../img/vinyl.jpeg'
-import pods from './../../../../../img/design-showcase/chassis/wrappods.jpeg';
+import vinylWrap from './../../../../../img/vinyl.jpg'
+import pods from './../../../../../img/design-showcase/chassis/wrappods.jpg';
 import progresswrap from './../../../../../img/design-showcase/chassis/wrapping.jpg';
-import wing from './../../../../../img/design-showcase/chassis/wrapwing.jpeg';
+import wing from './../../../../../img/design-showcase/chassis/wrapwing.jpg';
 
 import OverviewPopup from './../OverviewPopup';
 
@@ -49,7 +50,7 @@ export class Overview2019 extends Component {
                 {
                     name:"Custom Dashboard",
                     paragraph:"The dashboard is composed of a custom designed dashboard interface for a 3.5-inch screen. The dashboard GUI is programmed using python, and a Raspberry Pi3 is used to display the GUI. By having a customized GUI, the team can display and emphasize any information the driver wishes. This gives the driver the most important information depending on the mode the vehicle is in (e.g. autocross, acceleration, endurance, etc.), as well as providing important vehicle diagnostics information for the driver’s safety.",
-                    images:[dashdash]
+                    images:[dashdash, dashwrap]
                 },
                 {
                     name:"Vinyl-wrap",

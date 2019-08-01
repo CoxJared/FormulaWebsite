@@ -10,10 +10,10 @@
     padding-bottom: 0vw;
 }
 .explorer-header {
-    width:350px;
+    width:250px;
     margin:auto;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 45x;
     padding: 10px 0 10px 0;
     color:#222;
     border-bottom: 3px solid rgb(194, 2, 2);
@@ -201,23 +201,17 @@ h1 {
     height: 70%;
 }
 
-.sponsor {
+.sponsor, .sponsor:hover {
     filter: grayscale(20%);
     text-decoration: none;
+    box-shadow: none;
 }
 
-.sponsor:hover {
-    transition: all .5s ease;
-    filter: grayscale(0%);
-    border-radius: 3px;
-
-    box-shadow: 3px 3px 3px 1px grey;
-}
 .platinum .sponsor h1{
     padding-top:0px;
 }
 .sponsor:hover h1 {
-    opacity: 1;
+    opacity: 0;
 }
 .sponsor:hover .logo{
 }

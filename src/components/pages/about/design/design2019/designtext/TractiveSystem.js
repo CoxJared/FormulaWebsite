@@ -7,7 +7,7 @@ export function TractiveSystem () {
                 Tractive System
             </h1>
             <p className="general-paragraph">
-            &nbsp; MAC Formula Electric prides itself for being on the cutting edge of motorsport technology by implementing techniques and design features which are rarely seen in anything other than premier racing series. The use of CNC machinery and CAD modelling as well as various FEA software has allowed us to detail, design and analyze every portion of our car to the smallest detail. Taking full advantage of all the opportunities presented to the team we were able to design not only our best performing, but also by far our most efficient car to date.
+            &nbsp; This year, we developed our first high-voltage battery with three priorities: high specific-power, high specific-energy, and light-weight. This design will be capable of providing the maximum power to the vehicle for the entirety of the endurance run. With a charge time of approximately 35 minutes, we are able to reduce the downtime between runs and improve our teams overall efficiency. The next step we are taking to solidify this design is to subject the accumulator to some rigorous cycle testing in our battery testing lab. This will allow us to validate our simulations and gather data to improve on the next design. Finally, after we have confirmed the functionality of this design, we will be taking it to the track for some additional testing and tuning.
             </p>
         </div>
     )
