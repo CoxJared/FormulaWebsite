@@ -33,7 +33,7 @@ export class SectionPicker extends Component {
                         >Design
                         </h1>
                     </div>
-                    <div className="choice">
+                    <div className={`${this.isDesignShowing(this.props.season)}`}>
                         <h1 
                         className={`choice-name ${this.isSelected("overview", this.props.section)}`}
                         onClick={this.props.updateSection.bind(this, "overview")}

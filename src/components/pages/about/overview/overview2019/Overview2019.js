@@ -7,7 +7,6 @@ import bcmopen from './../../../../../img/design-showcase/lowvoltage/unpacking.j
 import freshChassis from './../../../../../img/freshChassis.jpg';
 import bag from './../../../../../img/design-showcase/chassis/infusion.jpg';
 import faro from './../../../../../img/design-showcase/chassis/faro.jpg';
-import analyse from './../../../../../img/design-showcase/chassis/chassis-analysis.png';
 
 import invertorChillin from './../../../../../img/invertorchilllin.jpg';
 import accum from './../../../../../img/design-showcase/tractivesystem/accumcomp.jpg';
@@ -35,7 +34,7 @@ export class Overview2019 extends Component {
                 {
                     name:"Carbon Monocoque",
                     paragraph:"This year's completion of our teams carbon fiber monocouque represented a milestone in all aspects of engineering. The process went through the stages of theoretical analysis and preliminary design, translated into feasible designs validated by both FEA and physical testing of basic composite strength characteristics. All that was learned from this process was applied to a full chassis design which was built 100% by dedicated students on the team. The result represents an impressive carbon body for our car and an excellent baseline for future members to learn from and improve upon.",
-                    images:[freshChassis,analyse, bag,faro]
+                    images:[freshChassis, bag,faro]
                 },
                 {
                     name:"Body Control Module",

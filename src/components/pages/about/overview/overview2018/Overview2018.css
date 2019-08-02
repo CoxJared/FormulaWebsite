@@ -1,3 +1,16 @@
 .overview2018-container{
 height: calc(100vh  - 280px);
 }
+
+
+.overview2018-showcase{
+    width:100%;
+    max-width:1000px;
+    height:30vw;
+    max-height: 500px;
+    margin:auto;
+    background: linear-gradient( rgba(0, 0, 5, 0.1), rgba(0, 0, 5, 0.15) ),url('./../../../../../img/oldguys.jpg');
+    position: relative;
+    background-size: cover;
+    background-position-y: 59%;
+    background-repeat: no-repeat;}
