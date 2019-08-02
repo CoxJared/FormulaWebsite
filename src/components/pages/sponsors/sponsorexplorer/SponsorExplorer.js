@@ -32,176 +32,117 @@ import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
 export class SponsorExplorer extends Component {
     state = {
         platinum: [
-            {
-                id: 0,
+            {id: 0,
                 name: 'Altium',
                 websiteLink: 'https://www.altium.com/',
-                img: AltiumLogo
-            },
-            {
-                id: 1,
+                img: AltiumLogo},
+            {id: 1,
                 name: 'AMK',
                 websiteLink: 'https://amk-group.com/en/content/formula_student_electric',
-                img: AmkLogo
-            },
-            {
-                id: 2,
+                img: AmkLogo},
+            {id: 2,
                 name: 'Dspace',
-                websiteLink: 'https://duraspace.org/dspace/',
-                img: DspaceLogo
-            },
-            {
-                id: 0,
+                websiteLink: 'https://www.dspace.com/en/inc/home.cfm',
+                img: DspaceLogo},
+            {id: 0,
                 name: 'General Motors',
                 websiteLink: 'https://www.gm.ca/en/home.html',
-                img: GmLogo
-            },
-            {
-                id: 1,
+                img: GmLogo},
+            {id: 1,
                 name: 'McMaster Engineering',
                 websiteLink: 'https://www.eng.mcmaster.ca/',
-                img: McmasterengineeringLogo
-            },
-            {
-                id: 0,
+                img: McmasterengineeringLogo},
+            {id: 0,
                 name: 'Solidworks',
                 websiteLink: 'https://www.solidworks.com/',
-                img: SolidworksLogo
-            },
-
-
-
+                img: SolidworksLogo},
         ],
         gold: [
-            {
-                id: 11,
+            {id: 11,
                 name: 'Faro',
                 websiteLink: 'https://www.faro.com/',
-                img: FaroLogo
-            },
-            {
-                id: 3,
+                img: FaroLogo},
+            {id: 3,
                 name: 'Fastenal',
                 websiteLink: 'https://www.fastenal.com/',
-                img: FastenalLogo
-            },
-            {
-                id: 4,
+                img: FastenalLogo},
+            {id: 4,
                 name: 'General Sealants',
                 websiteLink: 'http://www.generalsealants.com/',
-                img: GeneralsealantsLogo
-            },
-            {
-                id: 5,
+                img: GeneralsealantsLogo},
+            {id: 5,
                 name: 'Linamar',
                 websiteLink: 'https://www.linamar.com/',
-                img: LinimarLogo
-            },
-            {
-                id: 6,
+                img: LinimarLogo},
+            {id: 6,
                 name: 'Mathworks',
                 websiteLink: 'https://www.mathworks.com/',
-                img: MathworksLogo
-            },
-            {
-                id: 7,
+                img: MathworksLogo},
+            {id: 7,
                 name: 'Mclaren Engineering',
                 websiteLink: 'https://www.mgmclaren.com/',
-                img: MclarenengineeringLogo
-            },
-            {
-                id: 8,
+                img: MclarenengineeringLogo},
+            {id: 8,
                 name: 'MES',
                 websiteLink: 'http://www.macengsociety.ca/',
-                img: MesLogo
-            },
-            {
-                id: 9,
+                img: MesLogo},
+            {id: 9,
                 name: 'MSC Software',
                 websiteLink: 'https://www.mscsoftware.com/',
-                img: MscSoftwareLogo
-            },
-            {
-                id: 10,
+                img: MscSoftwareLogo},
+            {id: 10,
                 name: 'TE Connectivty',
                 websiteLink: 'https://www.te.com/usa-en/home.html',
-                img: TeLogo
-            },
-
-            {
-                id: 1,
+                img: TeLogo},
+            {id: 1,
                 name: 'ViGrade',
                 websiteLink: 'https://www.vi-grade.com/',
-                img: ViGradeLogo
-            }
+                img: ViGradeLogo}
         ],
         silver: [
-            {
-                id: 0,
+            {id: 0,
                 name: 'Bender',
                 websiteLink: 'https://www.bender-ca.com/',
-                img: BenderLogo
-            },
-            {
-                id: 1,
+                img: BenderLogo},
+            {id: 1,
                 name: 'Cartesian',
                 websiteLink: 'https://www.cartesian.com/',
-                img: CartesianLogo
-            },
-            {
-                id: 2,
+                img: CartesianLogo},
+            {id: 2,
                 name: 'CpaOntario',
                 websiteLink: 'https://www.cpaontario.ca/',
-                img: CpaontarioLogo
-            },
-            {
-                id: 3,
+                img: CpaontarioLogo},
+            {id: 3,
                 name: 'Diab',
                 websiteLink: 'https://www.diabgroup.com/',
-                img: DiabLogo
-            },
-            {
-                id: 4,
+                img: DiabLogo},
+            {id: 4,
                 name: 'EnLITen Energy Services',
                 websiteLink: 'https://www.enliten.ca/',
-                img: EnlitenenergyServicesLogo
-            },
-            {
-                id: 5,
+                img: EnlitenenergyServicesLogo},
+            {id: 5,
                 name: 'FMS',
                 websiteLink: 'https://www.fmsinc.com/',
-                img: Fmslogo
-            },
-            {
-                id: 9,
+                img: Fmslogo},
+            {id: 9,
                 name: 'Hoosier',
                 websiteLink: 'https://www.hoosiertire.com/',
-                img: HoosierLogo
-            },  
-            {
-                id: 6,
+                img: HoosierLogo},  
+            {id: 6,
                 name: 'OCTOPUZ inc.',
                 websiteLink: 'https://octopuz.com/',
-                img: OctopuzLogo
-            },
-            {
-                id: 7,
+                img: OctopuzLogo},
+            {id: 7,
                 name: 'Samuel',
                 websiteLink: 'https://www.samuel.com/',
-                img: SamuelLogo
-            },   
-            {
-                id: 8,
+                img: SamuelLogo},   
+            {id: 8,
                 name: 'Textreme',
                 websiteLink: 'http://www.textreme.com/',
-                img: TextremLogo
-            },  
- 
+                img: TextremLogo},  
         ],
         software: [
-            
-            {
-                id: 2,
+            {id: 2,
                 name: 'Oshpark',
                 websiteLink: 'https://oshpark.com/',
                 img: OshparkLogo

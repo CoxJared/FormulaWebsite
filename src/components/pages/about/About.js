@@ -52,8 +52,8 @@ export class About extends Component {
     }
 
     render() {
-        if(this.state.season ==="2018" && this.state.section === "design"){
-            this.setState({section:"overview"})
+        if(this.state.season ==="2018" && (this.state.section === "design" || this.state.section === 'overview')){
+            this.setState({section:"team"})
         }
         return (
             <div>
