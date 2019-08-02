@@ -76,6 +76,12 @@
         width: 300px;
         margin:auto;
     }
+    .hide-design{
+        position: relative;
+        width: 50px;
+        height:100%;
+        opacity: 0;
+    }
     
     .choice {
        display: inline-block;

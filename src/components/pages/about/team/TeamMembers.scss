@@ -105,7 +105,7 @@
         
         width: 50%;
         padding:20px;
-        height: 220px;
+        height: 200px;
         display: flex;
         margin:0;
     }
@@ -120,8 +120,8 @@
     .headshot {
         object-fit: cover;
         
-        height:70%;
-        width:80%;
+        height:80%;
+        width:90%;
         border-radius: 50%;
         filter: grayscale(70%);
     }
@@ -129,13 +129,13 @@
     .name {
         padding:1px 0;
         margin: 10px auto 0 auto;
-        font-size: 16px;
+        font-size: 14px;
         color: #000;
     }
     
     .title {
         padding-bottom:5px;
-        font-size: 12px;
+        font-size: 10px;
         color: #555;
     }
     
