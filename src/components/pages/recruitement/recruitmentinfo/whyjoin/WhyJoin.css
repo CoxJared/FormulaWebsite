@@ -15,7 +15,7 @@
 }
 
 .why-join-intro-paragraph-container{
-    padding-top:50px;
+    padding-top:20px;
     /* border:1px solid red; */
     width:90%;
     max-width: 920px;
@@ -45,7 +45,7 @@
         }
         
         .why-join-intro-paragraph-container{
-            padding-top:30px;
+            padding-top:20px;
             /* border:1px solid red; */
             width:90%;
             max-width: 920px;

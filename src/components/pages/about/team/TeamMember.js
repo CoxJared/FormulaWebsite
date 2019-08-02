@@ -34,7 +34,8 @@ export class TeamMember extends Component {
 
                             {this.props.member.projects.map(projectYear => (
                                 <div>
-                                    <h1 className="member-popup-right-experience-title">{projectYear.year} projects</h1>
+                                    <h1 className="member-popup-right-experience-title">Projects</h1>
+                                    <h1 className="member-popup-right-experience-title-year">{projectYear.year}</h1>
                                     {projectYear.projectsForYear.map(project => (
                                         <>
                                             <h2 className="member-popup-right-experience-item">- {project}</h2>

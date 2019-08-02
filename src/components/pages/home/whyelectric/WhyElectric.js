@@ -12,7 +12,7 @@ export function WhyElectric () {
                     <div className="why-electric-reason-container sustainable-container">
                         <div className="why-electric-reason-image-container image-sustainable"></div>
                         <div className="why-electric-reason-header-container">
-                            <h2>Sustainable</h2>
+                            <h2>Sustainability</h2>
                         </div>
                         <div className="why-electric-reason-paragraph-container">
                             <p>
@@ -27,7 +27,7 @@ export function WhyElectric () {
                         </div>
                         <div className="why-electric-reason-paragraph-container">
                             <p>
-                                With efficiencies of over 90%, electric motors are able to transmit a higher percentage of power to the wheels than an internal combustion engine. Moreover, with the ability to provide maximum torque at any speed, performance figures for MAC Formula Electric’s first car rival the top combustion and hybrid automobiles.
+                                With efficiencies of over 90%, electric motors are able to transmit a higher percentage of power to the wheels than an internal combustion engine. Moreover, with the ability to provide maximum torque at any speed, performance figures for MAC Formula Electric’s race car will dominate top combustion automobiles.
                             </p>
                         </div>
                     </div>
