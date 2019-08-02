@@ -7,7 +7,7 @@ export function Supersension () {
                 Vehicle Dynamics
             </h1>
             <p className="general-paragraph">
-                &nbsp; After analyzing tire test data, our team decided to use 10” Hoosier LCO tires because of 
+                After analyzing tire test data, our team decided to use 10” Hoosier LCO tires because of 
                 their superior grip capabilities. A thorough analysis of tire test data allowed the team to 
                 determine the acceleration limits of the tires and use this to better understand the loads that the 
                 suspension will likely encounter. MAC Formula Electric chooses to use a pushrod style set up 
