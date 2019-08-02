@@ -12,6 +12,11 @@ export class SectionPicker extends Component {
     } 
 
     isDesignShowing = (season) => {
+        if(season === "2018" | season ==="2020")
+        {return "hide-design"}
+        return "choice"
+    }
+    isOverviewShowing = (season) => {
         if(season === "2018")
         {return "hide-design"}
         return "choice"
@@ -33,7 +38,7 @@ export class SectionPicker extends Component {
                         >Design
                         </h1>
                     </div>
-                    <div className={`${this.isDesignShowing(this.props.season)}`}>
+                    <div className={`${this.isOverviewShowing(this.props.season)}`}>
                         <h1 
                         className={`choice-name ${this.isSelected("overview", this.props.section)}`}
                         onClick={this.props.updateSection.bind(this, "overview")}
