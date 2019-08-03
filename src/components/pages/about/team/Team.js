@@ -228,7 +228,7 @@ export class Team2019 extends Component {
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/vermad1"}],
                     projects:[{year:"2019", projectsForYear:["Embedded C libraries for PWM cooling fan/pump control", "Serial communication program UART and SPI for the microcontroller"]}]},    
                 {id: 6,
-                    name: 'Dharak Verma',
+                    name: 'Farooq Manzar',
                     seasons:{'2019':{section: 'mechanical', title: 'Aerodynamics'}},
                     email:"Manzarf@mcmaster.ca",
                     headshot: farooqShot,
@@ -262,7 +262,12 @@ export class Team2019 extends Component {
                 season={this.props.season}
                 /> 
             })
-    }    
+    }
+    closeTeam = () =>{
+        this.setState({showMember:<div></div>})
+    
+    }
+        
     
     render() {
 
