@@ -18,7 +18,7 @@ export class TeamMember extends Component {
                         <div className="member-popup-left-links-container">
                             <div className="member-poup-left-links">            
                                     {this.props.member.links.map(link => ( 
-                                <a href={link.url} class={`fa fa-${link.name} custom-${link.name} smaller`} target="_blank" rel="noopener noreferrer" />
+                                <a href={link.url} className={`fa fa-${link.name} custom-${link.name} smaller`} target="_blank" rel="noopener noreferrer" />
                                 ))}
                             </div>
                         </div>      
