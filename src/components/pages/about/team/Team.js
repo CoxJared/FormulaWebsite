@@ -29,6 +29,7 @@ import mattfShot from './../../../../img/headshots/mattf-headshot.jpg';
 import michealShot from './../../../../img/headshots/michealj-headshot.jpg';
 import farooqShot from './../../../../img/headshots/farooq-headshot.jpg';
 import benShot from './../../../../img/headshots/ben-headshot.jpg';
+import abishekShot from './../../../../img/headshots/abishek-photo.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -242,13 +243,20 @@ export class Team2019 extends Component {
                     headshot: michealShot,
                     links:[],
                     projects:[{year:"2019", projectsForYear:["Switch Mounts", "Steering Wheel"]}]},  
-                    {id: 6,
-                        name: 'Benjamin Goldfarb',
-                        seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
-                        email:"goldfab@mcmaster.ca",
-                        headshot: benShot,
-                        links:[],
-                        projects:[{year:"2019", projectsForYear:["AMS testing", "Accumulator Assembly"]}]},  
+                {id: 6,
+                    name: 'Benjamin Goldfarb',
+                    seasons:{'2019':{section: 'electrical', title: 'Accumulator'}},
+                    email:"goldfab@mcmaster.ca",
+                    headshot: benShot,
+                    links:[],
+                    projects:[{year:"2019", projectsForYear:["AMS testing", "Accumulator Assembly"]}]},  
+                {id: 6,
+                    name: 'Abhishek Magdum',
+                    seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
+                    email:"magduma@mcmaster.ca",
+                    headshot: abishekShot,
+                    links:[],
+                    projects:[{year:"2019", projectsForYear:["Drive shaft: Manufacturing", "Accumulator: cooling, circuit development"]}]},  
             ]
         }
     }
