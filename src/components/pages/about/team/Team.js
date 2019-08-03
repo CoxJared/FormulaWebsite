@@ -39,6 +39,8 @@ export class Team2019 extends Component {
         this.state= {
             section: "leadership",
             showMember: <div></div>,
+            updating: false,
+            updated:true,
             members: [
                 {id: 1,
                     name: 'Jackson Diebel',
@@ -249,7 +251,7 @@ export class Team2019 extends Component {
 
     updateSection = (newSection) => {
         this.setState({section: newSection})
-
+        this.setState({updating:true})
     }
 
     shouldShowTeam = (showMember) => {
@@ -260,16 +262,7 @@ export class Team2019 extends Component {
                 season={this.props.season}
                 /> 
             })
-    }
-    closeTeam = () =>{
-        this.setState({showMember:<div></div>})
-    }
-
-
-
-
-
-        
+    }    
     
     render() {
 
@@ -293,6 +286,14 @@ export class Team2019 extends Component {
                 </div>
         ))
 
+        if(this.state.updating){
+            visibleMemberElements = <div></div>
+            this.setState({updated: true})
+        }
+        if(this.state.updated){
+            this.setState({updating: false})
+            this.setState({updated: false})
+        }
 
         return (
             <div>       

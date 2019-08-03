@@ -11,34 +11,37 @@ import Overview2020 from './overview/overview2020/Overview2020';
 import Design2020 from './design/design2020/Design2020';
 import Team from './team/Team';
 
-const displayWindow = {
-    "2018":
-    {
-        "overview": <Overview2018 />,
-        "design": <Overview2018 />,
-        "team": <Team season="2018" />
-    },
-    "2019":
-    {
-        "overview": <Overview2019 />,
-        "design": <Design2019 />,
-        "team": <Team season="2019" />
-    },
-    "2020":
-    {
-        "overview": <Overview2020 />,
-        "design": <Design2020 />,
-        "team": <Team season="2020"/>
-    }
-}
 
 export class About extends Component {
     constructor (props){
         super(props)
         this.state = {
             section: "overview",
-            season: "2019",      
+            season: "2019",  
+            displayWindow:  {
+                "2018":
+                {
+                    "overview": <Overview2018 />,
+                    "design": <Overview2018 />,
+                    "team": <Team season="2018" 
+                            refreshTeam={this.refreshTeam}/>
+                },
+                "2019":
+                {
+                    "overview": <Overview2019 />,
+                    "design": <Design2019 />,
+                    "team": <Team season="2019" 
+                    refreshTeam={this.refreshTeam}/>
+                },
+                "2020":
+                {
+                    "overview": <Overview2020 />,
+                    "design": <Design2020 />,
+                    "team": <Team season="2020"
+                    refreshTeam={this.refreshTeam}/>
+                }   
         }
+    }
     }
 
     componentDidMount() {
@@ -49,6 +52,10 @@ export class About extends Component {
     }
     updateSeason = (newSeason) => {
         this.setState({season: newSeason})
+    }
+    refreshTeam = () => {
+        window.scrollTo(0, 0)
+        this.setState(this.state);
     }
 
     render() {
@@ -71,7 +78,7 @@ export class About extends Component {
                  season={this.state.season}
                  />
                 
-                 {displayWindow[this.state.season][this.state.section]}
+                 {this.state.displayWindow[this.state.season][this.state.section]}
                  <Footer />
                  
             </div>
