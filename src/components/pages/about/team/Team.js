@@ -50,7 +50,7 @@ export class Team2019 extends Component {
                     email:"jacksondiebel@gmail.com",
                     headshot: jacksonShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/jacksondiebel/"}],
-                    projects:[{year:"2018", projectsForYear:["PowerTrain Development", "Chassis Development"]}]},
+                    projects:[{year:"2018", projectsForYear:["Marketing and operations", "Chassis development", "Powertrain development"]}]},
                 {id: 1,
                     name: 'Sam Jantzi',
                     seasons:{'2018':{section: 'leadership', title: 'Mechanical Captain'}},
