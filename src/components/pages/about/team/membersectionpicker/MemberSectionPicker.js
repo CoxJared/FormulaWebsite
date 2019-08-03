@@ -36,12 +36,6 @@ export class MemberSectionPicker extends Component {
                     >
                         Electrical
                     </li>
-                    {/* <li 
-                    className={`member-section-option ${this.isSelected("business", this.props.section)}`}
-                    onClick={this.props.updateSection.bind(this, "business")}
-                    >
-                        Business
-                    </li> */}
                 </ul>
             </div>
         )
