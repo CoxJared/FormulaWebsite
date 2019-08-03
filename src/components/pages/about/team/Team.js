@@ -26,6 +26,8 @@ import dharakShot from './../../../../img/headshots/dharak-headshot.jpg';
 import jacksonShot from './../../../../img/headshots/jackson-headshot.jpg';
 import alecShot from './../../../../img/headshots/alec-headshot.jpg';
 import mattfShot from './../../../../img/headshots/mattf-headshot.jpg';
+import michealShot from './../../../../img/headshots/michealj-headshot.jpg';
+import farooqShot from './../../../../img/headshots/farooq-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -219,10 +221,24 @@ export class Team2019 extends Component {
                 {id: 6,
                     name: 'Dharak Verma',
                     seasons:{'2019':{section: 'electrical', title: 'Microcontrollers'}},
-                    email:" vermad1@mcmaster.ca",
+                    email:"vermad1@mcmaster.ca",
                     headshot: dharakShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/vermad1"}],
                     projects:[{year:"2019", projectsForYear:["Embedded C libraries for PWM cooling fan/pump control", "Serial communication program UART and SPI for the microcontroller"]}]},    
+                {id: 6,
+                    name: 'Dharak Verma',
+                    seasons:{'2019':{section: 'mechanical', title: 'Aerodynamics'}},
+                    email:"Manzarf@mcmaster.ca",
+                    headshot: farooqShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/farooq-manzar-660aba156/"}],
+                    projects:[{year:"2019", projectsForYear:["Undertray moulds", "Fea on wing mounts"]}]},  
+                {id: 6,
+                    name: 'Michael Jaansalu',
+                    seasons:{'2019':{section: 'mechanical', title: 'Chassis'}},
+                    email:"jaansalm@mcmaster.ca",
+                    headshot: michealShot,
+                    links:[],
+                    projects:[{year:"2019", projectsForYear:["Switch Mounts", "Steering Wheel"]}]},  
             ]
         }
     }
@@ -233,6 +249,7 @@ export class Team2019 extends Component {
 
     updateSection = (newSection) => {
         this.setState({section: newSection})
+
     }
 
     shouldShowTeam = (showMember) => {
@@ -247,6 +264,12 @@ export class Team2019 extends Component {
     closeTeam = () =>{
         this.setState({showMember:<div></div>})
     }
+
+
+
+
+
+        
     
     render() {
 
@@ -254,14 +277,25 @@ export class Team2019 extends Component {
             this.setState({section: 'leadership'})
         }
 
-        const visibleMembers = this.state.members.filter(member => {
+        console.log("starting");
+
+        var visibleMembers = this.state.members.filter(member => {
             try{ return member.seasons[this.props.season].section === this.state.section }
             catch{ return false }}
-        )
+        )   
+        var visibleMemberElements = visibleMembers.map(member =>(
+                <div className="member-container" onClick={this.shouldShowTeam.bind(this,member)}>
+                    <div className="member">
+                        <img className="headshot"src={member.headshot} alt="" /> 
+                        <h1 className="name">{member.name}</h1>
+                        <h2 className="title">{member.seasons[this.props.season].title}</h2>
+                    </div>
+                </div>
+        ))
+
 
         return (
-            <div>
-                
+            <div>       
                 <MemberSectionPicker 
                 season={this.props.season}
                 section={this.state.section}
@@ -270,15 +304,7 @@ export class Team2019 extends Component {
                 <div className="width-restricter-team">
                     <div className="members-container">
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-                        {visibleMembers.map(member =>(
-                            <div className="member-container" onClick={this.shouldShowTeam.bind(this,member)}>
-                                <div className="member">
-                                    <img className="headshot"src={member.headshot} alt="" /> 
-                                    <h1 className="name">{member.name}</h1>
-                                    <h2 className="title">{member.seasons[this.props.season].title}</h2>
-                                </div>
-                            </div>
-                        ))}
+                        {visibleMemberElements}
                     </div>
                 </div>
                 {this.state.showMember}       
