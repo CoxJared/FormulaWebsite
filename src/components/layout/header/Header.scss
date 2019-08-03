@@ -141,7 +141,7 @@ li.dropdown {
     display: block; 
 }
 
-.toggle {
+#toggle {
     position: absolute;
     right:35px;
     width:50px;
@@ -254,15 +254,39 @@ li.dropdown {
         margin:0;
         padding:0;
     }
-    .toggle:checked ~ .nav-bar{
+    #toggle:checked ~ .nav-bar{
         display: block;
+        -webkit-animation-name: slide-ins;
+        -webkit-animation-duration: .5s;
+        z-index: -1;
+        margin-top:10px;
+        // -webkit-animation-name: fade-in;
+        // -webkit-animation-duration: 2s;
+        // animation: slideIn 0.6s cubic-bezier(0.54, 0.46, 0.54, 0.94) 2s forwards;
+        // animation: fadeIn 0s ease-in 0s forwards;}
     }
+    
+        @keyframes fade-in {
+          from {opacity: 0;}
+          to {opacity: 1;}
+        }
+     
+        @keyframes slide-ins {
+          from {top:-500px;
+            opacity: .5;
+          }
+          to{
+              opacity: 1;
+          }
+        }
+      
+    
 
-    .toggle:checked + .hamburger > div{
+    #toggle:checked + .hamburger > div{
         transform: rotate(225deg);
     }
-    .toggle:checked + .hamburger >div:before,
-    .toggle:checked + .hamburger > div:after {
+    #toggle:checked + .hamburger >div:before,
+    #toggle:checked + .hamburger > div:after {
         top: 0;
         transform:rotate(90deg);
     }

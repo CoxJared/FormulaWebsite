@@ -17,7 +17,8 @@ class Header extends Component{
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos < (currentScrollPos +1)) {
+        if (prevScrollpos < (currentScrollPos +1) ) {
+            document.getElementById("toggle").checked = false;
             if(currentScrollPos > 90)
             {
                 (document.getElementById("header-container")).style.top="-90px";
@@ -44,7 +45,7 @@ class Header extends Component{
                     </div>
 
                     {/* <div className="spacer" /> */}
-                    <input type="checkbox" className="toggle"></input>
+                    <input type="checkbox" id="toggle"></input>
                     <div className="hamburger"><div>
                     </div></div>
                     <ul className="nav-bar">               
