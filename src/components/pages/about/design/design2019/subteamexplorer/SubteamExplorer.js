@@ -8,10 +8,8 @@ export class SubteamExplorer extends Component {
 
     isSubteamSelected(selectedSubteam, thisSubteam) 
     {
-        console.log("hello, ",selectedSubteam, thisSubteam);
         if(selectedSubteam === thisSubteam)
         {
-            console.log("yo");
             return "selected-subteam"
         }
         return "";
