@@ -28,6 +28,7 @@ import alecShot from './../../../../img/headshots/alec-headshot.jpg';
 import mattfShot from './../../../../img/headshots/mattf-headshot.jpg';
 import michealShot from './../../../../img/headshots/michealj-headshot.jpg';
 import farooqShot from './../../../../img/headshots/farooq-headshot.jpg';
+import benShot from './../../../../img/headshots/ben-headshot.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -120,7 +121,7 @@ export class Team2019 extends Component {
                     links:[],
                     projects:[{year:"2019", projectsForYear:["Suspension Lead","Vehicle Dynamics"]}]},
                 {id: 1,
-                    name: 'Noah Mrjvelj',
+                    name: 'Noah Mrvelj',
                     seasons:{'2019':{section: 'mechanical', title: 'Freelancer'}},
                     email:"mrveljn@mcmaster.ca",
                     headshot: noahShot,
@@ -241,6 +242,13 @@ export class Team2019 extends Component {
                     headshot: michealShot,
                     links:[],
                     projects:[{year:"2019", projectsForYear:["Switch Mounts", "Steering Wheel"]}]},  
+                    {id: 6,
+                        name: 'Benjamin Goldfarb',
+                        seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
+                        email:"goldfab@mcmaster.ca",
+                        headshot: benShot,
+                        links:[],
+                        projects:[{year:"2019", projectsForYear:["AMS testing", "Accumulator Assembly"]}]},  
             ]
         }
     }
