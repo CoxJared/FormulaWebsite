@@ -179,7 +179,7 @@ export class Team2019 extends Component {
                     projects:[{year:"2019",projectsForYear:["Microcontroller programming", "CAN bus and python modules for raspberry pi"]}]}, 
                 {id: 1,
                     name: 'Don Trung Hieu',
-                    seasons:{'2019':{section: 'electrical', title: 'MicroControllers'} },
+                    seasons:{'2019':{section: 'electrical', title: 'Microcontrollers'} },
                     email:"dont1@mcmaster.ca",
                     headshot: donShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/hieudon"}],
