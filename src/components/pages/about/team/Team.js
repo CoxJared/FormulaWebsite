@@ -72,7 +72,7 @@ export class Team2019 extends Component {
                     email:"t.brianwong@gmail.com",
                     headshot: brianShot,
                     links:[],
-                    projects:[{year:"2018",projectsForYear:[ "Driving Simulator"]}]},
+                    projects:[{year:"2018",projectsForYear:[ "Motors", "Controls", "Driving Simulator"]}]},
                 {id: 1, 
                     name: 'Matt Franceschini',
                     seasons:{'2018':{section: 'leadership', title: 'Mechanical Captain'}},
