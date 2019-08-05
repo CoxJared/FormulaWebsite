@@ -152,7 +152,7 @@ export class Team2019 extends Component {
                 {id: 1,
                     name: 'Nathan Lam',
                     seasons:{'2019':{section: 'mechanical', title: 'Manufacturing'}},
-                    email:"royh@mcmaster.ca",
+                    email:"Lamn7@mcmaster.ca",
                     headshot: nathanshot,
                     links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
                     projects:[{year:"2019",projectsForYear:["Chassis Contruction", "Miscellaneous welding tasks" ]}]},  
@@ -175,7 +175,7 @@ export class Team2019 extends Component {
                     seasons:{
                         '2019':{section: 'electrical', title: 'Embedded Systems'}
                     },
-                    email:"Lamn7@mcmaster.ca",
+                    email:"royh@mcmaster.ca",
                     headshot: hemelShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/hemelroy"}, {name:"github", url:"https://github.com/hemelroy"}],
                     projects:[{year:"2019",projectsForYear:["Microcontroller programming", "CAN bus and python modules for raspberry pi"]}]}, 
