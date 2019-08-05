@@ -37,11 +37,11 @@
     }
     
     .general-header {
-      font-size: 20px;
+      font-size: 18px;
       padding-bottom:8px;
-      width:100px;
+      width:150px;
       margin:auto;
-      border-bottom: 2px solid #000;
+      border-bottom: 1px solid rgb(129, 129, 129);
     }
   
   .general-paragraph {

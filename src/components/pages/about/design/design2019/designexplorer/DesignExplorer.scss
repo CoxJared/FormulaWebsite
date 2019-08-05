@@ -40,12 +40,12 @@
     }
     
     .design-explorer-container {
-        width:400px;
+        width:100vw;
         margin:auto;
         background-color: 333;
         border: 10px #fff solid;
         background-color: #fff;
-        height:240px;
+        height:70vw;
         z-index: -3;
         overflow:hidden;
         // border:1px solid blue;
@@ -53,16 +53,16 @@
     
     .image-container {
         position: relative;
-        width:540px;
+        width:150vw;
         margin:0 auto ;
         overflow:hidden;
         display:flex;
-        height: 310px;
+        height: 90vw;
         transition: 2s ease;
         // border:1px solid red;
-        top:-50px;
+        top:-18vw;
         z-index:0;
-        left:-110px;
+        left:-35vw;
     }
     .image-show {
         overflow: hidden;
