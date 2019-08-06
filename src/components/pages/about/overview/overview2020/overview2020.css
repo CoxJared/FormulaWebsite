@@ -26,3 +26,10 @@
     font-size:15px;
     color:#666;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .overiew-2020-container{
+    height: calc(100vh  - 225px);
+    }
+}
