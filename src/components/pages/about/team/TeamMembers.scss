@@ -1,7 +1,7 @@
 .width-restricter-team{
     background-color: #eee;
     width:100%;
-    min-height:800px;
+    min-height:calc(100vh - 340px);
 }
 
 .members-container {
