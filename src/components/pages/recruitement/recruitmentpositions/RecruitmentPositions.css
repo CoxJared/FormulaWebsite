@@ -88,6 +88,8 @@
     width:100%;
     background-color:rgb(245, 245, 245);
     height:800px;
+
+    min-height:calc(100vh - 280px);
 }
 
 .no-positions-header{
