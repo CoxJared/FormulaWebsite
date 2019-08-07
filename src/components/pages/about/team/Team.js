@@ -30,6 +30,7 @@ import michealShot from './../../../../img/headshots/michealj-headshot.jpg';
 import farooqShot from './../../../../img/headshots/farooq-headshot.jpg';
 import benShot from './../../../../img/headshots/ben-headshot.jpg';
 import abishekShot from './../../../../img/headshots/abishek-photo.jpg';
+import raghibShot from './../../../../img/headshots/RaghibQuader.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -257,6 +258,13 @@ export class Team2019 extends Component {
                     headshot: abishekShot,
                     links:[],
                     projects:[{year:"2019", projectsForYear:["Drive shaft: Manufacturing", "Accumulator: cooling, circuit development"]}]},  
+                {id: 6,
+                    name: 'Raghib Quader',
+                    seasons:{'2019':{section: 'electrical', title: 'General Low Voltage'}},
+                    email:"quaderr@mcmaster.ca",
+                    headshot: raghibShot,
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/raghibq/"}, {name:"github", url:"https://github.com/robotitect"}],
+                    projects:[{year:"2019", projectsForYear:["General Low Voltage", "Shutdown system", "MCU upgrade"]}]}, 
             ]
         }
     }
