@@ -24,6 +24,22 @@ import wing from './../../../../../img/design-showcase/chassis/wrapwing.jpg';
 import OverviewPopup from './../OverviewPopup';
 
 
+const omit = (obj, omitKey) =>
+	Object.keys(obj).reduce((result, key) => {
+		if (key !== omitKey) {
+			result[key] = obj[key];
+		}
+		return result;
+    }, {});
+    
+    const overlayStyles = {
+        filter: "blur(1px)",
+        transition: "opacity ease-in 1000ms",
+        clipPath: "inset(0)"
+    };
+
+
+
 export class Overview2019 extends Component {
     constructor(){
         super()
@@ -56,7 +72,8 @@ export class Overview2019 extends Component {
                     paragraph:"The Vinyl-wrap of our car was applied in-house by members with experience in that field.  The surface of the chassis, sidepods, and both wings were first thoroughly cleaned with an alcoholic solution to prepare for wrapping. The vinyl sheets were then given a wipe-down, measured, and cut for each panel accordingly.  The backing of the vinyl was finally peeled off and placed on the corresponding panel while air bubbles were being worked out of the vinyl through a combination of using heat guns, stretching the vinyl, and specialized vinyl wrapping tools. The result being a clear and smooth finish across the whole vehicle.",
                     images:[vinylWrap,progresswrap,wing,pods]
             }
-            ]
+            ],
+            highResImageLoaded: false
         }
     }
     showPopup= (milestone) =>{
@@ -74,6 +91,9 @@ export class Overview2019 extends Component {
 
 
     render() {
+        const { overlaySrc } = this.props;
+        const { highResImageLoaded } = this.state;
+        let filteredProps = omit(this.props, "overlaySrc");
         return (
             <div className="overview2019-full-container">
                 <div className="overview2019-showcase">
@@ -88,7 +108,9 @@ export class Overview2019 extends Component {
 
                     {this.state.milestones.map(milestone => (
                         <div className="overview2019-explore-milestones-single" onClick={this.showPopup.bind(this,milestone)}>
-                        <img className="overview2019-explore-milestones-image" src={milestone.images[0]} alt=""/>
+
+                        <img className="overview2019-explore-milestones-image" src={milestone.images[0]} alt=""/> 
+
                         <div className="overview2019-explore-milestones-header-container">
                             <h1 className="overview2019-explore-milestones-header">{milestone.name}</h1>
                         </div>
@@ -97,81 +119,7 @@ export class Overview2019 extends Component {
                     
                 
                 </div>
-{this.state.popup}
-
-
-
-                {/* <OverviewPopup image={freshChassis} 
-                heading="Carbon Fibre Monocoque" 
-                paragraph = "Our Next Major achievment this season was our new custom Body Control Module, BMC for short. This board is the main board that controls all systems of the car, appart from the motors. The board has 2 microcontrollers for parellel processing of vehicle data, such as pedal position, steering angle, etc. The board also houses safety circuitry for the car, as well as circuitry for the dashboard display, and for CAN communication, the protocal used for communication between the vehicles various systems. The board is located in the front end of the car, in an aluminum enclosure with a fan for active cooling of the power electronics."/> */}
-
-
-                        {/* <div className="text-row-with-photo-container">
-                <div className="text-row-with-photo">
-                    <div className="text-row-image-container text-row-right"><img className="text-row-image" alt="" src={freshChassis}></img></div>
-                    <div className="text-row-text-container text-row-left">
-                        <div className="text-row-text-title-container">
-                        <h1 className="text-row-text-title">Monocoque</h1>
-                        </div>
-                        <p className="text-row-text t">
-                        
-                        </p>
-                    </div>
-                </div>
-                </div>
-                <div className="text-row-with-photo-container">
-                <div className="text-row-with-photo">
-                    <div className="text-row-image-container text-row-left"><img className="text-row-image" alt="" src={bcmphoto}></img></div>
-                    <div className="text-row-text-container text-row-right">
-                    <div className="text-row-text-title-container">
-                        <h1 className="text-row-text-title">BCM</h1>
-                        </div>
-                        <p className="text-row-text t">
-                        Our Next Major achievment this season was our new custom Body Control Module, BMC for short. This board is the main board that controls all systems of the car, appart from the motors. The board has 2 microcontrollers for parellel processing of vehicle data, such as pedal position, steering angle, etc. The board also houses safety circuitry for the car, as well as circuitry for the dashboard display, and for CAN communication, the protocal used for communication between the vehicles various systems. The board is located in the front end of the car, in an aluminum enclosure with a fan for active cooling of the power electronics.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="text-row-with-photo-container">
-                <div className="text-row-with-photo">
-                    <div className="text-row-image-container text-row-right"><img className="text-row-image" alt="" src={invertorChillin}></img></div>
-                    <div className="text-row-text-container text-row-left">
-                    <div className="text-row-text-title-container">
-                        <h1 className="text-row-text-title">Composites</h1>
-                        </div>
-                        <p className="text-row-text t">
-                            One of the manufacturing processes we our proud of this year is our use of composites through a vacuum infusion process. We have used this process to create a number of different carbon fibre parts on the car, including the whole aerodynamic package.  We have also taken advantage of the properties of kevlar with respect to high voltage.  With this knowledge we have constructed a kevlar composite firewall, invertor enclosure(pictured right), and full accumulator encloure.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="text-row-with-photo-container">
-                <div className="text-row-with-photo">
-                    <div className="text-row-image-container text-row-left"><img className="text-row-image" alt="" src={dashdash}></img></div>
-                    <div className="text-row-text-container text-row-right">
-                    <div className="text-row-text-title-container">
-                        <h1 className="text-row-text-title">Dashboard</h1>
-                        </div>
-                        <p className="text-row-text t">
-                        Our Next Major achievment this season was our new custom Body Control Module, BMC for short. This board is the main board that controls all systems of the car, appart from the motors. The board has 2 microcontrollers for parellel processing of vehicle data, such as pedal position, steering angle, etc. The board also houses safety circuitry for the car, as well as circuitry for the dashboard display, and for CAN communication, the protocal used for communication between the vehicles various systems. The board is located in the front end of the car, in an aluminum enclosure with a fan for active cooling of the power electronics.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="text-row-with-photo-container">
-                <div className="text-row-with-photo">
-                    <div className="text-row-image-container text-row-right"><img className="text-row-image" alt="" src={vinylWrap}></img></div>
-                    <div className="text-row-text-container text-row-left">
-                    <div className="text-row-text-title-container">
-                        <h1 className="text-row-text-title">Vinyl Wrap</h1>
-                        </div>
-                        <p className="text-row-text t">
-                            In house vnyl wrap.
-                        </p>
-                    </div>
-                    </div>
-                </div> */}
-
+                {this.state.popup}
 
             </div>
         )
