@@ -26,7 +26,6 @@ class Header extends Component{
             else{
                 (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
             }
-            
         } else {
             (document.getElementById("header-container")).style.top="0" ;
         }
@@ -40,11 +39,10 @@ class Header extends Component{
                     <div className="logo">
                     <Link className="logo-image" to="/">
                         <img src={logoImage} className="logo-image" alt=""></img> 
-                        </Link>
-                        <Link className="logo-text" to="/">MAC FORMULA ELECTRIC</Link>
+                    </Link>
+                    <Link className="logo-text" to="/">MAC FORMULA ELECTRIC</Link>
                     </div>
 
-                    {/* <div className="spacer" /> */}
                     <input type="checkbox" id="toggle"></input>
                     <div className="hamburger"><div>
                     </div></div>
