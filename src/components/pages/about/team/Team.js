@@ -162,7 +162,7 @@ export class Team2019 extends Component {
                     seasons:{'2019':{section: 'mechanical', title: 'Cooling'}},
                     email:"butleg@mcmaster.ca",
                     headshot: greshot,
-                    links:[{name:"linkedin", url:"http://linkedin.com/in/patriciaostrowski"}],
+                    links:[],
                     projects:[{year:"2019",projectsForYear:["Cooling system for motors and inverters" ]}]},   
                 {id: 1,
                     name: 'Justin Isenberg-Verrall',
