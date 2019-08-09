@@ -59,7 +59,7 @@ export class Overview2019 extends Component {
                 },
                 {
                     name:"Composites",
-                    paragraph:"One of the manufacturing processes we our proud of this year is our use of composites through a vacuum infusion process. We have used this process to create a number of different carbon fibre parts on the car, including the whole aerodynamic package.  We have also taken advantage of the properties of kevlar with respect to high voltage.  With this knowledge we have constructed a kevlar composite firewall, invertor enclosure, and full accumulator encloure.",
+                    paragraph:"One of the manufacturing processes we our proud of this year is our use of composites through a vacuum infusion process. We have used this process to create a number of different carbon fibre parts on the car, including the whole aerodynamic package.  We have also taken advantage of the properties of kevlar with respect to high voltage.  With this knowledge we have constructed a kevlar composite firewall, inverter enclosure, and full accumulator encloure.",
                     images:[invertorChillin, fw, accum, under]
                 },
                 {
