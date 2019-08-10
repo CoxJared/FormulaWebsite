@@ -5,6 +5,10 @@ import './Header.scss';
 
 class Header extends Component{
 
+    constructor(props){
+        super(props)
+    }
+
     pageIsSelected(currentPage, checkPage)
     {
         // if(currentPage === checkPage)
@@ -13,39 +17,46 @@ class Header extends Component{
         // }
         return ""
     }
+    
 
     render() {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
+            var currentScrollPos = window.pageYOffset;
 
-        if(currentScrollPos > 50)
-        {
-            (document.getElementById("header")).style.backgroundColor="#fff";
-            (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
-            (document.getElementById("header")).style.color="#555";
+            if(currentScrollPos > 50)
+            {
+                (document.getElementById("header")).style.backgroundColor="#fff";
+                (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
+                (document.getElementById("header")).style.color="#333";
+            }
+            else{
+                (document.getElementById("header")).style.background="none";
+                (document.getElementById("header")).style.boxShadow="none";
+                (document.getElementById("header")).style.color="#fff";
+            }
+
+
+            // if (prevScrollpos < (currentScrollPos +1) ) {
+            //     document.getElementById("toggle").checked = false;
+            //     if(currentScrollPos > 90)
+            //     {
+            //         (document.getElementById("header-container")).style.top="-90px";
+            //     }
+            //     else{
+            //         (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
+            //     }
+            // } else {
+            //     (document.getElementById("header-container")).style.top="0" ;
+            // }
+            prevScrollpos = currentScrollPos;
         }
-        else{
-            (document.getElementById("header")).style.background="none";
-            (document.getElementById("header")).style.boxShadow="none";
-            (document.getElementById("header")).style.color="#fff";
-        }
-
-
-        // if (prevScrollpos < (currentScrollPos +1) ) {
-        //     document.getElementById("toggle").checked = false;
-        //     if(currentScrollPos > 90)
-        //     {
-        //         (document.getElementById("header-container")).style.top="-90px";
-        //     }
-        //     else{
-        //         (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
-        //     }
-        // } else {
-        //     (document.getElementById("header-container")).style.top="0" ;
+        // if(this.props.page === "contact" || this.props.page === "sponsors")
+        // {
+        //     (document.getElementById("header")).style.backgroundColor="#fff";
+        //     (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
+        //     (document.getElementById("header")).style.color="#333";
         // }
-        prevScrollpos = currentScrollPos;
-        }
         return (
             <div>
                 <link href="https://fonts.googleapis.com/css?family=Rajdhani:520,600|Ubuntu&display=swap" rel="stylesheet"/>

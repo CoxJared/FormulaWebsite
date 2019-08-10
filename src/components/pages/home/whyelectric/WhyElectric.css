@@ -1,14 +1,15 @@
 .why-electric-container-full{
     width:100%;
-    background-color: rgb(56, 56, 56);}
+    background-image: linear-gradient(to right, #505055 , #50505b);}
 
 .why-electric-container{
     width:95%;
     max-width:1200px;
     margin:auto;
-    background-color: rgb(56, 56, 56);
+    /* background-color: rgb(56, 56, 56); */
     color:#ddd;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
+    padding-top:50px;
     margin-bottom: 20px;
 }
 
@@ -24,15 +25,15 @@
 }
 .why-electric-header{
     color:#fff;
-    padding:20px;
-    font-size:45px;
+    padding:20px 0 20px 0 ;
+    font-size:55px;
     font-family: 'Rajdhani', sans-serif;
 }
 
 .why-electric-reason-container{
     /* border:1px solid red; */
     flex:1;
-    padding:15px;
+    padding:25px;
 }
 
 .why-electric-reason-image-container{
@@ -66,23 +67,26 @@
 
 .why-electric-reason-header-container{
     /* border:1px solid yellow; */
-    padding:15px;
-    font-size:20px;
-    font-weight: 500;
-    color:#fff;
+    padding:0px;
+    font-size:18px;
+    font-weight: 600;
+    text-align:left;
+    font-family: 'Rajdhani', sans-serif;
+    color:#ccc;
 }
 
 .why-electric-reason-paragraph-container{
     /* border:1px solid purple; */
     width: 100%;
-    padding:5px;
+    padding:0px;
 }
 .why-electric-reason-paragraph-container p{
-    font-size:18px;
-    line-height: 1.3em;
+    font-size:15px;
+    line-height: 1.5em;
     text-align: left;
     color:#fff;
     font-weight: 400;
+    padding-top:5px;
 }
 
 @media only screen and (max-width: 800px) {

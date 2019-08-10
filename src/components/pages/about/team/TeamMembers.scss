@@ -6,7 +6,7 @@
 
 .members-container {
     width:100%;
-    max-width:1010px;
+    max-width:1300px;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
@@ -20,11 +20,12 @@
 }
 
 .member-container {
-    width: 300px;
-    padding:20px;
-    margin:5px;
+    width: 270px;
+    padding:15px;
+    margin:25px;
     height: 360px;
     display: flex;
+    box-shadow: 3px 3px 3px #bbb;
 }
 
 .member-container:hover {
@@ -40,9 +41,9 @@
 .headshot {
     object-fit: cover;
     
-    height:65%;
-    width:75%;
-    border-radius: 50%;
+    height:75%;
+    width:100%;
+    // border-radius: 50%;
     filter: grayscale(40%);
     // -webkit-animation-name: fade-in;
     // -webkit-animation-duration: 2s;

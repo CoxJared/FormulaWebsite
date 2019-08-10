@@ -42,10 +42,10 @@ export class Recruitment extends Component {
                 <Header 
                 page="recruitment"/>
                 <div className="recruitment-page-container">
-                <SectionSelector 
+                {/* <SectionSelector 
                 page={this.state.page}
                 updatePage={this.updatePage}
-                />
+                /> */}
                 <RecruitmentInfo />
                 </div>
                 <Footer />

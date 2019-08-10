@@ -80,7 +80,6 @@ export class About extends Component {
                 
                  {this.state.displayWindow[this.state.season][this.state.section]} 
                   <Footer />
-                 
             </div>
         )
     }
