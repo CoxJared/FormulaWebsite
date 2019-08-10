@@ -1,68 +1,47 @@
 import React from 'react';
 import './News.scss';
+import Media from '../../../layout/media/Media';
 
-export function Media () {
+import maclearnsPhoto from './../../../../img/events-backgrounds/macleans.jpg';
+import pcbPhoto from './../../../../img/events-backgrounds/bcm-event.jpg';
+import inhousePhoto from './../../../../img/events-backgrounds/inhouse-solutions.jpg';
+
+
+export function News () {
         return (
         <div className="width-restricter">
             <div className="news-container">
                 <div className="news-title-container">
-                    <div className="line-break-events"></div>
-                    <h1 className="events-title"> News</h1>
+                    {/* <div className="line-break-events"></div> */}
+                    <h1 className="events-title">MAC Formula Electric in the news</h1>
                 </div>
 
-                <div className="news-events">
-                    <a href="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/" target="_blank" rel="noopener noreferrer">
-                    <div className="news-event">
-                        <div className="news-event-image-3">
-                            <h1 className="hidden-view-article-header">Read Article</h1>
-                        </div>
-                        <div className="news-event-date">
-                            <h1 className="news-event-date-header">April 10, 2019</h1>
-                        </div>
-                        <div className="news-event-description-container">
-                            <p className="news-event-description">
-                                University students can now earn badges to recognize their merits
-                            </p>
-                        </div>
-                    </div>
-                    </a>
-
-                    <a href="https://www.pcbway.com/project/sponsor/Body_Control_Module_PCB___MAC_Formula_Electric.html" target="_blank" rel="noopener noreferrer">
-                    <div className="news-event">
-                        <div className="news-event-image-2">
-                        <h1 className="hidden-view-article-header">Read Article</h1>
-                        </div>
-                        <div className="news-event-date">
-                            <h1 className="news-event-date-header">March 4, 2019</h1>
-                        </div>
-                        <div className="news-event-description-container">
-                            <p className="news-event-description">
-                                Body Control Module PCB - MAC Formula Electric
-                            </p>
-                        </div>
-                    </div>
-                    </a>
-                    
-
-                    <a href="https://www.inhousesolutions.com/2016/11/mac-formula-electric-turning-designs-into-reality/" target="_blank" rel="noopener noreferrer">
-                    <div className="news-event hidden-full">
-                        <div className="news-event-image-1">
-                        <h1 className="hidden-view-article-header">Read Article</h1>
-                        </div>
-                        <div className="news-event-date">
-                            <h1 className="news-event-date-header">November 28, 2016</h1>
-                        </div>
-                        <div className="news-event-description-container">
-                            <p className="news-event-description">
-                                    MAC Formula Electric – Turning Designs into Reality
-                            </p>
-                        </div>
-                    </div>
-                    </a>
+                <div className="events-events">
+                    <Media
+                        link="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/"
+                        date="April 10, 2019"
+                        title="Welcome Week - Recruitment"
+                        message="Read Article"
+                        image={maclearnsPhoto}
+                    />
+                    <Media
+                        link="https://www.pcbway.com/project/sponsor/Body_Control_Module_PCB___MAC_Formula_Electric.html"
+                        date="March 4, 2019"
+                        title="Body Control Module PCB - MAC Formula Electric"
+                        message="Read Article"
+                        image={pcbPhoto}
+                    />
+                    <Media
+                        link="https://www.inhousesolutions.com/2016/11/mac-formula-electric-turning-designs-into-reality/"
+                        date="November 28, 2016"
+                        title="MAC Formula Electric – Turning Designs into Reality"
+                        message="Read Article"
+                        image={inhousePhoto}
+                    />
                 </div>
             </div>
         </div>
     )
 }
 
-export default Media
+export default News
