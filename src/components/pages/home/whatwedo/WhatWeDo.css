@@ -1,9 +1,7 @@
 .what-we-do-full-container{
     width:100%;
     background-color:#fff;
-    /* border-top:2px solid rgb(110, 110, 110);
-    border-bottom:2px solid rgb(110, 110, 110); */
-    margin-top:50px;
+    margin-top:0px;
     margin-bottom:50px;
 }
 
@@ -15,8 +13,8 @@
 }
 
 .what-we-do-title-container{
-    padding:20px;
-    font-size:18px;
+    padding:30px 0 50px 0;
+    font-size:25px;
     border:1px solid #fff;
 }
 .line-break{
@@ -36,6 +34,7 @@
     background-color:#fff;
     color:rgb(63, 63, 63);
     z-index: 2;
+    font-family: 'Rajdhani', sans-serif;
 }
 .what-we-do-title-inner{
     position: relative;

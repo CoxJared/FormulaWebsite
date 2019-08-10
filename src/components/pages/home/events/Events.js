@@ -5,11 +5,24 @@ export function Events () {
     return (
         <div className="width-restricter">
             <div className="events-container">
-                <div className="events-title-container">
+                {/* <div className="events-title-container">
                     <div className="line-break-events"></div>
                     <h1 className="events-title"> Events</h1>
-                </div>
+                </div> */}
                 <div className="events-events">
+                    <a className="events-event" href="https://www.sae.org/attend/student-events/formula-sae-north" target="_blank" rel="noopener noreferrer">
+                        <div className="events-event-image-3">     
+                        <h1 className="hidden-view-article-header">Learn More</h1>  
+                        </div>
+                        <div className="events-event-date">
+                            <h1 className="events-event-date-header">August 27, 2019</h1>
+                        </div>
+                        <div className="events-event-description-container">
+                            <p className="events-event-description">
+                                Welcome Week - Recruitment
+                            </p>
+                        </div>
+                    </a>
                     <a className="events-event" href="http://saecentralontario.org/events/" target="_blank" rel="noopener noreferrer">
                         <div className="events-event-image-1">
                             <h1 className="hidden-view-article-header">Learn More</h1>  

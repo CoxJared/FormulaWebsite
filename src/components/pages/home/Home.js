@@ -21,6 +21,8 @@ class Home extends Component {
                  <AboutUs />
                  <Events />
                  <WhatWeDo />
+                 
+                 
                  <WhyElectric />
                  <News />
                 <Footer />

@@ -1,16 +1,29 @@
 .showcase-container {
     position: relative;
-    height: 650px;
-    background: linear-gradient( rgba(0, 0, 5, 0.55), rgba(0, 0, 5, 0.55) ), url("./../../../../img/home-1.jpeg");
-    background-position-y: 0px;
-    background-size: cover;
-    background-position: 20%;
-    -webkit-animation-name: slide-in;
-    -webkit-animation-duration: 1.5s;
+    height: 700px;
+    // background: linear-gradient( rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486) ), url("./../../../../img/home-1.jpeg");
+
+    // -webkit-animation-name: slide-in;
+    // -webkit-animation-duration: 1.5s;
     // -webkit-animation-name: fade-in;
     // -webkit-animation-duration: 2s;
     // animation: slideIn 0.6s cubic-bezier(0.54, 0.46, 0.54, 0.94) 2s forwards;
     // animation: fadeIn 0s ease-in 0s forwards;}
+}
+.showcase-container::after{
+  content: "";
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),url("./../../../../img/home-1.jpeg");
+  background-position-y: 0px;
+  background-size: cover;
+
+  background-position: 20%;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
 }
 
     @keyframes fade-in {
@@ -59,18 +72,26 @@
     margin:auto;}
 
   .team-name {
-    padding: 23px 0;
-    font-size: 80px;
-    color: #fff;}
+    width:600px;
+    margin:auto;
+    padding: 210px 0 10px 0;
+    font-size: 65px;
+    
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 470;}
 
   .culture-container {
     display: flex;
-    margin-top: 170px;
-    justify-content: center}
+    margin-top: 0px;
+    justify-content: center;
+  width:500px;
+margin:auto;}
 
   .culture-text {
     color: rgb(218, 218, 218);
-    font-size: 35px;}
+    font-size: 25px;
+  }
 
 
 

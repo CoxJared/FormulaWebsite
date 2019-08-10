@@ -78,8 +78,8 @@ export class About extends Component {
                  season={this.state.season}
                  />
                 
-                 {this.state.displayWindow[this.state.season][this.state.section]}
-                 <Footer />
+                 {this.state.displayWindow[this.state.season][this.state.section]} 
+                  <Footer />
                  
             </div>
         )

@@ -6,11 +6,11 @@ export function WhyElectric () {
         <div className="why-electric-container-full">
             <div className="why-electric-container">
                 <div className="why-electric-header-container">
-                    <h1 className="why-electric-header">Why Electric?</h1>
+                    <h1 className="why-electric-header">Why Electric</h1>
                 </div>
                 <div className="why-electric-textbox">  
                     <div className="why-electric-reason-container sustainable-container">
-                        <div className="why-electric-reason-image-container image-sustainable"></div>
+                        {/* <div className="why-electric-reason-image-container image-sustainable"></div> */}
                         <div className="why-electric-reason-header-container">
                             <h2>Sustainability</h2>
                         </div>
@@ -21,7 +21,7 @@ export function WhyElectric () {
                         </div>
                     </div>
                     <div className="why-electric-reason-container">
-                        <div className="why-electric-reason-image-container image-performance"></div>
+                        {/* <div className="why-electric-reason-image-container image-performance"></div> */}
                         <div className="why-electric-reason-header-container">
                             <h2>High Performance</h2>
                         </div>
@@ -32,7 +32,7 @@ export function WhyElectric () {
                         </div>
                     </div>
                     <div className="why-electric-reason-container">
-                        <div className="why-electric-reason-image-container image-future"></div>
+                        {/* <div className="why-electric-reason-image-container image-future"></div> */}
                         <div className="why-electric-reason-header-container">
                             <h2> 
                                 Future of Transportation

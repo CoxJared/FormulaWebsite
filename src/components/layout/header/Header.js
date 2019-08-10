@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import logoImage from '../../../img/MFElogo.png';
+import logoImage from '../../../img/logo-transparent.png';
 import './Header.scss';
 
 class Header extends Component{
+
     pageIsSelected(currentPage, checkPage)
     {
-        if(currentPage === checkPage)
-        {
-            return "selected-page"
-        }
+        // if(currentPage === checkPage)
+        // {
+        //     return "selected-page"
+        // }
         return ""
     }
 
@@ -17,25 +18,40 @@ class Header extends Component{
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos < (currentScrollPos +1) ) {
-            document.getElementById("toggle").checked = false;
-            if(currentScrollPos > 90)
-            {
-                (document.getElementById("header-container")).style.top="-90px";
-            }
-            else{
-                (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
-            }
-        } else {
-            (document.getElementById("header-container")).style.top="0" ;
+
+        if(currentScrollPos > 50)
+        {
+            (document.getElementById("header")).style.backgroundColor="#fff";
+            (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
+            (document.getElementById("header")).style.color="#555";
         }
+        else{
+            (document.getElementById("header")).style.background="none";
+            (document.getElementById("header")).style.boxShadow="none";
+            (document.getElementById("header")).style.color="#fff";
+        }
+
+
+        // if (prevScrollpos < (currentScrollPos +1) ) {
+        //     document.getElementById("toggle").checked = false;
+        //     if(currentScrollPos > 90)
+        //     {
+        //         (document.getElementById("header-container")).style.top="-90px";
+        //     }
+        //     else{
+        //         (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
+        //     }
+        // } else {
+        //     (document.getElementById("header-container")).style.top="0" ;
+        // }
         prevScrollpos = currentScrollPos;
         }
         return (
             <div>
+                <link href="https://fonts.googleapis.com/css?family=Rajdhani:520,600|Ubuntu&display=swap" rel="stylesheet"/>
             <div id="header-container">
             <div className="tracker-backgound">
-                <div className="header">
+                <div id="header">
                     <div className="logo">
                     <Link className="logo-image" to="/">
                         <img src={logoImage} className="logo-image" alt=""></img> 
@@ -70,7 +86,7 @@ class Header extends Component{
 
                 </div>
             </div>
-            <div className="top-buffer"></div>
+            {/* <div className="top-buffer"></div> */}
             </div>
         );
     }

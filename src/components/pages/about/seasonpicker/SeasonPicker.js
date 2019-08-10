@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './SeasonPicker.css';
 
+import birdShot from './../../../../img/bird-shot.jpg';
+
 export class SeasonPicker extends Component {
 
     isSelected = (choice, currentSection) => {
@@ -13,7 +15,8 @@ export class SeasonPicker extends Component {
 
     render() {
         return (
-            <div className="season-picker-container">
+            <div className="season-picker-container section-2019-overview">
+                
                 <div className="season-picker">
    
                 <div 
@@ -24,11 +27,11 @@ export class SeasonPicker extends Component {
                             <h1 className="year-header"
                             >2018</h1>
                         </div>
-                        <div className="timeline-container">
+                        {/* <div className="timeline-container">
                             <div className="timeline-line-left">
                                 <div className="time-dot"></div>
                             </div>        
-                        </div>
+                        </div> */}
                     </div>
                     <div 
                     className={`season-container ${this.isSelected("2019", this.props.season)}`}
@@ -39,11 +42,11 @@ export class SeasonPicker extends Component {
                             className="year-header"
                             >2019</h1>
                         </div>
-                        <div className="timeline-container">
+                        {/* <div className="timeline-container">
                             <div className="timeline-line">
                                 <div className="time-dot"></div>
                             </div>        
-                        </div>
+                        </div> */}
                     </div>
                     <div 
                     className={`season-container ${this.isSelected("2020", this.props.season)}`}
@@ -53,11 +56,11 @@ export class SeasonPicker extends Component {
                             <h1 className="year-header"
                             >2020</h1>
                         </div>
-                        <div className="timeline-container">
+                        {/* <div className="timeline-container">
                             <div className="timeline-line-right">
                                 <div className="time-dot"></div>
                             </div>        
-                        </div>
+                        </div> */}
                     </div>
                     
                 </div>
