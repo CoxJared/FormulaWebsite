@@ -225,7 +225,7 @@ export class Team2019 extends Component {
                     projects:[{year:"2019", projectsForYear:["Custom dashboard", "Brake Light"]}]},
                 {id: 6,
                     name: 'Dharak Verma',
-                    seasons:{'2019':{section: 'electrical', title: 'Microcontrollers'}},
+                    seasons:{'2019':{section: 'electrical', title: 'Embedded Systems'}},
                     email:"vermad1@mcmaster.ca",
                     headshot: dharakShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/vermad1"}],

@@ -11,34 +11,52 @@ class Header extends Component{
 
     pageIsSelected(currentPage, checkPage)
     {
-        // if(currentPage === checkPage)
-        // {
-        //     return "selected-page"
-        // }
         return ""
     }
     
 
     render() {
         var headerClass = "static-header";
-        if(this.props.page !== "contact" && this.props.page !== "sponsors"){
+        if(this.props.page !== "contact" && this.props.page !== "sponsors" && document.body.offsetWidth>800){
             headerClass = "header"
             window.onscroll = function() {
                 try{
                 var currentScrollPos = window.pageYOffset;
                 if(currentScrollPos > 50)
                 {
+                    (document.getElementById("header")).style.color="#333";
                     (document.getElementById("header")).style.backgroundColor="#fff";
                     (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
-                    (document.getElementById("header")).style.color="#333";
+                    
                 }
                 else{
+                    (document.getElementById("header")).style.color="#fff";
                     (document.getElementById("header")).style.background="none";
                     (document.getElementById("header")).style.boxShadow="none";
-                    (document.getElementById("header")).style.color="#fff";
+                    
                 }
             }catch{}
             }
+        }
+        if(document.body.offsetWidth < 800) {
+
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos < (currentScrollPos +1) ) {
+            document.getElementById("toggle").checked = false;
+            if(currentScrollPos > 90)
+            {
+                (document.getElementById("header-container")).style.top="-90px";
+            }
+            else{
+                (document.getElementById("header-container")).style.top="-".concat(currentScrollPos,"px");
+            }
+        } else {
+            (document.getElementById("header-container")).style.top="0" ;
+        }
+        prevScrollpos = currentScrollPos;
+        }
         }
 
         return (
@@ -71,7 +89,6 @@ class Header extends Component{
                         <li className={`nav-bar-item ${this.pageIsSelected("contact", this.props.page)}`}>
                             <Link to="/contact">Contact</Link>
                         </li>
-                        {/* <li className="nav-bar-item-donate-button"> */}
                         <li className={`nav-bar-item ${this.pageIsSelected("donate", this.props.page)}`}>
                         <Link to="/donate">Donate</Link>
                         </li>

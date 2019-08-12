@@ -16,7 +16,7 @@ export function Events () {
                 </div> */}
                 <div className="events-events">
                     <Media 
-                    link="https://www.sae.org/attend/student-events/formula-sae-north"
+                    link="https://www.facebook.com/events/2381516432105723/"
                     date="August 27, 2019"
                     title="Welcome Week - Recruitment"
                     message="Learn More"

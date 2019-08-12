@@ -11,11 +11,11 @@ export class donate extends Component {
                 <div className="why-donate-container-page">
 
                     <div className="why-donate-showcase">
-                        <h1 className="why-donate-header">Support us</h1>
+                        <h1 className="why-donate-header">Support the engineers of tomorrow</h1>
                     </div>
                 <div className="why-donate-paragraph-container">
                     <p className="why-donate-paragraph">With the ambitious goals the team has set, the use of advanced materials, manufacturing techniques, and components are vital to success. Due to the nature of the relatively new electric vehicle industry, many of the technologies being implemented into the car are also new. In general, this means low volume at a high cost. By donating to the team, you will be providing us with the resources necessary to turn our designs into reality.
-By donating you will not only be helping build a car; you will be investing in the next generation of engineers, entrepreneurs, and leaders.</p>
+                    By donating you will not only be helping build a car; you will be investing in the next generation of engineers, entrepreneurs, and leaders.</p>
                 </div>
                 
                 <div className="donate-paypal-container">

@@ -92,16 +92,14 @@
 @media only screen and (max-width: 800px) {
     .why-electric-container-full{
         width:100%;
-        background-color: rgb(56, 56, 56);
     }
     
     .why-electric-container{
         width:95%;
         max-width:400px;
         margin:auto;
-        background-color: rgb(56, 56, 56);
         color:#ddd;
-        padding-bottom: 20px;
+        padding: 30px 0;
     }
     
     .why-electric-textbox{
@@ -117,7 +115,7 @@
     }
     .why-electric-header{
         color:#fff;
-        padding-top:10px;
+        padding-top:0px;
         padding-bottom:0px;
         font-size:18px;
     }
@@ -135,53 +133,27 @@
         position: relative;
         float: left;
     }
-    .image-sustainable{
-        background: url('./../../../../img/tree.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width:90px;
-        margin:auto;
-        height:100px;
-        background-position-y: 10px;
-    }
-    .image-performance{
-        background: url('./../../../../img/output-onlinepngtools.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width:90px;
-        margin:auto;
-        background-position-y: 20px;
-    }
-    .image-future{
-        background: url('./../../../../img/delorean-03-512.png');
-        background-size:contain;
-        background-repeat: no-repeat;
-        width:90px;
-        margin:auto;
-        background-position-y: 10px;
-    }
     
     .why-electric-reason-header-container h2{
         /* border:1px solid yellow; */
-        padding:10px 0;
+        padding:15px 0 5px 0;
         font-size:13px;
         font-weight: 300;
-        color:#fff;
         position: relative;
-        width:180px;
-        float:right;
+        text-align: center;
+        width:100%;
     }
     
     .why-electric-reason-paragraph-container{
         /* border:1px solid purple; */
-        width: 60vw;
+        width: 90%;
         padding:0px;
         position: relative;
-        float:right;
+        margin:auto;
     }
     .why-electric-reason-paragraph-container p{
         font-size:10px;
-        line-height: 1.3em;
+        line-height: 1.4em;
         text-align: justify;
         color:#fff;
         font-weight: 200;

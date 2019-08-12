@@ -5,7 +5,6 @@ export function WhatWeDo () {
     return (
         <div className="what-we-do-full-container">
             <div className="what-we-do-title-container">
-                {/* <div className="line-break" /> */}
                 <div className="what-we-do-title-inner">
                     <h1 className="what-we-do-title">What We Do</h1>
                 </div>

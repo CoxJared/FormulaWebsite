@@ -8,17 +8,21 @@
 #header  {
     display: flex;
     position: relative;
-    color: #fff;
     width: 100%;
     max-width:1400px;
     height: 85px;
+    color:#fff;
+
+    transition: color 0s ease;
+    transition: background-color .5s ease;
+    opacity: .98;
 }
 #static-header {
     display: flex;
     position: relative;
     color: #222;
     background-color: #fff;
-    box-shadow: 3px 3px 10px grey;
+    box-shadow: 3px 3px 5px rgb(180, 180, 180);
     width: 100%;
     max-width:1400px;
     height: 85px;
@@ -46,6 +50,7 @@
     height: 80px;
     padding-left: 0%; 
     float: left;
+    transition: all 0s ease;
 }
 
 .logo-text {
@@ -59,6 +64,7 @@
     font-weight:300;
     text-decoration: none;
     font-family: 'Rajdhani', sans-serif;
+    transition: all 0s ease;
 }
 
 .nav-bar {
@@ -67,13 +73,15 @@
     list-style-type: none;
     margin: 22px 10px;
     padding: 10px; 
-    margin-right: 20px;
+    margin-right: 40px;
+    transition: all 0s ease;
 }
 
 .nav-bar-item {
     flex: 1;
     float: right;
-    margin-right: 0px; 
+    margin-right: 1px; 
+    transition: all 0s ease;
 }
 
 .nav-bar-item a {
@@ -83,24 +91,7 @@
     text-decoration: none; 
     font-size:18px;
     font-family: 'Rajdhani', sans-serif;
-}
-
-.nav-bar-item a:hover, .dropdown:hover .dropbtn, .dropdown-content:hover {
-    color: rgb(172, 172, 172);
-}
-.selected-page a {
-    background-color: #Fefefe;
-    padding: 14px 25px;
-    color: #9A1414;
-    transition: all .5s ease;
-    border: 1px #aaa solid; 
-}
-
-.nav-bar-item a:active {
-    // background-color: rgb(250, 227, 227);
-    // color: rgb(172, 9, 9);
-    // transition: all .1s ease;
-    // padding: 16px 25px;
+    transition: all 0s ease;
 }
 
 li.dropdown {
@@ -178,8 +169,9 @@ li.dropdown {
     .logo-text {
         font-size:0px;
     }
-    #header {
-        height:60px;
+    #static-header {
+        height:70px;
+        box-shadow: 1px 1px 1px #bbb
     }
     .logo-image {
         height: 70px;

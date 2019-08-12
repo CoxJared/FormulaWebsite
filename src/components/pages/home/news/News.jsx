@@ -10,17 +10,17 @@ import inhousePhoto from './../../../../img/events-backgrounds/inhouse-solutions
 export function News () {
         return (
         <div className="width-restricter">
-            <div className="news-container">
+            
                 <div className="news-title-container">
                     {/* <div className="line-break-events"></div> */}
                     <h1 className="events-title">MAC Formula Electric in the news</h1>
                 </div>
-
+                <div className="events-container">
                 <div className="events-events">
                     <Media
                         link="https://www.macleans.ca/education/university-students-can-now-earn-badges-to-recognize-their-merits/"
                         date="April 10, 2019"
-                        title="Welcome Week - Recruitment"
+                        title="University students can now earn badges to recognize their merits"
                         message="Read Article"
                         image={maclearnsPhoto}
                     />

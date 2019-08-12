@@ -153,13 +153,13 @@ export class SponsorExplorer extends Component {
     render() {
         return (    
             <div className="sponsor-contanainer">
-                <h1 className="explorer-header">Our Sponsors</h1>
+                {/* <h1 className="explorer-header">Our Sponsors</h1> */}
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
                     {this.state.platinum.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="platinum-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="platinum-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -170,7 +170,7 @@ export class SponsorExplorer extends Component {
                     {this.state.gold.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="gold-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="gold-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -183,7 +183,7 @@ export class SponsorExplorer extends Component {
                 {this.state.silver.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="silver-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="silver-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -194,7 +194,7 @@ export class SponsorExplorer extends Component {
                     {this.state.software.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="bronze-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="bronze-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
