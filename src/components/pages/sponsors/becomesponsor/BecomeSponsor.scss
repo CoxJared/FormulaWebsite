@@ -6,12 +6,13 @@
 }
 
 .become-sponsor-header {
-    font-size: 35px;
+    font-size: 45px;
     padding: 10px 10px 10px 10px;
     width: 550px;
     margin:auto;
     color:#000;
-    border-bottom: 3px solid rgb(194, 2, 2);
+    // border-bottom: 3px solid rgb(194, 2, 2);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .become-sponsor-paragraph {
@@ -25,19 +26,20 @@
 }
 
 .sponsor-package{
-    margin-top:10px;
-    padding:10px;
-    border-radius: 20px;
+    margin-top:15px;
+    padding:15px 20px;
     font-size: 20px;
-    background-color: rgb(227, 3, 3);
-    color:#fff;
+    background-color: #fff;
+    border: 1px solid rgb(219, 63, 63);
+    color:rgb(219, 63, 63);
     font-weight: normal;
     margin:55px 15px 0 15px;
     text-decoration: none;
 }
 .sponsor-package:hover{
-    background-color: rgb(158, 1, 1);
     box-shadow: 5px 5px 5px 1px #bbb;
+    border: 1px solid rgb(255, 0, 0);
+    color:rgb(255, 0, 0);
 }
 .inverted {
     padding:10px;
@@ -68,12 +70,11 @@
         max-width: 90%;
         margin:auto;
         color:#000;
-        border-bottom: 3px solid rgb(194, 2, 2);
 
     }
     
     .become-sponsor-paragraph {
-        padding-top: 20px;
+        padding-top: 10px;
         line-height: 1.5em;
         font-size: 10px;
     }
@@ -81,15 +82,11 @@
     .sponsor-package{
         margin-top:20px;
         padding:10px;
-        border-radius: 20px;
         font-size: 10px;
-        background-color: rgb(227, 3, 3);
-        color:#fff;
         font-weight: normal;
         margin:15px 15px 0 15px;
     }
     .sponsor-package:hover{
-        background-color: rgb(158, 1, 1);
         box-shadow: 5px 5px 5px 1px #bbb;
     }
 }

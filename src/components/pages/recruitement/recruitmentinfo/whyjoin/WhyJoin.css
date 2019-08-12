@@ -6,7 +6,7 @@ min-height:calc(100vh - 275px)
 
 
 .showbox{
-    padding:0px 0 50px;
+    padding:50px 0 50px;
 }
 
 .discover-passion-header{
@@ -15,14 +15,14 @@ min-height:calc(100vh - 275px)
 }
 
 .why-join-intro-paragraph-container{
-    padding-top:20px;
+    padding-top:30px;
     /* border:1px solid red; */
     width:90%;
     max-width: 920px;
     margin:auto;
     /* height:500px; */
     font-size: 17px;
-    text-align:left;
+    text-align:justify;
     line-height:1.5em;
 }
 

@@ -4,33 +4,46 @@
 }
 
 .why-donate-showcase {
-    background: linear-gradient( rgba(0, 0, 5, 0.0), rgba(0, 0, 5, 0.3) ), url('./../../../img//gmvisit.jpg');
+
+    height:700px;
+    position: relative;
+}
+
+
+.why-donate-showcase::after{
+    content:"";
+    background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../../img/gmvisit.jpg");
     background-size: cover;
     background-position-y:75%;
 
-    height:500px;
+    height:700px;
+    /* background-position: 20%; */
+    opacity: 0.88;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
 }
+
 
 .why-donate-header{
-    padding-top:350px;
+    padding-top:260px;
+    width:750px;
+    margin:auto;
     color:#fff;
     font-size:70px;
-    padding-right:350px;
+    /* padding-right:350px; */
     font-weight: normal;
-}
-
-
-
-.why-donate-paragraph-container{
-    
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 .why-donate-paragraph{
     width:90%;
-    max-width:700px;
+    max-width:900px;
     margin:auto;
-    padding-top:50px;
+    padding-top:70px;
     font-size:20px;
     line-height: 1.4em;
     text-align: justify;
@@ -45,46 +58,61 @@
 
 @media only screen and (max-width: 800px) {
 
-
     .why-donate-container-page{
 
-        min-height:calc(100vh - 120px);
+        min-height:calc(100vh - 50px);
     }
     
     .why-donate-showcase {
-        background: linear-gradient( rgba(0, 0, 5, 0.0), rgba(0, 0, 5, 0.3) ), url('./../../../img//gmvisit.jpg');
-        background-size: cover;
-        background-position-y:75%;
     
-        height:240px;
+        height:300px;
+        position: relative;
     }
+    
+    
+    .why-donate-showcase::after{
+        content:"";
+        background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../../img/gmvisit.jpg");
+        background-size: cover;
+        background-position-y:10%;
+    
+        height:300px;
+        /* background-position: 20%; */
+        opacity: 0.88;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;  
+    }
+    
     
     .why-donate-header{
-        padding-top:180px;
+        padding-top:145px;
+        width:270px;
+        margin:auto;
         color:#fff;
-        font-size:40px;
-        padding-right:120px;
-    }
-    
-    
-    
-    .why-donate-paragraph-container{
-        
+        font-size:25px;
+        /* padding-right:350px; */
+        font-weight: normal;
+        font-family: 'Rajdhani', sans-serif;
     }
     
     
     .why-donate-paragraph{
         width:90%;
-        max-width:700px;
+        max-width:900px;
         margin:auto;
-        padding-top:40px;
-        font-size:14px;
+        padding:40px 0;
+        font-size:12px;
         line-height: 1.4em;
         text-align: justify;
         color:#444;
     }
     
     .donate-paypal-container{
-        padding:30px;
+        padding:10px;
     }
+    
+
 }

@@ -32,10 +32,6 @@ export class Design2019 extends Component {
         this.setState({subteam : newSubteam})
     }
 
-    componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
     render() {
         return (
             <div>

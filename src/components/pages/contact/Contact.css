@@ -2,9 +2,9 @@
     width:100%;
     max-width:1300px;
     margin:auto;
-    min-height: calc(100vh - 228px);
-    height:820px;
-
+    min-height: calc(100vh - 243px);
+    /* height:820px; */
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 1250px) {

@@ -12,6 +12,7 @@ import donate from './components/pages/donate/donate';
 function App() {
   return (
     <Router>
+      <link href="https://fonts.googleapis.com/css?family=Rajdhani:520,600|Ubuntu&display=swap" rel="stylesheet"/>
       <div className="app">
           <Route exact path="/" 
               component={Home} />

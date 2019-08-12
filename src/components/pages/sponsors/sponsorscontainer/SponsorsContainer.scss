@@ -12,3 +12,11 @@
     display: inline-block;
     overflow: hidden;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .sponsor-container {
+        padding-top: 0px;
+        margin-top:0px;
+    }
+}
