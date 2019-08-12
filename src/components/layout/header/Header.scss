@@ -83,7 +83,10 @@
     margin-right: 1px; 
     transition: all 0s ease;
 }
-
+.nav-bar a:hover {
+    color: #aaa;
+    transition:.5s ease;
+}
 .nav-bar-item a {
     width:100px;
     color:inherit;
