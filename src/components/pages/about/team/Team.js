@@ -32,6 +32,7 @@ import benShot from './../../../../img/headshots/ben-headshot.jpg';
 import abishekShot from './../../../../img/headshots/abishek-photo.jpg';
 import raghibShot from './../../../../img/headshots/RaghibQuader.jpg';
 import annaShot from './../../../../img/headshots/AnnaGreen.jpg';
+import harvirShot from './../../../../img/headshots/HarvirParmar.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -273,6 +274,13 @@ export class Team2019 extends Component {
                     headshot: raghibShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/raghibq/"}, {name:"github", url:"https://github.com/robotitect"}],
                     projects:[{year:"2019", projectsForYear:["General Low Voltage", "Shutdown system", "MCU upgrade"]}]}, 
+                {id: 6,
+                    name: 'Harvir Parmar',
+                    seasons:{'2019':{section: 'mechanical', title: 'Manufacturing'}},
+                    email:"parmah3@mcmaster.ca",
+                    headshot: harvirShot,
+                    links:[{name:"linkedin", url:"https://ca.linkedin.com/in/harvirsinghparmar"}],
+                    projects:[{year:"2019", projectsForYear:["Powder Coating"]}]}, 
             ]
         }
     }

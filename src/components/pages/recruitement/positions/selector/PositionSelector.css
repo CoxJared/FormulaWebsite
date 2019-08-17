@@ -1,4 +1,4 @@
-.section-picker-container {
+.positions-picker-container {
     width: 100%;
     max-width:1400px;
     /* background: linear-gradient(to right, #222, #272727); */
@@ -10,38 +10,45 @@
     /* border:1px solid green; */
 }
 
-.section-picker{
+.position-picker{
     position: relative;
-    width: 390px;
+    width: 700px;
     height:100%;
     margin:auto;
     /* border:1px solid blue; */
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.choice {
+.position-picker-2018{
+    position: relative;
+    width: 260px;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    display: flex;
+}
+
+.position {
    position: relative;
-   width: 130px;
-   height:100%;
-   /* border:1px solid red; */
+   width: auto;
+   padding-right:30px;
+   padding-left:30px;
+   height:80%;
    /* border:1px solid red; */
 }
 
-.choice-name {
+.position-name {
     font-size: 25px;
     font-family: 'Rajdhani', sans-serif;
     color:#fff;
     opacity: .3;
     vertical-align: middle;
-    padding-top:12px;
-    padding-bottom:10px;
+    padding:12px 20px 10px 20px;
 }
 
-.hide-choice{
+.hide-design{
     position: relative;
-    width: 0px;
+    width: 65px;
     height:100%;
     opacity: 0;
 }
@@ -54,10 +61,10 @@
     /* padding-top:8px; */
     border-bottom:7px solid #fff;
 }
-.choice:hover {
+.position:hover {
     cursor: pointer;
 }
-.choice:hover .unselected-section{
+.position:hover .unselected-section{
     color:#fff;
     /* font-size: 22px; */
     opacity: .8;
@@ -65,39 +72,61 @@
 
 
 @media only screen and (max-width: 800px) {
-    .section-picker-container {
+    .positions-picker-container {
         width: 100%;
+        max-width:1400px;
         /* background: linear-gradient(to right, #222, #272727); */
-        height: 30px;
-        top:242px;
+        height: 60px;
+        position:absolute;
+        top:250px;
         z-index:20;
         /* justify-content: center; */
         /* border:1px solid green; */
     }
-
-    .section-picker{
-        width:270px;
+    
+    .position-picker{
+        position: relative;
+        width: 300px;
+        height:100%;
+        margin:auto;
+        /* border:1px solid blue; */
+        display: flex;
     }
     
-    .choice{
-        width:90px;
+    .position-picker-2018{
+        position: relative;
+        width: 80px;
+        height:100%;
+        margin:auto;
+        /* border:1px solid blue; */
+        display: flex;
     }
-
     
-    .choice-name {
-        font-size: 18px;
+    .position {
+       position: relative;
+       width: auto;
+       padding-right:5px;
+       padding-left:5px;
+       height:80%;
+       /* border:1px solid red; */
+    }
+    
+    .position-name {
+        font-size: 16px;
         font-family: 'Rajdhani', sans-serif;
         color:#fff;
         opacity: .3;
         vertical-align: middle;
-        padding-top:12px;
-        padding-bottom:10px;
-        
+        padding:12px 5px 5px 5px;
     }
-
-    .hide-choice {
-        width: 0;
+    
+    .hide-design{
+        position: relative;
+        width: 65px;
+        height:100%;
+        opacity: 0;
     }
+    
     
     .selected-section {
         /* font-size: 27px; */
@@ -106,10 +135,10 @@
         /* padding-top:8px; */
         border-bottom:3px solid #fff;
     }
-    .choice:hover {
+    .position:hover {
         cursor: pointer;
     }
-    .choice:hover .unselected-section{
+    .position:hover .unselected-section{
         color:#fff;
         /* font-size: 22px; */
         opacity: .8;

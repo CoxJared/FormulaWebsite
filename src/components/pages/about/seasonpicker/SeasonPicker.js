@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './SeasonPicker.css';
 
-import birdShot from './../../../../img/bird-shot.jpg';
-
 export class SeasonPicker extends Component {
 
     isSelected = (choice, currentSection) => {

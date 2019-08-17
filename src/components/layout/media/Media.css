@@ -79,7 +79,6 @@
         width:100%;
         height:26vw;
         max-height:250px;
-        background: url('./../../../img/sim_pic.png');
         background-size: cover;}
 
 .hidden-view-article-header{
