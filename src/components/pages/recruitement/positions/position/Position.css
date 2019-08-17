@@ -1,0 +1,211 @@
+.position-posting-container{
+    padding:30px 0 100px 0;
+    min-height: calc(100vh - 770px);
+}
+
+.position-posting-name{
+    padding: 30px 20px 10px 20px;
+    width:50%;
+    margin-left:225px;
+    float: left;
+    text-align: left;
+    /* border:1px solid red; */
+}
+
+.position-posting-applynow{
+    height:auto;
+    padding:15px;
+    font-size: 20px;
+    margin-top:40px;
+    position: relative;
+    top:30px;
+    left:-250px;
+    border:1px solid rgb(73, 95, 109);
+    color:rgb(93, 120, 138);
+    text-decoration:none;
+}
+.position-posting-applynow:hover{
+    border:1px solid rgb(60, 123, 165);
+    color:rgb(60, 123, 165);
+    background: rgb(247, 251, 255);
+    
+    box-shadow: 3px 3px 5px #ccc;
+}
+
+.position-posting-applynowi-disabled{
+    height:auto;
+    padding:15px;
+    font-size: 20px;
+    margin-top:50px;
+    position: relative;
+    top:40px;
+    left:-250px;
+    border:1px solid rgb(73, 95, 109);
+    color:rgb(93, 120, 138);
+    text-decoration:none;
+    cursor: not-allowed;
+}
+
+.position-posting-description{
+    width:900px;
+    margin:auto;
+    padding-top:20px;
+    text-align: left;
+    font-size:20px;
+    color:#000;
+}
+.position-posting-description-bold{
+    font-weight: normal;
+}
+
+.position-posting-date{
+    width:100%;
+    float: left;
+    padding-left: 245px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: left;
+    color:#888;
+    /* border:1px solid purple; */
+}
+
+.position-posting-heading{
+    width:900px;
+    margin:auto;
+    text-align: left;
+    margin-top:80px;
+    /* border:1px solid green; */
+    font-size: 25px;
+    color:#666;
+}
+
+
+.position-posting-list{
+    width:870px;
+    margin:auto;
+
+    /* border:1px solid lightblue; */
+}
+
+.position-poosting-item{
+    margin-top:10px;
+    text-align:left;
+    font-size: 18px;
+    /* border:1px solid rebeccapurple; */
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .position-posting-container{
+        padding:20px 0 30px 0;
+        min-height: calc(100vh - 770px);
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .position-posting-name{
+        padding: 0px 10px 10px 10px;
+        width:100%;
+        margin-left:5px;
+        float: left;
+        text-align: left;
+        font-size: 20px;
+        /* border:1px solid red; */
+    }
+
+    .position-posting-applynow-container{
+        position: relative;
+        padding-top:40px;
+        padding-left: 30px;
+        width:280px;
+        /* bordeR:1px solid blue; */
+    }
+    .position-posting-applynow{
+        height:auto;
+        padding:15px;
+        font-size: 20px;
+        margin-top:40px;
+        position: relative;
+        top:0px;
+        left:-250px;
+        border:1px solid rgb(73, 95, 109);
+        color:rgb(93, 120, 138);
+        text-decoration:none;
+    }
+    .position-posting-applynow:hover{
+        border:1px solid rgb(60, 123, 165);
+        color:rgb(60, 123, 165);
+        background: rgb(247, 251, 255);
+        
+        box-shadow: 3px 3px 5px #ccc;
+    }
+    
+    .position-posting-applynowi-disabled{
+        height:auto;
+        padding:7px;
+        font-size: 11px;
+        margin-top:30px;
+        position: relative;
+        top:0px;
+        left:-50px;
+        border:1px solid rgb(73, 95, 109);
+        color:rgb(93, 120, 138);
+        text-decoration:none;
+        cursor: not-allowed;
+    }
+    
+    .position-posting-description{
+        width:90%;
+        margin:auto;
+        padding-top:10px;
+        text-align: left;
+        font-size:12px;
+        color:#000;
+    }
+    .position-posting-description-bold{
+        font-weight: normal;
+    }
+    
+    .position-posting-date{
+        width:100%;
+        float: left;
+        padding-left: 15px;
+        margin-bottom: 0px;
+        font-size: 10px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        text-align: left;
+        color:#888;
+        /* border:1px solid purple; */
+    }
+    
+    .position-posting-heading{
+        width:90%;
+        margin:auto;
+        text-align: left;
+        margin-top:30px;
+        /* border:1px solid green; */
+        font-size: 15px;
+        color:#666;
+    }
+    
+    
+    .position-posting-list{
+        width:85%;
+        margin:auto;
+    
+        /* border:1px solid lightblue; */
+    }
+    
+    .position-poosting-item{
+        margin-top:7px;
+        text-align:left;
+        font-size: 12px;
+        /* border:1px solid rebeccapurple; */
+    }
+
+
+}

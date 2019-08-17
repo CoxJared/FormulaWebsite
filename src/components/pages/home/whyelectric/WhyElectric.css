@@ -42,14 +42,12 @@
     /* border:1px solid blue; */
 }
 .image-sustainable{
-    background: url('./../../../../img/tree.png');
     background-size: contain;
     background-repeat: no-repeat;
     width:170px;
     margin:auto;
 }
 .image-performance{
-    background: url('./../../../../img/output-onlinepngtools.png');
     background-size: contain;
     background-repeat: no-repeat;
     width:210px;
@@ -57,7 +55,6 @@
     background-position-y: -20px;
 }
 .image-future{
-    background: url('./../../../../img/delorean-03-512.png');
     background-size:contain;
     background-repeat: no-repeat;
     width:190px;

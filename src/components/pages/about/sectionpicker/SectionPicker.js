@@ -13,12 +13,12 @@ export class SectionPicker extends Component {
 
     isDesignShowing = (season) => {
         if(season === "2018" | season ==="2020")
-        {return "hide-design"}
+        {return "hide-choice"}
         return "choice"
     }
     isOverviewShowing = (season) => {
         if(season === "2018")
-        {return "hide-design"}
+        {return "hide-choice"}
         return "choice"
     }
 
