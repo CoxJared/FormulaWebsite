@@ -49,9 +49,10 @@
 }
 
 .what-we-do-paragraph{
+    max-width:90%;
     color:rgb(19, 19, 19);
     max-width: 1050px;
-    margin:auto;
+    margin:10px auto;
     font-size:19px;
     line-height: 1.5em;
     font-weight: 340;

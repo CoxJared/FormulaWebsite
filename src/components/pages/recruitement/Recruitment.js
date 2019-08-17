@@ -42,7 +42,7 @@ export class Recruitment extends Component {
                     updatePage={this.updatePage}
                     backgroundimage={peopleCadding}
                     button={<button className="view-positions-buttons" onClick={this.updatePage.bind(this,"positions")}>Open Positions</button>}
-                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the bondaries of electric vehicle technology"/>
+                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"/>
                     <RecruitmentInfo 
                     updatePage={this.updatePage}/>
                     </div>
@@ -60,7 +60,7 @@ export class Recruitment extends Component {
                     updatePage={this.updatePage}
                     backgroundimage={peopleCadding}
                     button={<button className="view-positions-buttons" onClick={this.updatePage.bind(this,"about")}>Why Join</button>}
-                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the bondaries of electric vehicle technology"
+                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
                     recruitmenttitle="JOIN US"/>
                     
                     <Positions updatePositionPage={this.updatePositionPage}/>
@@ -80,7 +80,7 @@ export class Recruitment extends Component {
                     updatePage={this.updatePage}
                     backgroundimage={(this.state.positionToshow.background != null ? this.state.positionToshow.background : peopleCadding)}
                     button={<button className="view-positions-buttons" onClick={this.updatePage.bind(this,"positions")}>Open Positions</button>}
-                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the bondaries of electric vehicle technology"
+                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
                     recruitmenttitle="JOIN US"
                     />
                     <Position position={this.state.positionToshow} />
