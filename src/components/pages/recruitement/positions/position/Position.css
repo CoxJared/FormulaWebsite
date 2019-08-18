@@ -8,7 +8,7 @@
 
 .position-posting-name{
     padding: 30px 20px 10px 0px;
-    width:450px;
+    width:490px;
     margin-left:0px;
     float: left;
     text-align: left;
@@ -42,7 +42,7 @@
     margin-top:50px;
     position: relative;
     top:40px;
-    left:-100px;
+    left:-40px;
     border:1px solid rgb(73, 95, 109);
     color:rgb(93, 120, 138);
     text-decoration:none;
