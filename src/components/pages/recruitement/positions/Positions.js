@@ -63,54 +63,26 @@ export class Positions extends Component {
                             applyLink: "#"
                             // background:aeroBackground
                         }, 
-                    //     {
-                    //         type:'electrical',
-                    //         name:'General Electrical Member',
-                    //         description:'V = IR',
-                    //         openings: 'Sept 8, 2019'
-                    //     },  
-                    //     {
-                    //         type:'software',
-                    //         name:'General Software Member',
-                    //         description:'Something something something',
-                    //         openings: 'Sept 8, 2019'
-                    //     },
-                    //     {
-                    //         type:'mechanical',
-                    //         name:'Composites Manufacturing',
-                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                    //         openings: 'Sept 8, 2019'
-                    //     },
-                    //     {
-                    //         type:'mechanical',
-                    //         name: 'Cad (Computer Aided Design)',
-                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                    //         openings: 'Sept 8, 2019'
-                    //     },
-                    //     {
-                    //         type:'mechanical',
-                    //         name: 'Structural Analysis',
-                    //         description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                    //         openings: 'Sept 8, 2019'
-                    //     },
-                    // {
-                    //     type:'electrical',
-                    //     name:'Wiring Harness',
-                    //     description:'learn the process of manufacturing carbon fibre composite components through vacuum infusion process',
-                    //     openings: 'Sept 8, 2019'
-                    // },        
-                    // {
-                    //     type:'software',
-                    //     name:'Controls Tester',
-                    //     description:'blah blah ssksnskns',
-                    //     openings: 'Sept 8, 2019'
-                    // },
-                    // {
-                    //     type:'business',
-                    //     name:'Event Organizer',
-                    //     description:'Something something something',
-                    //     openings: '1'
-                    // }
+                        {
+                            type:'business',
+                            name:'Social Media Manager',
+                            description:[
+                                {
+                                    body:'As a Social Media Manager, we expect you to be up-to-date with the latest digital technologies and social media trends. You should have excellent communication skills and be able to express our team\'s views creatively.'
+                                },
+                                {
+                                    body:'We are looking for a talented social media manager to administer our social media accounts. You will be responsible for creating original text and video content, managing posts and responding to followers. You will manage our team image in a cohesive way to achieve our marketing goals.'
+                                },
+                                {
+                                    body:'Ultimately, you should be able to handle our social media presence ensuring high levels of web traffic and follower engagement.'
+                                }
+                            ],
+                            responsibilities:["Perform research on current benchmark trends and audience preferences", "Design and implement social media strategy to align with business goals","Set specific objectives and report on ROI", "Generate, edit, publish and share engaging content daily(e.g. original text, photos, videos and news)", "Manage commitments to sponsors regarding social media posts", "Monitor SEO and web traffic metrics", "Collaborate with other teams, like marketing, engineering and sponsorship to generate content and ensure brand consistency", "Communite with followers, respond to queries in a timely manner", "Oversee social media accounts' design(e.g Facebook timeline cover, profile pictures and blog layout)", "Suggest and implement new features to develop brand awareness, like promotions and competitions", "Stay up-to-date with current technologies and trends in social media, design tools and applications"],
+                            skills:["none"],
+                            openings: 'Sept 21, 2019',
+                            applyLink: "#"
+                            // background:aeroBackground
+                        },
                 ]   
         }
     }
