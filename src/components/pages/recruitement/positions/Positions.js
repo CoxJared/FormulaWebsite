@@ -27,7 +27,7 @@ export class Positions extends Component {
                                 ],
                             lists:[
                                 {
-                                    name:'responsibilities',
+                                    name:'Responsibilities',
                                     text:["Create CAD(Computer Aided Design) Models of the aerodynamic components of the car", "Run Fluid Simulations, analyze and communicate the results","Create components out of Carbon Fibre Composites through a vacuum infusion process", "Create test plans to verify effectiveness of different components"],
                                 },
                                 {
