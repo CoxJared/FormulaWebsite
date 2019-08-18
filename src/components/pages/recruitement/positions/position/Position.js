@@ -19,19 +19,21 @@ export class Position extends Component {
                     </>
                 ))}
                 
-                
-                <h1 className="position-posting-heading">Responsibilites</h1>
-                <ul className="position-posting-list">
-                {this.props.position.responsibilities.map(responsibility => (
-                    <li className="position-poosting-item">{responsibility}</li>
-                ))}
-                </ul>
-                {/* <h1 className="position-posting-heading">Experience Needed</h1>
-                <ul className="position-posting-list">
-                    {this.props.position.skills.map(skill => (
-                        <li className="position-poosting-item">{skill}</li>
+                {this.props.position.lists.map(list => (
+                    <>
+                    <h1 className="position-posting-heading">{list.name}</h1>
+                    <ul className="position-posting-list">
+                    {list.text.map(responsibility => (
+                        <li className="position-poosting-item">{responsibility}</li>
                     ))}
-                </ul> */}
+                     </ul>
+                     </>
+                ))}
+                
+                
+
+
+
             </div>
         )
     }

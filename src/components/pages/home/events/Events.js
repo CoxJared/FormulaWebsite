@@ -24,7 +24,7 @@ export function Events () {
                     />
                     <Media 
                     link="http://saecentralontario.org/events/"
-                    date="Jun1 1, 2019"
+                    date="June 1, 2019"
                     title="2019 SAE Student's night"
                     message="Learn More"
                     image={saeNight}
