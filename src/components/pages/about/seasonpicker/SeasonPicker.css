@@ -97,7 +97,7 @@
 
 @media only screen and (max-width: 800px) {
     .season-picker-container {
-        height: 290px;
+        height: 300px;
         position: relative;
         width:100%;
         /* border: 1px solid red; */
@@ -109,7 +109,7 @@
     
         width:300px;
         margin:auto;
-        padding-top: 130px;
+        padding-top: 100px;
         /* background-color:red; */
         position: relative;
         top:0px;
