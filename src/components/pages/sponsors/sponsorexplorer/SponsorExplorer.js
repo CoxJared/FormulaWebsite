@@ -28,6 +28,7 @@ import ViGradeLogo from '../../../../img/sponsor-logos/vigrade-logo.png';
 import HoosierLogo from '../../../../img/sponsor-logos/hoosier-logo.png';
 import OshparkLogo from '../../../../img/sponsor-logos/oshpark-logo.png';
 import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
+import redbulllogo from './../../../../img/sponsor-logos/redbul-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {
@@ -62,14 +63,14 @@ export class SponsorExplorer extends Component {
                 img: SolidworksLogo},
         ],
         gold: [
+            {id: 2,
+                name: 'CpaOntario',
+                websiteLink: 'https://www.cpaontario.ca/',
+                img: CpaontarioLogo},
             {id: 11,
                 name: 'Faro',
                 websiteLink: 'https://www.faro.com/',
                 img: FaroLogo},
-            {id: 3,
-                name: 'Fastenal',
-                websiteLink: 'https://www.fastenal.com/',
-                img: FastenalLogo},
             {id: 4,
                 name: 'General Sealants',
                 websiteLink: 'http://www.generalsealants.com/',
@@ -108,10 +109,6 @@ export class SponsorExplorer extends Component {
                 name: 'Cartesian',
                 websiteLink: 'https://www.cartesian.com/',
                 img: CartesianLogo},
-            {id: 2,
-                name: 'CpaOntario',
-                websiteLink: 'https://www.cpaontario.ca/',
-                img: CpaontarioLogo},
             {id: 3,
                 name: 'Diab',
                 websiteLink: 'https://www.diabgroup.com/',
@@ -120,6 +117,10 @@ export class SponsorExplorer extends Component {
                 name: 'EnLITen Energy Services',
                 websiteLink: 'https://www.enliten.ca/',
                 img: EnlitenenergyServicesLogo},
+            {id: 3,
+                name: 'Fastenal',
+                websiteLink: 'https://www.fastenal.com/',
+                img: FastenalLogo},
             {id: 5,
                 name: 'FMS',
                 websiteLink: 'https://www.fmsinc.com/',
@@ -146,6 +147,11 @@ export class SponsorExplorer extends Component {
                 name: 'Oshpark',
                 websiteLink: 'https://oshpark.com/',
                 img: OshparkLogo
+            },
+            {id: 2,
+                name: 'Red Bull',
+                websiteLink: 'https://www.redbull.com/ca-en/',
+                img: redbulllogo
             },
         ]
     }

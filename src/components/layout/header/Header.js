@@ -17,7 +17,7 @@ class Header extends Component{
 
     render() {
         var headerClass = "static-header";
-        if(this.props.page !== "contact" && this.props.page !== "sponsors" && document.body.offsetWidth>800){
+        if(this.props.page !== "contact" && document.body.offsetWidth>800){
             headerClass = "header"
             window.onscroll = function() {
                 try{
@@ -98,7 +98,7 @@ class Header extends Component{
 
                 </div>
             </div>
-            {/* <div className="top-buffer"></div> */}
+            {document.body.offsetWidth > 800 ? <div /> : <div className="top-buffer"></div>}
             </div>
         );
     }

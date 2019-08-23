@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './MainShowcase.scss';
-
-import Macfelogo from '../../../../img/logo-transparent.png';
-
+import ProgressiveImage from '../../../layout/progressiveLoader/ProgressiveLoader';
+import bckimg from './../../../../img/HomeCourt.jpg';
 class MainShowcase extends Component {
 
     componentDidMount (){
@@ -15,6 +14,7 @@ class MainShowcase extends Component {
         return (
             <div className="showcase-container">
                 <div className="showcase">
+                    <img />
                     
                     <h1 className="team-name">INSPIRING A CULTURE OF INNOVATION</h1>
                     <div className="culture-container">

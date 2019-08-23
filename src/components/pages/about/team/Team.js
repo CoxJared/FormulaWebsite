@@ -265,7 +265,7 @@ export class Team2019 extends Component {
                     seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
                     email:"magduma@mcmaster.ca",
                     headshot: abishekShot,
-                    links:[],
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/magduma/"}],
                     projects:[{year:"2019", projectsForYear:["Drive shaft: Manufacturing", "Accumulator: cooling, circuit development"]}]},  
                 {id: 6,
                     name: 'Raghib Quader',
