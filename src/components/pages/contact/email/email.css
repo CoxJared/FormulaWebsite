@@ -1,7 +1,7 @@
 
 .form-full{
     min-width:50%;
-    max-width:600px;
+    max-width:1230px;
     height:auto;
     display: inline-block;}
 
@@ -12,8 +12,8 @@
         opacity: 1;}
 
         .__first_name-input, .__last_name-input, .__email-input, .__message-input {
-            padding:12px;
-            border-radius:14px;
+            padding:17px;
+            border-radius:10px;
             border: 1px solid #bbb;
             color: #000;
             outline: 0;
@@ -28,105 +28,104 @@
             margin-top:30px;}
 
         .__message-input {
-            height:225px;
-            max-width:600px;
-            min-width:600px;
-            max-height:300px;}
+            height:216px;
+            max-width:590px;
+            min-width:590px;
+            max-height:300px;
+        float:right;}
 
         .__first_name-input:focus, .__email-input:focus, .__last_name-input:focus, .__message-input:focus {
             border: 1px solid rgb(255, 52, 52);}
 
         .submit-button {
-            width:600px;
+            width:300px;
             height:50px;
-            float:left;
+            float:right;
             font-size: 25px;
             margin-left:20px;
             margin-top:30px;
-            border-radius: 16px;
+            border-radius: 4px;
             color:rgb(255, 255, 255);
             background-color:rgb(250, 36, 36);
             font-weight: normal;}
 
         .submit-button:hover {
             background-color:rgb(141, 0, 0);
-            color:rgb(255, 159, 159);
+            color:rgb(255, 181, 181);
             border-color: rgb(153, 153, 153);
             cursor: pointer;}
 
         .submit-button:disabled {
-            color:rgb(126, 126, 126);
-            background-color:rgb(148, 24, 24);}
+            color:rgb(219, 219, 219);
+            background-color:rgb(177, 141, 141);}
 
         .submit-button:disabled:hover {
-            color:rgb(126, 126, 126);
-            background-color:rgb(148, 24, 24);
+            color:rgb(219, 219, 219);
+            background-color:rgb(177, 141, 141);
             cursor:auto;}
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
 
 .form-full{
-    width:90%;
-    max-width:600px;
-    height:auto;
-    display: inline-block;}
+    width:80%;
+    max-width:580px;
+    margin:auto;
+    display: inline-block;
+    height:50px;}
 
     .form-container {
         position: relative;
-        height: auto;
+        height: 100px;
         margin: 0px auto 0px auto;
+        
         opacity: 1;}
 
         .__first_name-input, .__last_name-input, .__email-input, .__message-input {
             padding:12px;
-            border-radius:14px;
+            border-radius:4px;
             border: 1px solid #bbb;
             color: #000;
             outline: 0;
             font-size: .9em;
             background-size: 16px 16px;
-            padding-left: 5px;
+            padding-left: 0px;
             width:100%;
             max-width:600px;
-            float:left;
+            float:center;
             padding-left:10px;
             margin-left:0px;
-            margin-top:15px;}
+        margin:auto;
+        margin-top:15px;}
 
         .__message-input {
             height:225px;
-            width:100%;
+            /* width:50%; */
             max-height:300px;
-            max-width:100%;
-            min-width: 100%;}
+            /* max-width: 600px; */
+            max-width:600px;
+            min-width:80%;
+            max-height:300px;
+        float:left;
+    }
 
         .__first_name-input:focus, .__email-input:focus, .__last_name-input:focus, .__message-input:focus {
             border: 1px solid rgb(255, 52, 52);}
 
         .submit-button {
-            width:100%;
+            width:50%;
             height:50px;
-            float:left;
+            float:right;
             font-size: 25px;
-            margin-left:0px;
+            margin-right: 20px;
             margin-top:30px;
-            border-radius: 16px;
-            color:rgb(255, 255, 255);
-            background-color:rgb(250, 36, 36);
             font-weight: normal;}
 
         .submit-button:hover {
-            background-color:rgb(141, 0, 0);
-            color:rgb(255, 159, 159);
             border-color: rgb(153, 153, 153);
             cursor: pointer;}
 
-        .submit-button:disabled {
-            color:rgb(126, 126, 126);
-            background-color:rgb(148, 24, 24);}
+        .submit-button:disabled {}
 
         .submit-button:disabled:hover {
-            color:rgb(126, 126, 126);
-            background-color:rgb(148, 24, 24);
             cursor:auto;}
 }

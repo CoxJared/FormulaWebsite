@@ -23,7 +23,7 @@ export class Positions extends Component {
                                 {   head:'Simulation:',
                                     body:' Run simulations using CFD (Computational Fluid Dynamics) to optimize performance'},
                                 {   head:'Manufacturing:',
-                                    body:'Create Moulds and layup carbon composites to create components through a vacuum infusion process'}],
+                                    body:' Create Moulds and layup carbon composites to create components through a vacuum infusion process'}],
                             lists:[
                                 {   name:'Responsibilities',
                                     text:["Create CAD(Computer Aided Design) Models of the aerodynamic components of the car", "Run Fluid Simulations, analyze and communicate the results","Create components out of Carbon Fibre Composites through a vacuum infusion process", "Create test plans to verify effectiveness of different components"],},
@@ -55,12 +55,12 @@ export class Positions extends Component {
                             name:'Vehicle Dynamics Team Member',
                             description:[
                                 {   body:'Learn about the dynamic vehicle subsystems including suspension, drivetrain, steering, and brakes. Learn how to design, simulate, CAD, and manufacture parts for the car. First-hand experience in learning all that goes into making a race car fast!'},
-                                {   head:'Design',
-                                    body:'CAD (Computer Aided Design), FEA (Finite Element Analysis)'},
-                                {   head:'Simulation',
-                                    body:'Using simulation software such as optimum kinematics and VI grade'},
-                                {   head:'Manufacturing',
-                                    body:'Machining, welding, painting and powder coating of any vehicle dynamics components as well as other systems occasionally'}
+                                {   head:'Design:',
+                                    body:' CAD (Computer Aided Design), FEA (Finite Element Analysis)'},
+                                {   head:'Simulation:',
+                                    body:' Using simulation software such as optimum kinematics and VI grade'},
+                                {   head:'Manufacturing:',
+                                    body:' Machining, welding, painting and powder coating of any vehicle dynamics components as well as other systems occasionally'}
                             ],
                             lists:[{
                             name:'Responsibilities',

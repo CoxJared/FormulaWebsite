@@ -2,6 +2,7 @@
     height:700px;
     position: relative;
     overflow: hidden;
+    margin-bottom:100px;
 }
 
 
@@ -67,6 +68,7 @@
     .sponsor-showcase {
         height:300px;
         position: relative;
+        margin-bottom:30px;
     }
     
     

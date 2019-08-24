@@ -29,10 +29,6 @@ export class Position extends Component {
                      </ul>
                      </>
                 ))}
-                
-                
-
-
 
             </div>
         )

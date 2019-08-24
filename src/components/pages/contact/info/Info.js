@@ -5,14 +5,15 @@ function Info () {
         return (
             <div className="contact-info-container">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+                
                 <div className="info-item-container">
                     <h1 className="info-item-title">Email:</h1>
                     <h2 className="info-item-stuff">formula@mcmaster.ca</h2>
                 </div>
-                {/* <div className="info-item-container">
+                <div className="info-item-container">
                     <h1 className="info-item-title">Telephone:</h1>
                     <h2 className="info-item-stuff">(888) 777-4344</h2>
-                </div> */}
+                </div>
                 <div className="info-item-container">
                     <h1 className="info-item-title">Address:</h1>
                     <h2 className="info-item-stuff">1280 Main Street West, JHE-H104</h2>
