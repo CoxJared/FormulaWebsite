@@ -3,7 +3,8 @@
     min-width:50%;
     max-width:1230px;
     height:auto;
-    display: inline-block;}
+    display: inline-block;
+margin-bottom:60px;}
 
     .form-container {
         position: relative;
@@ -69,13 +70,13 @@
 .form-full{
     width:80%;
     max-width:580px;
-    margin:auto;
+    margin: 40px auto;
     display: inline-block;
     height:50px;}
 
     .form-container {
         position: relative;
-        height: 100px;
+        height: 200px;
         margin: 0px auto 0px auto;
         
         opacity: 1;}
