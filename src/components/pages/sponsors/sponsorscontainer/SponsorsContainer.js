@@ -16,9 +16,6 @@ export function SponsorsContainer () {
             <div className="explorer">
                 <SponsorExplorer />
             </div>
-            {/* <div className="become-sponsor">
-                <BecomeSponsor />
-            </div> */}
         </div>
     )
 }
