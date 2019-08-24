@@ -1,4 +1,29 @@
+.eventses-title{
+height:50px;
+position:relative;
+top:35px;
+font-size:40px;
+font-family: 'Rajdhani', sans-serif;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .eventses-title{
+        height:50px;
+        position:relative;
+        top:20px;
+        font-size:25px;
+        width:100px;
+        margin:auto;
+        font-family: 'Rajdhani', sans-serif;
+        }
+
+}
 /* .width-restricter{
+    \
+
+
+
     width:100%;
     max-width:1500px;
     margin:auto;}

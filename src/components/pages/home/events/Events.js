@@ -9,11 +9,14 @@ import formulaNorth from './../../../../img/events-backgrounds/formula-north.jpg
 export function Events () {
     return (
         <div className="width-restricter">
+            <h1 className="eventses-title">Events</h1>
             <div className="events-container">
                 {/* <div className="events-title-container">
                     <div className="line-break-events"></div>
                     <h1 className="events-title"> Events</h1>
                 </div> */}
+                    {/* <div className="line-break-events"></div> */}
+                    
                 <div className="events-events">
                     <Media 
                     link="https://www.facebook.com/events/2381516432105723/"
