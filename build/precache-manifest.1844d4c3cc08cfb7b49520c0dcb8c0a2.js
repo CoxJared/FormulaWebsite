@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f35dd917e14694cb65e541881cef4a9a",
+    "revision": "c4ad7698399f2310a76d3b4f1b50e795",
     "url": "/index.html"
   },
   {
-    "revision": "95d88af556008a0954d0",
-    "url": "/static/css/main.3876ccd4.chunk.css"
+    "revision": "2fa961b75d0e6799cd92",
+    "url": "/static/css/main.6b59956c.chunk.css"
   },
   {
-    "revision": "f95faa527c92f9721e14",
-    "url": "/static/js/2.822ebbfd.chunk.js"
+    "revision": "b964e96bf072c99f6ec5",
+    "url": "/static/js/2.81ba52c9.chunk.js"
   },
   {
-    "revision": "95d88af556008a0954d0",
-    "url": "/static/js/main.7ed4cec8.chunk.js"
+    "revision": "2fa961b75d0e6799cd92",
+    "url": "/static/js/main.68051bd8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0b6583e71418a8f1867f951ce267013d",
     "url": "/static/media/HarvirParmar.0b6583e7.jpg"
+  },
+  {
+    "revision": "72118305935938d22af201935a3c800e",
+    "url": "/static/media/HomeCourt.72118305.jpg"
   },
   {
     "revision": "00d98fa7da3fcf1974fb583eb4ffe0d5",
@@ -168,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/harjot.65fa1b34.jpg"
   },
   {
+    "revision": "25a4bf495b6da46bc76bd9313a3a57c3",
+    "url": "/static/media/hatch.25a4bf49.jpg"
+  },
+  {
     "revision": "e3d060ecca6881b846503c8c7c9f6fbe",
     "url": "/static/media/hemel-headshot.e3d060ec.jpg"
   },
@@ -280,6 +288,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/people-cadding.fe3197ea.jpg"
   },
   {
+    "revision": "859654f412e14f2f2417f56972aba888",
+    "url": "/static/media/redbul-logo.859654f4.png"
+  },
+  {
     "revision": "edd87a70fe44375b143acb110a9860fc",
     "url": "/static/media/ridvan-headshot.edd87a70.jpg"
   },
@@ -314,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6d59eaa4feacb66ca6216e292b96647",
     "url": "/static/media/solidworks-logo.a6d59eaa.svg"
+  },
+  {
+    "revision": "de998673e65e5b06b5015c2d92a59070",
+    "url": "/static/media/sponsor-background.de998673.jpg"
   },
   {
     "revision": "da2c5620c6557751cbdf91decc7fe2eb",
