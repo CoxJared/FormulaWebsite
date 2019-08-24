@@ -134,6 +134,13 @@
             color: white;} 
 
 
+            @media only screen and (max-width: 1300px) {
+.contact-container {
+    min-height: calc(100vh - 250px);
+}
+            }
+
+
 @media only screen and (max-width: 800px) {
     
     .contacts-showcase {
