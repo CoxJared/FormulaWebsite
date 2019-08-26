@@ -101,6 +101,41 @@ export class Positions extends Component {
                             // background:aeroBackground
                         },  
                         {
+                            type:'electrical',
+                            name:'Software Developer Team Member',
+                            description:[
+                                {body:'Learn about developing and designing software for embedded systems and software applications.'},
+                                {body: 'As a Software Developer, you’ll get experience with:'},
+                                {body: '- Writing code for a complex system'},
+                                {body: '- Communication protocols such as SPI, I2C, UART, and CAN'},
+                                {body: '- Understanding circuit diagrams'},],
+                            lists:[
+                                {   name:'Responsibilities:',
+                                    text:['Developing C/C++ code for programmable microcontrollers', 'Creating and prototyping circuits to test embedded systems and validate software and hardware designs', 'Debugging and testing software/hardware using microcontroller debuggers, multimeters, logic analyzers, and oscilloscopes']},
+                                {   name:'Skills Needed:',
+                                    text:['The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience! ']}],
+                            openings: 'Sept 21, 2019',
+                            applyLink: "#"
+                        },
+                        {
+                            type:'electrical',
+                            name:'Controls Team Member',
+                            description:[
+                                {body:'The vehicle control system is responsible for actuating and monitoring the status of the car.'},
+                                {body: 'As a Controls Developer, you’ll get experience with: '},
+                                {body: '- MATLAB and Simulink '},
+                                {body: '- Modeling and simulating physical components and systems'},
+                                {body: '- Vehicle diagnostics and telemetry'},
+                                {body: '- Communication protocols such as SPI, I2C, UART, and CAN'},],
+                            lists:[
+                                {   name:'Responsibilities:',
+                                    text:['Developing control systems using block-diagrams', 'Testing and validating the controls by creating unit tests', 'Data acquisition and vehicle diagnostics ']},
+                                {   name:'Skills Needed:',
+                                    text:['The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience! ']}],
+                            openings: 'Sept 21, 2019',
+                            applyLink: "#"
+                        },
+                        {
                             type:'business',
                             name:'Social Media Manager',
                             description:[
@@ -209,6 +244,7 @@ export class Positions extends Component {
         return (
             <div>
                 <PositionSelector updatePosition={this.updatePositions} positions={this.state.positionsListed}/>
+
                 {positions}
             </div>
 
