@@ -2,3 +2,10 @@
     min-height: calc(100vh - 520px);
     /* background-color: rgb(245, 245, 245); */
 }
+
+
+.position-full-container{
+    border:1px solid red;
+    position: relative;
+    max-width: 100%;
+}

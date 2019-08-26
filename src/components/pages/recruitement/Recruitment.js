@@ -83,7 +83,7 @@ export class Recruitment extends Component {
                     para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
                     recruitmenttitle="JOIN US"
                     />
-                    <Position position={this.state.positionToshow} />
+                    <Position position={this.state.positionToshow} className="position-full-container"/>
                     </div>
                 <Footer />
                     </div>
