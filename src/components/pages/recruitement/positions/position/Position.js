@@ -4,6 +4,7 @@ import { thisTypeAnnotation } from '@babel/types';
 
 let formheight = (document.body.offsetWidth > 800? '1000px': '800px')
 
+let scrollValue=(document.body.offsetWidth > 800? 620: 360)
 export class Position extends Component {
     constructor(props){
         super(props)
@@ -13,12 +14,12 @@ export class Position extends Component {
     }
 
     componentDidMount(){
-        window.scrollTo(0, 0)
+        window.scrollTo(0, scrollValue)
     }
 
     openApplication = () =>{
         this.setState({applicationOpened:true})
-        window.scrollTo(0, 620)
+        window.scrollTo(0, scrollValue)
     }
     closeApplication = () =>{
         this.setState({applicationOpened:false})

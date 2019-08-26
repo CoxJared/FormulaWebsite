@@ -137,6 +137,7 @@
     .back-to-position-button{
         /* left:1000px; */
         z-index: -10;
+        opacity: 0;
     }
 }
 .back-to-position-button:hover {
