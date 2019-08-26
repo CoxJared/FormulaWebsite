@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './MainShowcase.scss';
-
-import Macfelogo from '../../../../img/logo-transparent.png';
-
+import { Link } from 'react-router-dom';
 class MainShowcase extends Component {
 
     componentDidMount (){
@@ -13,19 +11,20 @@ class MainShowcase extends Component {
 
     render() {
         return (
-            <div className="showcase-container">
+            
+            <div className="showcase-container" >
                 <div className="showcase">
-                    <div className="team-logo-container">
-                        <img className="team-logo" src={Macfelogo} alt="Mac FE logo"/>
-                    </div>
-                    <div className="draw-line"></div>
-                    <h1 className="team-name">MAC Formula Electric</h1>
-                    <div className="draw-line"></div>
+                    <img />
+                    
+                    <h1 className="team-name">INSPIRING A CULTURE OF INNOVATION</h1>
                     <div className="culture-container">
-                        <h3 className="culture-text">Inspiring a culture of innovation</h3>
+                        <h3 className="culture-text">A multidisciplinary project that brings together the most passionate students to work towards a common goal.</h3>
                     </div>
+                    <Link to='recruitment'>
+                        <button className='showcase-apply-now-button'>Apply Now</button></Link>
                 </div>
             </div>
+         
         )
     }
 }

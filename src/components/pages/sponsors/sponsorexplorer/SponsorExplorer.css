@@ -8,15 +8,17 @@
     max-width:850px;
     margin:auto;
     padding-bottom: 0vw;
+    padding-top: 10px;
 }
 .explorer-header {
     width:250px;
     margin:auto;
     margin-bottom: 30px;
-    font-size: 45x;
+    font-size: 65x;
+    font-family: 'Rajdhani', sans-serif;
     padding: 10px 0 10px 0;
     color:#222;
-    border-bottom: 3px solid rgb(194, 2, 2);
+    /* border-bottom: 3px solid rgb(194, 2, 2); */
 }
 
 .platinum, .gold, .silver, .software {
@@ -32,6 +34,7 @@
     height:200px;
     padding:1px;
     margin:4px;
+    /* border:1px solid purple; */
 }
 .gold .sponsor {
     width: 130px;
@@ -56,11 +59,11 @@
     padding:auto;
 } 
 
-
-.logo {
-     object-fit: contain; 
+.sponsors-logo {
+    /* border:1px solid red; */
+    object-fit: contain;
     width:80%;
-    height: 70%;
+    height:70%;
 }
 
 .sponsor {
@@ -91,26 +94,19 @@ h1 {
 .platinum h1, .gold h1, .silver h1, .software h1{
     font-size: 12px; 
 }
-/* .gold h1{
-    font-size: 2vw; 
-}
-.silver h1{
-    font-size: 2vw; 
-}
-.software h1{
-    font-size: 2vw; 
-} */
 
 
 .platinum-heading, .gold-heading , .silver-heading, .software-heading{
-    padding-top:18px;
-    padding-bottom: 15px;
-    font-size: 23px;
+    padding-top:25px;
+    padding-bottom: 22px;
+    font-size: 30px;
+    
     color: #222;
 }
 
-.gold-heading span, .silver-heading span, .bronze-heading span, .software-heading span {
+.gold-heading span, .silver-heading span, .software-heading span, .platinum-heading span {
     padding:7px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .platinum-heading span{
@@ -118,6 +114,7 @@ h1 {
     border-left: 4px #559696 solid;
     padding: 1px 10px;
     border-radius: 10px;
+    
 }
 .gold-heading span{
     border-right: 4px #dfce3d solid;

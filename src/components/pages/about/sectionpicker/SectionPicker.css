@@ -1,7 +1,11 @@
 .section-picker-container {
     width: 100%;
-    background: linear-gradient(to right, #222, #272727);
+    max-width:1400px;
+    /* background: linear-gradient(to right, #222, #272727); */
     height: 60px;
+    position:absolute;
+    top:640px;
+    z-index:20;
     /* justify-content: center; */
     /* border:1px solid green; */
 }
@@ -13,15 +17,8 @@
     margin:auto;
     /* border:1px solid blue; */
     display: flex;
-}
-
-.section-picker-2018{
-    position: relative;
-    width: 260px;
-    height:100%;
-    margin:auto;
-    /* border:1px solid blue; */
-    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .choice {
@@ -29,36 +26,40 @@
    width: 130px;
    height:100%;
    /* border:1px solid red; */
+   /* border:1px solid red; */
 }
 
 .choice-name {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
     color:#fff;
     opacity: .3;
     vertical-align: middle;
     padding-top:12px;
+    padding-bottom:10px;
 }
 
-.hide-design{
+.hide-choice{
     position: relative;
-    width: 65px;
+    width: 0px;
     height:100%;
     opacity: 0;
 }
 
 
 .selected-section {
-    font-size: 27px;
+    /* font-size: 27px; */
     color:#fff;
     opacity: 1;
-    padding-top:8px;
+    /* padding-top:8px; */
+    border-bottom:7px solid #fff;
 }
 .choice:hover {
     cursor: pointer;
 }
 .choice:hover .unselected-section{
     color:#fff;
-    font-size: 22px;
+    /* font-size: 22px; */
     opacity: .8;
 }
 
@@ -66,45 +67,52 @@
 @media only screen and (max-width: 800px) {
     .section-picker-container {
         width: 100%;
-        padding: 0px;
-        padding-top:6px;
-        height: 55px;
-        justify-content: center;
+        /* background: linear-gradient(to right, #222, #272727); */
+        height: 30px;
+        top:322px;
+        z-index:20;
+        /* justify-content: center; */
+        /* border:1px solid green; */
     }
-    
+
     .section-picker{
-        width: 300px;
-        margin:auto;
-    }
-    .hide-design{
-        position: relative;
-        width: 50px;
-        height:100%;
-        opacity: 0;
+        width:270px;
     }
     
-    .choice {
-       display: inline-block;
-       width: 100px;
-       height:0px;
-       vertical-align: middle;
+    .choice{
+        width:90px;
     }
+
     
     .choice-name {
-        font-size: 14px;
+        font-size: 18px;
+        font-family: 'Rajdhani', sans-serif;
         color:#fff;
         opacity: .3;
+        vertical-align: middle;
+        padding-top:12px;
+        padding-bottom:10px;
+        
+    }
+
+    .hide-choice {
+        width: 0;
     }
     
     .selected-section {
-        font-size: 22px;
+        /* font-size: 27px; */
         color:#fff;
         opacity: 1;
+        /* padding-top:8px; */
+        border-bottom:3px solid #fff;
     }
-    
+    .choice:hover {
+        cursor: pointer;
+    }
     .choice:hover .unselected-section{
         color:#fff;
-        font-size: 17px;
+        /* font-size: 22px; */
         opacity: .8;
     }
+    
 }    

@@ -31,6 +31,8 @@ import farooqShot from './../../../../img/headshots/farooq-headshot.jpg';
 import benShot from './../../../../img/headshots/ben-headshot.jpg';
 import abishekShot from './../../../../img/headshots/abishek-photo.jpg';
 import raghibShot from './../../../../img/headshots/RaghibQuader.jpg';
+import annaShot from './../../../../img/headshots/AnnaGreen.jpg';
+import harvirShot from './../../../../img/headshots/HarvirParmar.jpg';
 
 import './TeamMembers.scss';
 import TeamMember from './TeamMember';
@@ -165,6 +167,13 @@ export class Team2019 extends Component {
                     links:[],
                     projects:[{year:"2019",projectsForYear:["Cooling system for motors and inverters" ]}]},   
                 {id: 1,
+                    name: 'Anna Green',
+                    seasons:{'2019':{section: 'mechanical', title: 'Freelancer'}},
+                    email:"greena18@mcmaster.ca",
+                    headshot: annaShot,
+                    links:[],
+                    projects:[{year:"2019",projectsForYear:["Cooling Modelling", "Chassis", "Aero mounting"]}]},   
+                {id: 1,
                     name: 'Justin Isenberg-Verrall',
                     seasons:{'2019':{section: 'mechanical', title: 'Driver Input'}},
                     email:"Isenberj@mcmaster.ca",
@@ -225,7 +234,7 @@ export class Team2019 extends Component {
                     projects:[{year:"2019", projectsForYear:["Custom dashboard", "Brake Light"]}]},
                 {id: 6,
                     name: 'Dharak Verma',
-                    seasons:{'2019':{section: 'electrical', title: 'Microcontrollers'}},
+                    seasons:{'2019':{section: 'electrical', title: 'Embedded Systems'}},
                     email:"vermad1@mcmaster.ca",
                     headshot: dharakShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/vermad1"}],
@@ -256,7 +265,7 @@ export class Team2019 extends Component {
                     seasons:{'2019':{section: 'electrical', title: 'Freelancer'}},
                     email:"magduma@mcmaster.ca",
                     headshot: abishekShot,
-                    links:[],
+                    links:[{name:"linkedin", url:"https://www.linkedin.com/in/magduma/"}],
                     projects:[{year:"2019", projectsForYear:["Drive shaft: Manufacturing", "Accumulator: cooling, circuit development"]}]},  
                 {id: 6,
                     name: 'Raghib Quader',
@@ -265,6 +274,13 @@ export class Team2019 extends Component {
                     headshot: raghibShot,
                     links:[{name:"linkedin", url:"https://www.linkedin.com/in/raghibq/"}, {name:"github", url:"https://github.com/robotitect"}],
                     projects:[{year:"2019", projectsForYear:["General Low Voltage", "Shutdown system", "MCU upgrade"]}]}, 
+                {id: 6,
+                    name: 'Harvir Parmar',
+                    seasons:{'2019':{section: 'mechanical', title: 'Manufacturing'}},
+                    email:"parmah3@mcmaster.ca",
+                    headshot: harvirShot,
+                    links:[{name:"linkedin", url:"https://ca.linkedin.com/in/harvirsinghparmar"}],
+                    projects:[{year:"2019", projectsForYear:["Powder Coating"]}]}, 
             ]
         }
     }

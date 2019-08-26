@@ -9,7 +9,6 @@ height: calc(100vh  - 280px);
     height:30vw;
     max-height: 500px;
     margin:auto;
-    background: linear-gradient( rgba(0, 0, 5, 0.1), rgba(0, 0, 5, 0.15) ),url('./../../../../../img/oldguys.jpg');
     position: relative;
     background-size: cover;
     background-position-y: 59%;

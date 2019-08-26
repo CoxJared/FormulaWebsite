@@ -1,0 +1,201 @@
+
+
+
+.events-container{
+    width:95%;
+    max-width:1200px;
+    height: 400px;
+    margin:auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    display: inline-block;}
+
+    .events-title{
+        padding: 50px 10px 0px 10px;
+        font-size:40px;
+        width:570px;
+        margin: auto;
+        color: #555;
+        background: #fff;
+        font-family: 'Rajdhani', sans-serif;
+        z-index: 1;}
+    
+        .events-events{
+            padding-top:0px;
+            width:100%;
+            height:340px;
+            align-items: center;
+            justify-content: center;
+        display: flex}
+        
+        .events-events a{
+            text-decoration: none;
+            color:#222;}
+
+.events-event{
+    position: relative;
+    flex:1;
+    height:100%;
+    padding:5px 6px;
+    float: left;
+
+    box-shadow: 5px 0 10px  rgb(226, 226, 226);
+    margin:0 30px;}
+
+
+.events-event:hover{
+    background-color: rgba(0,0,0,.05);
+    box-shadow: 5px 0 10px  grey;
+    cursor: pointer;}
+
+.events-event-image{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.events-event-image-container{
+    width:100%;
+    height:26vw;
+    max-height:260px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.events-event:hover .events-event-image{
+    opacity: .5
+}
+
+.events-event-image-2{
+    width:100%;
+    height:26vw;
+    max-height:250px;
+    background: url('./../../../img/events-backgrounds/formula-north.jpg');
+    background-size: cover;}
+    .events-event-image-3{
+        width:100%;
+        height:26vw;
+        max-height:250px;
+        background-size: cover;}
+
+.hidden-view-article-header{
+    height:100%;
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    opacity:0;}
+
+.events-event:hover .hidden-view-article-header {
+    height:100%;
+    padding-top: 90px;
+    opacity:1;
+    color:#333;
+    /* color: rgb(255, 255, 255); */
+    font-weight:bold;
+    /* background: linear-gradient( rgba(196, 136, 136, 0.2), rgba(0, 0, 0, 0.2)); */
+}
+
+.events-event-date {
+    width:100%;
+    height:20px;
+padding-top:5px;}
+
+.events-event-date-header{
+    font-size: 13px;
+    float:left;
+    padding-left: 2px;
+    color:rgb(97, 97, 97);}
+
+.events-event-description-container {
+    width:100%;
+    height:70px;}
+
+.events-event-description {
+    float:left;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: left;}
+
+
+    @media only screen and (max-width: 800px) {
+        .events-container{
+            width:150%;
+            height: calc(250px);
+            margin:auto;
+            margin-bottom: 0px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .events-title{
+            padding: 30px 0px 0vw 0px;
+            font-size:20px;
+            width:300px;
+        }
+        
+        .events-events{
+            width:100%;
+            height:calc(100px + 30vw);
+        }
+        
+        .events-event{
+            width:100%;
+            height:100%;
+            padding:5px 5px;
+            float: left;
+            margin:0px 3px;
+        }
+    
+ 
+        .hidden-view-article-header{
+            height:100%;
+            padding-top: 30px;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight:bold;
+            opacity:0;
+        }
+        .events-event:hover .hidden-view-article-header {
+            height:100%;
+            padding-top: 30px;
+            opacity:1;
+            color: rgb(255, 255, 255);
+            font-weight:bold;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        }
+        
+        .events-event-date {
+            width:100%;
+            height:20px;
+        }
+        
+        .events-event-date-header{
+            font-size: 8px;
+            float:left;
+            padding-left: 10px;
+            padding-top:1px;
+            color:rgb(97, 97, 97);
+        }
+        
+        .events-event-description-container {
+            width:100%;
+            height:60px;
+        }
+        .events-event-image-container{
+            width:100%;
+            height:130px;
+            max-height:260px;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        .events-event-description {
+            float:left;
+            padding-top: 0px;
+            font-size: 12px;
+            text-align: left;
+        }
+    }

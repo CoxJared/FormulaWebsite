@@ -1,0 +1,116 @@
+.recruitment-showcase-container {
+    position: relative;
+    height: 700px;
+    background: rgba(0,0,5,.55);
+}
+.recruitment-background-image{
+  background-position-y: 0px;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  position: absolute;
+  width:100%;
+  height:100%;
+  z-index: -1;  
+}
+
+  .recruitment-showcase {
+    width:100%;
+    height:100%;}
+
+
+    .join-us-name{
+            width:600px;
+            margin:auto;
+            padding: 200px 0 10px 0;
+            font-size: 80px;
+            
+            color: #fff;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 470;
+    }
+    .join-us-paragraph{
+    width:600px;
+    margin:auto;
+    padding:10px;
+    color:#fff;
+    font-size:25px;
+    }
+
+.view-positions-buttons{
+    margin-top: 20px;
+    padding:15px 20px;
+    font-size: 25px;
+    background:rgba(100, 100, 130, 0.10);
+    color:#fff;
+}
+.view-positions-buttons:hover{
+    box-shadow: 3px 3px 5px #222;
+    background:rgba(100, 100, 130, 0.49);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .recruitment-showcase-container {
+    position: relative;
+    height: 290px;
+    background: rgba(0,0,5,.55);
+}
+.recruitment-background-image{
+  background-position-y: 0px;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+  position: absolute;
+  width:100%;
+  height:100%;
+  z-index: -1;  
+}
+
+  .recruitment-showcase {
+    width:100%;
+    height:100%;}
+
+
+    .join-us-name{
+            width:100%;
+            margin:auto;
+            padding: 60px 0 0px 0;
+            font-size: 30px;
+            
+            color: #fff;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 470;
+    }
+    .join-us-paragraph{
+    width:80%;
+    margin:auto;
+    padding:2px;
+    color:#fff;
+    font-size:11px;
+    }
+
+.view-positions-buttons{
+    margin-top: 5px;
+    padding:8px 10px;
+    font-size: 15px;
+    background:rgba(100, 100, 130, 0.10);
+    color:#fff;
+}
+.view-positions-buttons:hover{
+    box-shadow: 3px 3px 5px #222;
+    background:rgba(100, 100, 130, 0.49);
+    cursor: pointer;
+}
+
+
+}
+

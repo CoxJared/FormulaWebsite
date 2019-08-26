@@ -28,6 +28,7 @@ import ViGradeLogo from '../../../../img/sponsor-logos/vigrade-logo.png';
 import HoosierLogo from '../../../../img/sponsor-logos/hoosier-logo.png';
 import OshparkLogo from '../../../../img/sponsor-logos/oshpark-logo.png';
 import FaroLogo from '../../../../img/sponsor-logos/faro-logo.png';
+import redbulllogo from './../../../../img/sponsor-logos/redbul-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {
@@ -62,14 +63,14 @@ export class SponsorExplorer extends Component {
                 img: SolidworksLogo},
         ],
         gold: [
+            {id: 2,
+                name: 'CpaOntario',
+                websiteLink: 'https://www.cpaontario.ca/',
+                img: CpaontarioLogo},
             {id: 11,
                 name: 'Faro',
                 websiteLink: 'https://www.faro.com/',
                 img: FaroLogo},
-            {id: 3,
-                name: 'Fastenal',
-                websiteLink: 'https://www.fastenal.com/',
-                img: FastenalLogo},
             {id: 4,
                 name: 'General Sealants',
                 websiteLink: 'http://www.generalsealants.com/',
@@ -108,10 +109,6 @@ export class SponsorExplorer extends Component {
                 name: 'Cartesian',
                 websiteLink: 'https://www.cartesian.com/',
                 img: CartesianLogo},
-            {id: 2,
-                name: 'CpaOntario',
-                websiteLink: 'https://www.cpaontario.ca/',
-                img: CpaontarioLogo},
             {id: 3,
                 name: 'Diab',
                 websiteLink: 'https://www.diabgroup.com/',
@@ -120,6 +117,10 @@ export class SponsorExplorer extends Component {
                 name: 'EnLITen Energy Services',
                 websiteLink: 'https://www.enliten.ca/',
                 img: EnlitenenergyServicesLogo},
+            {id: 3,
+                name: 'Fastenal',
+                websiteLink: 'https://www.fastenal.com/',
+                img: FastenalLogo},
             {id: 5,
                 name: 'FMS',
                 websiteLink: 'https://www.fmsinc.com/',
@@ -147,19 +148,24 @@ export class SponsorExplorer extends Component {
                 websiteLink: 'https://oshpark.com/',
                 img: OshparkLogo
             },
+            {id: 2,
+                name: 'Red Bull',
+                websiteLink: 'https://www.redbull.com/ca-en/',
+                img: redbulllogo
+            },
         ]
     }
 
     render() {
         return (    
             <div className="sponsor-contanainer">
-                <h1 className="explorer-header">Our Sponsors</h1>
+                {/* <h1 className="explorer-header">Our Sponsors</h1> */}
                 <h1 className="platinum-heading"><span>Platinum Sponsors</span></h1>
                 <div className="platinum">
                     {this.state.platinum.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="platinum-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="platinum-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -170,7 +176,7 @@ export class SponsorExplorer extends Component {
                     {this.state.gold.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="gold-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="gold-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -183,7 +189,7 @@ export class SponsorExplorer extends Component {
                 {this.state.silver.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="silver-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="silver-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 
@@ -194,7 +200,7 @@ export class SponsorExplorer extends Component {
                     {this.state.software.map(sponsor => (
                         <>
                         <a className="sponsor" href={sponsor.websiteLink} target="_blank" rel="noopener noreferrer">
-                        <img className="logo" src={sponsor.img} alt="bronze-sponsor"/>
+                        <img className="sponsors-logo" src={sponsor.img} alt="bronze-sponsor"/>
                         <h1>{sponsor.name}</h1>    
                         </a>  
                         </> 

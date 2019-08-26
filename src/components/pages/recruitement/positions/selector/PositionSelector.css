@@ -1,0 +1,147 @@
+.positions-picker-container {
+    width: 100%;
+    max-width:1400px;
+    /* background: linear-gradient(to right, #222, #272727); */
+    height: 60px;
+    position:absolute;
+    top:640px;
+    z-index:20;
+    /* justify-content: center; */
+    /* border:1px solid green; */
+}
+
+.position-picker{
+    position: relative;
+    width: 700px;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    display: flex;
+}
+
+.position-picker-2018{
+    position: relative;
+    width: 260px;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    display: flex;
+}
+
+.position {
+   position: relative;
+   width: auto;
+   padding-right:30px;
+   padding-left:30px;
+   height:80%;
+   /* border:1px solid red; */
+}
+
+.position-name {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color:#fff;
+    opacity: .3;
+    vertical-align: middle;
+    padding:12px 20px 10px 20px;
+}
+
+.hide-design{
+    position: relative;
+    width: 65px;
+    height:100%;
+    opacity: 0;
+}
+
+
+.selected-section {
+    /* font-size: 27px; */
+    color:#fff;
+    opacity: 1;
+    /* padding-top:8px; */
+    border-bottom:7px solid #fff;
+}
+.position:hover {
+    cursor: pointer;
+}
+.position:hover .unselected-section{
+    color:#fff;
+    /* font-size: 22px; */
+    opacity: .8;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .positions-picker-container {
+        width: 100%;
+        max-width:1400px;
+        /* background: linear-gradient(to right, #222, #272727); */
+        height: 60px;
+        position:absolute;
+        top:320px;
+        z-index:20;
+        /* justify-content: center; */
+        /* border:1px solid green; */
+    }
+    
+    .position-picker{
+        position: relative;
+        width: 300px;
+        height:100%;
+        margin:auto;
+        /* border:1px solid blue; */
+        display: flex;
+    }
+    
+    .position-picker-2018{
+        position: relative;
+        width: 80px;
+        height:100%;
+        margin:auto;
+        /* border:1px solid blue; */
+        display: flex;
+    }
+    
+    .position {
+       position: relative;
+       width: auto;
+       padding-right:5px;
+       padding-left:5px;
+       height:80%;
+       /* border:1px solid red; */
+    }
+    
+    .position-name {
+        font-size: 16px;
+        font-family: 'Rajdhani', sans-serif;
+        color:#fff;
+        opacity: .3;
+        vertical-align: middle;
+        padding:12px 5px 5px 5px;
+    }
+    
+    .hide-design{
+        position: relative;
+        width: 65px;
+        height:100%;
+        opacity: 0;
+    }
+    
+    
+    .selected-section {
+        /* font-size: 27px; */
+        color:#fff;
+        opacity: 1;
+        /* padding-top:8px; */
+        border-bottom:3px solid #fff;
+    }
+    .position:hover {
+        cursor: pointer;
+    }
+    .position:hover .unselected-section{
+        color:#fff;
+        /* font-size: 22px; */
+        opacity: .8;
+    }
+    
+}    

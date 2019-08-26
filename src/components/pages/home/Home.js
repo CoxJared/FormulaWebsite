@@ -12,6 +12,7 @@ class Home extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
       } 
+
       
     render() {
         return (
@@ -21,6 +22,7 @@ class Home extends Component {
                  <AboutUs />
                  <Events />
                  <WhatWeDo />
+                 
                  <WhyElectric />
                  <News />
                 <Footer />

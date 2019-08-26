@@ -59,7 +59,14 @@ class email extends Component{
                         className="__first_name-input"
                         placeholder = "First Name"
                         onChange={this.handleChange}/>
+
                         
+                        
+                        {(document.body.offsetWidth > 1300)? <textarea name="message" 
+                        className="__message-input"
+                        placeholder = "Message"
+                        onChange={this.handleChange}/> : <div />} 
+
                         <input 
                         type="text" 
                         name="lastName"
@@ -72,11 +79,11 @@ class email extends Component{
                         placeholder = "Email Address"
                         onChange={this.handleChange}/>
                         
-                        
-                        <textarea name="message" 
+                        {(document.body.offsetWidth > 1300)? <div />: <textarea name="message" 
                         className="__message-input"
                         placeholder = "Message"
-                        onChange={this.handleChange}/>
+                        onChange={this.handleChange}/> } 
+                        
                             
                         {this.state.sendButton}
 
