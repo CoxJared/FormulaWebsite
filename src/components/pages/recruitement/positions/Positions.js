@@ -188,7 +188,7 @@ export class Positions extends Component {
         <div className="positions-section-container">
                 <div className="positions-container">
         {visiblePosition.map(position => (
-            <div className="position-container" >
+            <div className={`position-container ${(position.applyLink === '#'? 'closed':'open')}`} >
                 <div className="position" onClick={this.props.updatePositionPage.bind(this, position)}>
                     <div className="position-title-container">
                         <h1 className="position-title">{position.name}</h1>

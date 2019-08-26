@@ -27,8 +27,20 @@
     border-left:7px solid rgb(238, 238, 238);
     box-shadow: 2px 2px 1px rgb(150, 150, 150);
 }
+.closed{
+    border-color: rgb(219, 219, 219);
+}
+.open{
+    border-color:#eb7878;
+}
+.closed:hover {
+    border-color: rgb(182, 176, 176);
+}
+.open:hover{
+    border-color:rgb(255, 0, 0);
+}
+
 .position-container:hover{
-    border-left:6px solid red;
     box-shadow: 5px 5px 5px rgb(75, 75, 75);
     cursor: pointer;
 }
@@ -128,7 +140,7 @@
         height:120px;
         padding:7px 0px;
         margin:20px auto;
-        border-left:7px solid rgb(238, 238, 238);
+        border-left:5px solid rgb(238, 238, 238);
         box-shadow: 2px 2px 1px rgb(150, 150, 150);
     }
     .position-container:hover{
@@ -203,5 +215,16 @@
         padding: 90px;
         font-size:22px;
     }
-    
+    .closed{
+        border-color: rgb(219, 219, 219);
+    }
+    .open{
+        border-color:#eb7878;
+    }
+    .closed:hover {
+        border-color: rgb(182, 176, 176);
+    }
+    .open:hover{
+        border-color:rgb(255, 0, 0);
+    }
 }
