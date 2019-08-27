@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './MainShowcase.scss';
 import { Link } from 'react-router-dom';
 
-import background from './../../../../img/home-1.jpeg'
+import background from './../../../../img/home-1.jpg'
 
     
 class MainShowcase extends Component {
