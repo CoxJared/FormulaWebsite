@@ -7,28 +7,48 @@ import News from './news/News';
 import Events from './events/Events';
 import WhatWeDo from './whatwedo/WhatWeDo';
 import WhyElectric from './whyelectric/WhyElectric';
+import LoadingSpinner from '../../layout/loadingspinner/LoadingSpinner';
 
 class Home extends Component {
+    constructor (){
+        super()
+
+        this.state={
+            loaded:true,
+            loadingElement:<LoadingSpinner/>}
+    }
+
+    
+
     componentDidMount() {
         window.scrollTo(0, 0)
       } 
 
+    showcaseLoaded= () => {
+        console.log('loaded')
+        this.setState({loaded:true,
+        loadingElement:<div/>})
+    }
+
       
     render() {
-        return (
-            <div style={{height:'auto',overflow:'hidden'}}>
-                <Header />
-                <MainShowcase />
-                 <AboutUs />
-                 <Events />
-                 <WhatWeDo />
-                 
-                 <WhyElectric />
-                 <News />
-                <Footer />
-            </div>
-        );
+
+
+            return (
+                <div style={{height:'auto',overflow:'hidden'}}>
+                    {this.state.loadingElement}
+                    <Header />
+                    <MainShowcase showcaseLoaded={this.showcaseLoaded}/>
+                    <AboutUs />
+                    <Events />
+                    <WhatWeDo />
+                    
+                    <WhyElectric />
+                    <News />
+                    <Footer />
+                </div>
+        )}
     }
-}
+
 
 export default Home;

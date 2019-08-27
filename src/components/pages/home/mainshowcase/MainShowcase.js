@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
 import './MainShowcase.scss';
 import { Link } from 'react-router-dom';
+
+import background from './../../../../img/home-1.jpeg'
+
+    
 class MainShowcase extends Component {
 
-    componentDidMount (){
-        window.addEventListener("load", () => {
-            document.querySelector("body").classList.add("loaded"); 
-           });
-    }
+componentDidMount (){
+    window.addEventListener("load", () => {
+        document.querySelector("body").classList.add("loaded"); 
+        });
+}
+
 
     render() {
         return (
             
             <div className="showcase-container" >
                 <div className="showcase">
-                    <img />
+                    <img className='main-showcase-image' src={background} onLoad={this.props.showcaseLoaded}/>
                     
                     <h1 className="team-name">INSPIRING A CULTURE OF INNOVATION</h1>
                     <div className="culture-container">
