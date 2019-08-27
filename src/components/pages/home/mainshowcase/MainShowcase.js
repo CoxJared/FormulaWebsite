@@ -17,7 +17,7 @@ componentDidMount (){
     render() {
         return (
             
-            <div className="showcase-container" >
+            <div className="showcase-container">
                 <div className="showcase">
                     <img className='main-showcase-image' src={background} onLoad={this.props.showcaseLoaded}/>
                     
