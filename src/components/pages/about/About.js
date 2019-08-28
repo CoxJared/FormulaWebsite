@@ -10,6 +10,7 @@ import Design2019 from './design/design2019/Design2019';
 import Overview2020 from './overview/overview2020/Overview2020';
 import Design2020 from './design/design2020/Design2020';
 import Team from './team/Team';
+import LoadingSpinner from '../../layout/loadingspinner/LoadingSpinner';
 
 
 export class About extends Component {
@@ -18,6 +19,7 @@ export class About extends Component {
         this.state = {
             section: "overview",
             season: "2019",  
+            loadingElement:<LoadingSpinner />,
             displayWindow:  {
                 "2018":
                 {
@@ -58,6 +60,11 @@ export class About extends Component {
         this.setState(this.state);
     }
 
+    imageLoaded= () => {
+        this.setState({
+        loadingElement:<div/>})
+    }
+
     render() {
         if(this.state.season ==="2018" && (this.state.section === "design" || this.state.section === 'overview')){
             this.setState({section:"team"})
@@ -67,10 +74,12 @@ export class About extends Component {
         }
         return (
             <div>
+                {this.state.loadingElement}
                 <Header page="about"/>
                 <SeasonPicker 
                  season={this.state.season}
                  updateSeason={this.updateSeason}
+                 imageLoaded={this.imageLoaded}
                  />
                  <SectionPicker 
                  section={this.state.section}

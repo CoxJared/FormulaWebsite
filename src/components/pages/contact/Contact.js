@@ -5,6 +5,8 @@ import Email from './email/email';
 import ContactTitle from './contacttitle/ContactTitle';
 import './Contact.css';
 import Info from './info/Info';
+import imageTocheck from './../../../img/hatch.jpg';
+import LoadingSpinner from '../../layout/loadingspinner/LoadingSpinner';
 
 
 var divstyle = {
@@ -21,7 +23,8 @@ export class Contact extends Component {
         this.state = {
             name: '',
             email: '',
-            message: ''
+            message: '',
+            loadingElement:<LoadingSpinner />
         }
         this.handleNameChange= this.handleNameChange.bind(this)
         this.handleEmailChange= this.handleEmailChange.bind(this)
@@ -40,7 +43,11 @@ export class Contact extends Component {
         window.scrollTo(0, 0)
       } 
 
-
+      imageLoaded= () => {
+        this.setState({
+        loadingElement:<div/>})
+    }
+      
 
 
 
@@ -51,7 +58,10 @@ export class Contact extends Component {
         return (
             <div style={style}>
                 <Header page="contact"/> 
+                
+                {this.state.loadingElement}
                 <div className="contacts-showcase">
+                <img src={imageTocheck} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.imageLoaded} />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                         <h1 className="contacts-header">Contact Us</h1>
 
@@ -93,7 +103,7 @@ export class Contact extends Component {
                 </div>
                 {/* <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xURVpVWU0xMkFSSVRPUTVDMFAwMEtYR01POCQlQCN0PWcu&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= {{}} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> */}
                 
-
+                
 
                 <Footer />
             </div>

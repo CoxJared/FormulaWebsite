@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import './SeasonPicker.css';
 
+import imageTocheck from './../../../../img/nite-life.jpg'
+
 export class SeasonPicker extends Component {
+    constructor(props){
+        super(props)
+    }
 
     isSelected = (choice, currentSection) => {
         if (choice === currentSection)
@@ -14,14 +19,9 @@ export class SeasonPicker extends Component {
     render() {
         return (
             <div className="season-picker-container section-2019-overview">
-
-
-
-
-
-                
+                <img src={imageTocheck} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.props.imageLoaded} />
                 <div className="season-picker">
-   
+
                 <div 
                     className={`season-container ${this.isSelected("2018", this.props.season)}`}
                     onClick={this.props.updateSeason.bind(this, "2018")}

@@ -2,12 +2,28 @@ import React, { Component } from 'react'
 import Header from '../../layout/header/Header';
 import Footer from './../../layout/footer/Footer';
 import './donate.css';
+import imageTocheck from './../../../img/gmvisit.jpg';
+import LoadingSpinner from '../../layout/loadingspinner/LoadingSpinner';
 
 export class donate extends Component {
+    constructor(){
+        super()
+        this.state = {
+            loadingElement:<LoadingSpinner />
+        }
+    }
+
+    imageLoaded= () => {
+        this.setState({
+        loadingElement:<div/>})
+    }
+
+
     render() {
         return (
             <div>
                 <Header page="donate"/>
+                {this.state.loadingElement}
                 <div className="why-donate-container-page">
 
                     <div className="why-donate-showcase">
@@ -27,6 +43,7 @@ export class donate extends Component {
                 </form>
                 </div>
                 </div>
+                <img src={imageTocheck} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.imageLoaded} />
                 <Footer/>
             </div>
         )

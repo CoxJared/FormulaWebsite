@@ -8,6 +8,7 @@ import RecruitmentShowcase from './recruitmentshowcase/RecruitmentShowcase';
 
 import peopleCadding from './../../../img/people-cadding.jpg';
 import Position from './positions/position/Position';
+import LoadingSpinner from '../../layout/loadingspinner/LoadingSpinner';
 
 export class Recruitment extends Component {
 
@@ -15,7 +16,8 @@ export class Recruitment extends Component {
         super(props);
         this.state = {
             page: "about",
-            positionToshow:null
+            positionToshow:null,
+            loadingElement:<LoadingSpinner />
         }
     }
 
@@ -29,11 +31,17 @@ export class Recruitment extends Component {
         console.log("yup")
     }
 
+    imageLoaded= () => {
+        this.setState({
+        loadingElement:<div/>})
+    }
+
     render() {
 
         if(this.state.page==="about"){
             return (
                 <div >
+                    {this.state.loadingElement}
                     <Header 
                     page="recruitment"/>
                     <div className="recruitment-page-container">
@@ -42,7 +50,8 @@ export class Recruitment extends Component {
                     updatePage={this.updatePage}
                     backgroundimage={peopleCadding}
                     button={<button className="view-positions-buttons" onClick={this.updatePage.bind(this,"positions")}>Open Positions</button>}
-                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"/>
+                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
+                    imageLoaded={this.imageLoaded}/>
                     <RecruitmentInfo 
                     updatePage={this.updatePage}/>
                     </div>
