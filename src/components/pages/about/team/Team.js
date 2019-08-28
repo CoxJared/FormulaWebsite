@@ -325,6 +325,7 @@ export class Team2019 extends Component {
                 <div className="member-container" onClick={this.shouldShowTeam.bind(this,member)}>
                     <div className="member">
                         <img className="headshot"src={member.headshot} alt="" /> 
+                        
                         <h1 className="name">{member.name}</h1>
                         <h2 className="title">{member.seasons[this.props.season].title}</h2>
                     </div>

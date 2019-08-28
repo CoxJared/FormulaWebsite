@@ -25,7 +25,6 @@ class Home extends Component {
       } 
 
     showcaseLoaded= () => {
-        console.log('loaded')
         this.setState({loaded:true,
         loadingElement:<div/>})
     }

@@ -40,10 +40,9 @@
 
 .headshot {
     object-fit: cover;
-    
+    position: relative;
     height:75%;
     width:100%;
-    // border-radius: 50%;
     filter: grayscale(50%);
     // -webkit-animation-name: fade-in;
     // -webkit-animation-duration: 2s;
