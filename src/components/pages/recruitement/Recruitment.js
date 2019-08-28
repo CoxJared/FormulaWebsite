@@ -41,7 +41,7 @@ export class Recruitment extends Component {
         if(this.state.page==="about"){
             return (
                 <div >
-                    {this.state.loadingElement}
+                    {/* {this.state.loadingElement} */}
                     <Header 
                     page="recruitment"/>
                     <div className="recruitment-page-container">

@@ -23,7 +23,7 @@ export class donate extends Component {
         return (
             <div>
                 <Header page="donate"/>
-                {this.state.loadingElement}
+                {/* {this.state.loadingElement} */}
                 <div className="why-donate-container-page">
 
                     <div className="why-donate-showcase">

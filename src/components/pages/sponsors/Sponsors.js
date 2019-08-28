@@ -27,7 +27,7 @@ export class Sponsors extends Component {
     render() {
         return (
             <div>
-                {this.state.loadingElement}
+                {/* {this.state.loadingElement} */}
                 <Header page="sponsors"/>
 
                 <SponsorsContainer 
