@@ -74,7 +74,7 @@ export class About extends Component {
         }
         return (
             <div>
-                {this.state.loadingElement}
+                {/* {this.state.loadingElement} */}
                 <Header page="about"/>
                 <SeasonPicker 
                  season={this.state.season}

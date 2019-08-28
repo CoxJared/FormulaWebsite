@@ -59,7 +59,7 @@ export class Contact extends Component {
             <div style={style}>
                 <Header page="contact"/> 
                 
-                {this.state.loadingElement}
+                {/* {this.state.loadingElement} */}
                 <div className="contacts-showcase">
                 <img src={imageTocheck} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.imageLoaded} />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
