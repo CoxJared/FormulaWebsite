@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import './App.css';
 import { BrowserRouter as Router,  Route } from 'react-router-dom';
 
-import Home from './components/pages/home/Home';
-import Sponsors from './components/pages/sponsors/Sponsors';
-import Contact from './components/pages/contact/Contact';
-import About from './components/pages/about/About';
-import Recruitment from './components/pages/recruitement/Recruitment';
-import donate from './components/pages/donate/donate';
+import Home from './pages/home/Home';
+import Sponsors from './pages/sponsors/Sponsors';
+import Contact from './pages/contact/Contact';
+import About from './pages/about/About';
+import Recruitment from './pages/recruitement/Recruitment';
+import donate from './pages/donate/donate';
 
 class App extends Component{
   render(){
