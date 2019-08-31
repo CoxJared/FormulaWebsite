@@ -137,42 +137,22 @@ export class Positions extends Component {
                         },
                         {
                             type:'business',
-                            name:'Social Media Manager',
+                            name:'Business & Finance Manager',
                             description:[
-                                {   body:'As a Social Media Manager, we expect you to be up-to-date with the latest digital technologies and social media trends. You should have excellent communication skills and be able to express our team\'s views creatively.'},
-                                {   body:'We are looking for a talented social media manager to administer our social media accounts. You will be responsible for creating original text and video content, managing posts and responding to followers. You will manage our team image in a cohesive way to achieve our marketing goals.'},
-                                {   body:'Ultimately, you should be able to handle our social media presence ensuring high levels of web traffic and follower engagement.'}
+                                {   body:'The Business & Finance Manager will be responsible for managing the bookkeeping and financial records for the team'},
+                                {body:'This role also requires the candidate to create a business case presentation for competition, forecasts for budgeting, and cash flow reports. They will also be responsible to implement strategies to cut down on costs and make recommendations to streamline project management.'}
                             ],
                             lists:[
                                 {
-                                    name:'Responsibilities',
-                                    text:["Perform research on current benchmark trends and audience preferences", "Design and implement social media strategy to align with business goals","Set specific objectives and report on ROI", "Generate, edit, publish and share engaging content daily(e.g. original text, photos, videos and news)", "Manage commitments to sponsors regarding social media posts", "Monitor SEO and web traffic metrics", "Collaborate with other teams, like marketing, engineering and sponsorship to generate content and ensure brand consistency", "Communite with followers, respond to queries in a timely manner", "Oversee social media accounts' design(e.g Facebook timeline cover, profile pictures and blog layout)", "Suggest and implement new features to develop brand awareness, like promotions and competitions", "Stay up-to-date with current technologies and trends in social media, design tools and applications"]},
-                                {
-                                    name:'Requirements',
-                                    text:['Proven work experience as a Social media manager is preferred', 'Hands on experience in content management', 'Excellent copywriting skills', 'Ability to deliver creative content (text, image and video)', 'Solid knowledge of SEO, keyword research and Google Analytics', 'Knowledge of online marketing channels', 'Familiarity with web design is a benefit but not required', 'Excellent communication skills', 'Analytical and multitasking skills', 'Working toward a bachelor’s degree in Marketing or relevant field' 
-                                    ]
-                                }
-                            ],
-                            openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUQlg2SDJTUFkwODI1OUtPWEgzMElZUUo4VCQlQCN0PWcu"
-                        },
-                        {
-                            type:'business',
-                            name:'Finance Manager',
-                            description:[
-                                {   body:'The Finance Manager will be responsible for managing the bookkeeping and financial records for the team. This role also requires the candidate to create short- and long-term forecasts for budgeting and cash flow purposes. They will also be responsible to implement strategies to cut down on costs. '},
-                            ],
-                            lists:[
-                                {
-                            name:'Responsibilities',
-                            text:["Assisting in the preparation of budgets", "Managing records and receipts","Reconciling daily, monthly and yearly transactions", "Preparing balance sheets", "Processing invoices", "Developing an in-depth knowledge of organizational products and process", "Providing customer service to clients", "Being a key point of contact for other departments on financial and accounting matters"]},
+                            name:'Duties include:',
+                            text:["Develop business case presentation for competition",'Assisting in the preparation of budgets ','Managing records and receipts ','Reconciling daily, monthly and yearly transactions ','Preparing balance sheets ','Processing invoices ','Being a key point of contact for other departments on financial and accounting matters ','Establish the company’s goals and objectives ','Assist in recruitment and training of new team members ']},
                             {
-                                name:'What you will learn',
-                                text:['How to fully take control of an organization’s books' ,'How to create a budget and try to allocate money to ensure the project is financially stable']
+                                name:'What you will learn: ',
+                                text:['How to fully take control of an organization’s books ','How to create a budget and try to allocate money to ensure the project is financially stable ','How to write effective business proposals ']
                             },
                             {
-                                name:'Beneficial Qualifications',
-                                text:['Experience with bookkeeping' ,'Impeccable time management skills', 'Strong organization skills', 'Working towards a bachelor’s degree in Finance, Economics, Accounting, Business or Business Administration, or Mathematics']
+                                name:'Beneficial Qualifications: ',
+                                text:['Experience with bookkeeping ','Strong organization skills ','Effective presentation and communication skills ','An enthusiasm to learn! ']
                             }
                             ],
                             openings: 'Sept 21, 2019',
@@ -180,23 +160,23 @@ export class Positions extends Component {
                         },
                         {
                             type:'business',
-                            name:'Sponsorship Manager',
+                            name:'Marketing & Sponsorship Manager',
                             description:[
-                                {   body:'The Sponsorship Manager, you will be responsible for building and leading all phases of a sponsorship program. This involves responsibility for developing and maintaining a marketing plan for the sponsor program in order to meet or exceed the overall business objectives.'},{
-                                    body:'Responsibilities include sponsor prospecting, proposal customization and presentation, contract revision and servicing, and sponsor follow-up and support.'
+                                {   body:'The Marketing & Sponsorship Manager, you will be responsible for building and leading all phases of the sponsorship & marketing program.'},{
+                                    body:'This involves responsibility for developing and maintaining a marketing plan for the sponsor program in order to meet or exceed the overall business objectives.'
                                 }
                             ],
                             lists:[
                                 {
-                            name:'Responsibilities',
-                            text:["Develop and implement a sponsorship sales plan for increasing revenues in a cost-effective manner. Target objectives include increasing sponsorship sales and creating sponsorship products and licensing deals in order to meet or exceed the overall business objectives. ",'Develop and implement a sponsorship budget to achieve the sales plan. ','Develop and implement an annual trade show or other events to assist in achieving the business objectives. ', 'Develop, maintain and implement sponsorship program guidelines to increase sponsorship recruitment, satisfaction, and support. ', 'Manages all sponsorship activities.  Responsible for sponsor prospecting, proposal customization and presentation, contract revision and servicing, sponsor follow-up and support, trade shows development and representing the company at industry functions. ', 'Interface with Internet Marketing to create and manage online sponsorship programs to ensure a steady stream of prospects and future sales. ','Submit marketing plans, prospect activity, and forecast reports to the President; provide briefings to others as necessary or as requested.  Perform other duties as assigned. ']},
+                            name:'Duties include:',
+                            text:["Develop and implement a sponsorship plans for increasing revenues in a cost-effective manner. Target objectives include increasing sponsorship sales and creating sponsorship products and licensing deals in order to meet or exceed the overall business objectives. ", 'Develop and implement a sponsorship budget to achieve the sales plan. ','Develop and implement an annual trade show or other events to assist in achieving the business objectives. ','Manages all sponsorship activities. Responsible for sponsor prospecting, proposal customization and presentation, contract revision and servicing, sponsor follow-up and support, trade shows development and representing the company at industry functions. ','Oversee social media accounts’ design (e.g. Facebook timeline cover, profile pictures and blog layout) ','Suggest and implement new features to develop brand awareness, like promotions and competitions ']},
                             {
-                                name:'What you will learn',
-                                text:['Client relationship management skills ' ,'How to write effective proposals ', 'Gain experience coordinating events ','Develop strong communication skills internal and external to the organization']
+                                name:'What you will learn:',
+                                text:['Client relationship management skills','Writing effective proposals ','Experience coordinating events ','Social media management ']
                             },
                             {
-                                name:'Beneficial Qualifications',
-                                text:['Sales experience, selling advertising to big brands directly or via ad agencies.' ,'IEvent sponsorship experience is a plus!','A positive, ego-free attitude and willingness to work creatively on new ideas.','Ability to develop effective working relationships with teammates and partners.'] 
+                                name:'Beneficial Qualifications:',
+                                text:['Event sponsorship experience is a plus!','A positive, ego-free attitude and willingness to work creatively on new ideas. ','Ability to develop effective working relationships with teammates and partners. ','An enthusiasm to learn! '] 
                             }
                             ],
                             openings: 'Sept 21, 2019',
