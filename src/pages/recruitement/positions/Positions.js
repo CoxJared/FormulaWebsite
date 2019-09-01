@@ -102,7 +102,67 @@ export class Positions extends Component {
                         },  
                         {
                             type:'electrical',
-                            name:'Software Developer Team Member',
+                            name:'Accumulator Team Member',
+                            description:[
+                                {   body:'As part of the Accumulator Team, you will work on designing, manufacturing, and testing the vehicle battery.'},
+                                {   body:'You will need to work closely with other electrical sub-teams to ensure all necessary power, signals and circuits requirements are met. You must be passionate about engineering and teamwork. '},
+                                {   head:'Design: ',
+                                    body:'CAD (Computer Aided Design), FEA (Finite Element Analysis), MATLAB '},
+                                {   head:'Simulation: ',
+                                    body:'Using simulation software such as Ansys and VI grade'},
+                                {   head:'Manufacturing: ',
+                                    body:'Machining, welding, composites, soldering, and wiring'},
+                            ],
+                            lists:[
+                                {
+                            name:'Specific Responsibilities: ',
+                            text:['Design and test low voltage circuits within the Accumulator ','Communicate with other teams to ensure all wiring and space needs are met ','Design and test PCBs with HV and LV circuits ','Communicate with other teams to ensure power needs are met and all circuits can be properly integrated  ','Ensure system meets all competition rules and requirements ']},
+                            {
+                                name:"What you will learn: ",
+                                text:['Organization', 'Component and System Level Testing ', 'In-depth knowledge of high voltage systems ', 'In-depth knowledge of batteries  ', 'Time Management']
+                            },
+                            {
+                                name:"Beneficial Qualifications:  ",
+                                text:['Proficient with MATLAB ', 'HV Training ','Experience with Electrical Simulation software (PSpice) ','PCB and Schematic Design (preference towards Altium Designer) ','Knowledgeable in controller area networks (CAN) ','Experience with large reports ','Experience with lithium ion or lithium polymer batteries ','Leadership and project management ','An enthusiasm to learn!']
+                            }
+                            ],
+                            openings: 'Sept 21, 2019',
+                            applyLink: "#"
+                            // background:aeroBackground
+                        },  
+                        {
+                            type:'electrical',
+                            name:'Drivetrain Team Member',
+                            description:[
+                                {   body:'As part of the Accumulator Team, you will work on designing, manufacturing, and testing the vehicle battery.'},
+                                {   body:'You will need to work closely with other electrical sub-teams to ensure all necessary power, signals and circuits requirements are met. You must be passionate about engineering and teamwork. '},
+                                {   head:'Design: ',
+                                    body:'CAD (Computer Aided Design), FEA (Finite Element Analysis), MATLAB'},
+                                {   head:'Simulation: ',
+                                    body:'Using simulation software such as Ansys and VI grade '},
+                                {   head:'Manufacturing: ',
+                                    body:'Machining, welding, painting and powder coating of any drivetrain components as well as other systems occasionally'},
+                            ],
+                            lists:[
+                                {
+                            name:'Specific Responsibilities: ',
+                            text:['High-level design of the drivetrain system ','Simulate and CAD (Computer Aided Design) parts ','Manufacturing parts out of steel, aluminum and composite materials using machining and fabrication tools such as the mill, lathe, MIG/TIG welders and more!  ','Testing and tuning the vehicle in the field and relating it to our simulation data  ','Managing designs as well as paperwork including documentation needed for competition and part drawings ']},
+                            {
+                                name:"What you will learn: ",
+                                text:['In-Depth Knowledge of Gear, Shaft, and Housing Design ','Software Utilization to Predict System Performance ','Time and Data Management ','Organization ','Component and System Level Testing ']
+                            },
+                            {
+                                name:"Beneficial Qualifications:  ",
+                                text:['Proficient with MATLAB ','Skilled in CAD (SolidWorks) ','Mechanical Design Experience ','Practical Experience with Design/Build Projects ','An enthusiasm to learn!  ']
+                            }
+                            ],
+                            openings: 'Sept 21, 2019',
+                            applyLink: "#"
+                            // background:aeroBackground
+                        },  
+                        {
+                            type:'software',
+                            name:'Software and embedded systems',
                             description:[
                                 {body:'Learn about developing and designing software for embedded systems and software applications.'},
                                 {body: 'As a Software Developer, you’ll get experience with:'},
@@ -118,7 +178,7 @@ export class Positions extends Component {
                             applyLink: "#"
                         },
                         {
-                            type:'electrical',
+                            type:'software',
                             name:'Controls Team Member',
                             description:[
                                 {body:'The vehicle control system is responsible for actuating and monitoring the status of the car.'},

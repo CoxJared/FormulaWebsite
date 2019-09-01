@@ -23,7 +23,8 @@
     width:48%;
     height:150px;
     padding:7px 10px;
-    margin:20px auto;
+    margin-right: auto;
+    margin-top :20px; 
     border-left:7px solid rgb(238, 238, 238);
     box-shadow: 2px 2px 1px rgb(150, 150, 150);
 }

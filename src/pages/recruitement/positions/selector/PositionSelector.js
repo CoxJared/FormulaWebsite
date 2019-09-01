@@ -40,6 +40,13 @@ render() {
                 </div>
                 <div className="position">
                     <h1 
+                    className={`position-name ${this.isSelected("software", this.props.positions)}`}
+                    onClick={this.props.updatePosition.bind(this, "software")}
+                    >Software
+                    </h1>
+                </div>
+                <div className="position">
+                    <h1 
                     className={`position-name ${this.isSelected("business", this.props.positions)}`}
                     onClick={this.props.updatePosition.bind(this, "business")}
                     >Business

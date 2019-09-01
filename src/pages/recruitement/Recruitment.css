@@ -1,5 +1,6 @@
 .recruitment-page-container{
     min-height: calc(100vh - 520px);
+    
     /* background-color: rgb(245, 245, 245); */
 }
 
@@ -8,4 +9,5 @@
     border:1px solid red;
     position: relative;
     max-width: 100%;
+    background-color:rgb(245, 245, 245);
 }
