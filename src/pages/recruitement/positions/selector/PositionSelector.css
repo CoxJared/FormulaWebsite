@@ -12,7 +12,7 @@
 
 .position-picker{
     position: relative;
-    width: 700px;
+    width: 900px;
     height:100%;
     margin:auto;
     /* border:1px solid blue; */
@@ -78,7 +78,7 @@
         /* background: linear-gradient(to right, #222, #272727); */
         height: 60px;
         position:absolute;
-        top:320px;
+        top:325px;
         z-index:20;
         /* justify-content: center; */
         /* border:1px solid green; */
@@ -112,7 +112,7 @@
     }
     
     .position-name {
-        font-size: 16px;
+        font-size: 12px;
         font-family: 'Rajdhani', sans-serif;
         color:#fff;
         opacity: .3;
