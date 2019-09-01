@@ -72,25 +72,27 @@ export class Positions extends Component {
                         },
                         {
                             type:'electrical',
-                            name:'Low Voltage Team Member',
+                            name:'Electronics and Wiring',
                             description:[
-                                {   body:'The low voltage systems in the car control all aspects of the vehicles operation, including safety circuits, microcontrollers, CAN bus, power electronics, and more.'},
-                                {   body:'Joining the low voltage subteam means you can get experience with'},
-                                {   head:'Circuit Design:',
+                                {   body:'The electrical systems in the car control all aspects of the vehicles operation, including low voltage and high voltage safety circuits, microcontrollers, CAN bus, power electronics, and more.'},
+                                {   body:'Joining the electronic and wiring subteam means you can get experience with'},
+                                {   head:'Circuit Design: ',
                                     body:' Using circuit simulation software, and Altium Designer for schematics'},
-                                {   head:'PCB Layout:',
-                                    body:' Implementing circuitry onto PCBs for use for test purposes or for in the vehicle'},
-                                {   head:'Wiring:',
-                                    body:' learning to cut, strip, and crimp wiring for assembly of wiring harness for inside the vehicle or for testing purposes'},
-                                {   head:'Assembly:',
+                                {   head:'PCB Layout: ',
+                                    body:' Implementing circuitry onto PCBs for use for test purposes or for in the vehicle (Using Altium Designer)'},
+                                {   head:'Wiring: ',
+                                    body:'learning to cut, strip, and crimp wiring for assembly of low voltage wiring harness for inside the vehicle or for testing purposes, and tractive systems wiring for high voltage system'},
+                                {   head:'Assembly: ',
                                     body:' Assembling PCBs by soldering on various through hole and surface mount components'},
-                                {   head:'Testing:',
+                                {   head:'ECAD: ',
+                                    body:' Generate schematics for devices to denote connectivity, and route wires for various systems in the full CAD model of the car, using SolidWorks'},
+                                {   head:'Testing: ',
                                     body:' using oscilloscope, function generators, multimeters, and power supplies to optimizecircuits during design phase and testing PCBs prior to any use in the vehicle. Testing of wiring harness for continuity, comparing sensor outputs to that specified on datasheets, and much more'}
                             ],
                             lists:[
                                 {
                             name:'Responsibilities',
-                            text:["Designing new and improved circuits for vehicle operation that work more reliably", "Designing lower power circuits that are more efficient and optimized for their specific application", "Optimizing PCB layouts for space constraints and heat dissipation", "Researching different power converter topologies for efficient DC/DC conversions for different voltage levels used in the vehicle", "Helping to prepare import documents for competition submissions","Testing current PCBs and finding ways to improve current systems", "Researching any electronics related items that you may find useful for the vehicle", "Assembling and testing new PCBs"]},
+                            text:["Designing new and improved circuits for vehicle operation that work more reliably", "Designing lower power circuits that are more efficient and optimized for their specific application", "Optimizing PCB layouts for space constraints and heat dissipation", "Researching different power converter topologies for efficient DC/DC conversions for different voltage levels used in the vehicle", "Helping to prepare important documents for competition submissions","Testing current PCBs and finding ways to improve current systems", "Researching any electronics related items that you may find useful for the vehicle", "Assembling and testing new PCBs"]},
                             {
                                 name:"Skills Needed",
                                 text:["The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience!"]
