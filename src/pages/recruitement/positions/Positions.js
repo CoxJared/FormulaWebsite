@@ -14,8 +14,8 @@ export class Positions extends Component {
             positions:
                 [
                         {
-                            type:'mechanical',
-                            name:'Aerodynamics Team Member',
+                            type:['mechanical'],
+                            name:'Aerodynamics',
                             description:[
                                 {   body:'Learn the fundamentals of aerodynamics, the study of airflow around the car and how it affects performance. Learn computer modelling and fluid simulations in addition to manufacturing composite components.'},
                                 {   head:'Design:',
@@ -33,8 +33,8 @@ export class Positions extends Component {
                             applyLink: "#"
                         }, 
                         {
-                            type:'mechanical',
-                            name:'Chassis Team Member',
+                            type:['mechanical'],
+                            name:'Chassis',
                             description:[
                                 {   body:'The chassis is the primary structure of the car and supports all functional vehicle systems. Joining the chassis subteam means you can get experience in many different areas of engineering.'},
                                 {   head:'Designing:',
@@ -51,8 +51,8 @@ export class Positions extends Component {
                             applyLink: "#"
                         }, 
                         {
-                            type:'mechanical',
-                            name:'Vehicle Dynamics Team Member',
+                            type:['mechanical'],
+                            name:'Vehicle Dynamics',
                             description:[
                                 {   body:'Learn about the dynamic vehicle subsystems including suspension, drivetrain, steering, and brakes. Learn how to design, simulate, CAD, and manufacture parts for the car. First-hand experience in learning all that goes into making a race car fast!'},
                                 {   head:'Design:',
@@ -71,7 +71,7 @@ export class Positions extends Component {
                             // background:aeroBackground
                         },
                         {
-                            type:'electrical',
+                            type:['electrical'],
                             name:'Electronics and Wiring',
                             description:[
                                 {   body:'The electrical systems in the car control all aspects of the vehicles operation, including low voltage and high voltage safety circuits, microcontrollers, CAN bus, power electronics, and more.'},
@@ -103,8 +103,8 @@ export class Positions extends Component {
                             // background:aeroBackground
                         },  
                         {
-                            type:'electrical',
-                            name:'Accumulator Team Member',
+                            type:['electrical','mechanical'],
+                            name:'Accumulator',
                             description:[
                                 {   body:'As part of the Accumulator Team, you will work on designing, manufacturing, and testing the vehicle battery.'},
                                 {   body:'You will need to work closely with other electrical sub-teams to ensure all necessary power, signals and circuits requirements are met. You must be passionate about engineering and teamwork. '},
@@ -133,38 +133,8 @@ export class Positions extends Component {
                             // background:aeroBackground
                         },  
                         {
-                            type:'electrical',
-                            name:'Drivetrain Team Member',
-                            description:[
-                                {   body:'As part of the Accumulator Team, you will work on designing, manufacturing, and testing the vehicle battery.'},
-                                {   body:'You will need to work closely with other electrical sub-teams to ensure all necessary power, signals and circuits requirements are met. You must be passionate about engineering and teamwork. '},
-                                {   head:'Design: ',
-                                    body:'CAD (Computer Aided Design), FEA (Finite Element Analysis), MATLAB'},
-                                {   head:'Simulation: ',
-                                    body:'Using simulation software such as Ansys and VI grade '},
-                                {   head:'Manufacturing: ',
-                                    body:'Machining, welding, painting and powder coating of any drivetrain components as well as other systems occasionally'},
-                            ],
-                            lists:[
-                                {
-                            name:'Specific Responsibilities: ',
-                            text:['High-level design of the drivetrain system ','Simulate and CAD (Computer Aided Design) parts ','Manufacturing parts out of steel, aluminum and composite materials using machining and fabrication tools such as the mill, lathe, MIG/TIG welders and more!  ','Testing and tuning the vehicle in the field and relating it to our simulation data  ','Managing designs as well as paperwork including documentation needed for competition and part drawings ']},
-                            {
-                                name:"What you will learn: ",
-                                text:['In-Depth Knowledge of Gear, Shaft, and Housing Design ','Software Utilization to Predict System Performance ','Time and Data Management ','Organization ','Component and System Level Testing ']
-                            },
-                            {
-                                name:"Beneficial Qualifications:  ",
-                                text:['Proficient with MATLAB ','Skilled in CAD (SolidWorks) ','Mechanical Design Experience ','Practical Experience with Design/Build Projects ','An enthusiasm to learn!  ']
-                            }
-                            ],
-                            openings: 'Sept 21, 2019',
-                            applyLink: "#"
-                            // background:aeroBackground
-                        },  
-                        {
-                            type:'software',
-                            name:'Software and embedded systems',
+                            type:['software'],
+                            name:'Software and Embedded Systems',
                             description:[
                                 {body:'Learn about developing and designing software for embedded systems and software applications.'},
                                 {body: 'As a Software Developer, you’ll get experience with:'},
@@ -180,8 +150,8 @@ export class Positions extends Component {
                             applyLink: "#"
                         },
                         {
-                            type:'software',
-                            name:'Controls Team Member',
+                            type:['software'],
+                            name:'Controls',
                             description:[
                                 {body:'The vehicle control system is responsible for actuating and monitoring the status of the car.'},
                                 {body: 'As a Controls Developer, you’ll get experience with: '},
@@ -198,8 +168,8 @@ export class Positions extends Component {
                             applyLink: "#"
                         },
                         {
-                            type:'business',
-                            name:'Business & Finance Manager',
+                            type:['business'],
+                            name:'Business & Finance',
                             description:[
                                 {   body:'The Business & Finance Manager will be responsible for managing the bookkeeping and financial records for the team'},
                                 {body:'This role also requires the candidate to create a business case presentation for competition, forecasts for budgeting, and cash flow reports. They will also be responsible to implement strategies to cut down on costs and make recommendations to streamline project management.'}
@@ -221,8 +191,8 @@ export class Positions extends Component {
                             applyLink: "#"
                         },
                         {
-                            type:'business',
-                            name:'Marketing & Sponsorship Manager',
+                            type:['business'],
+                            name:'Marketing & Sponsorship',
                             description:[
                                 {   body:'The Marketing & Sponsorship Manager, you will be responsible for building and leading all phases of the sponsorship & marketing program.'},{
                                     body:'This involves responsibility for developing and maintaining a marketing plan for the sponsor program in order to meet or exceed the overall business objectives.'
@@ -259,7 +229,7 @@ export class Positions extends Component {
 
     render() {
 
-        const  visiblePosition = this.state.positions.filter(position => position.type=== this.state.positionsListed || this.state.positionsListed === 'all');
+        const  visiblePosition = this.state.positions.filter(position => position.type.includes(this.state.positionsListed) || this.state.positionsListed === 'all');
 
         const positions = 
         <div className="positions-section-container">
