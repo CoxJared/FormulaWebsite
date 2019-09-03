@@ -32,13 +32,13 @@
     border-color: rgb(219, 219, 219);
 }
 .open{
-    border-color:#eb7878;
+    border-color:#8fdf89;
 }
 .closed:hover {
     border-color: rgb(182, 176, 176);
 }
 .open:hover{
-    border-color:rgb(255, 0, 0);
+    border-color:rgb(22, 235, 22);
 }
 
 .position-container:hover{

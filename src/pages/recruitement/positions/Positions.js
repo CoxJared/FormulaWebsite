@@ -30,7 +30,7 @@ export class Positions extends Component {
                                 {   name:"Skills Needed",
                                     text:["The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience!"]}],
                             openings: 'Sept 21, 2019',
-                            applyLink: "#"
+                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xURVpVWU0xMkFSSVRPUTVDMFAwMEtYR01POCQlQCN0PWcu"
                         }, 
                         {
                             type:['mechanical'],
@@ -67,7 +67,7 @@ export class Positions extends Component {
                             text:["Simulate and CAD (Computer Aided Design) parts for any of the vehicle dynamics subsystem ", "Generate, edit, publish and share engaging content daily(e.g. original text, photos, videos and news)", "Manufacturing parts out of steel, aluminum and composite materials using machining and fabrication tools such as the mill, lathe, MIG/TIG welders and more!", "Testing and tuning the vehicle dynamics sub-systems in the field and relating it to our simulation data","Managing designs as well as paperwork including documentation needed for competition and part drawings  "]}
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "#"
+                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xURFhFV1BVSFBWUzQ1TEtLTlFVSkc0SDJSVyQlQCN0PWcu"
                             // background:aeroBackground
                         },
                         {
@@ -99,7 +99,7 @@ export class Positions extends Component {
                             }
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "#"
+                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HclmcmkxBbnRNmow05I7ILTpUMjE0WE1IUkJZNzVXUEtKUUpCUThVQU1XVy4u"
                             // background:aeroBackground
                         },  
                         {
@@ -212,7 +212,7 @@ export class Positions extends Component {
                             }
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "#"
+                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUQlg2SDJTUFkwODI1OUtPWEgzMElZUUo4VCQlQCN0PWcu"
                         }   
                 ]   
         }
