@@ -137,8 +137,10 @@ export class Positions extends Component {
                             name:'Software and Embedded Systems',
                             description:[
                                 {body:'Learn about developing and designing software for embedded systems and software applications.'},
-                                {body: 'As a Software Developer, you’ll get experience with:'},
-                                {body: '- Writing code for a complex system'},
+                                {body:'Also, you’ll be programming microcontrollers to interface with various sensors such as a GPS, an accelerometer, thermistors, and many more.'},
+                                {body: 'As a Software & Embedded Systems Developer, you’ll get experience with: '},
+                                {body: '- Interfacing with microcontroller hardware features such as timers, PWMs, DACs, and ADCs '},
+                                {body: '- C/C++ programming and bit of python '},
                                 {body: '- Communication protocols such as SPI, I2C, UART, and CAN'},
                                 {body: '- Understanding circuit diagrams'},],
                             lists:[
@@ -154,9 +156,11 @@ export class Positions extends Component {
                             name:'Controls',
                             description:[
                                 {body:'The vehicle control system is responsible for actuating and monitoring the status of the car.'},
+                                {body:'More specifically, the control system is responsible for implementing algorithms to optimize the vehicle cooling system, improving vehicle efficiency, improving vehicle dynamics, and running diagnostics while the vehicle is in operation.'},
                                 {body: 'As a Controls Developer, you’ll get experience with: '},
                                 {body: '- MATLAB and Simulink '},
                                 {body: '- Modeling and simulating physical components and systems'},
+                                {body: '- Implementing mathematical algorithms and feed-back controllers'},
                                 {body: '- Vehicle diagnostics and telemetry'},
                                 {body: '- Communication protocols such as SPI, I2C, UART, and CAN'},],
                             lists:[
