@@ -25,7 +25,7 @@ export class RecruitmentInfo extends Component {
             <div>
                 <div className="recruitment-header-buffer"/>
                 <WhyJoin 
-                updatePage={this.props.updatePage}/>
+                    updatePage={this.props.updatePage}/>
             </div>
         )
         } 

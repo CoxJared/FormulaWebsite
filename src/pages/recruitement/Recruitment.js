@@ -43,17 +43,21 @@ export class Recruitment extends Component {
                 <div >
                     {/* {this.state.loadingElement} */}
                     <Header 
-                    page="recruitment"/>
+                        page="recruitment"/>
                     <div className="recruitment-page-container">
-                    <RecruitmentShowcase 
-                    recruitmenttitle="JOIN US"
-                    updatePage={this.updatePage}
-                    backgroundimage={peopleCadding}
-                    button={<button className="view-positions-buttons" onClick={this.updatePage.bind(this,"positions")}>Open Positions</button>}
-                    para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
-                    imageLoaded={this.imageLoaded}/>
-                    <RecruitmentInfo 
-                    updatePage={this.updatePage}/>
+                        <RecruitmentShowcase 
+                            recruitmenttitle="JOIN US"
+                            updatePage={this.updatePage}
+                            backgroundimage={peopleCadding}
+                            button={<button 
+                                        className="view-positions-buttons" 
+                                        onClick={this.updatePage.bind(this,"positions")}>
+                                            Open Positions
+                                    </button>}
+                            para="If you are a student at Mcmaster University wanting to learn the ins and outs of high performance motorsports, then come join a group of like-minded individuals trying to push the boundaries of electric vehicle technology"
+                            imageLoaded={this.imageLoaded}/>
+                        <RecruitmentInfo 
+                        updatePage={this.updatePage}/>
                     </div>
                     <Footer />
                 </div>
@@ -79,7 +83,6 @@ export class Recruitment extends Component {
             )
         }
         else{
-            console.log(this.state.page)
             return(
                 <div>
                 <Header 

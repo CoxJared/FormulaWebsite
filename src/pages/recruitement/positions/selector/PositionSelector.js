@@ -19,37 +19,37 @@ render() {
             <div className="position-picker">
                 <div className="position">
                     <h1 
-                    className={`position-name ${this.isSelected("all", this.props.positions)}`}
-                    onClick={this.props.updatePosition.bind(this, "all")}
-                    >All
+                        className={`position-name ${this.isSelected("all", this.props.positions)}`}
+                        onClick={this.props.updatePosition.bind(this, "all")}>
+                            All
                     </h1>
                 </div>
                 <div className="position">
                     <h1 
-                    className={`position-name ${this.isSelected("mechanical", this.props.positions)}`}
-                    onClick={this.props.updatePosition.bind(this, "mechanical")}
-                    >Mechanical
+                        className={`position-name ${this.isSelected("mechanical", this.props.positions)}`}
+                        onClick={this.props.updatePosition.bind(this, "mechanical")}>
+                            Mechanical
                     </h1>
                 </div>
                 <div className="position">
                     <h1 
-                    className={`position-name ${this.isSelected("electrical", this.props.positions)}`}
-                    onClick={this.props.updatePosition.bind(this, "electrical")}
-                    >Electrical
+                        className={`position-name ${this.isSelected("electrical", this.props.positions)}`}
+                        onClick={this.props.updatePosition.bind(this, "electrical")}>
+                            Electrical
                     </h1>
                 </div>
                 <div className="position">
                     <h1 
-                    className={`position-name ${this.isSelected("software", this.props.positions)}`}
-                    onClick={this.props.updatePosition.bind(this, "software")}
-                    >Software
+                        className={`position-name ${this.isSelected("software", this.props.positions)}`}
+                        onClick={this.props.updatePosition.bind(this, "software")}>
+                            Software
                     </h1>
                 </div>
                 <div className="position">
                     <h1 
-                    className={`position-name ${this.isSelected("business", this.props.positions)}`}
-                    onClick={this.props.updatePosition.bind(this, "business")}
-                    >Business
+                        className={`position-name ${this.isSelected("business", this.props.positions)}`}
+                        onClick={this.props.updatePosition.bind(this, "business")}>
+                            Business
                     </h1>
                 </div>
             </div>
