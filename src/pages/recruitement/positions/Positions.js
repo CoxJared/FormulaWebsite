@@ -119,14 +119,10 @@ export class Positions extends Component {
                                 {
                             name:'Specific Responsibilities: ',
                             text:['Design and test low voltage circuits within the Accumulator ','Communicate with other teams to ensure all wiring and space needs are met ','Design and test PCBs with HV and LV circuits ','Communicate with other teams to ensure power needs are met and all circuits can be properly integrated  ','Ensure system meets all competition rules and requirements ']},
-                            {
-                                name:"What you will learn: ",
-                                text:['Organization', 'Component and System Level Testing ', 'In-depth knowledge of high voltage systems ', 'In-depth knowledge of batteries  ', 'Time Management']
-                            },
-                            {
-                                name:"Beneficial Qualifications:  ",
-                                text:['Proficient with MATLAB ', 'HV Training ','Experience with Electrical Simulation software (PSpice) ','PCB and Schematic Design (preference towards Altium Designer) ','Knowledgeable in controller area networks (CAN) ','Experience with large reports ','Experience with lithium ion or lithium polymer batteries ','Leadership and project management ','An enthusiasm to learn!']
-                            }
+                            {   name:"What you will learn: ",
+                                text:['Organization', 'Component and System Level Testing ', 'In-depth knowledge of high voltage systems ', 'In-depth knowledge of batteries  ', 'Time Management']},
+                            {   name:"Beneficial Qualifications:  ",
+                                text:['Proficient with MATLAB ', 'HV Training ','Experience with Electrical Simulation software (PSpice) ','PCB and Schematic Design (preference towards Altium Designer) ','Knowledgeable in controller area networks (CAN) ','Experience with large reports ','Experience with lithium ion or lithium polymer batteries ','Leadership and project management ','An enthusiasm to learn!']}
                             ],
                             openings: 'Sept 21, 2019',
                             applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUQkpaTFNOSllER1gyT09IMzNWUE0wWVo4MCQlQCN0PWcu"
@@ -179,17 +175,12 @@ export class Positions extends Component {
                                 {body:'This role also requires the candidate to create a business case presentation for competition, forecasts for budgeting, and cash flow reports. They will also be responsible to implement strategies to cut down on costs and make recommendations to streamline project management.'}
                             ],
                             lists:[
-                                {
-                            name:'Duties include:',
-                            text:["Develop business case presentation for competition",'Assisting in the preparation of budgets ','Managing records and receipts ','Reconciling daily, monthly and yearly transactions ','Preparing balance sheets ','Processing invoices ','Being a key point of contact for other departments on financial and accounting matters ','Establish the company’s goals and objectives ','Assist in recruitment and training of new team members ']},
-                            {
-                                name:'What you will learn: ',
-                                text:['How to fully take control of an organization’s books ','How to create a budget and try to allocate money to ensure the project is financially stable ','How to write effective business proposals ']
-                            },
-                            {
-                                name:'Beneficial Qualifications: ',
-                                text:['Experience with bookkeeping ','Strong organization skills ','Effective presentation and communication skills ','An enthusiasm to learn! ']
-                            }
+                                {   name:'Duties include:',
+                                    text:["Develop business case presentation for competition",'Assisting in the preparation of budgets ','Managing records and receipts ','Reconciling daily, monthly and yearly transactions ','Preparing balance sheets ','Processing invoices ','Being a key point of contact for other departments on financial and accounting matters ','Establish the company’s goals and objectives ','Assist in recruitment and training of new team members ']},
+                                {   name:'What you will learn: ',
+                                    text:['How to fully take control of an organization’s books ','How to create a budget and try to allocate money to ensure the project is financially stable ','How to write effective business proposals ']},
+                                {   name:'Beneficial Qualifications: ',
+                                    text:['Experience with bookkeeping ','Strong organization skills ','Effective presentation and communication skills ','An enthusiasm to learn! ']}
                             ],
                             openings: 'Sept 21, 2019',
                             applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUM1M3V1pDTkZQTjlFODBCRzhZWDdYUEwwVCQlQCN0PWcu"
@@ -198,22 +189,16 @@ export class Positions extends Component {
                             type:['business'],
                             name:'Marketing & Sponsorship',
                             description:[
-                                {   body:'The Marketing & Sponsorship Manager, you will be responsible for building and leading all phases of the sponsorship & marketing program.'},{
-                                    body:'This involves responsibility for developing and maintaining a marketing plan for the sponsor program in order to meet or exceed the overall business objectives.'
-                                }
+                                {   body:'The Marketing & Sponsorship Manager, you will be responsible for building and leading all phases of the sponsorship & marketing program.'},
+                                {   body:'This involves responsibility for developing and maintaining a marketing plan for the sponsor program in order to meet or exceed the overall business objectives.'}
                             ],
                             lists:[
-                                {
-                            name:'Duties include:',
-                            text:["Develop and implement a sponsorship plans for increasing revenues in a cost-effective manner. Target objectives include increasing sponsorship sales and creating sponsorship products and licensing deals in order to meet or exceed the overall business objectives. ", 'Develop and implement a sponsorship budget to achieve the sales plan. ','Develop and implement an annual trade show or other events to assist in achieving the business objectives. ','Manages all sponsorship activities. Responsible for sponsor prospecting, proposal customization and presentation, contract revision and servicing, sponsor follow-up and support, trade shows development and representing the company at industry functions. ','Oversee social media accounts’ design (e.g. Facebook timeline cover, profile pictures and blog layout) ','Suggest and implement new features to develop brand awareness, like promotions and competitions ']},
-                            {
-                                name:'What you will learn:',
-                                text:['Client relationship management skills','Writing effective proposals ','Experience coordinating events ','Social media management ']
-                            },
-                            {
-                                name:'Beneficial Qualifications:',
-                                text:['Event sponsorship experience is a plus!','A positive, ego-free attitude and willingness to work creatively on new ideas. ','Ability to develop effective working relationships with teammates and partners. ','An enthusiasm to learn! '] 
-                            }
+                                {   name:'Duties include:',
+                                    text:["Develop and implement a sponsorship plans for increasing revenues in a cost-effective manner. Target objectives include increasing sponsorship sales and creating sponsorship products and licensing deals in order to meet or exceed the overall business objectives. ", 'Develop and implement a sponsorship budget to achieve the sales plan. ','Develop and implement an annual trade show or other events to assist in achieving the business objectives. ','Manages all sponsorship activities. Responsible for sponsor prospecting, proposal customization and presentation, contract revision and servicing, sponsor follow-up and support, trade shows development and representing the company at industry functions. ','Oversee social media accounts’ design (e.g. Facebook timeline cover, profile pictures and blog layout) ','Suggest and implement new features to develop brand awareness, like promotions and competitions ']},
+                                {   name:'What you will learn:',
+                                    text:['Client relationship management skills','Writing effective proposals ','Experience coordinating events ','Social media management ']},
+                                {   name:'Beneficial Qualifications:',
+                                    text:['Event sponsorship experience is a plus!','A positive, ego-free attitude and willingness to work creatively on new ideas. ','Ability to develop effective working relationships with teammates and partners. ','An enthusiasm to learn! '] }
                             ],
                             openings: 'Sept 21, 2019',
                             applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xURERXS0lGUk9JWFZBVElPMUUwMDZDQUg4RCQlQCN0PWcu"
@@ -238,29 +223,28 @@ export class Positions extends Component {
         const positions = 
         <div className="positions-section-container">
                 <div className="positions-container">
-        {visiblePosition.map(position => (
-            <div className={`position-container ${(position.applyLink === '#'? 'closed':'open')}`} >
-                <div className="position" onClick={this.props.updatePositionPage.bind(this, position)}>
-                    <div className="position-title-container">
-                        <h1 className="position-title">{position.name}</h1>
-                    </div>
-                    <div className="position-openings-container">
-                        <h2 className="position-opening-title">Closing: </h2>
-                        <h1 className="position-openings">{position.openings}</h1>
-                    </div>
-                    <div className="position-description-container">
-                        <p className="position-description"> {position.description[0].body}</p>
-                    </div>
+                    {visiblePosition.map(position => (
+                        <div className={`position-container ${(position.applyLink === '#'? 'closed':'open')}`} >
+                            <div className="position" onClick={this.props.updatePositionPage.bind(this, position)}>
+                                <div className="position-title-container">
+                                    <h1 className="position-title">{position.name}</h1>
+                                </div>
+                                <div className="position-openings-container">
+                                    <h2 className="position-opening-title">Closing: </h2>
+                                    <h1 className="position-openings">{position.openings}</h1>
+                                </div>
+                                <div className="position-description-container">
+                                    <p className="position-description"> {position.description[0].body}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-        ))}
-        </div>
-        </div>
 
         return (
             <div>
                 <PositionSelector updatePosition={this.updatePositions} positions={this.state.positionsListed}/>
-
                 {positions}
             </div>
 

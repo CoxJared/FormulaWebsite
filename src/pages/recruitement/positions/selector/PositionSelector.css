@@ -1,32 +1,24 @@
 .positions-picker-container {
     width: 100%;
     max-width:1400px;
-    /* background: linear-gradient(to right, #222, #272727); */
     height: 60px;
     position:absolute;
     top:640px;
-    z-index:20;
-    /* justify-content: center; */
-    /* border:1px solid green; */
-}
+    z-index:20;}
 
 .position-picker{
     position: relative;
     width: 900px;
     height:100%;
     margin:auto;
-    /* border:1px solid blue; */
-    display: flex;
-}
+    display: flex;}
 
 .position-picker-2018{
     position: relative;
     width: 260px;
     height:100%;
     margin:auto;
-    /* border:1px solid blue; */
-    display: flex;
-}
+    display: flex;}
 
 .position {
    position: relative;
