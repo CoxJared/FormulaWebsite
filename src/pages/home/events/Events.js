@@ -5,6 +5,7 @@ import Media from '../../../components/media/Media';
 import welcomeWeekPhoto from './../../../img/events-backgrounds/simulator-ponytail.jpg';
 import saeNight from './../../../img/events-backgrounds/sae-night-background.jpg';
 import formulaNorth from './../../../img/events-backgrounds/formula-north.jpg';
+import infoSesh from './../../../img/events-backgrounds/Fall 2019 Poster.jpg';
 
 export function Events () {
     return (
@@ -19,6 +20,13 @@ export function Events () {
                     
                 <div className="events-events">
                     <Media 
+                    link="https://www.facebook.com/events/473860533169923/"
+                    date="September 13, 2019"
+                    title="Info Session - Recruitment"
+                    message="Learn More"
+                    image={infoSesh}
+                    />
+                    <Media 
                     link="https://www.facebook.com/events/2381516432105723/"
                     date="August 27, 2019"
                     title="Welcome Week - Recruitment"
@@ -32,13 +40,13 @@ export function Events () {
                     message="Learn More"
                     image={saeNight}
                     />
-                    <Media 
+                    {/* <Media 
                     link="https://www.sae.org/attend/student-events/formula-sae-north"
                     date="March 4, 2019"
                     title="FSAE - Formula North"
                     message="Learn More"
                     image={formulaNorth}
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
