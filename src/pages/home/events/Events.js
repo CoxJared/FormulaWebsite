@@ -22,14 +22,16 @@ export function Events () {
                     <Media 
                     link="https://www.facebook.com/events/473860533169923/"
                     date="September 13, 2019"
-                    title="Info Session - Recruitment"
+                    title="Information Session"
+                    label="Recruitment"
                     message="Learn More"
                     image={infoSesh}
                     />
                     <Media 
                     link="https://www.facebook.com/events/2381516432105723/"
                     date="August 27, 2019"
-                    title="Welcome Week - Recruitment"
+                    title="Welcome Week"
+                    label="Recruitment"
                     message="Learn More"
                     image={welcomeWeekPhoto}
                     />
