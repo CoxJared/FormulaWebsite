@@ -56,12 +56,18 @@
 
 
 .sponsorshowcase-button:hover {
-    background: rgba(0,0,10,.45);
+    background: rgba(8, 44, 85, 0.45);
     cursor: pointer;
     box-shadow: 3px 3px 5px #333;
 }
 
+/* .package-button{
+    background: rgba(253, 100, 100, 0.13);
+} */
 
+.package-button:hover{
+    background: rgba(255, 76, 76, 0.26);
+}
 
 @media only screen and (max-width: 800px) {
     
@@ -114,6 +120,10 @@
         background: rgba(0,0,10,.25);
         text-decoration: none;
         border:1px solid #fff;
+    }
+    
+    .package-button:hover{
+        background: rgba(255, 76, 76, 0.287);
     }
     
 }
