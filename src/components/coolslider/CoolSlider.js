@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import fullting from './../../img/slider-full.png';
 import naaaa from './../../img/blue.png';
 import './CoolSlider.css';
-
 export class CoolSlider extends Component {
 
     componentWillMount(){
@@ -19,21 +18,17 @@ export class CoolSlider extends Component {
         
             wrapper.addEventListener('mousemove', function(e){
             delta = (e.clientX - window.innerWidth / 2) * 0.5;
-        
             handle.style.left = e.clientX + delta + 'px';
-
             topLayer.style.width = e.clientX + skew + delta + 'px';})}
         catch{}
-        });
-        
+        }); 
     }
 
     render() {  
-        
+       
         return (
             <div>
                 <section className="skewed" id="wrapper">
-
                     <div className="layer bottom">
                         <div className="content-wrap">
                             <div className="content-body">
@@ -43,7 +38,6 @@ export class CoolSlider extends Component {
                             <img className="" src={fullting} alt=""/>
                         </div>
                     </div>
-
                     <div className="layer top">
                         <div className="content-wrap">
                             <div className="content-body">
@@ -53,9 +47,7 @@ export class CoolSlider extends Component {
                             <img className="" src={naaaa} alt=""/>
                         </div>
                     </div>
-
                     <div className="handle"></div>
-
                 </section>
             </div>
         )
