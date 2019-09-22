@@ -34,7 +34,7 @@ export class Position extends Component {
                     <div className="position-posting-applynow-container">
 
                         {this.props.position.applyLink === '#'?
-                            <a className="position-posting-applynowi-disabled" href="">Applications Open September 3rd</a>
+                            <a className="position-posting-applynowi-disabled" href="">Closed</a>
                             :<a className="position-posting-applynow"  onClick={this.openApplication}>Apply Now</a>
                         }
 

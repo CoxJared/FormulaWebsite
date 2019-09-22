@@ -30,7 +30,7 @@ export class Positions extends Component {
                                 {   name:"Skills Needed",
                                     text:["The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience!"]}],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUQkRaVkw4QU83RldRSklQN0ZON0UyTDZaUCQlQCN0PWcu"
+                            applyLink: "#"
                         }, 
                         {
                             type:['mechanical'],
@@ -48,7 +48,7 @@ export class Positions extends Component {
                             {   name:'Responsibilities',
                                 text:["Design new chassis geometry using CAD and FEA", "Perform 3-point bend tests and shear tests on carbon fibre samples", "Create moulds for creating composite components", "Work with other subteams to assure cohesion with other components of the car", "Prepare important documents for competition", "Seek sponsorships from companies", "Develop new prepreg composite processes and documentation", "Use hand tools","Welding"]},],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUMDZaMVpMUEs1OFZVRkIxQ1NNVVZPODRIUyQlQCN0PWcu"
+                            applyLink: "#"
                         }, 
                         {
                             type:['mechanical'],
@@ -67,7 +67,7 @@ export class Positions extends Component {
                             text:["Simulate and CAD (Computer Aided Design) parts for any of the vehicle dynamics subsystem ", "Generate, edit, publish and share engaging content daily(e.g. original text, photos, videos and news)", "Manufacturing parts out of steel, aluminum and composite materials using machining and fabrication tools such as the mill, lathe, MIG/TIG welders and more!", "Testing and tuning the vehicle dynamics sub-systems in the field and relating it to our simulation data","Managing designs as well as paperwork including documentation needed for competition and part drawings  "]}
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUNU5BM0ZKRkdKUDFKVUo1WEU2UDNYUkY5VSQlQCN0PWcu"
+                            applyLink: "#"
                             // background:aeroBackground
                         },
                         {
@@ -99,7 +99,7 @@ export class Positions extends Component {
                             }
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUMjZWRFQxTEg4RjEzMUhHVTJJQUdOMzBJSCQlQCN0PWcu"
+                            applyLink: "#"
                             // background:aeroBackground
                         },  
                         {
@@ -125,7 +125,7 @@ export class Positions extends Component {
                                 text:['Proficient with MATLAB ', 'HV Training ','Experience with Electrical Simulation software (PSpice) ','PCB and Schematic Design (preference towards Altium Designer) ','Knowledgeable in controller area networks (CAN) ','Experience with large reports ','Experience with lithium ion or lithium polymer batteries ','Leadership and project management ','An enthusiasm to learn!']}
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUQkpaTFNOSllER1gyT09IMzNWUE0wWVo4MCQlQCN0PWcu"
+                            applyLink: "#"
                             // background:aeroBackground
                         },  
                         {
@@ -145,7 +145,7 @@ export class Positions extends Component {
                                 {   name:'Skills Needed:',
                                     text:['The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience! ']}],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUMzI1QVo2Q0VCMjVTSUNSWFpMMElRTTFJUyQlQCN0PWcu"
+                            applyLink: "#"
                         },
                         {
                             type:['software'],
@@ -165,7 +165,7 @@ export class Positions extends Component {
                                 {   name:'Skills Needed:',
                                     text:['The team needs people with different skill backgrounds so don’t be discouraged if you don’t have any relevant experience! ']}],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUODhBU1FOUVQxOU5aTEkwNkFXSkgyRjE4SSQlQCN0PWcu"
+                            applyLink: "#"
                         },
                         {
                             type:['business'],
@@ -183,7 +183,7 @@ export class Positions extends Component {
                                     text:['Experience with bookkeeping ','Strong organization skills ','Effective presentation and communication skills ','An enthusiasm to learn! ']}
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xUM1M3V1pDTkZQTjlFODBCRzhZWDdYUEwwVCQlQCN0PWcu"
+                            applyLink: "#"
                         },
                         {
                             type:['business'],
@@ -201,7 +201,7 @@ export class Positions extends Component {
                                     text:['Event sponsorship experience is a plus!','A positive, ego-free attitude and willingness to work creatively on new ideas. ','Ability to develop effective working relationships with teammates and partners. ','An enthusiasm to learn! '] }
                             ],
                             openings: 'Sept 21, 2019',
-                            applyLink: "https://forms.office.com/Pages/ResponsePage.aspx?id=B2M3RCm0rUKMJSjNSW9HcudP17cNU8BHgDGFRZepf_xURERXS0lGUk9JWFZBVElPMUUwMDZDQUg4RCQlQCN0PWcu"
+                            applyLink: "#"
                         }   
                 ]   
         }
