@@ -17,8 +17,6 @@ class MainShowcase extends Component {
                     <div className="culture-container">
                         <h3 className="culture-text">A multidisciplinary project that brings together the most passionate students to work towards a common goal.</h3>
                     </div>
-                    <Link to='recruitment'>
-                        <button className='showcase-apply-now-button'>Apply Now</button></Link>
                 </div>
             </div>
          
