@@ -39,7 +39,7 @@ export class Position extends Component {
                         }
 
                     </div>
-                    <h2 className="position-posting-date">Closing: <span style={{color:'#c22'}}>{this.props.position.openings}</span> </h2>
+                    <h2 className="position-posting-date">Closed: <span style={{color:'#c22'}}>{this.props.position.openings}</span> </h2>
 
                     <h1 className="position-posting-heading">Description</h1>
                     {this.props.position.description.map(para => (
@@ -47,7 +47,6 @@ export class Position extends Component {
                         <p className="position-posting-description"><span className="position-posting-description-bold">{para.head}</span>{para.body}</p>
                         </>
                     ))}
-                    
                     {this.props.position.lists.map(list => (
                         <>
                         <h1 className="position-posting-heading">{list.name}</h1>
