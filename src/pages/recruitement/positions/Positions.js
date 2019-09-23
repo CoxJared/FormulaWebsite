@@ -230,7 +230,7 @@ export class Positions extends Component {
                                     <h1 className="position-title">{position.name}</h1>
                                 </div>
                                 <div className="position-openings-container">
-                                    <h2 className="position-opening-title">Closing: </h2>
+                                    <h2 className="position-opening-title">Closed: </h2>
                                     <h1 className="position-openings">{position.openings}</h1>
                                 </div>
                                 <div className="position-description-container">
