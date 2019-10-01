@@ -29,6 +29,7 @@ import HoosierLogo from './../../../img/sponsor-logos/hoosier-logo.png';
 import OshparkLogo from './../../../img/sponsor-logos/oshpark-logo.png';
 import FaroLogo from './../../../img/sponsor-logos/faro-logo.png';
 import redbulllogo from './../../../img/sponsor-logos/redbul-logo.png';
+import electrometers from './../../../img/sponsor-logos/electro-meters-logo.png';
 
 export class SponsorExplorer extends Component {
     state = {
@@ -98,7 +99,11 @@ export class SponsorExplorer extends Component {
             {id: 1,
                 name: 'ViGrade',
                 websiteLink: 'https://www.vi-grade.com/',
-                img: ViGradeLogo}
+                img: ViGradeLogo},
+            {id: 1,
+                name: 'Electro Meters',
+                websiteLink: 'http://www.electro-meters.com/',
+                img: electrometers}
         ],
         silver: [
             {id: 0,
