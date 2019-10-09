@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './SeasonPicker.css';
 
 import imageTocheck from './../../../img/nite-life.jpg'
+import teamPhoto from './../../../img/team-photo.jpg'
 
 export class SeasonPicker extends Component {
     constructor(props){
@@ -17,9 +18,14 @@ export class SeasonPicker extends Component {
     } 
 
     render() {
+
+        console.log(this.props.season)
+
+        let backgroundImage = this.props.season === '2020' ? teamPhoto : imageTocheck
+
         return (
-            <div className="season-picker-container section-2019-overview">
-                <img src={imageTocheck} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.props.imageLoaded} />
+            <div className={`season-picker-container section-2019-overview ${this.props.season==='2020'?'season-2020':'season-2019'}`}>
+                <img src={backgroundImage} style={{height:'0', width:'0', opacity:'0'}} onLoad={this.props.imageLoaded} />
                 <div className="season-picker">
 
                 <div 

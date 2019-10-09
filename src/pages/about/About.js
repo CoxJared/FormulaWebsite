@@ -18,7 +18,7 @@ export class About extends Component {
         super(props)
         this.state = {
             section: "overview",
-            season: "2019",  
+            season: "2020",  
             loadingElement:<LoadingSpinner />,
             displayWindow:  {
                 "2018":
