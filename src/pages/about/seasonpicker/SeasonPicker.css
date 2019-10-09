@@ -38,6 +38,22 @@
     background-size: cover;
     background-position: 20%;
 }
+.season-2020::after{
+    content: "";
+    background:  linear-gradient( rgba(11, 20, 26, 0.776), rgba(10, 19, 24, 0.633) ),url('./../../../img/team-photo.jpg');
+    background-size: cover;
+    position: absolute;
+    opacity:0.92;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+
+    z-index: -1;  
+    background-position-y: 0px;
+    background-size: cover;
+    background-position: 20%;
+}
 
 .year-container {
     margin-top: 10px;
@@ -87,7 +103,7 @@
     opacity:1;
 }
 .unselected-season:hover .time-dot {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 245);
 
 }
 
@@ -123,6 +139,22 @@
     .section-2019-overview::after{
         content: "";
         background:  linear-gradient( rgba(10, 16, 20, 0.60), rgba(10, 16, 20, 0.60) ),url('./../../../img/nite-life.jpg');
+        background-size: cover;
+        position: absolute;
+        opacity:0.88;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+    
+        z-index: -1;  
+        background-position-y: 0px;
+        background-size: cover;
+        background-position-x: 10%;
+    }
+    .season-2020::after{
+        content: "";
+        background:  linear-gradient( rgba(10, 16, 20, 0.60), rgba(10, 16, 20, 0.60) ),url('./../../../img/team-photo.jpg');
         background-size: cover;
         position: absolute;
         opacity:0.88;
