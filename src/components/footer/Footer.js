@@ -18,7 +18,6 @@ export function footer() {
                 <div className="made-with-container">
                     <h1>Made With <span className="love">Love</span> In Canada</h1>
                 </div> 
-                
             </div>
         </div>
     )
