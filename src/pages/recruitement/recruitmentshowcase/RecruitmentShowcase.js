@@ -14,7 +14,7 @@ export class RecruitmentShowcase extends Component {
                     <h1 className="join-us-name">{this.props.recruitmenttitle}</h1>
                     <p className="join-us-paragraph">{this.props.para}</p>
                     
-                    {this.props.button}
+                    {/* {this.props.button} */}
                     <img className="recruitment-background-image" src={this.props.backgroundimage}/>
                 </div>
             </div>
