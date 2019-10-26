@@ -1,0 +1,107 @@
+.tier-picker-container {
+    width: 100%;
+    max-width:1400px;
+    /* background: linear-gradient(to right, #222, #272727); */
+    height: 0px;
+    position:absolute;
+    top:640px;
+    z-index:20;
+    /* justify-content: center; */
+    
+}
+
+.tier-picker{
+    position: relative;
+    width: 390px;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier {
+   position: relative;
+   width: 330px;
+   height:100%;
+   margin:auto 20px;
+}
+
+.tier-name {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    color:#fff;
+    opacity: .3;
+    vertical-align: middle;
+    padding:12px 15px 10px 15px;
+}
+
+
+.selected-section {
+    color:#fff;
+    opacity: 1;
+    border-bottom:7px solid #fff;
+}
+.tier:hover {
+    cursor: pointer;
+}
+.tier:hover .unselected-section{
+    color:#fff;
+    /* font-size: 22px; */
+    opacity: .8;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .tier-picker-container {
+        width: 100%;
+        /* background: linear-gradient(to right, #222, #272727); */
+        height: 30px;
+        top:322px;
+        z-index:20;
+        /* justify-content: center; */
+        /* border:1px solid green; */
+    }
+
+    .tier-picker{
+        width:270px;
+    }
+    
+    .tier{
+        width:90px;
+    }
+
+    
+    .tier-name {
+        font-size: 18px;
+        font-family: 'Rajdhani', sans-serif;
+        color:#fff;
+        opacity: .3;
+        vertical-align: middle;
+        padding-top:12px;
+        padding-bottom:10px;
+        
+    }
+
+    .hide-choice {
+        width: 0;
+    }
+    
+    .selected-section {
+        /* font-size: 27px; */
+        color:#fff;
+        opacity: 1;
+        /* padding-top:8px; */
+        border-bottom:3px solid #fff;
+    }
+    .tier:hover {
+        cursor: pointer;
+    }
+    .tier:hover .unselected-section{
+        color:#fff;
+        /* font-size: 22px; */
+        opacity: .8;
+    }
+    
+}    
