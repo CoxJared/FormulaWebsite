@@ -78,18 +78,21 @@ export class donate extends Component {
                     <div className="why-donate-container-page">
 
                         <div className="why-donate-showcase">
-                            <h1 className="why-donate-header">2019-2020 Season Campaign</h1>
+                            <h1 className="why-donate-header">2020 Campaign</h1>
                             {/* <button className="view-tiers-button" onClick={this.showTiers}>Donate</button> */}
                             {/* <a href="https://www.paypal.com/cgi-bin/webscr" target='_blank' className="sponsorshowcase-button package-button">Sponsorship Package</a> */}
 
                             <div className="status-container">
 
-                                <h1 className="goal-header">$50,000.00</h1>
+                                <h1 className="goal-header">$40,000.00</h1>
                                 <div className="status-bar-container">
                                     <div className="status-bar">
                                         <h1 className="status-value">$4,565.00</h1>
                                     </div>
-                                    <div className={`contribution ${this.state.section}`} />
+                                    <div className={`contribution ${this.state.section}`} >
+                                        {/* {this.state.section === "" ? <div /> : <h1 className="contribution-value">{this.state.section} Contribution</h1>}   */}
+                                        <h1 className="contribution-value">{info.range}</h1>
+                                    </div>
                                 </div>
                                 <h1 className="last-updated-header">Last Updated: October 26</h1>
 

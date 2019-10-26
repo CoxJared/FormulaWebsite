@@ -10,7 +10,8 @@
 
 .why-donate-showcase::after{
     content:"";
-    background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../img/team-photo.jpg");
+    background: linear-gradient( rgba(39, 52, 110, 0.65), rgba(8, 29, 20, 0.65) );
+    /* background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../img/team-photo.jpg"); */
     background-size: cover;
     background-position-y:75%;
 
@@ -79,6 +80,7 @@
         height:100%;
         background-color: rgba(251, 255, 45, 0.403);   
         float:left;
+        /* overflow: hidden; */
     }
     .Title{
           
@@ -95,6 +97,20 @@
     }
     .Bronze{     
         width:50px;   
+    }
+
+    .contribution-value{
+        position:relative;
+        top:-30px;
+        font-size:19px;
+        opacity:0;
+        color:rgba(220, 255, 65, 0.904);
+        font-weight:bold;
+        /* padding-top:16px; */
+    }
+    .contribution:hover .contribution-value{
+        opacity:1;
+        font-size:21px;
     }
 
     .last-updated-header{
