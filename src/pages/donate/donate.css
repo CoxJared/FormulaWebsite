@@ -51,7 +51,7 @@
     }
 
     .status-bar{
-        width: 200px;
+        width: 0px;
         height:100%;
         background-color:rgba(65, 255, 113, 0.704);
         border-top-left-radius: 10px;
@@ -80,6 +80,8 @@
         height:100%;
         background-color: rgba(251, 255, 45, 0.403);   
         float:left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
         /* overflow: hidden; */
     }
     .Title{
@@ -96,7 +98,11 @@
         width:80px;   
     }
     .Bronze{     
-        width:50px;   
+        width:55px;   
+    }
+    .Contributor{
+        width:0px;
+        opacity: 0;
     }
 
     .contribution-value{
@@ -105,6 +111,8 @@
         font-size:19px;
         opacity:0;
         color:rgba(220, 255, 65, 0.904);
+
+        
         font-weight:bold;
         /* padding-top:16px; */
     }
