@@ -47,6 +47,10 @@ export class donate extends Component {
                 info.range=">$500"
                 info.benefits=["Job Promotion & Resume Bank", "Small Logo on Team Website"]
                 break;
+            case "Contributor":
+                info.range="<$500"
+                info.benefits=["Recoginition displayed on Website"]
+                break;
             default:
                 break;
 

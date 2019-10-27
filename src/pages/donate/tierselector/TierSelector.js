@@ -54,6 +54,13 @@ export class TierSelection extends Component {
                         >Bronze
                         </h1>
                     </div>
+                    <div className="tier">
+                        <h1 
+                        className={`tier-name ${this.isSelected("Contributor", this.props.section)}`}
+                        onClick={this.props.updateSection.bind(this, "Contributor")}
+                        >Contributor
+                        </h1>
+                    </div>
                 </div>
             </div>
         )
