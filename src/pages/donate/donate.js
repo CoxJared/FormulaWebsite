@@ -28,19 +28,19 @@ export class donate extends Component {
         switch(this.state.section){
             case "Title":
                 info.range=">$10,000"
-                info.benefits=["Featured Promotional Video", "Company Information Session", "Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "Featured Logo on Team Website", "Multiple Large Vehicles on Vehicle"]
+                info.benefits=["Featured Promotional Video", "Company Information Session", "Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "Featured Logo on Team Website", "Multiple Large Logos on Vehicle"]
                 break;
             case "Platinum":
                     info.range=">$5,000"
-                    info.benefits=["Company Information Session", "Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "X-Large Logo on Team Website", "Large Vehicles on Vehicle"]
+                    info.benefits=["Company Information Session", "Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "X-Large Logo on Team Website", "Large Logo on Vehicle"]
                     break;
             case "Gold":
                 info.range=">$2,000"
-                info.benefits=["Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "X-Large Logo on Team Website", "Medium Logo Vehicles on Vehicle"]
+                info.benefits=["Meet the Team", "Logo on Team T-Shirts", "Job Promotion & Resume Bank", "X-Large Logo on Team Website", "Medium Logo on Vehicle"]
                 break;
             case "Silver":
                 info.range=">$1,000"
-                info.benefits=["Logo on Team T-Shirts", "Job Promotion & Resume Bank", "Medium Logo on Team Website", "Small Vehicles on Vehicle"]
+                info.benefits=["Logo on Team T-Shirts", "Job Promotion & Resume Bank", "Medium Logo on Team Website", "Small Logo on Vehicle"]
                 break;
             case "Bronze":
                 info.range=">$500"
