@@ -1,10 +1,9 @@
 .why-donate-container-page{
-
-    min-height:calc(100vh - 70px);
+    /* min-height:calc(100vh - 70px); */
+    overflow: hidden;
 }
 
 .why-donate-showcase {
-
     height:700px;
     position: relative;
 }
@@ -12,7 +11,8 @@
 
 .why-donate-showcase::after{
     content:"";
-    background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../img/gmvisit.jpg");
+    background: linear-gradient( rgba(39, 52, 110, 0.75), rgba(8, 29, 20, 0.75) );
+    /* background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../img/team-photo.jpg"); */
     background-size: cover;
     background-position-y:75%;
 
@@ -27,9 +27,140 @@
 }
 
 
+.status-container{
+    width:1000px;
+    max-width: 90%;
+    height:150px;
+    margin:auto;
+}
+
+    .goal-header{
+        float:right;
+        position:relative;
+        top:-30px;
+        font-size:22px;
+        font-weight:bold;
+        color:#fff;
+    }
+
+    .status-bar-container{
+        width:100%;
+        height:50px;
+        margin:60px auto 10px auto;
+        background-color:rgba(255, 255, 255, 0.555);
+        border-radius: 10px;
+        /* overflow: hidden; */
+    }
+
+    .status-bar{
+        width: 0px;
+        height:100%;
+        background-color:rgba(65, 255, 113, 0.704);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        float:left;
+    }
+        .status-value{
+            position:relative;
+            top:-30px;
+            font-size:19px;
+            opacity:0;
+            color:rgba(65, 255, 113, 0.904);
+            font-weight:bold;
+            /* padding-top:16px; */
+        }
+
+    .status-bar:hover{
+        background-color:rgba(65, 255, 113, 1);
+    }
+    .status-bar:hover .status-value{
+        opacity:1;
+        font-size:21px;
+    }
+
+    .contribution{
+        height:100%;
+        background-color: rgba(251, 255, 45, 0.403);   
+        float:left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* overflow: hidden; */
+    }
+    .Title{
+          
+        width:25%;   
+    }
+    .Platinum{  
+        width:12.5%;   
+    }
+    .Gold{  
+        width:5%;   
+    }
+    .Silver{     
+        width:2.5%;   
+    }
+    .Bronze{     
+        width:1.5%;   
+    }
+    .Contributor{
+        width:0px;
+        opacity: 0;
+    }
+
+    .contribution-value{
+        position:relative;
+        top:-30px;
+        font-size:19px;
+        opacity:0;
+        color:rgba(220, 255, 65, 0.904);
+
+        
+        font-weight:bold;
+        /* padding-top:16px; */
+    }
+    .contribution:hover .contribution-value{
+        opacity:1;
+        font-size:21px;
+    }
+
+    .last-updated-header{
+        color:#fff;
+        font-size:15px;
+        float:left;
+    }
+
+
+.donate-button-container{
+    position:relative;
+    top:0px;
+    left: 70px;
+}
+
+.hide-donate-info{
+    opacity:0;
+}
+
+.donate-now-button{
+    position: relative;
+    left:-150px;
+    top:-10px;
+    font-size:30px;
+    padding:15px 30px;
+    background: rgba(0,0,20,0.4);
+    color:rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    margin-top:10px;
+    cursor:pointer;}
+
+.donate-now-button:hover{
+    background: rgb(70, 70, 150, 0.45);
+}
+
+
 .why-donate-header{
-    padding-top:260px;
-    width:750px;
+    padding-top:170px;
+    height:270px;
+    width:1000px;
     margin:auto;
     color:#fff;
     font-size:70px;
@@ -43,76 +174,206 @@
     width:90%;
     max-width:900px;
     margin:auto;
-    padding-top:70px;
+    padding-top:90px;
+    padding-bottom:90px;
     font-size:20px;
     line-height: 1.4em;
     text-align: justify;
     color:#444;
+    min-height:calc(100vh - 800px);
 }
 
 .donate-paypal-container{
     padding:50px;
 }
 
+.sponsor-tier-info-container{
+    /* border: 1px solid #fff; */
+    margin-top:90px;
+    height:auto;
+    min-height: calc(100vh - 890px);
+}
+
+    .sponsor-tier-name{
+        /* border:1px solid red; */
+        /* border-right:2px solid #000; */
+        width:370px;
+        margin: 0px 20%;
+        font-weight:normal;
+        font-size:34px;
+    }
+
+    .sponsor-tier-range{
+        /* border: 1px solid blue; */
+        position:relative;
+        top:-40px;
+        width:100px;
+        margin-left: 55%;
+        font-weight:normal;
+    }
+
+    .sponsor-tier-benefits-header{
+        /* border:1px solid blue; */
+        width:200px;
+        height:100px;
+        margin:30px 0 0 23%;
+        color:#666;
+    }
+
+
+    .sponsor-tier-benefits-list{
+        position:relative;
+        top:-100px;
+        /* border:1px solid red; */
+        width:400px;
+        margin-left:43%;
+        list-style:none;
+    }
+    .sponsor-tier-benefits-item{
+        font-size:25px;
+        padding:8px 0;
+        text-align: left;
+        text-decoration: none;
+    }
 
 
 @media only screen and (max-width: 800px) {
 
-    .why-donate-container-page{
-
-        min-height:calc(100vh - 50px);
+    .why-donate-container-page{ 
     }
     
     .why-donate-showcase {
-    
         height:300px;
-        position: relative;
     }
     
     
     .why-donate-showcase::after{
-        content:"";
-        background: linear-gradient( rgba(25, 25, 40, 0.55), rgba(25, 25, 40, 0.55) ),url("./../../img/gmvisit.jpg");
-        background-size: cover;
-        background-position-y:10%;
-    
         height:300px;
-        /* background-position: 20%; */
-        opacity: 0.88;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;  
+    }
+    
+    
+    .status-container{
+        width:95%;
+        height:80px;
+    }
+    
+        .goal-header{
+            font-size:14px;
+            top:-20px;
+        }
+    
+        .status-bar-container{
+            height:30px;
+            margin-top:15px;
+        }
+    
+        .status-bar{
+        }
+            .status-value{
+            }
+    
+        .status-bar:hover{
+        }
+        .status-bar:hover .status-value{
+        }
+    
+        .contribution{
+        }
+        .Title{
+            
+        }
+        .Platinum{  
+        }
+        .Gold{  
+        }
+        .Silver{     
+        }
+        .Bronze{      
+        }
+        .Contributor{
+        }
+    
+        .contribution-value{
+        }
+        .contribution:hover .contribution-value{
+        }
+    
+        .last-updated-header{
+            font-size:10px;
+        }
+    
+    
+    .donate-button-container{
+    }
+    
+    .hide-donate-info{
+    }
+    
+    .donate-now-button{
+        font-size:12px;
+        padding:8px 16px;
+        margin-top:0px;
+        top:-30px;
+    }
+    
+    .donate-now-button:hover{
     }
     
     
     .why-donate-header{
-        padding-top:115px;
-        width:270px;
-        margin:auto;
-        color:#fff;
-        font-size:25px;
-        /* padding-right:350px; */
-        font-weight: normal;
-        font-family: 'Rajdhani', sans-serif;
+        padding-top:20px;
+        height:100px;
+        width:100%;
+        font-size:30px;
     }
     
     
     .why-donate-paragraph{
-        width:90%;
-        max-width:900px;
-        margin:auto;
-        padding:40px 0;
+        padding-top:60px;
         font-size:12px;
-        line-height: 1.4em;
-        text-align: justify;
-        color:#444;
+        line-height: 1.5em;
+        min-height:calc(100vh - 250px);
     }
     
     .donate-paypal-container{
-        padding:10px;
     }
+    
+    .sponsor-tier-info-container{
+        margin-top:40px;
+        min-height:calc(100vh - 475px);
+    }
+    
+        .sponsor-tier-name{
+            width:200px;
+            margin: 0px 5%;
+            font-size:15px;
+        }
+    
+        .sponsor-tier-range{
+            margin-left: 50%;
+            font-size:15px;
+            top:-18px;
+        }
+    
+        .sponsor-tier-benefits-header{
+            width: 100px;
+            height:50px;
+            margin:10px 0 0 10%;
+            font-size:16px;
+        }
+    
+    
+        .sponsor-tier-benefits-list{
+            width:200px;
+            margin-left: 40%;
+            top:-52px;
+
+
+        }
+        .sponsor-tier-benefits-item{
+            font-size:12px;
+            padding:4px 0;
+        }
     
 
 }

@@ -27,13 +27,13 @@ class Header extends Component{
                     (document.getElementById("header")).style.color="#333";
                     (document.getElementById("header")).style.backgroundColor="#fff";
                     (document.getElementById("header")).style.boxShadow="3px 3px 10px grey";
-                    
+                    // (document.getElementById("donate-bav-bar-item")).style.color="#a55";
                 }
                 else{
                     (document.getElementById("header")).style.color="#fff";
                     (document.getElementById("header")).style.background="none";
                     (document.getElementById("header")).style.boxShadow="none";
-                    
+                    // (document.getElementById("donate-bav-bar-item")).style.color="#fcc";
                 }
             }catch{}
             }
@@ -83,14 +83,14 @@ class Header extends Component{
                             <Link to="/recruitment">Recruitment</Link>
                         </li>   
                         <li className={`nav-bar-item ${this.pageIsSelected("sponsors", this.props.page)}`}>
-                            <Link to="/sponsors">Sponsors</Link>
+                            <Link to="/sponsors">Sponsorships</Link>
                         </li> 
 
                         <li className={`nav-bar-item ${this.pageIsSelected("contact", this.props.page)}`}>
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li className={`nav-bar-item ${this.pageIsSelected("donate", this.props.page)}`}>
-                        <Link to="/donate">Donate</Link>
+                            <Link to="/donate">Donations</Link>
                         </li>
                     </ul>
                 </div>
