@@ -89,8 +89,8 @@ class Header extends Component{
                         <li className={`nav-bar-item ${this.pageIsSelected("contact", this.props.page)}`}>
                             <Link to="/contact">Contact</Link>
                         </li>
-                        <li id = "donate-bav-bar-item" className={`nav-bar-item donate-bav-bar-item ${this.pageIsSelected("donate", this.props.page)}`}>
-                        <Link to="/donate">Donations</Link>
+                        <li className={`nav-bar-item ${this.pageIsSelected("donate", this.props.page)}`}>
+                            <Link to="/donate">Donations</Link>
                         </li>
                     </ul>
                 </div>

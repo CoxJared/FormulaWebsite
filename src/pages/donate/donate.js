@@ -5,7 +5,6 @@ import TierSelector from './tierselector/TierSelector';
 
 import './donate.css';
 import imageTocheck from './../../img/team-photo.jpg';
-import { bigIntLiteral } from '@babel/types';
 
 
 export class donate extends Component {
@@ -83,9 +82,6 @@ export class donate extends Component {
 
                         <div className="why-donate-showcase">
                             <h1 className="why-donate-header">2020 Campaign</h1>
-                            {/* <button className="view-tiers-button" onClick={this.showTiers}>Donate</button> */}
-                            {/* <a href="https://www.paypal.com/cgi-bin/webscr" target='_blank' className="sponsorshowcase-button package-button">Sponsorship Package</a> */}
-
                             <div className="status-container">
 
                                 <h1 className="goal-header">$40,000.00</h1>
