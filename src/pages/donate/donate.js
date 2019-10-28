@@ -48,7 +48,7 @@ export class donate extends Component {
                 break;
             case "Contributor":
                 info.range="<$500"
-                info.benefits=["Recoginition displayed on Website"]
+                info.benefits=["Recognition displayed on Website"]
                 break;
             default:
                 break;
