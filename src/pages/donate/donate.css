@@ -237,6 +237,125 @@
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why-donate-paragraph-container{
+    margin-bottom:90px;
+}
+
+
+.how-to-donate-section{
+    width:60%;
+    border: 1px solid #666;
+    margin:40px auto;
+    padding:10px;
+}
+.overview-heading-how-to{
+    margin:15px auto;
+    font-size:35px;
+    text-align:left;
+    width:93%;
+    font-weight: normal;
+}
+
+.numbered-steps{
+    width:90%;
+    margin:auto;
+}
+.numbered-step{
+    margin: 10px;
+    text-align:left;
+    font-size:18px;
+}
+.payment-method-list{
+    width:95%;
+    margin:auto;
+    list-style: none;
+}
+.payment-option{
+    margin:10px;
+    font-size:17px;
+}
+
+.cash-or-cheque-list{
+    width:90%;
+    margin:10px auto;
+    list-style: none;
+    font-size: 16px;
+}
+.cash-or-cheque-option{
+    margin:10px;
+}
+.address-list{
+    width:90%;
+    margin:5px auto;
+    list-style:none;
+}
+
+.overview-heading{
+    font-size:35px;
+    width:60%;
+    margin:60px auto 30px auto;
+    font-weight: normal;
+    text-align:left;
+}
+
+.overview-para{
+    width:60%;
+    margin:auto;
+    text-align: left;
+    font-size:18px;
+    line-height:1.5em;
+}
+
+.overview-team-photo{
+    width:60%;
+    margin: 0px 0 40px;
+    box-shadow: 2px 2px 2px #aaa;
+}
+
+.competition-list{
+    width:57%;
+    margin:20px auto;
+}
+.competition-item{
+    font-size:19px;
+    text-align: left;
+    margin: 3px auto;
+}
+
+.school-logo{
+    width:16%;
+    margin:20px 0px 20px 130px;;
+}
+.fsae-logo{
+    width:24%;
+    margin:20px 60px;
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 800px) {
 
     .why-donate-container-page{ 
@@ -375,5 +494,95 @@
             padding:4px 0;
         }
     
+
+
+
+        .how-to-donate-section{
+            width:90%;
+            margin:30px auto;
+            padding:8px;
+        }
+        .overview-heading-how-to{
+            margin:15px auto;
+            font-size:25px;
+            text-align:left;
+            width:93%;
+            font-weight: normal;
+        }
+        
+        .numbered-steps{
+            width:95%;
+        }
+        .numbered-step{
+            font-size:14px;
+        }
+        .payment-method-list{
+            width:100%;
+        }
+        .payment-option{
+            font-size:13px;
+        }
+        
+        .cash-or-cheque-list{
+            font-size: 13px;
+            width:95%;
+        }
+        .cash-or-cheque-option{
+        }
+        .address-list{
+        }
+        
+        .overview-heading{
+            font-size:25px;
+            width:90%;
+            margin:40px auto 20px auto;
+            font-weight: normal;
+            text-align:left;
+        }
+        
+        .overview-para{
+            width:90%;
+            margin:auto;
+            text-align: left;
+            font-size:14px;
+            line-height:1.5em;
+        }
+        
+        .overview-team-photo{
+            width:90%;
+            margin: 0px 0 40px;
+            box-shadow: 2px 2px 2px #aaa;
+        }
+        
+        .competition-list{
+            width:80%;
+            margin:10px auto;
+        }
+        .competition-item{
+            font-size:14px;
+            text-align: left;
+            margin: 3px auto;
+        }
+        
+        .school-logo{
+            width:26%;
+            margin:20px 0px 20px 0px;;
+        }
+        .fsae-logo{
+            width:34%;
+            margin:20px 20px;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
 
 }
