@@ -62,6 +62,14 @@ export class TierSelection extends Component {
                         </h1>
                     </div>
                 </div>
+                {this.props.section !==""?
+                <div className="overview-button-container">
+                    <h1 className="overview-button"
+                    onClick={this.props.updateSection.bind(this, "")}
+                    >Overview</h1>
+                </div>
+                :<div/>
+                }
             </div>
         )
     }
