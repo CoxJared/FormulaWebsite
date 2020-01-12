@@ -172,17 +172,17 @@ export class donate extends Component {
                             <h1 className="why-donate-header">2020 Campaign</h1>
                             <div className="status-container">
 
-                                <h1 className="goal-header">$40,000.00</h1>
+                                <h1 className="goal-header">$50,000.00</h1>
                                 <div className="status-bar-container">
                                     <div className="status-bar">
-                                        <h1 className="status-value">$0.00</h1>
+                                        <h1 className="status-value">$24,751.50</h1>
                                     </div>
                                     <div className={`contribution ${this.state.section}`} >
                                         {/* {this.state.section === "" ? <div /> : <h1 className="contribution-value">{this.state.section} Contribution</h1>}   */}
                                         <h1 className="contribution-value">{info.range}</h1>
                                     </div>
                                 </div>
-                                <h1 className="last-updated-header">Last Updated: October 30</h1>
+                                <h1 className="last-updated-header">Last Updated: January 12</h1>
 
                             </div>
 
