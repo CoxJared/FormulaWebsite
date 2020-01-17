@@ -64,6 +64,10 @@ export class SponsorExplorer extends Component {
                 img: SolidworksLogo},
         ],
         gold: [
+            {id: 0,
+                name: 'Bender',
+                websiteLink: 'https://www.bender-ca.com/',
+                img: BenderLogo},
             {id: 2,
                 name: 'CpaOntario',
                 websiteLink: 'https://www.cpaontario.ca/',
@@ -106,10 +110,6 @@ export class SponsorExplorer extends Component {
                 img: electrometers}
         ],
         silver: [
-            {id: 0,
-                name: 'Bender',
-                websiteLink: 'https://www.bender-ca.com/',
-                img: BenderLogo},
             {id: 1,
                 name: 'Cartesian',
                 websiteLink: 'https://www.cartesian.com/',
