@@ -175,7 +175,7 @@ export class donate extends Component {
                                 <h1 className="goal-header">$50,000.00</h1>
                                 <div className="status-bar-container">
                                     <div className="status-bar">
-                                        <h1 className="status-value">$24,751.50</h1>
+                                        <h1 className="status-value">$26,351.50</h1>
                                     </div>
                                     <div className={`contribution ${this.state.section}`} >
                                         {/* {this.state.section === "" ? <div /> : <h1 className="contribution-value">{this.state.section} Contribution</h1>}   */}
