@@ -31,6 +31,10 @@ import FaroLogo from './../../../img/sponsor-logos/faro-logo.png';
 import redbulllogo from './../../../img/sponsor-logos/redbul-logo.png';
 import electrometers from './../../../img/sponsor-logos/electro-meters-logo.png';
 
+import cooplogo from './../../../img/sponsor-logos/mcm-eng-coop-career_stack-col.png';
+import ecelogo from './../../../img/sponsor-logos/ECE Dept logo.png';
+import mechlogo from './../../../img/sponsor-logos/LOGO-Mechanical Engineering.jpg';
+
 export class SponsorExplorer extends Component {
     state = {
         platinum: [
@@ -134,6 +138,14 @@ export class SponsorExplorer extends Component {
                 name: 'Hoosier',
                 websiteLink: 'https://www.hoosiertire.com/',
                 img: HoosierLogo},  
+            {id: 9,
+                name: 'Coop and Career Services',
+                websiteLink: 'https://www.eng.mcmaster.ca/co-op-career/co-op-program',
+                img: cooplogo},  
+            {id: 9,
+                name: 'McMaster Mech. Eng.',
+                websiteLink: 'https://www.eng.mcmaster.ca/mech',
+                img: mechlogo},  
             {id: 6,
                 name: 'OCTOPUZ inc.',
                 websiteLink: 'https://octopuz.com/',
@@ -148,6 +160,11 @@ export class SponsorExplorer extends Component {
                 img: TextremLogo},  
         ],
         software: [
+            {id: 2,
+                name: 'McMaster ECE',
+                websiteLink: 'https://www.eng.mcmaster.ca/ece',
+                img: ecelogo
+            },
             {id: 2,
                 name: 'Oshpark',
                 websiteLink: 'https://oshpark.com/',
